@@ -17,7 +17,15 @@ export default function DashboardPage() {
   const [keyInsights, setKeyInsights] = useState<string[]>([]);
   const [topSignals, setTopSignals] = useState<any[]>([]);
   const [teamMemberCount, setTeamMemberCount] = useState(0);
-  const [usageData, setUsageData] = useState<any>(null);
+  interface UsageEntry {
+    totalTokens: number;
+    estimatedCost: number;
+  }
+  interface UsageData {
+    dailyUsage: Record<string, UsageEntry>;
+    monthlyUsage: Record<string, UsageEntry>;
+  }
+  const [usageData, setUsageData] = useState<UsageData | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -151,19 +159,19 @@ export default function DashboardPage() {
           <div className="mb-2">
             <p className="text-gray-600 text-xs">Today</p>
             <p className="text-gray-700 font-bold text-lg">
-              ${Object.values(usageData.dailyUsage)[0]?.estimatedCost?.toFixed(2) || '0.00'}
+              ${(Object.values(usageData.dailyUsage)[0] as UsageEntry)?.estimatedCost?.toFixed(2) || '0.00'}
             </p>
             <p className="text-gray-500 text-xs">
-              {(Object.values(usageData.dailyUsage)[0]?.totalTokens / 1000).toFixed(0)}K tokens
+              {((Object.values(usageData.dailyUsage)[0] as UsageEntry)?.totalTokens / 1000).toFixed(0)}K tokens
             </p>
           </div>
           <div>
             <p className="text-gray-600 text-xs">This Month</p>
             <p className="text-gray-700 font-bold text-lg">
-              ${Object.values(usageData.monthlyUsage)[0]?.estimatedCost?.toFixed(2) || '0.00'}
+              ${(Object.values(usageData.monthlyUsage)[0] as UsageEntry)?.estimatedCost?.toFixed(2) || '0.00'}
             </p>
             <p className="text-gray-500 text-xs">
-              {(Object.values(usageData.monthlyUsage)[0]?.totalTokens / 1000).toFixed(0)}K tokens
+              {((Object.values(usageData.monthlyUsage)[0] as UsageEntry)?.totalTokens / 1000).toFixed(0)}K tokens
             </p>
           </div>
         </div>
