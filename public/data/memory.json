@@ -85,5 +85,14 @@
   "pricing": {
     "targetMargin": "50-70% gross margin for health & wellness products",
     "strategy": "Research-grade peptides at competitive prices vs major vendors"
-  }
+  },
+  "deploymentWorkflow": {
+    "enabled": true,
+    "platform": "Vercel",
+    "githubUsername": "helix8bot",
+    "process": "Build → Git → GitHub → Vercel → Share URL",
+    "mandatoryRule": "Always deploy to Vercel after building any project",
+    "documentation": "/Users/psimac/.openclaw/workspace/DEPLOYMENT_WORKFLOW.md"
+  },
+  "deployments": []
 }
