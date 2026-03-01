@@ -1,0 +1,120 @@
+[
+  {
+    "id": "1",
+    "name": "Peptide Hair Growth Serum",
+    "status": "Move to Feasibility",
+    "score": 48,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "relatedProduct": "GHK-Cu",
+    "criteria": {
+      "marketSize": 8,
+      "competitive": 7,
+      "margin": 9,
+      "manufacturing": 8,
+      "compliance": 8,
+      "channel": 8
+    },
+    "evaluatedDate": "2026-02-28"
+  },
+  {
+    "id": "2",
+    "name": "The Safe Peptide Starter Kit",
+    "status": "Development",
+    "score": 55,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "type": "Digital Product",
+    "relatedProduct": "Lead Magnet",
+    "criteria": {
+      "marketSize": 9,
+      "competitive": 9,
+      "margin": 10,
+      "manufacturing": 10,
+      "compliance": 9,
+      "channel": 8
+    },
+    "evaluatedDate": "2026-02-28",
+    "completedDate": "2026-02-28"
+  },
+  {
+    "id": "3",
+    "name": "The BPC-157 Recovery Protocol",
+    "status": "Development",
+    "score": 57,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "type": "Digital Product",
+    "relatedProduct": "BPC-157",
+    "criteria": {
+      "marketSize": 10,
+      "competitive": 9,
+      "margin": 10,
+      "manufacturing": 10,
+      "compliance": 9,
+      "channel": 9
+    },
+    "evaluatedDate": "2026-02-28",
+    "completedDate": "2026-02-28"
+  },
+  {
+    "id": "4",
+    "name": "The Peptide Stacking Playbook",
+    "status": "Development",
+    "score": 54,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "type": "Digital Product",
+    "relatedProduct": "Advanced Protocol",
+    "criteria": {
+      "marketSize": 8,
+      "competitive": 9,
+      "margin": 10,
+      "manufacturing": 10,
+      "compliance": 8,
+      "channel": 9
+    },
+    "evaluatedDate": "2026-02-28",
+    "completedDate": "2026-02-28"
+  },
+  {
+    "id": "5",
+    "name": "The PT-141 Couples Guide",
+    "status": "Development",
+    "score": 52,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "type": "Digital Product",
+    "relatedProduct": "PT-141",
+    "criteria": {
+      "marketSize": 9,
+      "competitive": 8,
+      "margin": 10,
+      "manufacturing": 10,
+      "compliance": 7,
+      "channel": 8
+    },
+    "evaluatedDate": "2026-02-28",
+    "completedDate": "2026-02-28"
+  },
+  {
+    "id": "6",
+    "name": "The Peptide Hair Restoration Blueprint",
+    "status": "Development",
+    "score": 56,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "type": "Digital Product",
+    "relatedProduct": "GHK-Cu",
+    "criteria": {
+      "marketSize": 10,
+      "competitive": 9,
+      "margin": 10,
+      "manufacturing": 10,
+      "compliance": 8,
+      "channel": 9
+    },
+    "evaluatedDate": "2026-02-28",
+    "completedDate": "2026-02-28"
+  }
+]

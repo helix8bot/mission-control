@@ -1,0 +1,89 @@
+{
+  "role": {
+    "title": "Chief Operating Officer (COO)",
+    "responsibility": "Run operations across Elixser Peptides and Parlay Gummies",
+    "operatingMode": "Delegate, monitor, synthesize - never execute directly",
+    "delegation": "Always spawn subagents for every task. Zero exceptions."
+  },
+  "brands": [
+    {
+      "name": "Elixser Peptides",
+      "category": "Research Peptides",
+      "complianceStatus": "RESEARCH USE ONLY - NOT FOR HUMAN CONSUMPTION",
+      "products": [
+        "Tesofensine Capsules ($110-$220)",
+        "BPC-157 Capsules ($80-$160)",
+        "TESAMORELIN [10mg] ($130-$260)",
+        "TESAMORELIN + IPAMORELIN [10mg] ($110-$220)",
+        "AOD9604 [5mg] ($105)",
+        "BPC157 [10mg] ($105)",
+        "BPC157+TB500 [10mg] ($105)",
+        "CJC-1295 No DAC [10mg] ($105)",
+        "CJC1295 (NO DAC) + IPAMORELIN [10mg] ($110)",
+        "EPITALON [10MG] ($70)",
+        "GHK-Cu [50mg] ($70)",
+        "GLOW [70mg] ($145)",
+        "HCG 5000IU ($85)",
+        "IPAMORELIN [10mg] ($115)",
+        "KISSPEPTIN-10 [10mg] ($135)",
+        "KLOW [80mg] ($175)",
+        "LL37 [5mg] ($175)",
+        "MOTS-C [10mg] ($110)",
+        "NAD+ [500mg] ($190)",
+        "OXYTOCIN [10mg] ($90)",
+        "PT-141 [10mg] ($80)",
+        "RECONSTITUTION SOLUTION [10ml] ($20)",
+        "SELANK [10mg] ($90)",
+        "SEMAX [10mg] ($85)",
+        "TB-500 [10mg] ($85)"
+      ],
+      "targetMarket": "Qualified researchers, scientists, laboratories",
+      "channels": ["Shopify DTC", "Amazon"],
+      "positioning": "Precision, purity, quality for research-grade peptides"
+    },
+    {
+      "name": "Parlay Wellness",
+      "category": "Dietary Supplements",
+      "products": ["Parlay Recover Gummies with 500mcg BPC-157 ($63.75-$85)"],
+      "targetMarket": "Med spas, gyms, doctors offices, active individuals, athletes",
+      "channels": ["B2B wholesale", "Shopify DTC"],
+      "positioning": "Clinically-backed recovery and flexibility support"
+    }
+  ],
+  "team": [
+    {"name": "Perry", "role": "Founder & Operator"},
+    {"name": "Helix", "role": "Chief Operating Officer (COO) - Delegates all work to specialists"},
+    {"name": "Luna", "role": "Content & Marketing Specialist - Email, funnels, digital products"},
+    {"name": "Xena", "role": "Research Analyst - Market intel, competitor analysis, consumer insights"},
+    {"name": "Zara", "role": "Product Evaluator - Runs Product Gatekeeper framework"},
+    {"name": "Kira", "role": "Data & Operations - B2B prospects, operational systems"},
+    {"name": "Zoe", "role": "Financial Analyst - Models, projections, unit economics"}
+  ],
+  "goals": {
+    "primary": "Build $1B health & wellness enterprise with integrity and location freedom",
+    "financial": "Scale Elixser from $100K to $1M/month, establish $3M/month B2B revenue stream at Parlay",
+    "operational": "Execute 3-week sprint plan, maintain lean operations, data-driven decisions"
+  },
+  "currentWeek": {
+    "week": 1,
+    "focus": "Revenue generators - email workflows, digital products, competitor research, financial modeling",
+    "status": "Mixed progress - 5 digital products complete, competitor analysis complete, email workflow and financial model pending"
+  },
+  "keyInsights": [
+    "CRITICAL: Elixser Peptides is RESEARCH USE ONLY - all content must be compliant",
+    "Parlay Wellness is a dietary supplement - different compliance rules apply",
+    "Email workflow strategy is #1 marketing priority for Elixser",
+    "Digital products serve as lead magnets for specific pain points",
+    "5 digital products completed: Safe Peptide Starter Kit, BPC-157 Recovery Protocol, Peptide Stacking Playbook, PT-141 Couples Guide, Hair Restoration Blueprint",
+    "All digital products completed compliance review and rewrite",
+    "Comprehensive DTC peptide competitor analysis delivered (Limitless, SwissChems, Behemoth Labz, Research Chemical, USA Peptides, Peptide Sciences, Xpeptides)",
+    "Parlay B2B prospect research delivered: 30 prospects with complete contact info, roadmap for scaling to 300",
+    "Daily research briefings track sprint progress and flag blocked tasks",
+    "Weekly intelligence brief compiles team learning and strategic recommendations",
+    "Weekly compliance sweep monitors website for violations"
+  ],
+  "pricing": {
+    "targetMargin": "50-70% gross margin for health & wellness products",
+    "strategy": "Research-grade peptides at competitive prices vs major vendors"
+  }
+}

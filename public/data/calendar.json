@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Daily Research Briefing",
+    "type": "cron",
+    "schedule": "0 9 * * 1-5",
+    "tz": "America/Los_Angeles",
+    "description": "Weekdays at 9:00 AM - Monitor Reddit communities, check competitors, identify product opportunities, assess sprint progress",
+    "nextRun": "2026-03-03T09:00:00-08:00"
+  },
+  {
+    "id": "2",
+    "name": "Weekly Financial Briefing", 
+    "type": "cron",
+    "schedule": "0 8 * * 1",
+    "tz": "America/Los_Angeles",
+    "description": "Mondays at 8:00 AM - Cash position, runway, payables, inventory alerts, revenue trends",
+    "nextRun": "2026-03-03T08:00:00-08:00"
+  },
+  {
+    "id": "3",
+    "name": "Mission Control Maintenance",
+    "type": "cron",
+    "schedule": "0 23 * * *",
+    "tz": "America/Los_Angeles",
+    "description": "Daily at 11:00 PM - Update all Mission Control dashboards with current data",
+    "nextRun": "2026-03-01T23:00:00-08:00"
+  },
+  {
+    "id": "4",
+    "name": "Midday Operations Check",
+    "type": "cron",
+    "schedule": "0 12 * * *",
+    "tz": "America/Los_Angeles",
+    "description": "Daily at 12:00 PM - Brief check for critical issues (cash, inventory, payables, blocked tasks)",
+    "nextRun": "2026-03-01T12:00:00-08:00"
+  },
+  {
+    "id": "5",
+    "name": "Weekly Compliance Sweep",
+    "type": "cron",
+    "schedule": "0 15 * * 5",
+    "tz": "America/Los_Angeles",
+    "description": "Fridays at 3:00 PM - Scan elixserpeptides.com for compliance violations",
+    "nextRun": "2026-03-07T15:00:00-08:00"
+  },
+  {
+    "id": "6",
+    "name": "Weekly Intelligence Brief",
+    "type": "cron",
+    "schedule": "0 16 * * 5",
+    "tz": "America/Los_Angeles",
+    "description": "Fridays at 4:00 PM - Compile weekly learning, insights, recommended actions, opportunities, risks",
+    "nextRun": "2026-03-07T16:00:00-08:00"
+  }
+]

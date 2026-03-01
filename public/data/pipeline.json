@@ -1,0 +1,21 @@
+{
+  "lastUpdated": "2026-02-28T22:40:00-08:00",
+  "parlayB2B": {
+    "totalProspects": 0,
+    "contacted": 0,
+    "responded": 0,
+    "samplesSent": 0,
+    "followupScheduled": 0,
+    "closedWon": 0,
+    "closedLost": 0,
+    "activeOpportunities": []
+  },
+  "prospects": [],
+  "conversionFunnel": {
+    "contacted": 0,
+    "responseRate": "0%",
+    "sampleConversionRate": "0%",
+    "closeRate": "0%"
+  },
+  "notes": "B2B pipeline tracker for Parlay Wellness. Populate when outreach begins to 30 initial prospects."
+}

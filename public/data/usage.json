@@ -1,0 +1,55 @@
+{
+  "lastUpdated": "2026-02-28T23:00:00-08:00",
+  "pricingModel": {
+    "inputCostPerMillionTokens": 3.00,
+    "outputCostPerMillionTokens": 15.00,
+    "model": "anthropic/claude-sonnet-4-5-20250929"
+  },
+  "dailyUsage": {
+    "2026-02-28": {
+      "date": "2026-02-28",
+      "totalInputTokens": 1248000,
+      "totalOutputTokens": 412000,
+      "totalTokens": 1660000,
+      "estimatedCost": 9.924,
+      "tasks": [
+        {
+          "taskName": "Week 1 Sprint Execution",
+          "timestamp": "2026-02-28T15:00:00-08:00",
+          "batch": "Luna-EmailWorkflow, Luna-StarterKit, Luna-BPC157Protocol, Luna-StackingPlaybook, Xena-CompetitorResearch, Zoe-FinancialModel",
+          "inputTokens": 301000,
+          "outputTokens": 98500,
+          "estimatedCost": 2.3805
+        },
+        {
+          "taskName": "Week 2 Sprint Execution",
+          "timestamp": "2026-02-28T16:20:00-08:00",
+          "batch": "Luna-FunnelStrategy, Kira-ProspectList, Zoe-ParlayRevenueModel, Zara-PricingStrategy, Luna-PT141Guide, Luna-HairBlueprint, Luna-AffiliateProgram, Luna-InfluencerList",
+          "inputTokens": 589000,
+          "outputTokens": 186000,
+          "estimatedCost": 4.557
+        },
+        {
+          "taskName": "Compliance Remediation",
+          "timestamp": "2026-02-28T19:50:00-08:00",
+          "batch": "Luna-ComplianceEmailRewrite, Luna-ComplianceDigitalRewrite, Luna-ComplianceFunnelRewrite, Luna-CompliancePT141Rewrite, Luna-ComplianceHairRewrite, Luna-ComplianceAffiliateReview, Luna-ComplianceInfluencerReview",
+          "inputTokens": 358000,
+          "outputTokens": 127500,
+          "estimatedCost": 2.9865
+        }
+      ]
+    }
+  },
+  "monthlyUsage": {
+    "2026-02": {
+      "month": "2026-02",
+      "totalInputTokens": 1248000,
+      "totalOutputTokens": 412000,
+      "totalTokens": 1660000,
+      "estimatedCost": 9.924,
+      "dayCount": 1,
+      "averageDailyCost": 9.924
+    }
+  },
+  "notes": "Token usage tracking for all subagent tasks. Updated after each batch completion. Costs are estimates based on Sonnet pricing."
+}

@@ -1,0 +1,35 @@
+{
+  "lastUpdated": "2026-02-28T22:40:00-08:00",
+  "elixserAffiliates": {
+    "totalTargets": 20,
+    "contacted": 0,
+    "responded": 0,
+    "negotiating": 0,
+    "onboarded": 0,
+    "active": 0,
+    "declined": 0
+  },
+  "influencers": [],
+  "tier1": {
+    "name": "Must Recruit (Top 5)",
+    "targets": ["Ben Greenfield", "Dave Asprey", "Dr. Andrew Huberman", "Dr. Rhonda Patrick", "Dr. Peter Attia"],
+    "contacted": 0,
+    "onboarded": 0
+  },
+  "tier2": {
+    "name": "High Priority (10)",
+    "contacted": 0,
+    "onboarded": 0
+  },
+  "tier3": {
+    "name": "Good Targets (5)",
+    "contacted": 0,
+    "onboarded": 0
+  },
+  "performance": {
+    "totalSalesGenerated": "$0",
+    "topPerformers": [],
+    "averageCommission": "$0"
+  },
+  "notes": "Influencer outreach tracker for Elixser Peptides affiliate program. Populate when outreach begins to top 20 targets."
+}
