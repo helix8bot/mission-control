@@ -1,29 +1,54 @@
-const fs = require('fs');
 const { createCanvas } = require('canvas');
+const fs = require('fs');
+const path = require('path');
 
-function generateIcon(size, filename) {
+// Configuration
+const DARK_BG = '#0a0d14';
+const GOLD = '#c9a962';
+
+function generateIcon(size) {
   const canvas = createCanvas(size, size);
   const ctx = canvas.getContext('2d');
   
-  // Dark background
-  ctx.fillStyle = '#0a0d14';
+  // Fill background
+  ctx.fillStyle = DARK_BG;
   ctx.fillRect(0, 0, size, size);
   
-  // Gold "MC" text
-  ctx.fillStyle = '#c9a962';
-  ctx.font = `bold ${size * 0.4}px sans-serif`;
+  // Configure text
+  const fontSize = Math.floor(size * 0.45); // 45% of canvas size
+  ctx.font = `bold ${fontSize}px sans-serif`;
+  ctx.fillStyle = GOLD;
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
+  
+  // Draw "MC" text centered
   ctx.fillText('MC', size / 2, size / 2);
   
-  // Save to file
-  const buffer = canvas.toBuffer('image/png');
-  fs.writeFileSync(filename, buffer);
-  console.log(`Generated ${filename} (${size}x${size})`);
+  return canvas;
 }
 
-// Generate both icon sizes
-generateIcon(192, 'public/icon-192.png');
-generateIcon(512, 'public/icon-512.png');
+// Generate both icons
+console.log('Generating icons...');
 
-console.log('✓ PWA icons generated successfully!');
+const icon192 = generateIcon(192);
+const icon512 = generateIcon(512);
+
+const publicDir = path.join(__dirname, 'public');
+const icon192Path = path.join(publicDir, 'icon-192.png');
+const icon512Path = path.join(publicDir, 'icon-512.png');
+
+// Ensure public directory exists
+if (!fs.existsSync(publicDir)) {
+  fs.mkdirSync(publicDir, { recursive: true });
+}
+
+// Save icons
+const buffer192 = icon192.toBuffer('image/png');
+const buffer512 = icon512.toBuffer('image/png');
+
+fs.writeFileSync(icon192Path, buffer192);
+fs.writeFileSync(icon512Path, buffer512);
+
+console.log('✓ Generated icon-192.png');
+console.log('✓ Generated icon-512.png');
+console.log('Icons created successfully!');
