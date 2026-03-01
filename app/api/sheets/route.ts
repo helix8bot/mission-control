@@ -1,6 +1,6 @@
 import { exec } from 'child_process';
 
-export async function GET(request: Request) {
+export async function GET(request: Request): Promise<Response> {
   try {
     return new Promise((resolve, reject) => {
       exec(`gog sheets get 1ids5gXnS_KbkOc106JG42AAlCxEYyPiTpQ-wVYiLOx4 "Weekly Snapshot!A1:G53" --json --account helix8bot@gmail.com`, (error, stdout, stderr) => {
