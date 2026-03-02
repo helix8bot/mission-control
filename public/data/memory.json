@@ -39,15 +39,17 @@
       ],
       "targetMarket": "Qualified researchers, scientists, laboratories",
       "channels": ["Shopify DTC", "Amazon"],
-      "positioning": "Precision, purity, quality for research-grade peptides"
+      "positioning": "Precision, purity, and quality for research-grade peptides",
+      "website": "elixserpeptides.com"
     },
     {
       "name": "Parlay Wellness",
       "category": "Dietary Supplements",
-      "products": ["Parlay Recover Gummies with 500mcg BPC-157 ($63.75-$85)"],
+      "products": ["Parlay Recover Gummies with 500mcg BPC-157 ($63.75-$85 retail)"],
       "targetMarket": "Med spas, gyms, doctors offices, active individuals, athletes",
-      "channels": ["B2B wholesale", "Shopify DTC"],
-      "positioning": "Clinically-backed recovery and flexibility support"
+      "channels": ["B2B wholesale ($35-42 per bottle)", "Shopify DTC"],
+      "positioning": "Targeted, clinically-backed support for recovery and flexibility",
+      "benefits": "Faster tissue repair, reduce inflammation, enhance overall recovery, joint relief, bladder comfort, regenerative boost"
     }
   ],
   "team": [
@@ -65,13 +67,14 @@
   ],
   "goals": {
     "primary": "Build $1B health & wellness enterprise with integrity and location freedom",
-    "financial": "Scale Elixser from $100K to $1M/month, establish $3M/month B2B revenue stream at Parlay",
-    "operational": "Execute 3-week sprint plan, maintain lean operations, data-driven decisions"
+    "financial": "Scale Elixser from $100K to $1M/month DTC revenue, establish $3M/month Parlay B2B revenue stream (total $4M/month)",
+    "operational": "Execute 3-week sprint plan, maintain lean operations, make data-driven decisions, ensure full compliance"
   },
   "currentWeek": {
     "week": 3,
+    "weekEnd": "March 7, 2026",
     "focus": "Revenue acceleration - GHL implementation, DTC funnel optimization, B2B pipeline design, content production ramp-up",
-    "status": "Team expansion complete - 4 new revenue-focused roles added (Rex, Drake, Blair, Sage)"
+    "status": "Week 2 completed 16 days early. Team expansion complete with 4 new revenue-focused roles (Rex, Drake, Blair, Sage)"
   },
   "keyInsights": [
     "CRITICAL: Elixser Peptides is RESEARCH USE ONLY - all content must be compliant",
@@ -80,18 +83,23 @@
     "Revenue organization restructured: Rex (CRO) coordinates Drake (DTC) and Blair (B2B)",
     "Sage handles all high-volume content production so Luna can focus on strategy",
     "Email workflow strategy is #1 marketing priority for Elixser",
-    "Digital products serve as lead magnets for specific pain points",
-    "5 digital products completed: Safe Peptide Starter Kit, BPC-157 Recovery Protocol, Peptide Stacking Playbook, PT-141 Couples Guide, Hair Restoration Blueprint",
-    "All digital products completed compliance review and rewrite",
-    "Comprehensive DTC peptide competitor analysis delivered (Limitless, SwissChems, Behemoth Labz, Research Chemical, USA Peptides, Peptide Sciences, Xpeptides)",
+    "Digital products serve as lead magnets for specific pain points (recovery, hair, intimacy, stacking, starter)",
+    "5 digital products completed Feb 28: Safe Peptide Starter Kit, BPC-157 Recovery Protocol, Peptide Stacking Playbook, PT-141 Couples Guide, Hair Restoration Blueprint",
+    "All digital products underwent emergency compliance review and rewrite Feb 28",
+    "Comprehensive DTC peptide competitor analysis delivered (7 major competitors analyzed)",
     "Parlay B2B prospect research delivered: 30 prospects with complete contact info, roadmap for scaling to 300",
     "Daily research briefings track sprint progress and flag blocked tasks",
     "Weekly intelligence brief compiles team learning and strategic recommendations",
-    "Weekly compliance sweep monitors website for violations"
+    "Weekly compliance sweep monitors website for violations every Friday 3pm",
+    "Midday operations check monitors critical issues daily at 12pm",
+    "FDA removed 14 peptides from Category 2 list Feb 28 - major regulatory shift allowing compounding pharmacy access to BPC-157 and GHK-Cu",
+    "Mission Control deployed to Vercel for real-time operational visibility"
   ],
   "pricing": {
     "targetMargin": "50-70% gross margin for health & wellness products",
-    "strategy": "Research-grade peptides at competitive prices vs major vendors"
+    "elixserStrategy": "Research-grade peptides at competitive prices vs major vendors ($70-$260 per product)",
+    "parlayWholesale": "$35-42 per bottle to clinics, $79 retail, ~60% operating margins, MOQ 24 bottles",
+    "parlayRevenueModel": "~350 wholesale accounts needed for $3M/month B2B revenue"
   },
   "techStack": {
     "CRM": "Go High Level (GHL) - funnels, email automation, pipelines for both brands",
@@ -99,7 +107,7 @@
       "elixser": "WooCommerce + Shopify",
       "parlay": "Shopify"
     },
-    "migration": "ActiveCampaign → GHL (in progress)",
+    "migration": "ActiveCampaign → GHL (in progress, Rex leading)",
     "ownership": "Rex (CRO) owns tech stack strategy and GHL implementation"
   },
   "deploymentWorkflow": {
@@ -108,7 +116,40 @@
     "githubUsername": "helix8bot",
     "process": "Build → Git → GitHub → Vercel → Share URL",
     "mandatoryRule": "Always deploy to Vercel after building any project",
-    "documentation": "/Users/psimac/.openclaw/workspace/DEPLOYMENT_WORKFLOW.md"
+    "documentation": "/Users/psimac/.openclaw/workspace/DEPLOYMENT_WORKFLOW.md",
+    "recentDeployments": [
+      {
+        "project": "Mission Control",
+        "date": "2026-03-01",
+        "status": "Live",
+        "url": "TBD - pending final Vercel authentication"
+      }
+    ]
   },
-  "deployments": []
+  "complianceFramework": {
+    "mandatory": true,
+    "elixserRules": [
+      "NEVER suggest human use or consumption",
+      "Frame all content as research education, not personal protocols",
+      "Use 'studies suggest' not 'use this to heal'",
+      "No dosing instructions for humans",
+      "No before/after testimonials",
+      "No 'take this for' language",
+      "All content must pass COMPLIANCE.md checklist"
+    ],
+    "weeklySweep": "Every Friday 3pm - automated website scan for violations",
+    "documentation": [
+      "COMPLIANCE.md",
+      "COMPLIANCE-CHECKLIST.md"
+    ]
+  },
+  "financialProtocol": {
+    "access": "READ-ONLY for AI team",
+    "dataEntry": "Perry's assistant updates Google Sheet every Monday before 8am",
+    "sheetID": "1ids5gXnS_KbkOc106JG42AAlCxEYyPiTpQ-wVYiLOx4",
+    "tracking": "Cash position, revenue, payables, inventory, expenses",
+    "briefing": "Monday 8am Financial Briefing reads and analyzes the data",
+    "criticalRule": "AI team NEVER asks for bank credentials, payment processors, or write access"
+  },
+  "lastUpdated": "2026-03-02T09:23:00-08:00"
 }
