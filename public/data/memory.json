@@ -53,7 +53,11 @@
   "team": [
     {"name": "Perry", "role": "Founder & Operator"},
     {"name": "Helix", "role": "Chief Operating Officer (COO) - Delegates all work to specialists"},
-    {"name": "Luna", "role": "Content & Marketing Specialist - Email, funnels, digital products"},
+    {"name": "Rex", "role": "Chief Revenue Officer (CRO) - Owns total revenue across both brands ($4M/month target)"},
+    {"name": "Drake", "role": "VP of DTC Sales - Owns Elixser DTC revenue ($1M/month target)"},
+    {"name": "Blair", "role": "VP of B2B Sales - Owns Parlay B2B revenue ($3M/month target)"},
+    {"name": "Luna", "role": "Marketing Strategist - Email strategy, funnels, affiliate program, influencer recruitment"},
+    {"name": "Sage", "role": "Content Specialist - Digital products, email copy, landing pages, social content"},
     {"name": "Xena", "role": "Research Analyst - Market intel, competitor analysis, consumer insights"},
     {"name": "Zara", "role": "Product Evaluator - Runs Product Gatekeeper framework"},
     {"name": "Kira", "role": "Data & Operations - B2B prospects, operational systems"},
@@ -65,13 +69,16 @@
     "operational": "Execute 3-week sprint plan, maintain lean operations, data-driven decisions"
   },
   "currentWeek": {
-    "week": 1,
-    "focus": "Revenue generators - email workflows, digital products, competitor research, financial modeling",
-    "status": "Mixed progress - 5 digital products complete, competitor analysis complete, email workflow and financial model pending"
+    "week": 3,
+    "focus": "Revenue acceleration - GHL implementation, DTC funnel optimization, B2B pipeline design, content production ramp-up",
+    "status": "Team expansion complete - 4 new revenue-focused roles added (Rex, Drake, Blair, Sage)"
   },
   "keyInsights": [
     "CRITICAL: Elixser Peptides is RESEARCH USE ONLY - all content must be compliant",
     "Parlay Wellness is a dietary supplement - different compliance rules apply",
+    "Knowledge Base is single source of truth - all team members must consult before creating content or making decisions",
+    "Revenue organization restructured: Rex (CRO) coordinates Drake (DTC) and Blair (B2B)",
+    "Sage handles all high-volume content production so Luna can focus on strategy",
     "Email workflow strategy is #1 marketing priority for Elixser",
     "Digital products serve as lead magnets for specific pain points",
     "5 digital products completed: Safe Peptide Starter Kit, BPC-157 Recovery Protocol, Peptide Stacking Playbook, PT-141 Couples Guide, Hair Restoration Blueprint",
@@ -85,6 +92,15 @@
   "pricing": {
     "targetMargin": "50-70% gross margin for health & wellness products",
     "strategy": "Research-grade peptides at competitive prices vs major vendors"
+  },
+  "techStack": {
+    "CRM": "Go High Level (GHL) - funnels, email automation, pipelines for both brands",
+    "ecommerce": {
+      "elixser": "WooCommerce + Shopify",
+      "parlay": "Shopify"
+    },
+    "migration": "ActiveCampaign → GHL (in progress)",
+    "ownership": "Rex (CRO) owns tech stack strategy and GHL implementation"
   },
   "deploymentWorkflow": {
     "enabled": true,
