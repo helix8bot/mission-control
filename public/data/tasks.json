@@ -435,5 +435,14 @@
     "dueDate": "2026-03-05",
     "priority": "critical",
     "note": "Rex needs: (1) Sales history to project orders, (2) Current stock levels (in stock/out of stock). SOP will detail how Rex sends orders to ivy@societyway.com"
+  },
+  {
+    "id": "508",
+    "title": "Implement Accountability Chart in Mission Control",
+    "status": "To Do",
+    "assignee": "Perry",
+    "dueDate": "2026-03-10",
+    "priority": "medium",
+    "note": "Add org chart visualization showing team structure: Rex (CRO) \u2192 Drake (VP DTC), Blair (VP B2B), Luna (Marketing), Sage (Content), Kira (Operations), Zoe (Financial), Xena (Research), Zara (Product)"
   }
 ]
