@@ -1,102 +1,68 @@
 [
   {
-    "id": "1",
-    "name": "Daily Research Briefing",
-    "type": "cron",
-    "schedule": "0 9 * * 1-5",
-    "tz": "America/Los_Angeles",
-    "description": "Weekdays at 9:00 AM - Monitor Reddit communities (r/Peptides, r/Biohackers, r/Nootropics), check competitor websites, identify product opportunities, assess sprint progress, flag blocked tasks",
-    "nextRun": "2026-03-03T09:00:00-08:00",
-    "deliverables": ["Consumer insights", "Competitor updates", "Sprint status", "Product opportunities", "Blocked task alerts"]
-  },
-  {
-    "id": "2",
-    "name": "Weekly Financial Briefing", 
-    "type": "cron",
-    "schedule": "0 8 * * 1",
-    "tz": "America/Los_Angeles",
-    "description": "Mondays at 8:00 AM - Read financial data from Google Sheet (READ-ONLY), analyze cash position, runway, payables due, inventory alerts, revenue trends vs targets",
-    "nextRun": "2026-03-03T08:00:00-08:00",
-    "deliverables": ["Cash position & runway", "Revenue vs target", "Payables alerts", "Inventory status", "Financial health score"]
-  },
-  {
-    "id": "3",
+    "id": "bc5429b9-0a41-4280-81e2-7b727c43d5d6",
     "name": "Mission Control Maintenance",
     "type": "cron",
     "schedule": "0 23 * * *",
     "tz": "America/Los_Angeles",
-    "description": "Daily at 11:00 PM - Update all Mission Control dashboards with current data: tasks statuses, product evaluations, cron schedule, business context from BRAND_CATALOG.md, recent peptide research findings. Git commit and push to trigger Vercel deployment.",
+    "description": "Daily at 11:00 PM - Update all Mission Control dashboards with current data from workspace files. Git commit and push to trigger automatic Vercel deployment.",
     "nextRun": "2026-03-02T23:00:00-08:00",
-    "deliverables": ["Updated tasks.json", "Updated products.json", "Updated calendar.json", "Updated memory.json", "Updated social.json", "Git push to trigger Vercel deployment"]
+    "status": "running",
+    "deliverables": ["Updated tasks.json", "Updated products.json", "Updated calendar.json", "Updated memory.json", "Updated social.json", "Git push → Vercel deployment"]
   },
   {
-    "id": "4",
+    "id": "9e97a0ce-10ee-4df9-a3ec-ef580dcb25ab",
+    "name": "Daily Research Briefing",
+    "type": "cron",
+    "schedule": "0 9 * * 1-5",
+    "tz": "America/Los_Angeles",
+    "description": "Weekdays at 9:00 AM - Monitor Reddit communities (r/Peptides, r/Biohackers, r/Nootropics), check competitor websites, identify product opportunities, assess sprint progress, flag blocked tasks.",
+    "nextRun": "2026-03-03T09:00:00-08:00",
+    "status": "ok",
+    "deliverables": ["Consumer insights", "Competitor updates", "Sprint status", "Product opportunities", "Blocked task alerts"]
+  },
+  {
+    "id": "da62c821-4d8e-467d-a7fc-c072e4d6ecc8",
     "name": "Midday Operations Check",
     "type": "cron",
     "schedule": "0 12 * * *",
     "tz": "America/Los_Angeles",
-    "description": "Daily at 12:00 PM - Brief check for critical issues: cash position alerts, low inventory warnings, overdue payables, blocked tasks stuck 3+ days. Only reports if issues found, otherwise sends '✅ MIDDAY CHECK: All systems normal'",
-    "nextRun": "2026-03-02T12:00:00-08:00",
+    "description": "Daily at 12:00 PM - Brief check for critical issues: cash position alerts, low inventory warnings, overdue payables, blocked tasks stuck 3+ days. Only reports if issues found.",
+    "nextRun": "2026-03-03T12:00:00-08:00",
+    "status": "ok",
     "deliverables": ["Critical issue alerts or all-clear confirmation"]
   },
   {
-    "id": "5",
+    "id": "97eb6bbb-1d68-4193-823a-b28967b80633",
     "name": "Weekly Compliance Sweep",
     "type": "cron",
     "schedule": "0 15 * * 5",
     "tz": "America/Los_Angeles",
-    "description": "Fridays at 3:00 PM - Scan elixserpeptides.com for compliance violations. Check against COMPLIANCE.md rules: no human dosing instructions, no 'use this to heal' language, no before/after testimonials, research-only framing. Generate compliance report with any violations found.",
+    "description": "Fridays at 3:00 PM - Scan elixserpeptides.com for compliance violations. Check against COMPLIANCE.md rules: no human dosing instructions, no 'use this to heal' language, research-only framing.",
     "nextRun": "2026-03-07T15:00:00-08:00",
+    "status": "idle",
     "deliverables": ["Compliance scan report", "Violation alerts", "Recommended fixes"]
   },
   {
-    "id": "6",
+    "id": "a3d57b0e-bcb2-4aff-bef0-8af63f0cbd7c",
     "name": "Weekly Intelligence Brief",
     "type": "cron",
     "schedule": "0 16 * * 5",
     "tz": "America/Los_Angeles",
-    "description": "Fridays at 4:00 PM - Compile weekly learning from all team members, strategic insights, recommended actions, new opportunities identified, risks to monitor. Synthesize week's research, competitive intel, consumer insights into actionable intelligence.",
+    "description": "Fridays at 4:00 PM - Compile weekly learning from all team members, strategic insights, recommended actions, new opportunities identified, risks to monitor.",
     "nextRun": "2026-03-07T16:00:00-08:00",
-    "deliverables": ["Weekly learning summary", "Strategic recommendations", "Opportunity pipeline", "Risk assessment", "Team knowledge synthesis"]
+    "status": "idle",
+    "deliverables": ["Weekly learning summary", "Strategic recommendations", "Opportunity pipeline", "Risk assessment"]
   },
   {
-    "id": "7",
-    "name": "Weekly Revenue Dashboard",
-    "type": "recurring",
-    "schedule": "Every Monday",
+    "id": "496fe130-1e8e-4b7b-98a2-ea7637aecc9e",
+    "name": "Weekly Financial Briefing",
+    "type": "cron",
+    "schedule": "0 8 * * 1",
     "tz": "America/Los_Angeles",
-    "description": "Mondays - Rex (CRO) compiles revenue dashboard for both brands combined: revenue vs target, key metrics (AOV, LTV, CAC, conversion), pipeline health, week-over-week trends",
-    "assignee": "Rex",
-    "deliverables": ["Combined revenue report", "Metrics dashboard", "Pipeline health assessment"]
-  },
-  {
-    "id": "8",
-    "name": "DTC Metrics Dashboard",
-    "type": "recurring",
-    "schedule": "Every Monday",
-    "tz": "America/Los_Angeles",
-    "description": "Mondays - Drake (VP DTC) reports Elixser DTC performance: AOV, LTV, CAC, conversion rates, email revenue, funnel performance, Amazon sales",
-    "assignee": "Drake",
-    "deliverables": ["DTC performance metrics", "Funnel analytics", "Channel breakdown"]
-  },
-  {
-    "id": "9",
-    "name": "B2B Pipeline Report",
-    "type": "recurring",
-    "schedule": "Every Monday",
-    "tz": "America/Los_Angeles",
-    "description": "Mondays - Blair (VP B2B) reports Parlay wholesale pipeline: prospects by stage, stage movement, close rate, revenue projections, outreach activity",
-    "assignee": "Blair",
-    "deliverables": ["B2B pipeline report", "Stage analysis", "Revenue projections"]
-  },
-  {
-    "id": "10",
-    "name": "Content Production Plan",
-    "type": "recurring",
-    "schedule": "Every Monday",
-    "tz": "America/Los_Angeles",
-    "description": "Mondays - Sage (Content) outlines week's content production: digital products in progress, email sequences being written, landing pages, social content, other deliverables",
-    "assignee": "Sage",
-    "deliverables": ["Weekly content calendar", "Production status", "Completion forecasts"]
+    "description": "Mondays at 8:00 AM - Read financial data from Google Sheet (READ-ONLY), analyze cash position, runway, payables due, inventory alerts, revenue trends vs targets.",
+    "nextRun": "2026-03-09T08:00:00-08:00",
+    "status": "ok",
+    "deliverables": ["Cash position & runway", "Revenue vs target", "Payables alerts", "Inventory status"]
   }
 ]

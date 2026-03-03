@@ -1,135 +1,17 @@
 [
   {
-    "id": "1",
-    "title": "Set up Mission Control dashboard",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "2",
-    "title": "Set up Google Workspace integration",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "3",
-    "title": "Set up Twitter/Chirp integration",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "4",
-    "title": "Configure daily research briefing cron",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "5",
-    "title": "Configure weekly financial briefing cron",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "6",
-    "title": "Draft Peptide Hair Growth Serum evaluation",
-    "status": "Done",
-    "assignee": "Zara",
-    "dueDate": "2026-02-28",
-    "priority": "medium",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "7",
-    "title": "Research peptide hair loss market trends",
-    "status": "Done",
-    "assignee": "Xena",
-    "dueDate": "2026-02-28",
-    "priority": "medium",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "8",
-    "title": "Review Mission Control JSON data structure",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-02-28",
-    "priority": "low",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "9",
-    "title": "Monitor r/Peptides for consumer insights",
-    "status": "Done",
-    "assignee": "Xena",
-    "dueDate": "2026-02-28",
-    "priority": "medium",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "10",
-    "title": "Configure weekly compliance sweep cron",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "11",
-    "title": "Configure weekly intelligence brief cron",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "12",
-    "title": "Configure midday operations check cron",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "13",
-    "title": "Create Knowledge Base system with peptides/, competitors/, compliance/, marketing/, sales/, operations/",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-03-01",
+    "id": "101",
+    "title": "Email workflow strategy for Elixser Peptides (welcome, abandoned cart, post-purchase, win-back, VIP)",
+    "status": "In Progress",
+    "assignee": "Luna",
+    "dueDate": "2026-03-07",
     "priority": "critical",
-    "completedDate": "2026-03-01",
-    "note": "14 files created, uploaded to Google Drive"
-  },
-  {
-    "id": "14",
-    "title": "Create 4 new subagent roles: Rex (CRO), Drake (VP DTC), Blair (VP B2B), Sage (Content)",
-    "status": "Done",
-    "assignee": "Helix",
-    "dueDate": "2026-03-01",
-    "priority": "critical",
-    "completedDate": "2026-03-01",
-    "note": "All role files created in ROLES/"
+    "week": "WEEK 1",
+    "note": "#1 MARKETING PRIORITY - Luna designs strategy, Sage writes copy"
   },
   {
     "id": "102",
-    "title": "Draft The Safe Peptide Starter Kit digital product using PERC framework",
+    "title": "Draft The Safe Peptide Starter Kit digital product",
     "status": "Done",
     "assignee": "Sage",
     "dueDate": "2026-02-28",
@@ -140,7 +22,7 @@
   },
   {
     "id": "103",
-    "title": "Draft The BPC-157 Recovery Protocol digital product using PERC framework",
+    "title": "Draft The BPC-157 Recovery Protocol digital product",
     "status": "Done",
     "assignee": "Sage",
     "dueDate": "2026-02-28",
@@ -151,7 +33,7 @@
   },
   {
     "id": "104",
-    "title": "Draft The Peptide Stacking Playbook digital product using PERC framework",
+    "title": "Draft The Peptide Stacking Playbook digital product",
     "status": "Done",
     "assignee": "Sage",
     "dueDate": "2026-02-28",
@@ -161,60 +43,8 @@
     "note": "Lead magnet - advanced protocols"
   },
   {
-    "id": "202",
-    "title": "Draft The PT-141 Couples Guide digital product",
-    "status": "Done",
-    "assignee": "Sage",
-    "dueDate": "2026-03-07",
-    "priority": "high",
-    "week": "WEEK 2",
-    "completedDate": "2026-02-28",
-    "note": "Compliance rewrite completed - melanocortin receptor research focus"
-  },
-  {
-    "id": "203",
-    "title": "Draft The Peptide Hair Restoration Blueprint digital product",
-    "status": "Done",
-    "assignee": "Sage",
-    "dueDate": "2026-03-07",
-    "priority": "high",
-    "week": "WEEK 2",
-    "completedDate": "2026-02-28",
-    "note": "Compliance rewrite completed - GHK-Cu follicle research focus"
-  },
-  {
-    "id": "107",
-    "title": "Research top 10 DTC peptide competitors \u2014 pricing, products, email strategies, funnels",
-    "status": "Done",
-    "assignee": "Xena",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "week": "WEEK 1",
-    "completedDate": "2026-02-28"
-  },
-  {
-    "id": "206",
-    "title": "Build prospect list \u2014 100 med spas, 100 gyms, 100 doctors offices with contact info",
-    "status": "In Progress",
-    "assignee": "Kira",
-    "dueDate": "2026-03-14",
-    "priority": "high",
-    "week": "WEEK 2",
-    "note": "30/300 complete - sample dataset delivered"
-  },
-  {
-    "id": "101",
-    "title": "Design complete email workflow strategy for Elixser Peptides \u2014 welcome series, abandoned cart, post-purchase, win-back, VIP",
-    "status": "In Progress",
-    "assignee": "Luna",
-    "dueDate": "2026-03-07",
-    "priority": "critical",
-    "week": "WEEK 1",
-    "note": "#1 marketing priority - Luna designs strategy, Sage writes copy"
-  },
-  {
     "id": "105",
-    "title": "Draft 3 versions of initial outreach email for Parlay Gummies to med spas, gyms, doctors offices",
+    "title": "Draft 3 versions of Parlay B2B outreach emails (med spas, gyms, doctors)",
     "status": "In Progress",
     "assignee": "Sage",
     "dueDate": "2026-03-07",
@@ -233,8 +63,19 @@
     "note": "Blair provides strategy, Sage writes copy"
   },
   {
+    "id": "107",
+    "title": "Research top 10 DTC peptide competitors - pricing, products, email strategies, funnels",
+    "status": "Done",
+    "assignee": "Xena",
+    "dueDate": "2026-02-28",
+    "priority": "high",
+    "week": "WEEK 1",
+    "completedDate": "2026-02-28",
+    "note": "50KB report with 7 competitors analyzed"
+  },
+  {
     "id": "108",
-    "title": "Build financial model for scaling Elixser from $100K to $1M/month at $25 CAC and $150 AOV",
+    "title": "Build financial model for scaling Elixser $100K → $1M/month at $25 CAC and $150 AOV",
     "status": "To Do",
     "assignee": "Zoe",
     "dueDate": "2026-03-07",
@@ -243,13 +84,35 @@
   },
   {
     "id": "201",
-    "title": "Design funnel strategy \u2014 one funnel per pain point (recovery, anti-aging, hair, weight loss, energy, brain)",
+    "title": "Design 6 pain point funnels (recovery, anti-aging, hair, weight loss, energy, brain)",
     "status": "To Do",
     "assignee": "Luna",
     "dueDate": "2026-03-14",
     "priority": "high",
     "week": "WEEK 2",
     "note": "Luna designs funnels, Sage writes landing page copy"
+  },
+  {
+    "id": "202",
+    "title": "Draft The PT-141 Research Guide digital product",
+    "status": "Done",
+    "assignee": "Sage",
+    "dueDate": "2026-03-07",
+    "priority": "high",
+    "week": "WEEK 2",
+    "completedDate": "2026-02-28",
+    "note": "Compliance rewrite - melanocortin receptor research focus"
+  },
+  {
+    "id": "203",
+    "title": "Draft The Peptide Hair Restoration Blueprint digital product",
+    "status": "Done",
+    "assignee": "Sage",
+    "dueDate": "2026-03-07",
+    "priority": "high",
+    "week": "WEEK 2",
+    "completedDate": "2026-02-28",
+    "note": "Compliance rewrite - GHK-Cu follicle research focus"
   },
   {
     "id": "204",
@@ -271,8 +134,18 @@
     "week": "WEEK 2"
   },
   {
+    "id": "206",
+    "title": "Build prospect list - 100 med spas, 100 gyms, 100 doctors with contact info",
+    "status": "In Progress",
+    "assignee": "Kira",
+    "dueDate": "2026-03-14",
+    "priority": "high",
+    "week": "WEEK 2",
+    "note": "30/300 complete - sample dataset delivered with full contact details"
+  },
+  {
     "id": "207",
-    "title": "Project revenue model for Parlay B2B channel at 50, 100, 500 wholesale accounts",
+    "title": "Project Parlay B2B revenue model at 50, 100, 500 wholesale accounts",
     "status": "To Do",
     "assignee": "Zoe",
     "dueDate": "2026-03-14",
@@ -281,13 +154,14 @@
   },
   {
     "id": "208",
-    "title": "Refine B2B pricing strategy for Parlay Gummies ($30-40 to clinic, $70 retail, MOQ 24)",
-    "status": "To Do",
+    "title": "Refine Parlay B2B pricing strategy ($30-40 to clinic, $70 retail, MOQ 24)",
+    "status": "Done",
     "assignee": "Rex",
     "dueDate": "2026-03-14",
     "priority": "high",
     "week": "WEEK 2",
-    "note": "Rex owns pricing strategy across both brands"
+    "completedDate": "2026-02-28",
+    "note": "Final: $35-42 wholesale, $79 retail, MOQ 24, ~60% margins"
   },
   {
     "id": "301",
@@ -297,11 +171,11 @@
     "dueDate": "2026-03-21",
     "priority": "medium",
     "week": "WEEK 3",
-    "note": "Sage handles all digital product drafting"
+    "note": "Anti-aging, weight loss, sleep, cognitive, joint health, energy guides"
   },
   {
     "id": "302",
-    "title": "Evaluate Telehealth company requirements \u2014 licensing, compliance, script certification",
+    "title": "Evaluate Telehealth company requirements - licensing, compliance, script certification",
     "status": "To Do",
     "assignee": "Zara",
     "dueDate": "2026-03-21",
@@ -310,7 +184,7 @@
   },
   {
     "id": "303",
-    "title": "Research Telehealth peptide clinic landscape \u2014 competitors, pricing, regulations",
+    "title": "Research Telehealth peptide clinic landscape - competitors, pricing, regulations",
     "status": "To Do",
     "assignee": "Xena",
     "dueDate": "2026-03-21",
@@ -324,17 +198,17 @@
     "assignee": "Rex",
     "dueDate": "2026-03-07",
     "priority": "critical",
-    "week": "WEEK 3",
-    "note": "GHL sub-accounts, pipelines, automation triggers, WooCommerce/Shopify integration, ActiveCampaign migration"
+    "week": "ONGOING",
+    "note": "Manual UI deployment underway - 16 custom fields, 23 tags, 6 email templates, 2 pipelines ready"
   },
   {
     "id": "402",
-    "title": "Audit current Elixser DTC funnel and design 90-day revenue acceleration plan",
+    "title": "Audit Elixser DTC funnel and design 90-day revenue acceleration plan",
     "status": "In Progress",
     "assignee": "Drake",
     "dueDate": "2026-03-07",
     "priority": "critical",
-    "week": "WEEK 3",
+    "week": "ONGOING",
     "note": "Path from $100K to $1M/month - bundles, upsells, email sequences, landing pages"
   },
   {
@@ -344,30 +218,8 @@
     "assignee": "Blair",
     "dueDate": "2026-03-07",
     "priority": "critical",
-    "week": "WEEK 3",
-    "note": "Pipeline stages, email/call scripts, objection handling, sample pack program, pricing deck"
-  },
-  {
-    "id": "404",
-    "title": "Draft PT-141 Research Guide (compliance rewrite)",
-    "status": "Done",
-    "assignee": "Sage",
-    "dueDate": "2026-03-07",
-    "priority": "high",
-    "week": "WEEK 3",
-    "completedDate": "2026-02-28",
-    "note": "Educational research compendium on melanocortin receptor research"
-  },
-  {
-    "id": "405",
-    "title": "Draft Hair Restoration Blueprint (compliance rewrite)",
-    "status": "Done",
-    "assignee": "Sage",
-    "dueDate": "2026-03-07",
-    "priority": "high",
-    "week": "WEEK 3",
-    "completedDate": "2026-02-28",
-    "note": "GHK-Cu follicle research review"
+    "week": "ONGOING",
+    "note": "Pipeline stages, email/call scripts, objection handling, sample program, pricing deck"
   },
   {
     "id": "501",
@@ -407,25 +259,26 @@
     "dueDate": "2026-03-03",
     "priority": "medium",
     "week": "ONGOING",
-    "note": "Every Monday - digital products in progress, email sequences, other deliverables"
+    "note": "Every Monday - digital products in progress, email sequences, deliverables"
   },
   {
     "id": "505",
-    "title": "Review AI Product Photography System (Midjourney/DALL-E setup)",
+    "title": "Review AI Product Photography System (Midjourney/DALL-E)",
     "status": "To Do",
     "assignee": "Perry",
     "dueDate": "2026-03-10",
     "priority": "medium",
-    "note": "Document: https://drive.google.com/file/d/1-Waj16hbHToTsHPfpQSR74BrQrIlTlHq/view - 48KB guide for in-house product photography"
+    "note": "48KB guide for in-house product photography"
   },
   {
     "id": "506",
     "title": "Obtain GHL API Key for integration work",
-    "status": "To Do",
+    "status": "Done",
     "assignee": "Perry",
     "dueDate": "2026-03-05",
     "priority": "high",
-    "note": "Needed for Anmol to integrate WooCommerce/Shopify \u2192 GHL automations"
+    "completedDate": "2026-03-02",
+    "note": "API keys obtained, v1 API read-only confirmed"
   },
   {
     "id": "507",
@@ -434,7 +287,7 @@
     "assignee": "Perry",
     "dueDate": "2026-03-05",
     "priority": "critical",
-    "note": "Rex needs: (1) Sales history to project orders, (2) Current stock levels (in stock/out of stock). SOP will detail how Rex sends orders to ivy@societyway.com"
+    "note": "Rex needs: sales history + current stock levels. SOP for ordering from ivy@societyway.com"
   },
   {
     "id": "508",
@@ -443,6 +296,25 @@
     "assignee": "Perry",
     "dueDate": "2026-03-10",
     "priority": "medium",
-    "note": "Add org chart visualization showing team structure: Rex (CRO) \u2192 Drake (VP DTC), Blair (VP B2B), Luna (Marketing), Sage (Content), Kira (Operations), Zoe (Financial), Xena (Research), Zara (Product)"
+    "note": "Add org chart showing team structure: Rex → Drake, Blair; Luna → Sage; etc."
+  },
+  {
+    "id": "600",
+    "title": "CRITICAL: Sales Analysis with SKU-level Data",
+    "status": "Done",
+    "assignee": "Rex",
+    "dueDate": "2026-03-02",
+    "priority": "critical",
+    "completedDate": "2026-03-02",
+    "note": "December: $27,514 | January: $58,813 (+113.8%) | March projection: $70,576. Inventory: $50,086 for 1,184 units"
+  },
+  {
+    "id": "601",
+    "title": "GHL Manual UI Deployment",
+    "status": "To Do",
+    "assignee": "Perry",
+    "dueDate": "2026-03-07",
+    "priority": "critical",
+    "note": "Execute manual deployment using prepared guide (2-3 hours). All specs ready. Projected impact: $16,500/month"
   }
 ]

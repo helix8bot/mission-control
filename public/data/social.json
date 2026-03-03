@@ -1,173 +1,86 @@
 {
-  "lastUpdated": "2026-03-02T09:23:00-08:00",
+  "lastUpdated": "2026-03-02T23:00:00-08:00",
   "topSignals": [
     {
-      "signal": "FDA removing 14 peptides from Category 2 list - will allow compounding pharmacies to legally compound peptides like BPC-157 and GHK-Cu",
-      "impact": "Major regulatory shift increasing peptide accessibility. Compounding pharmacies entering market creates new competitive landscape. Need to monitor pricing pressure and adjust positioning to emphasize research-grade purity and direct sourcing.",
+      "signal": "FDA removing 14 peptides from Category 2 list - compounding pharmacies can now legally compound BPC-157, GHK-Cu, and others",
+      "impact": "Major competitive shift. Compounding pharmacy entry within 6-12 months will create pricing pressure. Must emphasize research-grade purity and direct sourcing advantages. Potential partnership opportunities with telehealth networks.",
       "source": "FDA Regulatory Update",
       "date": "2026-02-28"
     },
     {
-      "signal": "Hair loss peptide research gaining traction among younger demographics (18-25) seeking alternatives to traditional medications like finasteride and minoxidil",
-      "impact": "Strong validation for GHK-Cu hair serum opportunity. Younger consumers medication-averse and seeking 'natural' peptide-based solutions. Digital product Hair Restoration Blueprint positioned to capture this demand.",
-      "source": "r/Peptides, r/tressless, r/HairLoss",
+      "signal": "Hair loss peptide research gaining massive traction among younger demographics (18-25) seeking alternatives to finasteride/minoxidil",
+      "impact": "Strong validation for GHK-Cu hair serum opportunity. Younger consumers medication-averse and seeking 'natural' peptide solutions. Hair Restoration Blueprint positioned perfectly to capture this demand.",
+      "source": "r/Peptides, r/tressless, r/HairLoss consumer analysis",
       "date": "2026-02-27"
     },
     {
-      "signal": "BPC-157 recovery protocols dominating fitness community discussions - athletes seeking faster injury recovery without pharmaceutical interventions",
-      "impact": "Validates BPC-157 Recovery Protocol as lead magnet. Strong organic demand for recovery-focused educational content and protocols. Fitness/CrossFit communities actively discussing peptide stacking for performance enhancement.",
-      "source": "r/Peptides, r/Fitness, r/Biohackers, r/Steroids",
+      "signal": "BPC-157 recovery protocols dominating fitness community discussions - athletes seeking faster injury recovery without pharmaceuticals",
+      "impact": "Validates BPC-157 Recovery Protocol as lead magnet. Strong organic demand for recovery-focused educational content. Fitness/CrossFit communities actively discussing peptide stacking for performance.",
+      "source": "r/Peptides, r/Fitness, r/Biohackers",
       "date": "2026-02-28"
     },
     {
       "signal": "Consumer frustration with lack of beginner-friendly educational content - most peptide vendors assume advanced knowledge",
-      "impact": "Major opportunity for Safe Peptide Starter Kit positioning. Market gap for entry-level education covering sourcing, storage, reconstitution, safety. First-mover advantage in accessible peptide education.",
-      "source": "r/Peptides, r/Nootropics consumer analysis",
+      "impact": "Major opportunity for Safe Peptide Starter Kit. Market gap for entry-level education covering sourcing, storage, reconstitution, safety. First-mover advantage in accessible peptide education.",
+      "source": "r/Peptides, r/Nootropics consumer feedback",
       "date": "2026-02-27"
     },
     {
       "signal": "Peptide stacking protocols (BPC-157 + TB-500, CJC-1295 + Ipamorelin) gaining mainstream acceptance in biohacking communities",
-      "impact": "Advanced users seeking comprehensive stacking guides. The Peptide Stacking Playbook addresses sophisticated market segment. Opportunity to position Elixser as authority on synergistic peptide combinations.",
+      "impact": "Advanced users seeking comprehensive stacking guides. Peptide Stacking Playbook addresses sophisticated market segment. Opportunity to position Elixser as authority on synergistic combinations.",
       "source": "r/Biohackers, r/Peptides",
       "date": "2026-02-28"
     }
   ],
   "marketTrends": [
-    "Top DTC peptide vendors emphasize 99%+ purity and public COA transparency (Limitless Peptides, SwissChems, Behemoth Labz)",
-    "Growing adoption of alternative delivery formats: nasal sprays, oral capsules, topical solutions vs traditional injectable lyophilized vials",
-    "Affiliate programs becoming standard across major vendors - competitive pressure to launch influencer/affiliate recruitment",
-    "Educational content marketing essential: vendors leading with research application guides, dosing protocols, safety information to build authority",
-    "BPC-157 pricing ranges $59.99-$62.48 USD for 5mg across competitors - Elixser competitive at $105 for 10mg (better unit economics)",
-    "Third-party testing (Janoshik, domestic labs) becoming table stakes for credibility - COA transparency mandatory",
-    "Amazon emerging as secondary sales channel for established brands - opportunity for Elixser expansion",
-    "Compounding pharmacy entry (post-FDA ruling) expected to create pricing pressure in 6-12 months",
-    "Telehealth peptide clinics growing rapidly - potential B2B partnership opportunity or competitive threat",
-    "Consumer demand shifting toward 'research-backed' positioning vs wellness marketing - regulatory compliance advantage"
+    "Top DTC vendors emphasize 99%+ purity with public COA transparency (Limitless Peptides, SwissChems, Behemoth Labz)",
+    "Growing adoption of alternative delivery formats: nasal sprays, oral capsules, topical solutions vs traditional injectable vials",
+    "Affiliate programs becoming standard - competitive pressure to launch influencer recruitment",
+    "Educational content marketing essential: vendors lead with research application guides, dosing protocols, safety info",
+    "BPC-157 pricing competitive: $59.99-$62.48 for 5mg (Elixser: $105 for 10mg - better unit economics)",
+    "Third-party testing (Janoshik, domestic labs) becoming table stakes for credibility",
+    "Amazon emerging as secondary sales channel for established brands",
+    "Compounding pharmacy entry (post-FDA ruling) expected to create pricing pressure within 12 months",
+    "Telehealth peptide clinics growing rapidly - potential B2B partnership or competitive threat",
+    "Consumer demand shifting toward 'research-backed' positioning vs wellness marketing"
   ],
   "consumerInsights": [
-    "Beginners frustrated by lack of accessible educational content - most peptide vendors assume advanced knowledge",
-    "Strong demand for transformation-focused protocols (recovery, hair growth, weight loss, anti-aging) vs general peptide guides",
-    "Price sensitivity varies by experience level - beginners seek lower entry points with clear guidance, advanced users prioritize purity",
-    "Transparency in sourcing, testing, and purity critical for trust-building - COA availability make-or-break factor",
-    "Amazon reviews emphasize shipping speed, product freshness, and clear documentation as key differentiators",
+    "Beginners frustrated by lack of accessible educational content - most vendors assume advanced knowledge",
+    "Strong demand for transformation-focused protocols (recovery, hair, weight loss, anti-aging) vs general guides",
+    "Price sensitivity varies by experience: beginners seek lower entry points, advanced users prioritize purity",
+    "Transparency in sourcing, testing, purity critical for trust - COA availability is make-or-break",
+    "Amazon reviews emphasize shipping speed, product freshness, clear documentation as differentiators",
     "Recovery-focused consumers (athletes, injury rehab) willing to pay premium for quality and fast results",
-    "Hair restoration segment particularly price-sensitive but motivated by fear of pharmaceutical side effects",
+    "Hair restoration segment price-sensitive but motivated by fear of pharmaceutical side effects",
     "PT-141 users seeking discretion and educational content about melanocortin receptor research",
     "Advanced users (stacking, cycling) value comprehensive protocol guidance over individual product info",
-    "Research-use-only positioning creates trust paradox - consumers know it's for humans but appreciate regulatory compliance"
+    "Research-use-only positioning creates trust paradox - consumers appreciate regulatory compliance"
   ],
-  "competitorIntel": {
-    "topVendors": [
-      "Limitless Peptides - 99%+ purity emphasis, double verification (manufacturer + Janoshik), science-forward positioning, organized by research category",
-      "SwissChems - Strong educational content, diverse delivery formats (nasal sprays, oral solutions, liquids), international shipping",
-      "Behemoth Labz - Competitive pricing, established affiliate program, active social media presence, wide product catalog",
-      "Research Chemical - Extensive product catalog, research-focused compliance, third-party testing transparency",
-      "USA Peptides - Domestic production emphasis, fast shipping (Prime-eligible on Amazon), customer service differentiation",
-      "Peptide Sciences - Medical/research institution focus, bulk ordering, institutional credibility",
-      "Xpeptides - European sourcing, international market, competitive pricing on bulk orders"
-    ],
-    "keyDifferentiators": [
-      "Public COA transparency with batch-level tracking and QR code verification",
-      "Ultra-pure analytical grade (99%+ purity) vs research grade (95-98%)",
-      "Alternative delivery formats (nasal, oral, topical, sublingual) vs traditional injectable vials",
-      "Comprehensive educational content libraries (research summaries, protocols, safety guides)",
-      "Affiliate/referral programs for community building and influencer partnerships",
-      "Amazon availability for trust/convenience vs Shopify-only DTC",
-      "Subscription models for recurring revenue and customer retention",
-      "Fast domestic shipping (2-3 day Prime) vs international sourcing delays"
-    ],
-    "pricingBenchmarks": {
-      "BPC157_5mg": "$59.99-$62.48 (Elixser: $105 for 10mg - competitive unit economics)",
-      "TB500_5mg": "$65-$75 (Elixser: $85 for 10mg)",
-      "GHK_Cu_50mg": "$60-$80 (Elixser: $70 - highly competitive)",
-      "PT141_10mg": "$75-$90 (Elixser: $80 - competitive)",
-      "NAD_500mg": "$180-$220 (Elixser: $190 - competitive)"
-    }
-  },
   "contentIdeas": [
-    "The Peptide Injury Recovery Protocol - comprehensive guide pairing BPC-157 with TB-500 for athletic recovery (COMPLETED Feb 28)",
-    "Hair Restoration Blueprint - targeting younger consumers with GHK-Cu topical solutions and oral protocols (COMPLETED Feb 28)",
-    "Safe Peptide Starter Kit - addressing quality and sourcing transparency, lowering barrier to entry (COMPLETED Feb 28)",
-    "Peptide Stacking Playbook - advanced protocols for experienced users combining multiple peptides (COMPLETED Feb 28)",
-    "PT-141 Couples Guide - intimacy and relationship wellness melanocortin receptor research (COMPLETED Feb 28)",
-    "The Peptide Anti-Aging Blueprint - targeting longevity and healthspan optimization (PLANNED - Week 3+)",
-    "The Peptide Weight Loss Accelerator - combining multiple peptides for metabolic support (PLANNED)",
-    "The Peptide Sleep Optimization Guide - addressing sleep quality and recovery (PLANNED)",
-    "The Peptide Cognitive Enhancement Protocol - nootropic peptides for focus and mental clarity (PLANNED)",
-    "The Peptide Joint Health Restoration Guide - targeting arthritis and joint pain relief (PLANNED)",
+    "The Peptide Anti-Aging Blueprint - longevity and healthspan optimization (PLANNED - Week 3+)",
+    "The Peptide Weight Loss Accelerator - metabolic support protocols (PLANNED)",
+    "The Peptide Sleep Optimization Guide - sleep quality and recovery (PLANNED)",
+    "The Peptide Cognitive Enhancement Protocol - nootropic peptides for focus (PLANNED)",
+    "The Peptide Joint Health Restoration Guide - arthritis and joint pain relief (PLANNED)",
     "GHK-Cu Skin Rejuvenation Protocol - anti-aging skincare applications (PLANNED)",
-    "Peptide Cycling & Stacking Advanced Masterclass - comprehensive guide for experienced users (PLANNED)"
+    "Peptide Cycling & Stacking Advanced Masterclass - comprehensive guide for experienced users (PLANNED)",
+    "The Peptide Energy & Vitality Protocol - NAD+, MOTS-C for cellular energy (PLANNED)",
+    "The Peptide Immune Support Guide - LL37 and immune modulation research (PLANNED)"
   ],
   "actionItems": [
-    "Luna: Complete email workflow strategy (WEEK 1 critical priority - currently in progress)",
-    "Luna: Design 6 pain point funnels (recovery, anti-aging, hair, weight loss, energy, brain) - WEEK 2 priority",
-    "Luna: Design and launch affiliate program for Elixser Peptides - WEEK 2 priority",
-    "Luna: Identify top 20 peptide/biohacking influencers (Ben Greenfield, Dave Asprey, Dr. Huberman as Tier 1)",
-    "Sage: Draft Parlay B2B outreach emails (3 versions for med spas, gyms, doctors) - in progress",
+    "Luna: Complete email workflow strategy - #1 CRITICAL PRIORITY (in progress)",
+    "Luna: Design 6 pain point funnels (recovery, anti-aging, hair, weight loss, energy, brain)",
+    "Luna: Design and launch affiliate program for Elixser Peptides",
+    "Luna: Identify top 20 peptide/biohacking influencers for affiliate recruitment",
+    "Sage: Complete Parlay B2B outreach emails (3 versions: med spas, gyms, doctors)",
     "Sage: Write landing page copy for all 6 funnels after Luna designs strategy",
-    "Zoe: Build financial model scaling Elixser from $100K to $1M/month (CAC $25, AOV $150)",
+    "Rex: Complete GHL implementation (manual UI deployment underway)",
+    "Rex: Create inventory ordering SOP with Perry (sales history + stock levels)",
+    "Drake: Audit Elixser DTC funnel and design 90-day revenue acceleration plan",
+    "Blair: Design complete Parlay B2B sales pipeline (stages, scripts, objection handling)",
+    "Kira: Expand prospect research from 30 to 300 (100 med spas, 100 gyms, 100 doctors)",
+    "Zoe: Build financial model scaling Elixser $100K → $1M/month (CAC $25, AOV $150)",
     "Zoe: Project Parlay B2B revenue at 50, 100, 500 wholesale accounts",
-    "Kira: Expand prospect research from 30 to 300 prospects (100 med spas, 100 gyms, 100 doctors) - in progress",
-    "Rex: Finalize B2B pricing strategy for Parlay ($35-42 wholesale, $79 retail, MOQ 24)",
-    "Rex: Complete GHL implementation plan (sub-accounts, pipelines, automation, integrations) - in progress",
-    "Drake: Audit current Elixser DTC funnel and design 90-day revenue acceleration plan - in progress",
-    "Blair: Design complete Parlay B2B sales pipeline (stages, scripts, objection handling) - in progress",
-    "Xena: Continue daily competitive intelligence monitoring and consumer insight gathering"
-  ],
-  "recentResearch": [
-    {
-      "title": "DTC Peptide Competitor Analysis",
-      "author": "Xena",
-      "date": "2026-02-28",
-      "summary": "Comprehensive analysis of 7 major DTC peptide vendors covering pricing, product mix, quality standards, marketing strategies, and competitive positioning. Key finding: purity transparency (99%+ with public COAs) and educational content are primary differentiators. Alternative delivery formats (nasal, oral, topical) gaining traction vs traditional injectables.",
-      "keyTakeaways": [
-        "BPC-157 5mg pricing: $59.99-$62.48 (Elixser competitive at $105/10mg)",
-        "Third-party testing (Janoshik) becoming mandatory for credibility",
-        "Educational content marketing essential - vendors leading with research guides",
-        "Affiliate programs standard - need to launch competitive program",
-        "Amazon emerging as secondary channel for established brands"
-      ],
-      "file": "research/competitor-analysis-dtc-peptides.md"
-    },
-    {
-      "title": "Parlay B2B Prospect Research - Phase 1",
-      "author": "Kira",
-      "date": "2026-02-28",
-      "summary": "Delivered 30 verified B2B prospects (10 med spas, 10 gyms, 10 doctors offices) with complete contact info, decision-maker names, business tier classifications (Tier 1: $10M+, Tier 2: $5-10M, Tier 3: Under $5M). Roadmap for scaling to 300 total prospects included with data source recommendations.",
-      "keyTakeaways": [
-        "Med spas highest priority - recovery/wellness fit, premium pricing tolerance",
-        "Gyms require education on supplement retail vs protein powder mindset",
-        "Doctors offices slower sales cycle but highest credibility/volume potential",
-        "Need ~350 wholesale accounts for $3M/month B2B revenue target"
-      ],
-      "file": "operations/parlay-prospect-research-summary.md"
-    },
-    {
-      "title": "FDA Peptide Compounding Ruling",
-      "author": "Xena",
-      "date": "2026-02-28",
-      "summary": "FDA removing 14 peptides from Category 2 list, allowing compounding pharmacies to legally compound peptides like BPC-157 and GHK-Cu. Major regulatory shift with competitive implications. Compounding pharmacies expected to enter market within 6-12 months, potentially creating pricing pressure.",
-      "keyTakeaways": [
-        "Compounding pharmacy entry = new competitive landscape",
-        "Need to emphasize research-grade purity and direct sourcing advantages",
-        "Monitor pricing trends as pharmacies enter market",
-        "Potential partnership opportunities with telehealth/compounding pharmacy networks",
-        "Consumer education becomes more important to differentiate research vs compounded peptides"
-      ],
-      "file": "research/2026-02-28-fda-peptide-ruling.md"
-    },
-    {
-      "title": "Parlay B2B Pricing Strategy",
-      "author": "Zoe & Rex",
-      "date": "2026-02-28",
-      "summary": "Recommended wholesale pricing: $35-42 per bottle to clinics, $79 retail, MOQ 24 bottles. Delivers ~60% operating margins for Parlay, ~43% retail margins for clinic partners. Revenue model shows ~350 wholesale accounts needed for $3M/month B2B target.",
-      "file": "research/parlay-b2b-pricing-strategy.md"
-    }
-  ],
-  "marketingCalendar": {
-    "Week1Priority": "Email workflow strategy for Elixser (Luna + Sage)",
-    "Week2Priority": "Funnel strategy (6 pain points) + Affiliate program launch (Luna + Sage)",
-    "Week3Priority": "Remaining digital products + Telehealth research (Sage + Zara + Xena)",
-    "OngoingDaily": "Competitive intel monitoring, consumer insight gathering, compliance monitoring"
-  }
+    "Xena: Continue daily competitive intelligence and consumer insight gathering"
+  ]
 }

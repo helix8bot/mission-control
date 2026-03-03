@@ -1,155 +1,82 @@
 {
-  "role": {
-    "title": "Chief Operating Officer (COO)",
-    "responsibility": "Run operations across Elixser Peptides and Parlay Gummies",
-    "operatingMode": "Delegate, monitor, synthesize - never execute directly",
-    "delegation": "Always spawn subagents for every task. Zero exceptions."
-  },
   "brands": [
     {
       "name": "Elixser Peptides",
-      "category": "Research Peptides",
-      "complianceStatus": "RESEARCH USE ONLY - NOT FOR HUMAN CONSUMPTION",
+      "category": "Research Peptides (RESEARCH USE ONLY)",
       "products": [
-        "Tesofensine Capsules ($110-$220)",
-        "BPC-157 Capsules ($80-$160)",
-        "TESAMORELIN [10mg] ($130-$260)",
-        "TESAMORELIN + IPAMORELIN [10mg] ($110-$220)",
-        "AOD9604 [5mg] ($105)",
-        "BPC157 [10mg] ($105)",
-        "BPC157+TB500 [10mg] ($105)",
-        "CJC-1295 No DAC [10mg] ($105)",
-        "CJC1295 (NO DAC) + IPAMORELIN [10mg] ($110)",
-        "EPITALON [10MG] ($70)",
+        "BPC-157 [10mg] ($105)",
+        "BPC-157 + TB-500 [10mg] ($105)",
+        "TB-500 [10mg] ($85)",
         "GHK-Cu [50mg] ($70)",
-        "GLOW [70mg] ($145)",
-        "HCG 5000IU ($85)",
-        "IPAMORELIN [10mg] ($115)",
-        "KISSPEPTIN-10 [10mg] ($135)",
-        "KLOW [80mg] ($175)",
-        "LL37 [5mg] ($175)",
-        "MOTS-C [10mg] ($110)",
-        "NAD+ [500mg] ($190)",
-        "OXYTOCIN [10mg] ($90)",
+        "CJC-1295 No DAC [10mg] ($105)",
+        "CJC-1295 + IPAMORELIN [10mg] ($110)",
+        "TESAMORELIN [10mg] ($130)",
+        "TESAMORELIN + IPAMORELIN [10mg] ($110)",
         "PT-141 [10mg] ($80)",
-        "RECONSTITUTION SOLUTION [10ml] ($20)",
+        "NAD+ [500mg] ($190)",
+        "IPAMORELIN [10mg] ($115)",
+        "HCG 5000IU ($85)",
+        "AOD9604 [5mg] ($105)",
+        "MOTS-C [10mg] ($110)",
+        "LL37 [5mg] ($175)",
+        "KISSPEPTIN-10 [10mg] ($135)",
+        "EPITALON [10MG] ($70)",
         "SELANK [10mg] ($90)",
         "SEMAX [10mg] ($85)",
-        "TB-500 [10mg] ($85)"
+        "OXYTOCIN [10mg] ($90)",
+        "GLOW [70mg] ($145)",
+        "KLOW [80mg] ($175)",
+        "Tesofensine Capsules ($110-$220)",
+        "RECONSTITUTION SOLUTION [10ml] ($20)"
       ],
       "targetMarket": "Qualified researchers, scientists, laboratories",
-      "channels": ["Shopify DTC", "Amazon"],
-      "positioning": "Precision, purity, and quality for research-grade peptides",
-      "website": "elixserpeptides.com"
+      "channels": ["Shopify DTC", "Amazon"]
     },
     {
       "name": "Parlay Wellness",
       "category": "Dietary Supplements",
-      "products": ["Parlay Recover Gummies with 500mcg BPC-157 ($63.75-$85 retail)"],
+      "products": ["Parlay Recover Gummies with 500mcg BPC-157 ($63.75-$85 retail, $35-42 wholesale)"],
       "targetMarket": "Med spas, gyms, doctors offices, active individuals, athletes",
-      "channels": ["B2B wholesale ($35-42 per bottle)", "Shopify DTC"],
-      "positioning": "Targeted, clinically-backed support for recovery and flexibility",
-      "benefits": "Faster tissue repair, reduce inflammation, enhance overall recovery, joint relief, bladder comfort, regenerative boost"
+      "channels": ["B2B Wholesale", "Shopify DTC"]
     }
   ],
   "team": [
-    {"name": "Perry", "role": "Founder & Operator"},
-    {"name": "Helix", "role": "Chief Operating Officer (COO) - Delegates all work to specialists"},
-    {"name": "Rex", "role": "Chief Revenue Officer (CRO) - Owns total revenue across both brands ($4M/month target)"},
-    {"name": "Drake", "role": "VP of DTC Sales - Owns Elixser DTC revenue ($1M/month target)"},
-    {"name": "Blair", "role": "VP of B2B Sales - Owns Parlay B2B revenue ($3M/month target)"},
-    {"name": "Luna", "role": "Marketing Strategist - Email strategy, funnels, affiliate program, influencer recruitment"},
-    {"name": "Sage", "role": "Content Specialist - Digital products, email copy, landing pages, social content"},
-    {"name": "Xena", "role": "Research Analyst - Market intel, competitor analysis, consumer insights"},
-    {"name": "Zara", "role": "Product Evaluator - Runs Product Gatekeeper framework"},
-    {"name": "Kira", "role": "Data & Operations - B2B prospects, operational systems"},
-    {"name": "Zoe", "role": "Financial Analyst - Models, projections, unit economics"}
+    { "name": "Perry", "role": "Founder & Operator" },
+    { "name": "Helix", "role": "Chief Operating Officer (COO)" },
+    { "name": "Rex", "role": "Chief Revenue Officer (CRO)" },
+    { "name": "Drake", "role": "VP of DTC Sales" },
+    { "name": "Blair", "role": "VP of B2B Sales" },
+    { "name": "Luna", "role": "Marketing Strategist" },
+    { "name": "Sage", "role": "Content Specialist" },
+    { "name": "Xena", "role": "Research Analyst" },
+    { "name": "Zara", "role": "Product Evaluator" },
+    { "name": "Kira", "role": "Data & Operations" },
+    { "name": "Zoe", "role": "Financial Analyst" }
   ],
   "goals": {
-    "primary": "Build $1B health & wellness enterprise with integrity and location freedom",
-    "financial": "Scale Elixser from $100K to $1M/month DTC revenue, establish $3M/month Parlay B2B revenue stream (total $4M/month)",
-    "operational": "Execute 3-week sprint plan, maintain lean operations, make data-driven decisions, ensure full compliance"
-  },
-  "currentWeek": {
-    "week": 3,
-    "weekEnd": "March 7, 2026",
-    "focus": "Revenue acceleration - GHL implementation, DTC funnel optimization, B2B pipeline design, content production ramp-up",
-    "status": "Week 2 completed 16 days early. Team expansion complete with 4 new revenue-focused roles (Rex, Drake, Blair, Sage)"
+    "primary": "Scale to $4M/month revenue across both brands",
+    "financial": "$1M/month Elixser DTC + $3M/month Parlay B2B",
+    "operational": "Maintain lean operations, data-driven decisions, full compliance"
   },
   "keyInsights": [
-    "CRITICAL: Elixser Peptides is RESEARCH USE ONLY - all content must be compliant",
+    "CRITICAL: Elixser Peptides is RESEARCH USE ONLY - never suggest human consumption",
     "Parlay Wellness is a dietary supplement - different compliance rules apply",
-    "Knowledge Base is single source of truth - all team members must consult before creating content or making decisions",
-    "Revenue organization restructured: Rex (CRO) coordinates Drake (DTC) and Blair (B2B)",
-    "Sage handles all high-volume content production so Luna can focus on strategy",
-    "Email workflow strategy is #1 marketing priority for Elixser",
-    "Digital products serve as lead magnets for specific pain points (recovery, hair, intimacy, stacking, starter)",
-    "5 digital products completed Feb 28: Safe Peptide Starter Kit, BPC-157 Recovery Protocol, Peptide Stacking Playbook, PT-141 Couples Guide, Hair Restoration Blueprint",
-    "All digital products underwent emergency compliance review and rewrite Feb 28",
-    "Comprehensive DTC peptide competitor analysis delivered (7 major competitors analyzed)",
-    "Parlay B2B prospect research delivered: 30 prospects with complete contact info, roadmap for scaling to 300",
-    "Daily research briefings track sprint progress and flag blocked tasks",
-    "Weekly intelligence brief compiles team learning and strategic recommendations",
-    "Weekly compliance sweep monitors website for violations every Friday 3pm",
-    "Midday operations check monitors critical issues daily at 12pm",
-    "FDA removed 14 peptides from Category 2 list Feb 28 - major regulatory shift allowing compounding pharmacy access to BPC-157 and GHK-Cu",
+    "March 2, 2026 DIRECTIVE: Revenue stabilization focus - NO new product development until $300K/month reached",
+    "Sell MORE of what we ALREADY HAVE - not build new things",
+    "Email campaigns & GHL automation are #1 priority for revenue growth",
+    "GHL implementation in progress - manual UI deployment required (API limitations)",
+    "Sales data quality lesson: NEVER accept partial data without SKU-level breakdown",
+    "December 2025: $27,514 | January 2026: $58,813 (+113.8% growth) | March projection: $70,576/month",
+    "Inventory investment needed: $50,086 for March supply based on January velocity",
+    "FDA removed 14 peptides from Category 2 list (Feb 28) - compounding pharmacy entry imminent",
+    "5 digital products completed (Safe Peptide Starter Kit, BPC-157 Recovery Protocol, Peptide Stacking Playbook, PT-141 Research Guide, Hair Restoration Blueprint)",
+    "DTC competitor analysis complete - 7 major vendors benchmarked",
+    "Parlay B2B prospect research: 30/300 complete with full contact details",
+    "GHL deployment specs ready: 16 custom fields, 23 tags, 6 email templates, 2 pipelines",
     "Mission Control deployed to Vercel for real-time operational visibility"
   ],
   "pricing": {
-    "targetMargin": "50-70% gross margin for health & wellness products",
-    "elixserStrategy": "Research-grade peptides at competitive prices vs major vendors ($70-$260 per product)",
-    "parlayWholesale": "$35-42 per bottle to clinics, $79 retail, ~60% operating margins, MOQ 24 bottles",
-    "parlayRevenueModel": "~350 wholesale accounts needed for $3M/month B2B revenue"
-  },
-  "techStack": {
-    "CRM": "Go High Level (GHL) - funnels, email automation, pipelines for both brands",
-    "ecommerce": {
-      "elixser": "WooCommerce + Shopify",
-      "parlay": "Shopify"
-    },
-    "migration": "ActiveCampaign → GHL (in progress, Rex leading)",
-    "ownership": "Rex (CRO) owns tech stack strategy and GHL implementation"
-  },
-  "deploymentWorkflow": {
-    "enabled": true,
-    "platform": "Vercel",
-    "githubUsername": "helix8bot",
-    "process": "Build → Git → GitHub → Vercel → Share URL",
-    "mandatoryRule": "Always deploy to Vercel after building any project",
-    "documentation": "/Users/psimac/.openclaw/workspace/DEPLOYMENT_WORKFLOW.md",
-    "recentDeployments": [
-      {
-        "project": "Mission Control",
-        "date": "2026-03-01",
-        "status": "Live",
-        "url": "TBD - pending final Vercel authentication"
-      }
-    ]
-  },
-  "complianceFramework": {
-    "mandatory": true,
-    "elixserRules": [
-      "NEVER suggest human use or consumption",
-      "Frame all content as research education, not personal protocols",
-      "Use 'studies suggest' not 'use this to heal'",
-      "No dosing instructions for humans",
-      "No before/after testimonials",
-      "No 'take this for' language",
-      "All content must pass COMPLIANCE.md checklist"
-    ],
-    "weeklySweep": "Every Friday 3pm - automated website scan for violations",
-    "documentation": [
-      "COMPLIANCE.md",
-      "COMPLIANCE-CHECKLIST.md"
-    ]
-  },
-  "financialProtocol": {
-    "access": "READ-ONLY for AI team",
-    "dataEntry": "Perry's assistant updates Google Sheet every Monday before 8am",
-    "sheetID": "1ids5gXnS_KbkOc106JG42AAlCxEYyPiTpQ-wVYiLOx4",
-    "tracking": "Cash position, revenue, payables, inventory, expenses",
-    "briefing": "Monday 8am Financial Briefing reads and analyzes the data",
-    "criticalRule": "AI team NEVER asks for bank credentials, payment processors, or write access"
-  },
-  "lastUpdated": "2026-03-02T09:23:00-08:00"
+    "targetMargin": "50-70% gross margin for health & wellness",
+    "strategy": "Competitive research-grade peptide pricing vs major vendors"
+  }
 }
