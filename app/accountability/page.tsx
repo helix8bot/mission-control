@@ -493,11 +493,11 @@ export default function AccountabilityChart() {
     ::-webkit-scrollbar { width: 4px; height: 4px; }
     ::-webkit-scrollbar-track { background: transparent; }
     ::-webkit-scrollbar-thumb { background: ${BORDER}; border-radius: 2px; }
-    .desktop-view { display: block; }
-    .mobile-view { display: none; }
+    @media (min-width: 769px) {
+      .mobile-view { display: none !important; }
+    }
     @media (max-width: 768px) {
       .desktop-view { display: none !important; }
-      .mobile-view { display: block !important; }
     }
     .stats-row { display: flex; justify-content: center; gap: 40px; padding: 24px 40px; }
     .legend-row { display: flex; justify-content: center; gap: 16px; padding: 14px 40px; flex-wrap: wrap; }
