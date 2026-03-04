@@ -397,13 +397,33 @@ const TreeNode = ({ node, expandedIds, onToggle, depth = 0 }: { node: OrgNode; e
 export default function AccountabilityChart() {
   const [expandedIds, setExpandedIds] = useState(new Set(["perry", "helix"]));
   const [isMobile, setIsMobile] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    setMounted(true);
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
     handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  // Prevent hydration mismatch by not rendering until mounted
+  if (!mounted) {
+    return (
+      <div style={{
+        minHeight: "100vh", 
+        backgroundColor: BG, 
+        display: "flex", 
+        alignItems: "center", 
+        justifyContent: "center",
+        color: TEXT_DIM
+      }}>
+        <div style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14 }}>Loading...</div>
+      </div>
+    );
+  }
 
   const onToggle = (id: string) => {
     setExpandedIds((prev) => {
