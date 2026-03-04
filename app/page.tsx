@@ -130,6 +130,7 @@ export default function DashboardPage() {
     { id: "tasks", icon: "▣", label: "Tasks" },
     { id: "signals", icon: "⚡", label: "Signals" },
     { id: "team", icon: "◎", label: "Team" },
+    { id: "orgchart", icon: "◈", label: "Org Chart", href: "/accountability" },
   ];
 
   const cardStyle = (accent = false) => ({
@@ -190,9 +191,15 @@ export default function DashboardPage() {
       {!isMobile && (
         <nav style={{ display: "flex", gap: 4, padding: "12px 40px", borderBottom: "1px solid #0f1219" }}>
           {tabConfig.map(tab => (
-            <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{ fontFamily: "'DM Sans'", fontSize: 12, fontWeight: activeTab === tab.id ? 600 : 400, color: activeTab === tab.id ? "#c9a962" : "#6b7394", backgroundColor: activeTab === tab.id ? "#c9a96210" : "transparent", border: "none", padding: "8px 16px", borderRadius: 8, cursor: "pointer", letterSpacing: "0.02em", transition: "all 0.2s ease" }}>
-              {tab.icon} {tab.label}
-            </button>
+            tab.href ? (
+              <a key={tab.id} href={tab.href} style={{ fontFamily: "'DM Sans'", fontSize: 12, fontWeight: 400, color: "#6b7394", backgroundColor: "transparent", border: "none", padding: "8px 16px", borderRadius: 8, cursor: "pointer", letterSpacing: "0.02em", transition: "all 0.2s ease", textDecoration: "none", display: "block" }}>
+                {tab.icon} {tab.label}
+              </a>
+            ) : (
+              <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{ fontFamily: "'DM Sans'", fontSize: 12, fontWeight: activeTab === tab.id ? 600 : 400, color: activeTab === tab.id ? "#c9a962" : "#6b7394", backgroundColor: activeTab === tab.id ? "#c9a96210" : "transparent", border: "none", padding: "8px 16px", borderRadius: 8, cursor: "pointer", letterSpacing: "0.02em", transition: "all 0.2s ease" }}>
+                {tab.icon} {tab.label}
+              </button>
+            )
           ))}
         </nav>
       )}
