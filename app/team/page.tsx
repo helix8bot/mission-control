@@ -13,45 +13,81 @@ export default function TeamPage() {
   const [teamMembers, setTeamMembers] = useState<TeamMember[]>([
     {
       name: 'Perry',
-      role: 'Founder/CEO',
+      role: 'Founder & Operator',
       status: 'active',
       tools: ['All']
     },
     {
       name: 'Helix',
-      role: 'Chief of Staff',
+      role: 'Chief Operating Officer (COO)',
       status: 'active',
       tools: ['All']
     },
     {
-      name: 'Xena',
-      role: 'Researcher',
+      name: 'Rex',
+      role: 'Chief Revenue Officer (CRO)',
       status: 'active',
-      tools: ['exa-web-search-free', 'summarize', 'chirp', 'data-analyst']
+      tools: ['Revenue Operations', 'Analytics']
     },
     {
-      name: 'Zara',
-      role: 'Product Manager',
+      name: 'Drake',
+      role: 'VP of DTC Sales',
       status: 'active',
-      tools: ['Product Gatekeeper', 'Product Pipeline']
+      tools: ['DTC Funnels', 'Email Campaigns']
+    },
+    {
+      name: 'Blair',
+      role: 'VP of B2B Sales',
+      status: 'active',
+      tools: ['B2B Pipeline', 'Outreach']
     },
     {
       name: 'Luna',
       role: 'Marketing Strategist',
       status: 'active',
-      tools: ['chirp', 'content creation', 'analytics']
+      tools: ['Content Strategy', 'Campaigns', 'Funnels']
+    },
+    {
+      name: 'Nova',
+      role: 'Media Buyer / Paid Ads Specialist',
+      status: 'active',
+      tools: ['Paid Ads', 'Testing', 'Analytics']
+    },
+    {
+      name: 'Sage',
+      role: 'Content Specialist',
+      status: 'active',
+      tools: ['Copywriting', 'Digital Products']
+    },
+    {
+      name: 'Xena',
+      role: 'Research Analyst',
+      status: 'active',
+      tools: ['Market Research', 'Competitor Analysis']
+    },
+    {
+      name: 'Zara',
+      role: 'Product Evaluator',
+      status: 'active',
+      tools: ['Product Strategy', 'Compliance']
     },
     {
       name: 'Kira',
-      role: 'Operations Coordinator',
+      role: 'Data & Operations',
       status: 'active',
-      tools: ['Financial Dashboard', 'Google Sheets']
+      tools: ['Data Collection', 'Operations']
+    },
+    {
+      name: 'Echo',
+      role: 'Customer Success / Retention Specialist',
+      status: 'active',
+      tools: ['VIP Programs', 'Review Systems', 'Retention']
     },
     {
       name: 'Zoe',
       role: 'Financial Analyst',
       status: 'active',
-      tools: ['Financial Dashboard', 'Google Sheets', 'data-analyst']
+      tools: ['Financial Modeling', 'Revenue Projections']
     }
   ]);
 

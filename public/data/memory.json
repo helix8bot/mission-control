@@ -47,10 +47,12 @@
     { "name": "Drake", "role": "VP of DTC Sales" },
     { "name": "Blair", "role": "VP of B2B Sales" },
     { "name": "Luna", "role": "Marketing Strategist" },
+    { "name": "Nova", "role": "Media Buyer / Paid Ads Specialist", "reportsTo": "Luna" },
     { "name": "Sage", "role": "Content Specialist" },
     { "name": "Xena", "role": "Research Analyst" },
     { "name": "Zara", "role": "Product Evaluator" },
     { "name": "Kira", "role": "Data & Operations" },
+    { "name": "Echo", "role": "Customer Success / Retention Specialist", "reportsTo": "Kira" },
     { "name": "Zoe", "role": "Financial Analyst" }
   ],
   "goals": {
@@ -59,6 +61,7 @@
     "operational": "Maintain lean operations, data-driven decisions, full compliance"
   },
   "keyInsights": [
+    "Team roster: 13 total (Perry + 12 AI agents) as of March 3, 2026",
     "CRITICAL: Elixser Peptides is RESEARCH USE ONLY - never suggest human consumption",
     "Parlay Wellness is a dietary supplement - different compliance rules apply",
     "March 2, 2026 DIRECTIVE: Revenue stabilization focus - NO new product development until $300K/month reached",

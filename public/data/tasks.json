@@ -316,5 +316,25 @@
     "dueDate": "2026-03-07",
     "priority": "critical",
     "note": "Execute manual deployment using prepared guide (2-3 hours). All specs ready. Projected impact: $16,500/month"
+  },
+  {
+    "id": "602",
+    "title": "Paid Ads 30-Day Testing Roadmap",
+    "status": "In Progress",
+    "assignee": "Nova",
+    "dueDate": "2026-04-02",
+    "priority": "high",
+    "week": "ONGOING",
+    "note": "Media Buyer / Paid Ads Specialist - reports to Luna. 30-day testing roadmap for both Elixser and Parlay"
+  },
+  {
+    "id": "603",
+    "title": "VIP Program + Review Collection Workflow",
+    "status": "In Progress",
+    "assignee": "Echo",
+    "dueDate": "2026-04-02",
+    "priority": "high",
+    "week": "ONGOING",
+    "note": "Customer Success / Retention Specialist - reports to Kira. Design VIP program structure and automated review collection workflow"
   }
 ]
