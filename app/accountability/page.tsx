@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const FONT_LINK = "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap";
 
@@ -256,10 +256,10 @@ const orgData: OrgNode = {
   ],
 };
 
-const PersonCard = ({ node, expanded, onToggle, depth = 0 }: { node: OrgNode; expanded: boolean; onToggle: (id: string) => void; depth?: number }) => {
+const PersonCard = ({ node, expanded, onToggle, depth = 0, isMobile = false }: { node: OrgNode; expanded: boolean; onToggle: (id: string) => void; depth?: number; isMobile?: boolean }) => {
   const hasChildren = node.children && node.children.length > 0;
   const isLeadership = depth <= 1;
-  const cardWidth = depth === 0 ? 280 : depth === 1 ? 260 : depth === 2 ? 210 : 190;
+  const cardWidth = isMobile ? "100%" : (depth === 0 ? 280 : depth === 1 ? 260 : depth === 2 ? 210 : 190);
 
   return (
     <div
@@ -274,6 +274,7 @@ const PersonCard = ({ node, expanded, onToggle, depth = 0 }: { node: OrgNode; ex
         position: "relative",
         overflow: "hidden",
         flexShrink: 0,
+        marginBottom: isMobile ? 12 : 0,
       }}
       onClick={(e) => { e.stopPropagation(); hasChildren && onToggle(node.id); }}
     >
@@ -341,6 +342,26 @@ const PersonCard = ({ node, expanded, onToggle, depth = 0 }: { node: OrgNode; ex
   );
 };
 
+// Mobile vertical stacked layout
+const MobileTreeNode = ({ node, expandedIds, onToggle, depth = 0 }: { node: OrgNode; expandedIds: Set<string>; onToggle: (id: string) => void; depth?: number }) => {
+  const isExpanded = expandedIds.has(node.id);
+  const hasChildren = node.children && node.children.length > 0;
+
+  return (
+    <div style={{ paddingLeft: depth * 16 }}>
+      <PersonCard node={node} expanded={isExpanded} onToggle={onToggle} depth={depth} isMobile={true} />
+      {hasChildren && isExpanded && (
+        <div>
+          {node.children.map((child: OrgNode) => (
+            <MobileTreeNode key={child.id} node={child} expandedIds={expandedIds} onToggle={onToggle} depth={depth + 1} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
+
+// Desktop horizontal tree layout
 const TreeNode = ({ node, expandedIds, onToggle, depth = 0 }: { node: OrgNode; expandedIds: Set<string>; onToggle: (id: string) => void; depth?: number }) => {
   const isExpanded = expandedIds.has(node.id);
   const hasChildren = node.children && node.children.length > 0;
@@ -375,6 +396,14 @@ const TreeNode = ({ node, expandedIds, onToggle, depth = 0 }: { node: OrgNode; e
 
 export default function AccountabilityChart() {
   const [expandedIds, setExpandedIds] = useState(new Set(["perry", "helix"]));
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const onToggle = (id: string) => {
     setExpandedIds((prev) => {
@@ -416,8 +445,13 @@ export default function AccountabilityChart() {
       `}</style>
 
       <header style={{
-        display: "flex", alignItems: "center", justifyContent: "space-between",
-        padding: "20px 40px", borderBottom: "1px solid #141825",
+        display: "flex", 
+        flexDirection: isMobile ? "column" : "row",
+        alignItems: isMobile ? "flex-start" : "center", 
+        justifyContent: "space-between",
+        padding: isMobile ? "16px 20px" : "20px 40px", 
+        borderBottom: "1px solid #141825",
+        gap: isMobile ? 12 : 0,
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
           <div style={{
@@ -427,7 +461,7 @@ export default function AccountabilityChart() {
             fontSize: 14, fontWeight: 700, color: BG,
           }}>MC</div>
           <div>
-            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 18, fontWeight: 600 }}>Accountability Chart</div>
+            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: isMobile ? 16 : 18, fontWeight: 600 }}>Accountability Chart</div>
             <div style={{ fontSize: 11, color: TEXT_MUTED, marginTop: 1 }}>EOS Traction · {teamCount} Seats</div>
           </div>
         </div>
@@ -445,7 +479,15 @@ export default function AccountabilityChart() {
         </div>
       </header>
 
-      <div style={{ display: "flex", justifyContent: "center", gap: 16, padding: "14px 40px", flexWrap: "wrap", borderBottom: "1px solid #0f1219" }}>
+      <div style={{ 
+        display: isMobile ? "grid" : "flex", 
+        gridTemplateColumns: isMobile ? "1fr 1fr" : undefined,
+        justifyContent: isMobile ? undefined : "center", 
+        gap: isMobile ? 8 : 16, 
+        padding: isMobile ? "12px 20px" : "14px 40px", 
+        flexWrap: "wrap", 
+        borderBottom: "1px solid #0f1219" 
+      }}>
         {[
           { label: "Visionary", color: roleColors.visionary },
           { label: "Integrator", color: roleColors.integrator },
@@ -463,14 +505,25 @@ export default function AccountabilityChart() {
         ))}
       </div>
 
-      <div style={{ overflowX: "auto", padding: "24px 20px 40px" }}>
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", minWidth: 1400 }}>
-          <TreeNode node={orgData} expandedIds={expandedIds} onToggle={onToggle} depth={0} />
-        </div>
+      <div style={{ 
+        overflowX: isMobile ? "visible" : "auto", 
+        padding: isMobile ? "20px 20px 40px" : "24px 20px 40px" 
+      }}>
+        {isMobile ? (
+          <MobileTreeNode node={orgData} expandedIds={expandedIds} onToggle={onToggle} depth={0} />
+        ) : (
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", minWidth: 1400 }}>
+            <TreeNode node={orgData} expandedIds={expandedIds} onToggle={onToggle} depth={0} />
+          </div>
+        )}
       </div>
 
       <div style={{
-        display: "flex", justifyContent: "center", gap: 40, padding: "24px 40px",
+        display: isMobile ? "grid" : "flex", 
+        gridTemplateColumns: isMobile ? "1fr 1fr" : undefined,
+        justifyContent: isMobile ? undefined : "center", 
+        gap: isMobile ? 16 : 40, 
+        padding: isMobile ? "20px 20px" : "24px 40px",
         borderTop: "1px solid #141825",
       }}>
         {[
@@ -481,7 +534,7 @@ export default function AccountabilityChart() {
           { label: "Helix Direct Reports", value: "5" },
         ].map((stat, i) => (
           <div key={i} style={{ textAlign: "center" as const }}>
-            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 20, fontWeight: 600, color: TEXT_PRIMARY }}>{stat.value}</div>
+            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: isMobile ? 18 : 20, fontWeight: 600, color: TEXT_PRIMARY }}>{stat.value}</div>
             <div style={{ fontFamily: "'DM Sans'", fontSize: 10, color: TEXT_DIM, marginTop: 2, letterSpacing: "0.06em", textTransform: "uppercase" as const }}>{stat.label}</div>
           </div>
         ))}
