@@ -1,13 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const FONT_LINK = "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap";
 
 const GOLD = "#c9a962";
 const BG = "#0a0d14";
-const CARD_ACCENT = "linear-gradient(135deg, #1a1f2e 0%, #0f1219 100%)";
-const CARD_BG = "linear-gradient(180deg, #12151e 0%, #0d1017 100%)";
+const CARD_BG = "#12151e";
 const BORDER = "#1e2333";
 const TEXT_PRIMARY = "#f0ece4";
 const TEXT_SECONDARY = "#c8cde0";
@@ -256,15 +255,136 @@ const orgData: OrgNode = {
   ],
 };
 
-const PersonCard = ({ node, expanded, onToggle, depth = 0, isMobile = false }: { node: OrgNode; expanded: boolean; onToggle: (id: string) => void; depth?: number; isMobile?: boolean }) => {
+function MobileCard({ node, expanded, onToggle, depth }: { node: OrgNode; expanded: boolean; onToggle: (id: string) => void; depth: number }) {
+  const hasChildren = node.children && node.children.length > 0;
+  return (
+    <div style={{ marginLeft: depth * 16 }}>
+      <div
+        onClick={() => hasChildren && onToggle(node.id)}
+        style={{
+          background: CARD_BG,
+          border: `1px solid ${expanded ? node.color + "40" : BORDER}`,
+          borderLeft: `3px solid ${node.color}`,
+          borderRadius: 10,
+          padding: "12px 14px",
+          marginBottom: 8,
+          cursor: hasChildren ? "pointer" : "default",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+          <div style={{
+            width: 28, height: 28, borderRadius: "50%",
+            background: node.color + "20", border: `2px solid ${node.color}50`,
+            display: "flex", alignItems: "center", justifyContent: "center",
+            fontSize: 11, fontWeight: 700, color: node.color,
+            fontFamily: "'DM Sans', sans-serif", flexShrink: 0,
+          }}>
+            {node.name[0]}
+          </div>
+          <div style={{ flex: 1 }}>
+            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 13, fontWeight: 600, color: TEXT_PRIMARY }}>{node.name}</div>
+            <div style={{ fontFamily: "'DM Sans'", fontSize: 8, fontWeight: 600, color: node.color, letterSpacing: "0.08em", textTransform: "uppercase" as const }}>{node.title}</div>
+          </div>
+          {hasChildren && (
+            <span style={{ fontSize: 11, color: TEXT_DIM, transform: expanded ? "rotate(180deg)" : "rotate(0)", transition: "transform 0.2s" }}>▾</span>
+          )}
+        </div>
+        <div style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_MUTED, marginBottom: 6 }}>{node.subtitle}</div>
+        {node.seats.map((s, i) => (
+          <div key={i} style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_SECONDARY, padding: "1px 0", display: "flex", gap: 4, lineHeight: 1.35 }}>
+            <span style={{ color: node.color, fontSize: 5, marginTop: 4, flexShrink: 0 }}>●</span>{s}
+          </div>
+        ))}
+        {expanded && node.rocks.length > 0 && (
+          <div style={{ marginTop: 6, paddingTop: 6, borderTop: `1px solid ${BORDER}` }}>
+            <div style={{ fontFamily: "'DM Sans'", fontSize: 7, fontWeight: 600, color: GOLD, letterSpacing: "0.1em", textTransform: "uppercase" as const, marginBottom: 3 }}>ROCKS</div>
+            {node.rocks.map((r, i) => (
+              <div key={i} style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_SECONDARY, padding: "1px 0", display: "flex", gap: 4, lineHeight: 1.35 }}>
+                <span style={{ color: GOLD, fontSize: 7, marginTop: 2, flexShrink: 0 }}>◆</span>{r}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+      {hasChildren && expanded && node.children.map(child => (
+        <MobileCard key={child.id} node={child} expanded={expandedSet.has(child.id)} onToggle={onToggle} depth={depth + 1} />
+      ))}
+    </div>
+  );
+}
+
+// Need a module-level ref workaround — we'll use the component below instead
+let expandedSet = new Set<string>();
+
+function MobileTree({ node, expandedIds, onToggle, depth = 0 }: { node: OrgNode; expandedIds: Set<string>; onToggle: (id: string) => void; depth?: number }) {
+  expandedSet = expandedIds;
+  const expanded = expandedIds.has(node.id);
+  const hasChildren = node.children && node.children.length > 0;
+  return (
+    <div style={{ marginLeft: depth > 0 ? 16 : 0 }}>
+      <div
+        onClick={() => hasChildren && onToggle(node.id)}
+        style={{
+          background: CARD_BG,
+          border: `1px solid ${expanded ? node.color + "40" : BORDER}`,
+          borderLeft: `3px solid ${node.color}`,
+          borderRadius: 10,
+          padding: "12px 14px",
+          marginBottom: 8,
+          cursor: hasChildren ? "pointer" : "default",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+          <div style={{
+            width: 28, height: 28, borderRadius: "50%",
+            background: node.color + "20", border: `2px solid ${node.color}50`,
+            display: "flex", alignItems: "center", justifyContent: "center",
+            fontSize: 11, fontWeight: 700, color: node.color,
+            fontFamily: "'DM Sans', sans-serif", flexShrink: 0,
+          }}>
+            {node.name[0]}
+          </div>
+          <div style={{ flex: 1 }}>
+            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 13, fontWeight: 600, color: TEXT_PRIMARY }}>{node.name}</div>
+            <div style={{ fontFamily: "'DM Sans'", fontSize: 8, fontWeight: 600, color: node.color, letterSpacing: "0.08em", textTransform: "uppercase" as const }}>{node.title}</div>
+          </div>
+          {hasChildren && (
+            <span style={{ fontSize: 11, color: TEXT_DIM, transform: expanded ? "rotate(180deg)" : "rotate(0)", transition: "transform 0.2s" }}>▾</span>
+          )}
+        </div>
+        <div style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_MUTED, marginBottom: 6 }}>{node.subtitle}</div>
+        {node.seats.map((s, i) => (
+          <div key={i} style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_SECONDARY, padding: "1px 0", display: "flex", gap: 4, lineHeight: 1.35 }}>
+            <span style={{ color: node.color, fontSize: 5, marginTop: 4, flexShrink: 0 }}>●</span>{s}
+          </div>
+        ))}
+        {expanded && node.rocks.length > 0 && (
+          <div style={{ marginTop: 6, paddingTop: 6, borderTop: `1px solid ${BORDER}` }}>
+            <div style={{ fontFamily: "'DM Sans'", fontSize: 7, fontWeight: 600, color: GOLD, letterSpacing: "0.1em", textTransform: "uppercase" as const, marginBottom: 3 }}>ROCKS</div>
+            {node.rocks.map((r, i) => (
+              <div key={i} style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_SECONDARY, padding: "1px 0", display: "flex", gap: 4, lineHeight: 1.35 }}>
+                <span style={{ color: GOLD, fontSize: 7, marginTop: 2, flexShrink: 0 }}>◆</span>{r}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+      {hasChildren && expanded && node.children.map(child => (
+        <MobileTree key={child.id} node={child} expandedIds={expandedIds} onToggle={onToggle} depth={(depth || 0) + 1} />
+      ))}
+    </div>
+  );
+}
+
+const DesktopCard = ({ node, expanded, onToggle, depth = 0 }: { node: OrgNode; expanded: boolean; onToggle: (id: string) => void; depth?: number }) => {
   const hasChildren = node.children && node.children.length > 0;
   const isLeadership = depth <= 1;
-  const cardWidth = isMobile ? "100%" : (depth === 0 ? 280 : depth === 1 ? 260 : depth === 2 ? 210 : 190);
+  const cardWidth = depth === 0 ? 280 : depth === 1 ? 260 : depth === 2 ? 210 : 190;
 
   return (
     <div
       style={{
-        background: isLeadership ? CARD_ACCENT : CARD_BG,
+        background: CARD_BG,
         border: `1px solid ${expanded ? node.color + "40" : BORDER}`,
         borderRadius: 14,
         padding: isLeadership ? "16px 18px" : "12px 14px",
@@ -274,12 +394,10 @@ const PersonCard = ({ node, expanded, onToggle, depth = 0, isMobile = false }: {
         position: "relative",
         overflow: "hidden",
         flexShrink: 0,
-        marginBottom: isMobile ? 12 : 0,
       }}
       onClick={(e) => { e.stopPropagation(); hasChildren && onToggle(node.id); }}
     >
       <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 3, background: node.color, opacity: 0.8 }} />
-
       <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
         <div style={{
           width: isLeadership ? 34 : 28, height: isLeadership ? 34 : 28, borderRadius: "50%",
@@ -291,49 +409,28 @@ const PersonCard = ({ node, expanded, onToggle, depth = 0, isMobile = false }: {
           {node.name[0]}
         </div>
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ fontFamily: "'Playfair Display', serif", fontSize: isLeadership ? 14 : 12, fontWeight: 600, color: TEXT_PRIMARY, lineHeight: 1.2 }}>
-            {node.name}
-          </div>
-          <div style={{ fontFamily: "'DM Sans'", fontSize: 8, fontWeight: 600, color: node.color, letterSpacing: "0.08em", textTransform: "uppercase" as const, marginTop: 1 }}>
-            {node.title}
-          </div>
+          <div style={{ fontFamily: "'Playfair Display', serif", fontSize: isLeadership ? 14 : 12, fontWeight: 600, color: TEXT_PRIMARY, lineHeight: 1.2 }}>{node.name}</div>
+          <div style={{ fontFamily: "'DM Sans'", fontSize: 8, fontWeight: 600, color: node.color, letterSpacing: "0.08em", textTransform: "uppercase" as const, marginTop: 1 }}>{node.title}</div>
         </div>
         {hasChildren && (
           <span style={{ fontSize: 11, color: TEXT_DIM, transform: expanded ? "rotate(180deg)" : "rotate(0)", transition: "transform 0.2s ease", flexShrink: 0 }}>▾</span>
         )}
       </div>
-
-      <div style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_MUTED, marginBottom: 7, paddingLeft: 2 }}>
-        {node.subtitle}
-      </div>
-
+      <div style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_MUTED, marginBottom: 7, paddingLeft: 2 }}>{node.subtitle}</div>
       <div style={{ marginBottom: expanded ? 8 : 0 }}>
-        <div style={{ fontFamily: "'DM Sans'", fontSize: 7, fontWeight: 600, color: TEXT_DIM, letterSpacing: "0.1em", textTransform: "uppercase" as const, marginBottom: 4 }}>
-          ACCOUNTABILITIES
-        </div>
-        {node.seats.map((seat: string, i: number) => (
-          <div key={i} style={{
-            fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_SECONDARY,
-            padding: "1.5px 0", display: "flex", alignItems: "flex-start", gap: 4, lineHeight: 1.35,
-          }}>
-            <span style={{ color: node.color, fontSize: 5, marginTop: 4, flexShrink: 0 }}>●</span>
-            {seat}
+        <div style={{ fontFamily: "'DM Sans'", fontSize: 7, fontWeight: 600, color: TEXT_DIM, letterSpacing: "0.1em", textTransform: "uppercase" as const, marginBottom: 4 }}>ACCOUNTABILITIES</div>
+        {node.seats.map((seat, i) => (
+          <div key={i} style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_SECONDARY, padding: "1.5px 0", display: "flex", alignItems: "flex-start", gap: 4, lineHeight: 1.35 }}>
+            <span style={{ color: node.color, fontSize: 5, marginTop: 4, flexShrink: 0 }}>●</span>{seat}
           </div>
         ))}
       </div>
-
       {expanded && node.rocks && (
         <div style={{ marginTop: 6, paddingTop: 6, borderTop: `1px solid ${BORDER}` }}>
-          <div style={{ fontFamily: "'DM Sans'", fontSize: 7, fontWeight: 600, color: GOLD, letterSpacing: "0.1em", textTransform: "uppercase" as const, marginBottom: 4 }}>
-            ROCKS
-          </div>
-          {node.rocks.map((rock: string, i: number) => (
-            <div key={i} style={{
-              fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_SECONDARY,
-              padding: "1.5px 0", display: "flex", alignItems: "flex-start", gap: 4, lineHeight: 1.35,
-            }}>
-              <span style={{ color: GOLD, fontSize: 7, marginTop: 2, flexShrink: 0 }}>◆</span>
-              {rock}
+          <div style={{ fontFamily: "'DM Sans'", fontSize: 7, fontWeight: 600, color: GOLD, letterSpacing: "0.1em", textTransform: "uppercase" as const, marginBottom: 4 }}>ROCKS</div>
+          {node.rocks.map((rock, i) => (
+            <div key={i} style={{ fontFamily: "'DM Sans'", fontSize: 9, color: TEXT_SECONDARY, padding: "1.5px 0", display: "flex", alignItems: "flex-start", gap: 4, lineHeight: 1.35 }}>
+              <span style={{ color: GOLD, fontSize: 7, marginTop: 2, flexShrink: 0 }}>◆</span>{rock}
             </div>
           ))}
         </div>
@@ -342,49 +439,22 @@ const PersonCard = ({ node, expanded, onToggle, depth = 0, isMobile = false }: {
   );
 };
 
-// Mobile vertical stacked layout
-const MobileTreeNode = ({ node, expandedIds, onToggle, depth = 0 }: { node: OrgNode; expandedIds: Set<string>; onToggle: (id: string) => void; depth?: number }) => {
+const DesktopTree = ({ node, expandedIds, onToggle, depth = 0 }: { node: OrgNode; expandedIds: Set<string>; onToggle: (id: string) => void; depth?: number }) => {
   const isExpanded = expandedIds.has(node.id);
   const hasChildren = node.children && node.children.length > 0;
-
-  return (
-    <div style={{ paddingLeft: depth * 16 }}>
-      <PersonCard node={node} expanded={isExpanded} onToggle={onToggle} depth={depth} isMobile={true} />
-      {hasChildren && isExpanded && (
-        <div>
-          {node.children.map((child: OrgNode) => (
-            <MobileTreeNode key={child.id} node={child} expandedIds={expandedIds} onToggle={onToggle} depth={depth + 1} />
-          ))}
-        </div>
-      )}
-    </div>
-  );
-};
-
-// Desktop horizontal tree layout
-const TreeNode = ({ node, expandedIds, onToggle, depth = 0 }: { node: OrgNode; expandedIds: Set<string>; onToggle: (id: string) => void; depth?: number }) => {
-  const isExpanded = expandedIds.has(node.id);
-  const hasChildren = node.children && node.children.length > 0;
-
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-      <PersonCard node={node} expanded={isExpanded} onToggle={onToggle} depth={depth} />
-
+      <DesktopCard node={node} expanded={isExpanded} onToggle={onToggle} depth={depth} />
       {hasChildren && isExpanded && (
         <>
           <div style={{ width: 2, height: 16, backgroundColor: node.color, opacity: 0.3 }} />
-
-          <div style={{
-            display: "flex", justifyContent: "center",
-            gap: depth <= 1 ? 12 : 10,
-            position: "relative",
-          }}>
-            {node.children.map((child: OrgNode) => (
+          <div style={{ display: "flex", justifyContent: "center", gap: depth <= 1 ? 12 : 10, position: "relative" }}>
+            {node.children.map((child) => (
               <div key={child.id} style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                 {node.children.length > 1 && (
                   <div style={{ width: 2, height: 14, backgroundColor: node.color, opacity: 0.2 }} />
                 )}
-                <TreeNode node={child} expandedIds={expandedIds} onToggle={onToggle} depth={depth + 1} />
+                <DesktopTree node={child} expandedIds={expandedIds} onToggle={onToggle} depth={(depth || 0) + 1} />
               </div>
             ))}
           </div>
@@ -396,34 +466,6 @@ const TreeNode = ({ node, expandedIds, onToggle, depth = 0 }: { node: OrgNode; e
 
 export default function AccountabilityChart() {
   const [expandedIds, setExpandedIds] = useState(new Set(["perry", "helix"]));
-  const [isMobile, setIsMobile] = useState(false);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  // Prevent hydration mismatch by not rendering until mounted
-  if (!mounted) {
-    return (
-      <div style={{
-        minHeight: "100vh", 
-        backgroundColor: BG, 
-        display: "flex", 
-        alignItems: "center", 
-        justifyContent: "center",
-        color: TEXT_DIM
-      }}>
-        <div style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 14 }}>Loading...</div>
-      </div>
-    );
-  }
 
   const onToggle = (id: string) => {
     setExpandedIds((prev) => {
@@ -443,36 +485,36 @@ export default function AccountabilityChart() {
 
   const collapseAll = () => setExpandedIds(new Set(["perry"]));
 
-  const teamCount = (() => {
-    let count = 0;
-    const c = (node: OrgNode) => { count++; node.children?.forEach(c); };
-    c(orgData);
-    return count;
-  })();
+  const teamCount = 13;
+
+  const cssReset = `
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: ${BG}; }
+    ::-webkit-scrollbar { width: 4px; height: 4px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: ${BORDER}; border-radius: 2px; }
+    .desktop-view { display: block; }
+    .mobile-view { display: none; }
+    @media (max-width: 768px) {
+      .desktop-view { display: none !important; }
+      .mobile-view { display: block !important; }
+    }
+    .stats-row { display: flex; justify-content: center; gap: 40px; padding: 24px 40px; }
+    .legend-row { display: flex; justify-content: center; gap: 16px; padding: 14px 40px; flex-wrap: wrap; }
+    .header-row { display: flex; align-items: center; justify-content: space-between; padding: 20px 40px; }
+    @media (max-width: 768px) {
+      .stats-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 20px; }
+      .legend-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 12px 20px; }
+      .header-row { flex-direction: column; align-items: flex-start; padding: 16px 20px; gap: 12px; }
+    }
+  `;
 
   return (
-    <div style={{
-      minHeight: "100vh", backgroundColor: BG, color: TEXT_PRIMARY,
-      fontFamily: "'DM Sans', sans-serif",
-    }}>
+    <div style={{ minHeight: "100vh", backgroundColor: BG, color: TEXT_PRIMARY, fontFamily: "'DM Sans', sans-serif" }}>
       <link rel="stylesheet" href={FONT_LINK} />
-      <style>{`
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: ${BG}; }
-        ::-webkit-scrollbar { width: 4px; height: 4px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: ${BORDER}; border-radius: 2px; }
-      `}</style>
+      <style dangerouslySetInnerHTML={{ __html: cssReset }} />
 
-      <header style={{
-        display: "flex", 
-        flexDirection: isMobile ? "column" : "row",
-        alignItems: isMobile ? "flex-start" : "center", 
-        justifyContent: "space-between",
-        padding: isMobile ? "16px 20px" : "20px 40px", 
-        borderBottom: "1px solid #141825",
-        gap: isMobile ? 12 : 0,
-      }}>
+      <header className="header-row" style={{ borderBottom: "1px solid #141825" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
           <div style={{
             width: 32, height: 32, borderRadius: 8,
@@ -481,7 +523,7 @@ export default function AccountabilityChart() {
             fontSize: 14, fontWeight: 700, color: BG,
           }}>MC</div>
           <div>
-            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: isMobile ? 16 : 18, fontWeight: 600 }}>Accountability Chart</div>
+            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 18, fontWeight: 600 }}>Accountability Chart</div>
             <div style={{ fontSize: 11, color: TEXT_MUTED, marginTop: 1 }}>EOS Traction · {teamCount} Seats</div>
           </div>
         </div>
@@ -499,15 +541,7 @@ export default function AccountabilityChart() {
         </div>
       </header>
 
-      <div style={{ 
-        display: isMobile ? "grid" : "flex", 
-        gridTemplateColumns: isMobile ? "1fr 1fr" : undefined,
-        justifyContent: isMobile ? undefined : "center", 
-        gap: isMobile ? 8 : 16, 
-        padding: isMobile ? "12px 20px" : "14px 40px", 
-        flexWrap: "wrap", 
-        borderBottom: "1px solid #0f1219" 
-      }}>
+      <div className="legend-row" style={{ borderBottom: "1px solid #0f1219" }}>
         {[
           { label: "Visionary", color: roleColors.visionary },
           { label: "Integrator", color: roleColors.integrator },
@@ -525,36 +559,28 @@ export default function AccountabilityChart() {
         ))}
       </div>
 
-      <div style={{ 
-        overflowX: isMobile ? "visible" : "auto", 
-        padding: isMobile ? "20px 20px 40px" : "24px 20px 40px" 
-      }}>
-        {isMobile ? (
-          <MobileTreeNode node={orgData} expandedIds={expandedIds} onToggle={onToggle} depth={0} />
-        ) : (
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", minWidth: 1400 }}>
-            <TreeNode node={orgData} expandedIds={expandedIds} onToggle={onToggle} depth={0} />
-          </div>
-        )}
+      {/* Desktop: horizontal tree */}
+      <div className="desktop-view" style={{ overflowX: "auto", padding: "24px 20px 40px" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", minWidth: 1400 }}>
+          <DesktopTree node={orgData} expandedIds={expandedIds} onToggle={onToggle} depth={0} />
+        </div>
       </div>
 
-      <div style={{
-        display: isMobile ? "grid" : "flex", 
-        gridTemplateColumns: isMobile ? "1fr 1fr" : undefined,
-        justifyContent: isMobile ? undefined : "center", 
-        gap: isMobile ? 16 : 40, 
-        padding: isMobile ? "20px 20px" : "24px 40px",
-        borderTop: "1px solid #141825",
-      }}>
+      {/* Mobile: vertical stacked list */}
+      <div className="mobile-view" style={{ padding: "16px 12px 40px" }}>
+        <MobileTree node={orgData} expandedIds={expandedIds} onToggle={onToggle} depth={0} />
+      </div>
+
+      <div className="stats-row" style={{ borderTop: "1px solid #141825" }}>
         {[
-          { label: "Total Seats", value: teamCount },
+          { label: "Total Seats", value: String(teamCount) },
           { label: "Revenue Target", value: "$4M/mo" },
           { label: "Elixser Target", value: "$1M/mo" },
           { label: "Parlay Target", value: "$3M/mo" },
           { label: "Helix Direct Reports", value: "5" },
         ].map((stat, i) => (
           <div key={i} style={{ textAlign: "center" as const }}>
-            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: isMobile ? 18 : 20, fontWeight: 600, color: TEXT_PRIMARY }}>{stat.value}</div>
+            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 20, fontWeight: 600, color: TEXT_PRIMARY }}>{stat.value}</div>
             <div style={{ fontFamily: "'DM Sans'", fontSize: 10, color: TEXT_DIM, marginTop: 2, letterSpacing: "0.06em", textTransform: "uppercase" as const }}>{stat.label}</div>
           </div>
         ))}
