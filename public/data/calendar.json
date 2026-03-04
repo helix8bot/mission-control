@@ -6,7 +6,7 @@
     "schedule": "0 23 * * *",
     "tz": "America/Los_Angeles",
     "description": "Daily at 11:00 PM - Update all Mission Control dashboards with current data from workspace files. Git commit and push to trigger automatic Vercel deployment.",
-    "nextRun": "2026-03-02T23:00:00-08:00",
+    "nextRun": "2026-03-04T23:00:00-08:00",
     "status": "running",
     "deliverables": ["Updated tasks.json", "Updated products.json", "Updated calendar.json", "Updated memory.json", "Updated social.json", "Git push → Vercel deployment"]
   },
@@ -17,7 +17,7 @@
     "schedule": "0 9 * * 1-5",
     "tz": "America/Los_Angeles",
     "description": "Weekdays at 9:00 AM - Monitor Reddit communities (r/Peptides, r/Biohackers, r/Nootropics), check competitor websites, identify product opportunities, assess sprint progress, flag blocked tasks.",
-    "nextRun": "2026-03-03T09:00:00-08:00",
+    "nextRun": "2026-03-04T09:00:00-08:00",
     "status": "ok",
     "deliverables": ["Consumer insights", "Competitor updates", "Sprint status", "Product opportunities", "Blocked task alerts"]
   },
@@ -28,7 +28,7 @@
     "schedule": "0 12 * * *",
     "tz": "America/Los_Angeles",
     "description": "Daily at 12:00 PM - Brief check for critical issues: cash position alerts, low inventory warnings, overdue payables, blocked tasks stuck 3+ days. Only reports if issues found.",
-    "nextRun": "2026-03-03T12:00:00-08:00",
+    "nextRun": "2026-03-04T12:00:00-08:00",
     "status": "ok",
     "deliverables": ["Critical issue alerts or all-clear confirmation"]
   },
@@ -61,7 +61,7 @@
     "schedule": "0 8 * * 1",
     "tz": "America/Los_Angeles",
     "description": "Mondays at 8:00 AM - Read financial data from Google Sheet (READ-ONLY), analyze cash position, runway, payables due, inventory alerts, revenue trends vs targets.",
-    "nextRun": "2026-03-09T08:00:00-08:00",
+    "nextRun": "2026-03-10T08:00:00-08:00",
     "status": "ok",
     "deliverables": ["Cash position & runway", "Revenue vs target", "Payables alerts", "Inventory status"]
   }
