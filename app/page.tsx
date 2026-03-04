@@ -92,8 +92,10 @@ export default function DashboardPage() {
         if (usageRes?.ok) {
           const d = await usageRes.json();
           const today = new Date().toISOString().slice(0, 10);
+          const currentMonth = today.slice(0, 7); // "2026-03"
           const dailyData = d.dailyUsage?.[today];
-          if (dailyData) setUsage({ today: dailyData.estimatedCost || 0, month: Object.values(d.dailyUsage || {}).reduce((a: number, b: any) => a + (b.estimatedCost || 0), 0) as number, tokensToday: (dailyData.totalInputTokens || 0) + (dailyData.totalOutputTokens || 0) });
+          const monthCost = d.monthlyUsage?.[currentMonth]?.estimatedCost || 0;
+          if (dailyData) setUsage({ today: dailyData.estimatedCost || 0, month: monthCost, tokensToday: (dailyData.totalInputTokens || 0) + (dailyData.totalOutputTokens || 0) });
         }
       } catch (e) { console.error('Fetch error:', e); }
     };
