@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "brightdata": {
+      "baseUrl": "https://mcp.brightdata.com/mcp?token=9f2ca547-cc30-4a4a-bf7f-14aa0d0d2f11&groups=advanced_scraping,ecommerce,social,finance,research"
+    }
+  },
+  "imports": []
+}

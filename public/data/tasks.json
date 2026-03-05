@@ -336,5 +336,65 @@
     "priority": "high",
     "week": "ONGOING",
     "note": "Customer Success / Retention Specialist - reports to Kira. Design VIP program structure and automated review collection workflow"
+  },
+  {
+    "id": "700",
+    "title": "Draft The Peptide Gut-Brain Healing Protocol digital product",
+    "status": "To Do",
+    "assignee": "Luna",
+    "dueDate": "2026-03-06",
+    "priority": "high",
+    "week": "WEEK 1",
+    "note": "New opportunity based on anxiety/gut-brain axis research - $12B+ market"
+  },
+  {
+    "id": "701",
+    "title": "Create PT-141 gender-specific guide PDF (1-pager)",
+    "status": "To Do",
+    "assignee": "Luna",
+    "dueDate": "2026-03-05",
+    "priority": "high",
+    "week": "WEEK 1",
+    "note": "Quick-win educational content to include with PT-141 orders"
+  },
+  {
+    "id": "702",
+    "title": "Run 3 physical product opportunities through Product Gatekeeper evaluation",
+    "status": "To Do",
+    "assignee": "Zara",
+    "dueDate": "2026-03-05",
+    "priority": "high",
+    "week": "WEEK 1",
+    "note": "Product expansion evaluation based on market signals"
+  },
+  {
+    "id": "703",
+    "title": "Update knowledge base files with new research findings (5 files)",
+    "status": "To Do",
+    "assignee": "Xena",
+    "dueDate": "2026-03-06",
+    "priority": "medium",
+    "week": "WEEK 1",
+    "note": "Gut-brain axis, BDNF, female hair loss, injection fatigue research"
+  },
+  {
+    "id": "704",
+    "title": "Launch gut-brain healing email campaign targeting BPC-157 prospects",
+    "status": "To Do",
+    "assignee": "Luna",
+    "dueDate": "2026-03-06",
+    "priority": "high",
+    "week": "WEEK 1",
+    "note": "Anxiety → gut healing pathway positioning"
+  },
+  {
+    "id": "705",
+    "title": "Create sprint tracking system with Week 1/2/3 structure",
+    "status": "To Do",
+    "assignee": "Kira",
+    "dueDate": "2026-03-05",
+    "priority": "high",
+    "week": "WEEK 1",
+    "note": "Team coordination and accountability tracking system"
   }
 ]
