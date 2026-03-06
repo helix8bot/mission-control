@@ -3,66 +3,80 @@
     "id": "bc5429b9-0a41-4280-81e2-7b727c43d5d6",
     "name": "Mission Control Maintenance",
     "type": "cron",
-    "schedule": "0 23 * * *",
+    "schedule": "0 23 * * * (Daily 11:00 PM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Daily at 11:00 PM - Update all Mission Control dashboards with current data from workspace files. Git commit and push to trigger automatic Vercel deployment.",
-    "nextRun": "2026-03-04T23:00:00-08:00",
-    "status": "running",
-    "deliverables": ["Updated tasks.json", "Updated products.json", "Updated calendar.json", "Updated memory.json", "Updated social.json", "Git push → Vercel deployment"]
+    "description": "Update all Mission Control dashboards with current data from workspace files. Updates social.json from daily signals, syncs tasks/products/calendar/memory data, commits to git, triggers Vercel deployment.",
+    "nextRun": "2026-03-06T23:00:00-08:00",
+    "status": "active"
   },
   {
     "id": "9e97a0ce-10ee-4df9-a3ec-ef580dcb25ab",
     "name": "Daily Research Briefing",
     "type": "cron",
-    "schedule": "0 9 * * 1-5",
+    "schedule": "0 9 * * 1-5 (Weekdays 9:00 AM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Weekdays at 9:00 AM - Monitor Reddit communities (r/Peptides, r/Biohackers, r/Nootropics), check competitor websites, identify product opportunities, assess sprint progress, flag blocked tasks.",
-    "nextRun": "2026-03-04T09:00:00-08:00",
-    "status": "ok",
-    "deliverables": ["Consumer insights", "Competitor updates", "Sprint status", "Product opportunities", "Blocked task alerts"]
+    "description": "Monitor Reddit communities (r/Peptides, r/Biohackers, r/Nootropics, r/tressless, r/longevity), check competitor websites, identify product opportunities, assess sprint progress, flag blocked tasks. Creates daily-signals.json for Mission Control dashboard.",
+    "nextRun": "2026-03-06T09:00:00-08:00",
+    "status": "active"
   },
   {
     "id": "da62c821-4d8e-467d-a7fc-c072e4d6ecc8",
     "name": "Midday Operations Check",
     "type": "cron",
-    "schedule": "0 12 * * *",
+    "schedule": "0 12 * * * (Daily 12:00 PM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Daily at 12:00 PM - Brief check for critical issues: cash position alerts, low inventory warnings, overdue payables, blocked tasks stuck 3+ days. Only reports if issues found.",
-    "nextRun": "2026-03-04T12:00:00-08:00",
-    "status": "ok",
-    "deliverables": ["Critical issue alerts or all-clear confirmation"]
+    "description": "Critical issues check: cash position alerts, low inventory warnings, overdue payables, blocked tasks stuck 3+ days. Only reports if issues found. Pulls from Helix Financial Data spreadsheet and Business Data folder.",
+    "nextRun": "2026-03-06T12:00:00-08:00",
+    "status": "active"
   },
   {
     "id": "97eb6bbb-1d68-4193-823a-b28967b80633",
     "name": "Weekly Compliance Sweep",
     "type": "cron",
-    "schedule": "0 15 * * 5",
+    "schedule": "0 15 * * 5 (Fridays 3:00 PM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Fridays at 3:00 PM - Scan elixserpeptides.com for compliance violations. Check against COMPLIANCE.md rules: no human dosing instructions, no 'use this to heal' language, research-only framing.",
+    "description": "Scan elixserpeptides.com for compliance violations. Check against COMPLIANCE.md rules: no human dosing instructions, no 'use this to heal' language, research-only framing.",
     "nextRun": "2026-03-07T15:00:00-08:00",
-    "status": "idle",
-    "deliverables": ["Compliance scan report", "Violation alerts", "Recommended fixes"]
+    "status": "active"
   },
   {
     "id": "a3d57b0e-bcb2-4aff-bef0-8af63f0cbd7c",
     "name": "Weekly Intelligence Brief",
     "type": "cron",
-    "schedule": "0 16 * * 5",
+    "schedule": "0 16 * * 5 (Fridays 4:00 PM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Fridays at 4:00 PM - Compile weekly learning from all team members, strategic insights, recommended actions, new opportunities identified, risks to monitor.",
+    "description": "Compile weekly learning from all team members, strategic insights, recommended actions, new opportunities identified, risks to monitor. Aggregates all learning logs into strategic intelligence brief.",
     "nextRun": "2026-03-07T16:00:00-08:00",
-    "status": "idle",
-    "deliverables": ["Weekly learning summary", "Strategic recommendations", "Opportunity pipeline", "Risk assessment"]
+    "status": "active"
   },
   {
     "id": "496fe130-1e8e-4b7b-98a2-ea7637aecc9e",
     "name": "Weekly Financial Briefing",
     "type": "cron",
-    "schedule": "0 8 * * 1",
+    "schedule": "0 8 * * 1 (Mondays 8:00 AM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Mondays at 8:00 AM - Read financial data from Google Sheet (READ-ONLY), analyze cash position, runway, payables due, inventory alerts, revenue trends vs targets.",
+    "description": "Read financial data from Google Sheet, analyze cash position, runway, payables due, inventory alerts, revenue trends vs targets. Pulls from Helix Financial Data spreadsheet and validates against Business Data CSV files.",
     "nextRun": "2026-03-10T08:00:00-08:00",
-    "status": "ok",
-    "deliverables": ["Cash position & runway", "Revenue vs target", "Payables alerts", "Inventory status"]
+    "status": "active"
+  },
+  {
+    "id": "540a2ed4-0964-4471-a633-f30e5ceff8d3",
+    "name": "Daily Team Learning - All 12 Members",
+    "type": "cron",
+    "schedule": "0 20 * * * (Daily 8:00 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Every team member completes daily learning (30-60 min), documents with specific application to our business, produces concrete deliverable, uploads to Google Drive. Mandatory skill building for all 12 AI agents (Rex, Drake, Blair, Luna, Sage, Nova, Kira, Echo, Xena, Zara, Zoe).",
+    "nextRun": "2026-03-06T20:00:00-08:00",
+    "status": "active"
+  },
+  {
+    "id": "8766e735-d4d3-4b3a-90d7-72b9a4b0fd60",
+    "name": "Cron Failure Monitor",
+    "type": "cron",
+    "schedule": "15 * * * * (Every hour at :15)",
+    "tz": "America/Los_Angeles",
+    "description": "Alert only on status transitions. Monitors all cron jobs for failures and recoveries. Sends alert when job breaks (ok → error) or recovers (error → ok). Silent when stable.",
+    "nextRun": "2026-03-06T00:15:00-08:00",
+    "status": "active"
   }
 ]

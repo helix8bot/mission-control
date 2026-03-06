@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T06:58:41.941Z",
+  "lastUpdated": "2026-03-06T07:00:07.536Z",
   "generatedBy": "update-usage.js (auto-parsed from OpenClaw sessions)",
   "dailyUsage": {
     "2026-02-23": {
@@ -42,6 +42,19 @@
         "claude-3-haiku-20240307": 8
       }
     },
+    "2026-03-05": {
+      "date": "2026-03-05",
+      "totalInputTokens": 2628,
+      "totalOutputTokens": 150558,
+      "cacheReadTokens": 12754953,
+      "cacheWriteTokens": 3995457,
+      "totalTokens": 16903596,
+      "estimatedCost": 21.075704,
+      "messageCount": 234,
+      "models": {
+        "claude-sonnet-4-5-20250929": 234
+      }
+    },
     "2026-02-27": {
       "date": "2026-02-27",
       "totalInputTokens": 86,
@@ -82,6 +95,19 @@
       "models": {
         "claude-3-haiku-20240307": 255,
         "claude-sonnet-4-5-20250929": 72
+      }
+    },
+    "2026-03-06": {
+      "date": "2026-03-06",
+      "totalInputTokens": 425,
+      "totalOutputTokens": 34544,
+      "cacheReadTokens": 1381413,
+      "cacheWriteTokens": 632560,
+      "totalTokens": 2048942,
+      "estimatedCost": 3.305959,
+      "messageCount": 36,
+      "models": {
+        "claude-sonnet-4-5-20250929": 36
       }
     },
     "2026-03-01": {
@@ -136,19 +162,6 @@
       "models": {
         "claude-3-haiku-20240307": 103,
         "claude-opus-4-6": 3
-      }
-    },
-    "2026-03-05": {
-      "date": "2026-03-05",
-      "totalInputTokens": 995,
-      "totalOutputTokens": 96418,
-      "cacheReadTokens": 4818812,
-      "cacheWriteTokens": 1152646,
-      "totalTokens": 6068871,
-      "estimatedCost": 7.217321,
-      "messageCount": 87,
-      "models": {
-        "claude-sonnet-4-5-20250929": 87
       }
     },
     "2026-02-17": {
@@ -244,22 +257,22 @@
     },
     "2026-03": {
       "month": "2026-03",
-      "totalInputTokens": 10390,
-      "totalOutputTokens": 632939,
-      "totalTokens": 83944152,
-      "estimatedCost": 117.70736,
-      "dayCount": 5,
-      "messageCount": 978,
-      "averageDailyCost": 23.54
+      "totalInputTokens": 12448,
+      "totalOutputTokens": 721623,
+      "totalTokens": 96827819,
+      "estimatedCost": 134.871702,
+      "dayCount": 6,
+      "messageCount": 1161,
+      "averageDailyCost": 22.48
     }
   },
   "summary": {
-    "totalCost": 127.11,
-    "totalMessages": 1944,
-    "totalTokens": 118369233,
+    "totalCost": 144.27,
+    "totalMessages": 2127,
+    "totalTokens": 131252900,
     "dateRange": {
       "from": "2026-02-17",
-      "to": "2026-03-05"
+      "to": "2026-03-06"
     }
   }
 }
