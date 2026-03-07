@@ -1,68 +1,73 @@
 {
-  "lastUpdated": "2026-03-05T23:00:00-08:00",
+  "lastUpdated": "2026-03-06T23:00:00-08:00",
   "topSignals": [
     {
-      "signal": "Lab-grown hair follicles achieve full functionality for first time",
-      "impact": "Validates timing of GHK-Cu hair serum development; creates immediate demand for peptide-based hair solutions as bridge to future tech",
-      "source": "r/tressless",
-      "date": "2026-03-05"
+      "signal": "TRPS gene identified as co-factor in hair loss beyond DHT - dermal papilla dysfunction explains finasteride failures",
+      "impact": "Validates multi-mechanism hair solutions and GHK-Cu serum development. Amplifica's AMP-601/303 targeting mesenchymal stem cells shows Phase 1 human trial success.",
+      "source": "r/tressless (400+ upvotes, Imperial College PhD research, Nature publications)",
+      "date": "2026-03-06"
     },
     {
-      "signal": "4-year vitamin D3 study shows telomere protection",
-      "impact": "Provides clinical backing for Epitalon + Vitamin D3 longevity stack; enables research-backed marketing claims",
-      "source": "r/Biohackers",
-      "date": "2026-03-05"
+      "signal": "TRT complication stories fueling peptide alternative interest - 42M bedridden after 2 years TRT despite T levels 724 ng/dL",
+      "impact": "Growing consumer skepticism about hormone replacement creates demand for peptide-based recovery solutions (BPC-157, TB-500) without HPTA shutdown.",
+      "source": "r/Biohackers top post",
+      "date": "2026-03-06"
     },
     {
-      "signal": "USA Peptides adds pharmacogenomics testing service",
-      "impact": "Competitor diversifying into recurring revenue and personalized medicine; potential opportunity for us but execution appears weak",
-      "source": "usapeptides.com",
-      "date": "2026-03-05"
+      "signal": "Neurodegeneration reframed as systemic metabolic dysfunction by new startup - upstream prevention focus",
+      "impact": "Positions mitochondrial peptides (MOTS-c, Humanin) as preventive interventions vs. treating symptoms. Longevity market education opportunity.",
+      "source": "r/longevity, longevity.technology",
+      "date": "2026-03-06"
     },
     {
-      "signal": "Nasal spray delivery format gaining traction in peptide market",
-      "impact": "60-70% bioavailability vs 10-15% oral; differentiation opportunity; USA Peptides pricing at $44.99 shows market acceptance",
-      "source": "usapeptides.com",
-      "date": "2026-03-05"
+      "signal": "USA Peptides diversifying into PGx testing with $299.99 + $5/month subscription model",
+      "impact": "Competitor creating recurring revenue and data moat. Signals subscription model viability in peptide industry. Consider peptide protocol subscriptions ($29-49/month).",
+      "source": "USA Peptides website competitive analysis",
+      "date": "2026-03-06"
     },
     {
-      "signal": "Hair loss community highly engaged with finasteride success stories",
-      "impact": "Market is hot and actively spending; users seeking next-level solutions beyond conventional treatments; perfect timing for peptide products",
-      "source": "r/tressless",
-      "date": "2026-03-05"
+      "signal": "Premium peptide pricing validated - FOXO4-DRI senolytic at $199.99 (USA Peptides highest price point)",
+      "impact": "Opportunity to expand into premium longevity category with high-margin products. Three-tier pricing strategy could increase AOV from $85 to $140.",
+      "source": "USA Peptides competitive pricing analysis",
+      "date": "2026-03-06"
     }
   ],
   "marketTrends": [
-    "Lab-grown hair follicles creating renewed urgency in hair loss market - consumers want solutions NOW while waiting for future tech",
-    "Telomere protection and longevity interventions moving from fringe to mainstream in biohacker community",
-    "Peptide competitors diversifying revenue streams beyond one-time product sales (subscriptions, testing services)",
-    "Alternative delivery methods (nasal sprays) gaining acceptance and premium pricing",
-    "Hair loss market demonstrating strong engagement and purchase intent with 18+ month commitment to protocols"
+    "Hair loss community frustrated with single-mechanism treatments seeking multi-pathway protocols",
+    "TRT horror stories creating demand for natural hormone optimization alternatives",
+    "Longevity market shifting toward metabolic health as upstream intervention",
+    "Subscription models gaining traction in peptide/wellness industry (recurring revenue)",
+    "Premium pricing acceptance for research-backed, rare, or senolytic peptides",
+    "23 aging/longevity conferences announced for 2026 - B2B partnership opportunities",
+    "Nasal spray delivery format emerging as premium alternative to injections"
   ],
   "consumerInsights": [
-    "Hair loss sufferers actively seeking data on novel compounds and breakthrough research; highly receptive to innovation",
-    "Biohackers increasingly sophisticated in protocol design and biomarker tracking; want clinical backing for interventions",
-    "Finasteride side effect concerns driving search for alternative solutions with better safety profiles",
-    "Athletes and fitness enthusiasts viewing peptides as legitimate performance tools, not PEDs",
-    "Telomere protection resonating as tangible anti-aging metric vs vague 'longevity' claims"
+    "Hair loss buyers report 'I tried finasteride and it didn't work' - seeking alternatives beyond DHT blockers",
+    "TRT users experiencing severe crashes with AI (anastrozole) - demand for gentle recovery protocols",
+    "40-60 age group seeking brain health prevention vs. waiting for diagnosis",
+    "High performers concerned about cortisol from morning coffee affecting testosterone",
+    "Longevity enthusiasts want personalization and data-driven stack recommendations",
+    "Biohackers prioritizing safety and natural optimization over aggressive hormone manipulation",
+    "Progress photo timelines showing 3-5 months for visible hair regrowth results"
   ],
   "contentIdeas": [
-    "Lab-Grown Hair Follicles Are Here: Why Peptides Are Your Best Option While You Wait",
-    "The Science of Telomere Protection: Vitamin D3 + Epitalon Synergy Explained",
-    "Why Top Athletes Are Switching From Oral to Nasal Spray Peptides",
-    "BPC-157 for Hair Loss: The Recovery Peptide Nobody's Talking About",
-    "Finasteride Side Effects? Here's the Peptide Protocol That Works Instead",
-    "GHK-Cu: The Copper Peptide Behind the Hair Restoration Breakthrough",
-    "How to Track Your Biological Age: Telomere Testing and Peptide Interventions"
+    "The TRPS Factor: Why DHT Blockers Fail & What to Do About It (blog + lead magnet)",
+    "Post-TRT Recovery: How to Restart Natural Testosterone Production (case study)",
+    "Neurodegeneration as Metabolic Disease: Peptides for Brain Health (longevity angle)",
+    "Multi-Pathway Hair Growth: Beyond Finasteride (educational comparison chart)",
+    "The Subscription Model for Peptide Protocols: Economics and Customer Value",
+    "FOXO4-DRI and Senolytics: The Premium Longevity Category (product education)",
+    "Reddit Ad Strategy: Educational Content vs. Direct Sales in Research Communities",
+    "Hims Marketing Breakdown: Social Proof and Outcome-Focused Messaging"
   ],
   "actionItems": [
-    "Luna: Draft 'The Peptide Hair Restoration Protocol' digital product today (time-sensitive)",
-    "Zara: Run 3 physical product concepts through Product Gatekeeper evaluation",
-    "Xena: Deep research on lab-grown follicle breakthrough, create content angles",
-    "Kira: Analyze USA Peptides pharmacogenomics model, evaluate feasibility",
-    "Luna: Recover Q1 content calendar, publish 3 blog posts by end of week",
-    "Marketing Team: Create TikTok content batch (5 videos) on hair loss peptides",
-    "Zoe: Pricing analysis comparing our BPC-157/GHK-Cu vs USA Peptides",
-    "Xena: Update knowledge base files (peptides/ghk-cu.md, competitors/usa-peptides.md, create marketing/delivery-formats.md and research/hair-loss-breakthrough-2026.md)"
+    "Luna: Draft The Peptide Hair Recovery Blueprint outline + sales page copy by Monday EOD",
+    "Zara: Evaluate FOXO4-DRI and senolytic peptides for Product Gatekeeper review by Tuesday",
+    "Zara: Research nasal spray delivery format suppliers and cost analysis by Wednesday",
+    "Kira: Review USA Peptides category-based navigation and recommend UX improvements",
+    "Xena: Create TRPS gene educational content (blog post + lead magnet PDF) by Wednesday",
+    "Zoe: Analyze PGx testing business model and partnership opportunities for personalized peptide recommendations",
+    "Team: Launch The Peptide Hair Recovery Blueprint by March 13 (7-day sprint)",
+    "Kira: Implement peptide protocol subscription beta program by March 31 (target: 10 beta subscribers)"
   ]
 }
