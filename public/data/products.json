@@ -20,7 +20,7 @@
   {
     "id": "2",
     "name": "The Safe Peptide Starter Kit",
-    "status": "Development",
+    "status": "Launch",
     "score": 55,
     "totalScore": 60,
     "brand": "Elixser Peptides",
@@ -40,7 +40,7 @@
   {
     "id": "3",
     "name": "The BPC-157 Recovery Protocol",
-    "status": "Development",
+    "status": "Launch",
     "score": 57,
     "totalScore": 60,
     "brand": "Elixser Peptides",
@@ -60,7 +60,7 @@
   {
     "id": "4",
     "name": "The Peptide Stacking Playbook",
-    "status": "Development",
+    "status": "Launch",
     "score": 54,
     "totalScore": 60,
     "brand": "Elixser Peptides",
@@ -79,8 +79,8 @@
   },
   {
     "id": "5",
-    "name": "The PT-141 Couples Guide",
-    "status": "Development",
+    "name": "The PT-141 Research Guide",
+    "status": "Launch",
     "score": 52,
     "totalScore": 60,
     "brand": "Elixser Peptides",
@@ -100,7 +100,7 @@
   {
     "id": "6",
     "name": "The Peptide Hair Restoration Blueprint",
-    "status": "Development",
+    "status": "Launch",
     "score": 56,
     "totalScore": 60,
     "brand": "Elixser Peptides",
@@ -116,5 +116,59 @@
     },
     "evaluatedDate": "2026-02-28",
     "completedDate": "2026-02-28"
+  },
+  {
+    "id": "7",
+    "name": "FOXO4-DRI Senolytic Peptide",
+    "status": "Evaluation",
+    "score": 0,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "type": "Premium Longevity",
+    "relatedProduct": "Senolytics",
+    "note": "USA Peptides validates $199.99 premium price point - highest in category. Three-tier pricing could increase AOV to $140+",
+    "evaluatedDate": "2026-03-07"
+  },
+  {
+    "id": "8",
+    "name": "Nasal Spray Delivery Format",
+    "status": "Research",
+    "score": 0,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "type": "Delivery Innovation",
+    "note": "Emerging premium alternative to injections - addresses injection fatigue. Research suppliers and cost analysis needed.",
+    "evaluatedDate": "2026-03-07"
+  },
+  {
+    "id": "9",
+    "name": "Peptide Protocol Subscription Program",
+    "status": "Development",
+    "score": 0,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "type": "Recurring Revenue",
+    "note": "USA Peptides PGx testing model: $299.99 + $5/month. Consider peptide protocol subscriptions at $29-49/month for recurring revenue.",
+    "evaluatedDate": "2026-03-07"
+  },
+  {
+    "id": "10",
+    "name": "The Peptide Hair Recovery Blueprint",
+    "status": "Development",
+    "score": 58,
+    "totalScore": 60,
+    "brand": "Elixser Peptides",
+    "type": "Digital Product",
+    "relatedProduct": "Multi-pathway Hair Loss",
+    "criteria": {
+      "marketSize": 10,
+      "competitive": 9,
+      "margin": 10,
+      "manufacturing": 10,
+      "compliance": 9,
+      "channel": 10
+    },
+    "note": "Based on TRPS gene research - addresses finasteride failures. Hair loss community seeking multi-mechanism solutions. 7-day sprint launch target: March 13",
+    "evaluatedDate": "2026-03-07"
   }
 ]

@@ -396,5 +396,85 @@
     "priority": "high",
     "week": "WEEK 1",
     "note": "Team coordination and accountability tracking system"
+  },
+  {
+    "id": "801",
+    "title": "Draft The Peptide Hair Recovery Blueprint outline + sales page copy",
+    "status": "To Do",
+    "assignee": "Luna",
+    "dueDate": "2026-03-10",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Based on TRPS gene research - multi-pathway hair loss solution beyond DHT blockers"
+  },
+  {
+    "id": "802",
+    "title": "Evaluate FOXO4-DRI and senolytic peptides for Product Gatekeeper review",
+    "status": "To Do",
+    "assignee": "Zara",
+    "dueDate": "2026-03-11",
+    "priority": "high",
+    "week": "CURRENT",
+    "note": "Premium longevity category expansion - USA Peptides validates $199.99 price point"
+  },
+  {
+    "id": "803",
+    "title": "Research nasal spray delivery format suppliers and cost analysis",
+    "status": "To Do",
+    "assignee": "Zara",
+    "dueDate": "2026-03-12",
+    "priority": "high",
+    "week": "CURRENT",
+    "note": "Premium alternative to injections - emerging market trend"
+  },
+  {
+    "id": "804",
+    "title": "Review USA Peptides category-based navigation and recommend UX improvements",
+    "status": "To Do",
+    "assignee": "Kira",
+    "dueDate": "2026-03-12",
+    "priority": "medium",
+    "week": "CURRENT",
+    "note": "Competitive analysis for Elixser site optimization"
+  },
+  {
+    "id": "805",
+    "title": "Create TRPS gene educational content (blog post + lead magnet PDF)",
+    "status": "To Do",
+    "assignee": "Xena",
+    "dueDate": "2026-03-12",
+    "priority": "high",
+    "week": "CURRENT",
+    "note": "The TRPS Factor: Why DHT Blockers Fail & What to Do About It - high-engagement topic"
+  },
+  {
+    "id": "806",
+    "title": "Analyze PGx testing business model and partnership opportunities",
+    "status": "To Do",
+    "assignee": "Zoe",
+    "dueDate": "2026-03-14",
+    "priority": "medium",
+    "week": "CURRENT",
+    "note": "USA Peptides $299.99 + $5/month subscription model - personalized peptide recommendations"
+  },
+  {
+    "id": "807",
+    "title": "Launch The Peptide Hair Recovery Blueprint (7-day sprint)",
+    "status": "To Do",
+    "assignee": "Team",
+    "dueDate": "2026-03-13",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Hair loss community frustrated with finasteride - seeking multi-pathway protocols"
+  },
+  {
+    "id": "808",
+    "title": "Implement peptide protocol subscription beta program (target: 10 beta subscribers)",
+    "status": "To Do",
+    "assignee": "Kira",
+    "dueDate": "2026-03-31",
+    "priority": "high",
+    "week": "CURRENT",
+    "note": "Subscription models gaining traction in peptide industry - recurring revenue opportunity"
   }
 ]
