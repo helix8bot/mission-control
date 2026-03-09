@@ -1,321 +1,73 @@
 [
   {
-    "id": "101",
-    "title": "Email workflow strategy for Elixser Peptides (welcome, abandoned cart, post-purchase, win-back, VIP)",
+    "id": "401",
+    "title": "GHL API Integration - Direct Contact Management",
     "status": "In Progress",
+    "assignee": "Helix",
+    "dueDate": "2026-03-15",
+    "priority": "critical",
+    "week": "ONGOING",
+    "note": "ACTIVE: Custom fields created (3/9), full CRUD cycle tested. Next: Build automation for contact creation from landing pages. No Anmol dependency for contact management."
+  },
+  {
+    "id": "101",
+    "title": "Email workflow strategy for Elixser (welcome, cart, post-purchase, win-back, VIP)",
+    "status": "Stalled",
     "assignee": "Luna",
     "dueDate": "2026-03-07",
-    "priority": "critical",
-    "week": "WEEK 1",
-    "note": "#1 MARKETING PRIORITY - Luna designs strategy, Sage writes copy"
-  },
-  {
-    "id": "102",
-    "title": "Draft The Safe Peptide Starter Kit digital product",
-    "status": "Done",
-    "assignee": "Sage",
-    "dueDate": "2026-02-28",
-    "priority": "critical",
-    "week": "WEEK 1",
-    "completedDate": "2026-02-28",
-    "note": "Lead magnet - first-timer focused"
-  },
-  {
-    "id": "103",
-    "title": "Draft The BPC-157 Recovery Protocol digital product",
-    "status": "Done",
-    "assignee": "Sage",
-    "dueDate": "2026-02-28",
-    "priority": "critical",
-    "week": "WEEK 1",
-    "completedDate": "2026-02-28",
-    "note": "Lead magnet - recovery focused"
-  },
-  {
-    "id": "104",
-    "title": "Draft The Peptide Stacking Playbook digital product",
-    "status": "Done",
-    "assignee": "Sage",
-    "dueDate": "2026-02-28",
-    "priority": "critical",
-    "week": "WEEK 1",
-    "completedDate": "2026-02-28",
-    "note": "Lead magnet - advanced protocols"
+    "priority": "high",
+    "week": "STALLED",
+    "note": "OVERDUE 2 days. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Est: 2-3 days to build once Anmol available."
   },
   {
     "id": "105",
-    "title": "Draft 3 versions of Parlay B2B outreach emails (med spas, gyms, doctors)",
-    "status": "In Progress",
+    "title": "Draft 3 Parlay B2B outreach emails (med spas, gyms, doctors)",
+    "status": "Stalled",
     "assignee": "Sage",
     "dueDate": "2026-03-07",
-    "priority": "high",
-    "week": "WEEK 1",
-    "note": "Blair provides strategy, Sage writes copy"
+    "priority": "medium",
+    "week": "STALLED",
+    "note": "OVERDUE 2 days. BLOCKER: Waiting on Blair's strategy. No recent progress. Lower priority vs Amino Mastery."
   },
   {
     "id": "106",
-    "title": "Draft follow-up email sequence (3 emails) for after Parlay sample packs arrive",
-    "status": "In Progress",
+    "title": "Draft follow-up sequence for Parlay sample packs (3 emails)",
+    "status": "Stalled",
     "assignee": "Sage",
     "dueDate": "2026-03-07",
-    "priority": "high",
-    "week": "WEEK 1",
-    "note": "Blair provides strategy, Sage writes copy"
-  },
-  {
-    "id": "107",
-    "title": "Research top 10 DTC peptide competitors - pricing, products, email strategies, funnels",
-    "status": "Done",
-    "assignee": "Xena",
-    "dueDate": "2026-02-28",
-    "priority": "high",
-    "week": "WEEK 1",
-    "completedDate": "2026-02-28",
-    "note": "50KB report with 7 competitors analyzed"
-  },
-  {
-    "id": "108",
-    "title": "Build financial model for scaling Elixser $100K → $1M/month at $25 CAC and $150 AOV",
-    "status": "To Do",
-    "assignee": "Zoe",
-    "dueDate": "2026-03-07",
-    "priority": "high",
-    "week": "WEEK 1"
-  },
-  {
-    "id": "201",
-    "title": "Design 6 pain point funnels (recovery, anti-aging, hair, weight loss, energy, brain)",
-    "status": "To Do",
-    "assignee": "Luna",
-    "dueDate": "2026-03-14",
-    "priority": "high",
-    "week": "WEEK 2",
-    "note": "Luna designs funnels, Sage writes landing page copy"
-  },
-  {
-    "id": "202",
-    "title": "Draft The PT-141 Research Guide digital product",
-    "status": "Done",
-    "assignee": "Sage",
-    "dueDate": "2026-03-07",
-    "priority": "high",
-    "week": "WEEK 2",
-    "completedDate": "2026-02-28",
-    "note": "Compliance rewrite - melanocortin receptor research focus"
-  },
-  {
-    "id": "203",
-    "title": "Draft The Peptide Hair Restoration Blueprint digital product",
-    "status": "Done",
-    "assignee": "Sage",
-    "dueDate": "2026-03-07",
-    "priority": "high",
-    "week": "WEEK 2",
-    "completedDate": "2026-02-28",
-    "note": "Compliance rewrite - GHK-Cu follicle research focus"
-  },
-  {
-    "id": "204",
-    "title": "Design and stand up affiliate program for Elixser Peptides",
-    "status": "To Do",
-    "assignee": "Luna",
-    "dueDate": "2026-03-14",
-    "priority": "high",
-    "week": "WEEK 2",
-    "note": "Luna designs program, Sage creates affiliate marketing materials"
-  },
-  {
-    "id": "205",
-    "title": "Identify top 20 peptide/biohacking influencers to recruit as affiliates",
-    "status": "To Do",
-    "assignee": "Luna",
-    "dueDate": "2026-03-14",
-    "priority": "high",
-    "week": "WEEK 2"
+    "priority": "medium",
+    "week": "STALLED",
+    "note": "OVERDUE 2 days. BLOCKER: Waiting on Blair's strategy. No recent progress. Lower priority vs Amino Mastery."
   },
   {
     "id": "206",
-    "title": "Build prospect list - 100 med spas, 100 gyms, 100 doctors with contact info",
+    "title": "Build prospect list - 100 med spas, 100 gyms, 100 doctors",
     "status": "In Progress",
     "assignee": "Kira",
     "dueDate": "2026-03-14",
-    "priority": "high",
-    "week": "WEEK 2",
-    "note": "30/300 complete - sample dataset delivered with full contact details"
-  },
-  {
-    "id": "207",
-    "title": "Project Parlay B2B revenue model at 50, 100, 500 wholesale accounts",
-    "status": "To Do",
-    "assignee": "Zoe",
-    "dueDate": "2026-03-14",
-    "priority": "high",
-    "week": "WEEK 2"
-  },
-  {
-    "id": "208",
-    "title": "Refine Parlay B2B pricing strategy ($30-40 to clinic, $70 retail, MOQ 24)",
-    "status": "Done",
-    "assignee": "Rex",
-    "dueDate": "2026-03-14",
-    "priority": "high",
-    "week": "WEEK 2",
-    "completedDate": "2026-02-28",
-    "note": "Final: $35-42 wholesale, $79 retail, MOQ 24, ~60% margins"
-  },
-  {
-    "id": "301",
-    "title": "Draft remaining digital products for each funnel",
-    "status": "To Do",
-    "assignee": "Sage",
-    "dueDate": "2026-03-21",
     "priority": "medium",
-    "week": "WEEK 3",
-    "note": "Anti-aging, weight loss, sleep, cognitive, joint health, energy guides"
-  },
-  {
-    "id": "302",
-    "title": "Evaluate Telehealth company requirements - licensing, compliance, script certification",
-    "status": "To Do",
-    "assignee": "Zara",
-    "dueDate": "2026-03-21",
-    "priority": "medium",
-    "week": "WEEK 3"
-  },
-  {
-    "id": "303",
-    "title": "Research Telehealth peptide clinic landscape - competitors, pricing, regulations",
-    "status": "To Do",
-    "assignee": "Xena",
-    "dueDate": "2026-03-21",
-    "priority": "medium",
-    "week": "WEEK 3"
-  },
-  {
-    "id": "401",
-    "title": "Design Go High Level implementation plan for both brands",
-    "status": "In Progress",
-    "assignee": "Rex",
-    "dueDate": "2026-03-07",
-    "priority": "critical",
     "week": "ONGOING",
-    "note": "Manual UI deployment underway - 16 custom fields, 23 tags, 6 email templates, 2 pipelines ready"
+    "note": "30/300 complete (10%). SLOW PROGRESS. Need to accelerate or deprioritize vs Amino Mastery."
   },
   {
     "id": "402",
-    "title": "Audit Elixser DTC funnel and design 90-day revenue acceleration plan",
-    "status": "In Progress",
+    "title": "Elixser DTC funnel audit - 90-day revenue acceleration plan",
+    "status": "Stalled",
     "assignee": "Drake",
     "dueDate": "2026-03-07",
-    "priority": "critical",
-    "week": "ONGOING",
-    "note": "Path from $100K to $1M/month - bundles, upsells, email sequences, landing pages"
+    "priority": "high",
+    "week": "STALLED",
+    "note": "OVERDUE 2 days. BLOCKER: Payment crisis resolved, but no updated plan. Amino Mastery supersedes this (new digital revenue stream)."
   },
   {
     "id": "403",
     "title": "Design complete Parlay B2B sales pipeline",
-    "status": "In Progress",
+    "status": "Stalled",
     "assignee": "Blair",
     "dueDate": "2026-03-07",
-    "priority": "critical",
-    "week": "ONGOING",
-    "note": "Pipeline stages, email/call scripts, objection handling, sample program, pricing deck"
-  },
-  {
-    "id": "501",
-    "title": "Weekly revenue dashboard report (both brands combined)",
-    "status": "To Do",
-    "assignee": "Rex",
-    "dueDate": "2026-03-03",
-    "priority": "high",
-    "week": "ONGOING",
-    "note": "Every Monday - revenue vs target, key metrics, pipeline health"
-  },
-  {
-    "id": "502",
-    "title": "DTC metrics dashboard (AOV, LTV, CAC, conversion, email revenue)",
-    "status": "To Do",
-    "assignee": "Drake",
-    "dueDate": "2026-03-03",
-    "priority": "high",
-    "week": "ONGOING",
-    "note": "Every Monday"
-  },
-  {
-    "id": "503",
-    "title": "B2B pipeline report (prospects, stage movement, close rate, revenue)",
-    "status": "To Do",
-    "assignee": "Blair",
-    "dueDate": "2026-03-03",
-    "priority": "high",
-    "week": "ONGOING",
-    "note": "Every Monday"
-  },
-  {
-    "id": "504",
-    "title": "Content production plan for the week",
-    "status": "To Do",
-    "assignee": "Sage",
-    "dueDate": "2026-03-03",
     "priority": "medium",
-    "week": "ONGOING",
-    "note": "Every Monday - digital products in progress, email sequences, deliverables"
-  },
-  {
-    "id": "505",
-    "title": "Review AI Product Photography System (Midjourney/DALL-E)",
-    "status": "To Do",
-    "assignee": "Perry",
-    "dueDate": "2026-03-10",
-    "priority": "medium",
-    "note": "48KB guide for in-house product photography"
-  },
-  {
-    "id": "506",
-    "title": "Obtain GHL API Key for integration work",
-    "status": "Done",
-    "assignee": "Perry",
-    "dueDate": "2026-03-05",
-    "priority": "high",
-    "completedDate": "2026-03-02",
-    "note": "API keys obtained, v1 API read-only confirmed"
-  },
-  {
-    "id": "507",
-    "title": "Create Elixser Inventory Ordering SOP for Rex",
-    "status": "In Progress",
-    "assignee": "Perry",
-    "dueDate": "2026-03-05",
-    "priority": "critical",
-    "note": "Rex needs: sales history + current stock levels. SOP for ordering from ivy@societyway.com"
-  },
-  {
-    "id": "508",
-    "title": "Implement Accountability Chart in Mission Control",
-    "status": "To Do",
-    "assignee": "Perry",
-    "dueDate": "2026-03-10",
-    "priority": "medium",
-    "note": "Add org chart showing team structure: Rex → Drake, Blair; Luna → Sage; etc."
-  },
-  {
-    "id": "600",
-    "title": "CRITICAL: Sales Analysis with SKU-level Data",
-    "status": "Done",
-    "assignee": "Rex",
-    "dueDate": "2026-03-02",
-    "priority": "critical",
-    "completedDate": "2026-03-02",
-    "note": "December: $27,514 | January: $58,813 (+113.8%) | March projection: $70,576. Inventory: $50,086 for 1,184 units"
-  },
-  {
-    "id": "601",
-    "title": "GHL Manual UI Deployment",
-    "status": "To Do",
-    "assignee": "Perry",
-    "dueDate": "2026-03-07",
-    "priority": "critical",
-    "note": "Execute manual deployment using prepared guide (2-3 hours). All specs ready. Projected impact: $16,500/month"
+    "week": "STALLED",
+    "note": "OVERDUE 2 days. BLOCKER: No visible progress. B2B deprioritized vs DTC digital products (Amino Mastery)."
   },
   {
     "id": "602",
@@ -325,156 +77,121 @@
     "dueDate": "2026-04-02",
     "priority": "high",
     "week": "ONGOING",
-    "note": "Media Buyer / Paid Ads Specialist - reports to Luna. 30-day testing roadmap for both Elixser and Parlay"
+    "note": "ACTIVE: Amino Mastery ad strategy complete (12 Triple Hook variations + 30-day plan). Ready for Anmol execution."
   },
   {
     "id": "603",
     "title": "VIP Program + Review Collection Workflow",
-    "status": "In Progress",
+    "status": "To Do",
     "assignee": "Echo",
     "dueDate": "2026-04-02",
-    "priority": "high",
-    "week": "ONGOING",
-    "note": "Customer Success / Retention Specialist - reports to Kira. Design VIP program structure and automated review collection workflow"
+    "priority": "low",
+    "week": "BACKLOG",
+    "note": "Not started. Lower priority vs Amino Mastery launch. Revisit Q2 2026."
   },
   {
-    "id": "700",
-    "title": "Draft The Peptide Gut-Brain Healing Protocol digital product",
-    "status": "To Do",
-    "assignee": "Luna",
-    "dueDate": "2026-03-06",
-    "priority": "high",
-    "week": "WEEK 1",
-    "note": "New opportunity based on anxiety/gut-brain axis research - $12B+ market"
-  },
-  {
-    "id": "701",
-    "title": "Create PT-141 gender-specific guide PDF (1-pager)",
-    "status": "To Do",
-    "assignee": "Luna",
-    "dueDate": "2026-03-05",
-    "priority": "high",
-    "week": "WEEK 1",
-    "note": "Quick-win educational content to include with PT-141 orders"
-  },
-  {
-    "id": "702",
-    "title": "Run 3 physical product opportunities through Product Gatekeeper evaluation",
-    "status": "To Do",
-    "assignee": "Zara",
-    "dueDate": "2026-03-05",
-    "priority": "high",
-    "week": "WEEK 1",
-    "note": "Product expansion evaluation based on market signals"
-  },
-  {
-    "id": "703",
-    "title": "Update knowledge base files with new research findings (5 files)",
-    "status": "To Do",
-    "assignee": "Xena",
-    "dueDate": "2026-03-06",
-    "priority": "medium",
-    "week": "WEEK 1",
-    "note": "Gut-brain axis, BDNF, female hair loss, injection fatigue research"
-  },
-  {
-    "id": "704",
-    "title": "Launch gut-brain healing email campaign targeting BPC-157 prospects",
-    "status": "To Do",
-    "assignee": "Luna",
-    "dueDate": "2026-03-06",
-    "priority": "high",
-    "week": "WEEK 1",
-    "note": "Anxiety → gut healing pathway positioning"
-  },
-  {
-    "id": "705",
-    "title": "Create sprint tracking system with Week 1/2/3 structure",
-    "status": "To Do",
-    "assignee": "Kira",
-    "dueDate": "2026-03-05",
-    "priority": "high",
-    "week": "WEEK 1",
-    "note": "Team coordination and accountability tracking system"
-  },
-  {
-    "id": "801",
-    "title": "Draft The Peptide Hair Recovery Blueprint outline + sales page copy",
-    "status": "To Do",
-    "assignee": "Luna",
-    "dueDate": "2026-03-10",
-    "priority": "critical",
-    "week": "CURRENT",
-    "note": "Based on TRPS gene research - multi-pathway hair loss solution beyond DHT blockers"
-  },
-  {
-    "id": "802",
-    "title": "Evaluate FOXO4-DRI and senolytic peptides for Product Gatekeeper review",
-    "status": "To Do",
-    "assignee": "Zara",
-    "dueDate": "2026-03-11",
-    "priority": "high",
-    "week": "CURRENT",
-    "note": "Premium longevity category expansion - USA Peptides validates $199.99 price point"
-  },
-  {
-    "id": "803",
-    "title": "Research nasal spray delivery format suppliers and cost analysis",
-    "status": "To Do",
-    "assignee": "Zara",
-    "dueDate": "2026-03-12",
-    "priority": "high",
-    "week": "CURRENT",
-    "note": "Premium alternative to injections - emerging market trend"
-  },
-  {
-    "id": "804",
-    "title": "Review USA Peptides category-based navigation and recommend UX improvements",
-    "status": "To Do",
-    "assignee": "Kira",
-    "dueDate": "2026-03-12",
-    "priority": "medium",
-    "week": "CURRENT",
-    "note": "Competitive analysis for Elixser site optimization"
-  },
-  {
-    "id": "805",
-    "title": "Create TRPS gene educational content (blog post + lead magnet PDF)",
-    "status": "To Do",
-    "assignee": "Xena",
-    "dueDate": "2026-03-12",
-    "priority": "high",
-    "week": "CURRENT",
-    "note": "The TRPS Factor: Why DHT Blockers Fail & What to Do About It - high-engagement topic"
-  },
-  {
-    "id": "806",
-    "title": "Analyze PGx testing business model and partnership opportunities",
-    "status": "To Do",
-    "assignee": "Zoe",
-    "dueDate": "2026-03-14",
-    "priority": "medium",
-    "week": "CURRENT",
-    "note": "USA Peptides $299.99 + $5/month subscription model - personalized peptide recommendations"
-  },
-  {
-    "id": "807",
-    "title": "Launch The Peptide Hair Recovery Blueprint (7-day sprint)",
-    "status": "To Do",
+    "id": "901",
+    "title": "Amino Mastery - Hair Restoration Funnel Launch",
+    "status": "In Progress",
     "assignee": "Team",
-    "dueDate": "2026-03-13",
+    "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair loss community frustrated with finasteride - seeking multi-pathway protocols"
+    "note": "ACTIVE: 21 files complete (324KB). TOF/Core/Speed/Access + ads + emails + pages. Awaiting: Lyn (design) + Anmol (GHL build). ElevenLabs TTS needed for VSL. Quality over speed - launch when ready."
   },
   {
-    "id": "808",
-    "title": "Implement peptide protocol subscription beta program (target: 10 beta subscribers)",
-    "status": "To Do",
-    "assignee": "Kira",
-    "dueDate": "2026-03-31",
+    "id": "902",
+    "title": "Amino Mastery - VSL Audio Production (ElevenLabs)",
+    "status": "Blocked",
+    "assignee": "Helix",
+    "dueDate": "2026-03-15",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "BLOCKED: Need ElevenLabs API key from Perry. 13-min VSL script ready. Faceless voiceover required (Perry never on camera)."
+  },
+  {
+    "id": "903",
+    "title": "PaidCreators Course - Knowledge Base Integration",
+    "status": "Done",
+    "assignee": "Helix",
+    "dueDate": "2026-03-08",
+    "priority": "high",
+    "week": "COMPLETED",
+    "completedDate": "2026-03-08",
+    "note": "COMPLETE: 17 PDFs extracted, 4 knowledge base files created (KEY-FRAMEWORKS.md 36KB, ACTIONABLE-TAKEAWAYS.md 28KB, DIGITAL-PRODUCT-IDEAS.md 37KB). 12 frameworks documented, 40 takeaways, 37+ product ideas."
+  },
+  {
+    "id": "904",
+    "title": "Finity Performance Medicine - Financial Model (Complete COGS)",
+    "status": "Blocked",
+    "assignee": "Zoe",
+    "dueDate": "2026-03-21",
     "priority": "high",
     "week": "CURRENT",
-    "note": "Subscription models gaining traction in peptide industry - recurring revenue opportunity"
+    "note": "BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). West Egg provided GLP-1s. Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing."
+  },
+  {
+    "id": "905",
+    "title": "Amino Mastery - Recovery Funnel (BPC-157 Protocol)",
+    "status": "To Do",
+    "assignee": "Sage",
+    "dueDate": "2026-03-27",
+    "priority": "high",
+    "week": "NEXT",
+    "note": "Second Amino Mastery funnel. Core product already complete (42KB BPC-157 Recovery Protocol). Need: TOF, Speed, Access, ads, emails, pages."
+  },
+  {
+    "id": "906",
+    "title": "Amino Mastery - Beginner Safety Funnel",
+    "status": "To Do",
+    "assignee": "Sage",
+    "dueDate": "2026-03-27",
+    "priority": "high",
+    "week": "NEXT",
+    "note": "Third Amino Mastery funnel. Core products complete (Safe Starter Kit 22KB, Stacking Playbook 52KB). Need: TOF, Speed, Access, ads, emails, pages."
+  },
+  {
+    "id": "907",
+    "title": "Weekly Strategic Memory Review Cron",
+    "status": "Done",
+    "assignee": "Helix",
+    "dueDate": "2026-03-09",
+    "priority": "medium",
+    "week": "COMPLETED",
+    "completedDate": "2026-03-09",
+    "note": "COMPLETE: Deployed Sunday 8 PM cron. Extracts 5 strategic insights from last 7 days, appends to WEEKLY-INSIGHTS.md. First run: March 16."
+  },
+  {
+    "id": "908",
+    "title": "Memory System Restructure (MEMORY.md + Reference Files)",
+    "status": "Done",
+    "assignee": "Helix",
+    "dueDate": "2026-03-09",
+    "priority": "critical",
+    "week": "COMPLETED",
+    "completedDate": "2026-03-09",
+    "note": "COMPLETE: MEMORY.md 41KB → 6.4KB (3 reference files created). PERRY-CONTEXT.md, COMMAND-REFERENCE.md, TOOL-REFERENCE.md, BUSINESS-CONTEXT.md. New daily format: EXECUTION + STRATEGIC."
+  },
+  {
+    "id": "909",
+    "title": "Platform Stack Documentation (4 Brands)",
+    "status": "Done",
+    "assignee": "Helix",
+    "dueDate": "2026-03-09",
+    "priority": "high",
+    "week": "COMPLETED",
+    "completedDate": "2026-03-09",
+    "note": "COMPLETE: Documented Elixser (WooCommerce+GHL), Parlay DTC (Shopify+Klaviyo), Parlay B2B (GHL), Amino (GHL). Added to BUSINESS-CONTEXT.md."
+  },
+  {
+    "id": "910",
+    "title": "GHL API Reference + CRUD Testing",
+    "status": "Done",
+    "assignee": "Helix",
+    "dueDate": "2026-03-09",
+    "priority": "critical",
+    "week": "COMPLETED",
+    "completedDate": "2026-03-09",
+    "note": "COMPLETE: GHL-API-REFERENCE.md (11.9KB), full CRUD cycle tested, 6 custom fields created. Ready for production automation."
   }
 ]
