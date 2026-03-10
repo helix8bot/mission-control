@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T05:02:37.997Z",
+  "lastUpdated": "2026-03-10T05:07:38.517Z",
   "generatedBy": "update-usage.js (auto-parsed from OpenClaw sessions)",
   "dailyUsage": {
     "2026-02-23": {
@@ -206,15 +206,15 @@
     },
     "2026-03-10": {
       "date": "2026-03-10",
-      "totalInputTokens": 855958,
-      "totalOutputTokens": 211133,
-      "cacheReadTokens": 23712604,
-      "cacheWriteTokens": 4805188,
-      "totalTokens": 29584883,
-      "estimatedCost": 43.804788,
-      "messageCount": 455,
+      "totalInputTokens": 855977,
+      "totalOutputTokens": 209279,
+      "cacheReadTokens": 27418042,
+      "cacheWriteTokens": 4777909,
+      "totalTokens": 33261207,
+      "estimatedCost": 45.440758,
+      "messageCount": 474,
       "models": {
-        "claude-opus-4-6": 356,
+        "claude-opus-4-6": 375,
         "gpt-5.4": 41,
         "gpt-4o-mini": 46,
         "claude-3-haiku-20240307": 12
@@ -313,19 +313,19 @@
     },
     "2026-03": {
       "month": "2026-03",
-      "totalInputTokens": 874468,
-      "totalOutputTokens": 1362500,
-      "totalTokens": 163386975,
-      "estimatedCost": 220.870678,
+      "totalInputTokens": 874487,
+      "totalOutputTokens": 1360646,
+      "totalTokens": 167063299,
+      "estimatedCost": 222.506648,
       "dayCount": 10,
-      "messageCount": 2231,
-      "averageDailyCost": 22.09
+      "messageCount": 2250,
+      "averageDailyCost": 22.25
     }
   },
   "summary": {
-    "totalCost": 230.27,
-    "totalMessages": 3197,
-    "totalTokens": 197812056,
+    "totalCost": 231.91,
+    "totalMessages": 3216,
+    "totalTokens": 201488380,
     "dateRange": {
       "from": "2026-02-17",
       "to": "2026-03-10"

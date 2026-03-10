@@ -1,0 +1,198 @@
+{
+  "lastUpdated": "2026-03-09T22:00:00-07:00",
+  "source": "elixser_analysis/inventory.csv",
+  "items": [
+    {
+      "name": "GHK-Cu [50mg]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "GLP1-R [10mg]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "GLP1-T [10mg]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "KLOW [80mg]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "NAD+ [500mg]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "PT-141 [10mg]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "RECONSTITUTION SOLUTION [10ml]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "SS-31 [10mg]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "SS-31 [30mg]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "GLP1-T [30mg]",
+      "stock": 0,
+      "daysSupply": 0,
+      "status": "critical"
+    },
+    {
+      "name": "TESAMORELIN [10mg]",
+      "stock": 1,
+      "daysSupply": 1.5,
+      "status": "warning"
+    },
+    {
+      "name": "BPC157 [10mg]",
+      "stock": 5,
+      "daysSupply": 7.5,
+      "status": "warning"
+    },
+    {
+      "name": "KISSPEPTIN-10 [10mg]",
+      "stock": 6,
+      "daysSupply": 9.0,
+      "status": "warning"
+    },
+    {
+      "name": "GLP1-S [10mg]",
+      "stock": 9,
+      "daysSupply": 13.5,
+      "status": "warning"
+    },
+    {
+      "name": "CJC1295 (NO DAC) + IPAMORELIN [10mg]",
+      "stock": 10,
+      "daysSupply": 15.0,
+      "status": "ok"
+    },
+    {
+      "name": "SELANK [10mg]",
+      "stock": 11,
+      "daysSupply": 16.5,
+      "status": "ok"
+    },
+    {
+      "name": "SEMAX [10mg]",
+      "stock": 11,
+      "daysSupply": 16.5,
+      "status": "ok"
+    },
+    {
+      "name": "EPITALON [10MG]",
+      "stock": 13,
+      "daysSupply": 19.5,
+      "status": "ok"
+    },
+    {
+      "name": "OXYTOCIN [10mg]",
+      "stock": 13,
+      "daysSupply": 19.5,
+      "status": "ok"
+    },
+    {
+      "name": "CJC-1295 No DAC [10mg]",
+      "stock": 17,
+      "daysSupply": 25.5,
+      "status": "ok"
+    },
+    {
+      "name": "Tesofensine Capsules",
+      "stock": 17,
+      "daysSupply": 25.5,
+      "status": "ok"
+    },
+    {
+      "name": "AOD9604 [5mg]",
+      "stock": 22,
+      "daysSupply": 33.0,
+      "status": "ok"
+    },
+    {
+      "name": "LL37 [5mg]",
+      "stock": 23,
+      "daysSupply": 34.5,
+      "status": "ok"
+    },
+    {
+      "name": "TB-500 [10mg]",
+      "stock": 33,
+      "daysSupply": 49.5,
+      "status": "healthy"
+    },
+    {
+      "name": "IPAMORELIN [10mg]",
+      "stock": 34,
+      "daysSupply": 51.0,
+      "status": "healthy"
+    },
+    {
+      "name": "GLP1-R [20mg]",
+      "stock": 58,
+      "daysSupply": 87.0,
+      "status": "healthy"
+    },
+    {
+      "name": "TESAMORELIN + IPAMORELIN [10mg]",
+      "stock": 69,
+      "daysSupply": 103.5,
+      "status": "healthy"
+    },
+    {
+      "name": "HCG 5000IU",
+      "stock": 70,
+      "daysSupply": 105.0,
+      "status": "healthy"
+    },
+    {
+      "name": "MOTS-C [10mg]",
+      "stock": 71,
+      "daysSupply": 106.5,
+      "status": "healthy"
+    },
+    {
+      "name": "BPC157+TB500 [10mg]",
+      "stock": 73,
+      "daysSupply": 109.5,
+      "status": "healthy"
+    },
+    {
+      "name": "GLOW [70mg]",
+      "stock": 143,
+      "daysSupply": 214.5,
+      "status": "healthy"
+    },
+    {
+      "name": "BPC-157 Capsules",
+      "stock": 1530,
+      "daysSupply": 2295.0,
+      "status": "healthy"
+    }
+  ]
+}

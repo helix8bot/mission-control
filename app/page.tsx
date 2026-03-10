@@ -66,6 +66,7 @@ export default function DashboardPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [teamData, setTeam] = useState<TeamMember[]>([]);
   const [usage, setUsage] = useState({ today: 0, month: 0, tokensToday: 0 });
+  const [inventory, setInventory] = useState<{ name: string; stock: number; daysSupply: number; status: string }[]>([]);
   const [financials, setFinancials] = useState({
     elixserRevenue: 14169, elixserTarget: 50000,
     parlayRevenue: 0, parlayTarget: 50000,
@@ -79,13 +80,15 @@ export default function DashboardPage() {
   useEffect(() => {
     const fetchAll = async () => {
       try {
-        const [tasksRes, socialRes, memoryRes, usageRes] = await Promise.all([
+        const [tasksRes, socialRes, memoryRes, usageRes, inventoryRes] = await Promise.all([
           fetch('/data/tasks.json').catch(() => null),
           fetch('/data/social.json').catch(() => null),
           fetch('/data/memory.json').catch(() => null),
           fetch('/data/usage.json').catch(() => null),
+          fetch('/data/inventory.json').catch(() => null),
         ]);
         if (tasksRes?.ok) { const d = await tasksRes.json(); setTasks(d); }
+        if (inventoryRes?.ok) { const d = await inventoryRes.json(); setInventory(d.items || []); }
         if (socialRes?.ok) { const d = await socialRes.json(); setSignals(d.topSignals || []); }
         if (memoryRes?.ok) {
           const d = await memoryRes.json();
@@ -129,6 +132,7 @@ export default function DashboardPage() {
 
   const tabConfig = [
     { id: "home", icon: "◆", label: "Home" },
+    { id: "inventory", icon: "📦", label: "Inventory" },
     { id: "tasks", icon: "▣", label: "Tasks" },
     { id: "signals", icon: "⚡", label: "Signals" },
     { id: "team", icon: "◎", label: "Team" },
@@ -322,6 +326,40 @@ export default function DashboardPage() {
               </div>
             </div>
           </>
+        )}
+
+        {activeTab === "inventory" && (
+          <div style={cardStyle()}>
+            {sectionLabel("📦", "Inventory — Elixser Peptides")}
+            <div style={{ fontSize: 11, color: "#6b7394", marginBottom: 16 }}>
+              Source: inventory.csv · {inventory.filter(i => i.status === "critical").length} critical · {inventory.filter(i => i.status === "warning").length} warning
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+              {inventory.map((item, i) => {
+                const statusColors: Record<string, string> = { critical: "#EF4444", warning: "#FBBF24", ok: "#94A3B8", healthy: "#34D399" };
+                const bgColors: Record<string, string> = { critical: "#EF444415", warning: "#FBBF2410", ok: "transparent", healthy: "transparent" };
+                return (
+                  <div key={i} style={{
+                    display: "flex", alignItems: "center", justifyContent: "space-between",
+                    padding: isMobile ? "10px 12px" : "10px 16px",
+                    borderRadius: 8,
+                    backgroundColor: bgColors[item.status] || "transparent",
+                    border: item.status === "critical" ? "1px solid #EF444430" : "1px solid #1e233320",
+                  }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 10, flex: 1, minWidth: 0 }}>
+                      <StatusDot status={item.status === "critical" ? "critical" : item.status === "warning" ? "warning" : "healthy"} size={8} />
+                      <span style={{ fontSize: isMobile ? 12 : 13, color: item.status === "critical" ? "#EF4444" : "#e0dcd4", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{item.name}</span>
+                    </div>
+                    <div style={{ display: "flex", alignItems: "center", gap: 16, flexShrink: 0 }}>
+                      <span style={{ fontSize: 12, fontWeight: 600, color: statusColors[item.status], minWidth: 50, textAlign: "right" as const }}>{item.stock} units</span>
+                      {item.status === "critical" && <span style={{ fontSize: 10, color: "#EF4444", fontWeight: 700, textTransform: "uppercase" as const, letterSpacing: "0.08em" }}>OUT</span>}
+                      {item.status === "warning" && <span style={{ fontSize: 10, color: "#FBBF24", fontWeight: 600 }}>{item.daysSupply}d</span>}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         )}
 
         {activeTab === "tasks" && (
