@@ -47,7 +47,7 @@ const SparkLine = ({ data, color = "#c9a962", height = 40, width = 120 }: { data
 
 interface Task { title: string; status: string; assignee: string; due: string; }
 interface Signal { signal: string; source: string; priority: string; }
-interface TeamMember { name: string; role: string; tasks: number; status: string; }
+interface TeamMember { name: string; role: string; tasks: number; status: string; type?: "ai" | "human"; }
 
 export default function DashboardPage() {
   const [time, setTime] = useState(new Date());
@@ -114,18 +114,36 @@ export default function DashboardPage() {
   const inProgress = tasks.filter((t: any) => t.status === "In Progress").length;
   const toDo = tasks.filter((t: any) => t.status === "To Do").length;
 
-  const team: TeamMember[] = teamData.length > 0 ? teamData.map(m => ({
+  const normalizeAssignee = (assignee: string) => assignee.replace(/\s*\(Human\)\s*$/, "").trim();
+  const getActiveTasksForMember = (name: string) => tasks.filter((t: any) => normalizeAssignee(t.assignee) === name && t.status !== "Done");
+
+  const aiTeamBase: TeamMember[] = teamData.length > 0 ? teamData.map(m => ({
     ...m,
-    tasks: tasks.filter((t: any) => t.assignee === m.name && t.status !== "Done").length,
-    status: tasks.filter((t: any) => t.assignee === m.name && t.status !== "Done").length > 5 ? "warning" : "healthy",
+    type: "ai",
+    tasks: getActiveTasksForMember(m.name).length,
+    status: getActiveTasksForMember(m.name).length > 5 ? "warning" : "healthy",
   })) : [
-    { name: "Helix", role: "COO", tasks: 0, status: "healthy" },
-    { name: "Luna", role: "Marketing", tasks: 9, status: "warning" },
-    { name: "Xena", role: "Research", tasks: 2, status: "healthy" },
-    { name: "Zara", role: "Product", tasks: 2, status: "healthy" },
-    { name: "Kira", role: "Operations", tasks: 1, status: "healthy" },
-    { name: "Zoe", role: "Finance", tasks: 2, status: "healthy" },
+    { name: "Helix", role: "COO", tasks: 0, status: "healthy", type: "ai" },
+    { name: "Luna", role: "Marketing", tasks: 9, status: "warning", type: "ai" },
+    { name: "Xena", role: "Research", tasks: 2, status: "healthy", type: "ai" },
+    { name: "Zara", role: "Product", tasks: 2, status: "healthy", type: "ai" },
+    { name: "Kira", role: "Operations", tasks: 1, status: "healthy", type: "ai" },
+    { name: "Zoe", role: "Finance", tasks: 2, status: "healthy", type: "ai" },
   ];
+
+  const humanTeamBase: TeamMember[] = [
+    { name: "Lyn", role: "Operations Manager", tasks: 0, status: "healthy", type: "human" },
+    { name: "Anmol", role: "Media Buyer / Ad Operations", tasks: 0, status: "healthy", type: "human" },
+    { name: "Ivy", role: "Supplier Relations / Inventory", tasks: 0, status: "healthy", type: "human" },
+  ];
+
+  const humanTeam = humanTeamBase.map(m => ({
+    ...m,
+    tasks: getActiveTasksForMember(m.name).length,
+    status: getActiveTasksForMember(m.name).length > 5 ? "warning" : "healthy",
+  }));
+
+  const team = [...aiTeamBase, ...humanTeam];
 
   const displaySignals = signals.length > 0 ? signals : [
     { signal: "RFK Jr. removing 14 peptides from FDA ban list", source: "Regulatory", priority: "high" },
@@ -417,27 +435,50 @@ export default function DashboardPage() {
         )}
 
         {activeTab === "team" && (
-          <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr 1fr", gap: isMobile ? 12 : 20 }}>
-            {team.map((m, i) => (
-              <div key={i} style={cardStyle()}>
-                <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 14 }}>
-                  <div style={{ width: 44, height: 44, borderRadius: "50%", background: m.name === "Helix" ? "linear-gradient(135deg, #c9a962, #8b7340)" : "#1a1f30", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, fontWeight: 600, color: m.name === "Helix" ? "#0a0d14" : "#6b7394" }}>{m.name[0]}</div>
-                  <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: 15, fontWeight: 600, color: "#f0ece4" }}>{m.name}</div>
-                    <div style={{ fontSize: 11, color: "#6b7394" }}>{m.role}</div>
-                  </div>
-                  <StatusDot status={m.status} />
+          <div style={{ display: "flex", flexDirection: "column", gap: isMobile ? 16 : 24 }}>
+            {[
+              { label: "AI Team", color: "#c9a962", members: aiTeamBase },
+              { label: "Human Team", color: "#38BDF8", members: humanTeam },
+            ].map((section) => (
+              <div key={section.label}>
+                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: isMobile ? 12 : 16, fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 600, letterSpacing: "0.12em", textTransform: "uppercase", color: section.color }}>
+                  <span style={{ fontSize: 14 }}>◎</span>
+                  {section.label}
                 </div>
-                <div style={{ fontSize: 11, color: "#4a5170", marginBottom: 10 }}>{m.tasks} active · {m.status === "warning" ? "At capacity" : "Available"}</div>
-                {tasks.filter((t: any) => t.assignee === m.name && t.status !== "Done").map((t: any, j: number) => (
-                  <div key={j} style={{ fontSize: 12, color: "#c8cde0", padding: "7px 0", borderTop: "1px solid #141825", display: "flex", alignItems: "center", gap: 6 }}>
-                    <StatusDot status={t.status === "In Progress" ? "warning" : "neutral"} size={6} />
-                    <span style={{ whiteSpace: "nowrap" as const, overflow: "hidden", textOverflow: "ellipsis" }}>{t.title.length > 40 ? t.title.slice(0, 40) + "…" : t.title}</span>
-                  </div>
-                ))}
-                {tasks.filter((t: any) => t.assignee === m.name && t.status !== "Done").length === 0 && (
-                  <div style={{ fontSize: 12, color: "#3a3f52", fontStyle: "italic", paddingTop: 7 }}>No active tasks</div>
-                )}
+                <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr 1fr", gap: isMobile ? 12 : 20 }}>
+                  {section.members.map((m, i) => {
+                    const memberTasks = getActiveTasksForMember(m.name);
+                    const avatarBackground = m.name === "Helix"
+                      ? "linear-gradient(135deg, #c9a962, #8b7340)"
+                      : m.type === "human"
+                        ? "#1a2535"
+                        : "#1a1f30";
+                    const avatarColor = m.name === "Helix" ? "#0a0d14" : m.type === "human" ? "#38BDF8" : "#6b7394";
+
+                    return (
+                      <div key={`${section.label}-${i}`} style={cardStyle()}>
+                        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 14 }}>
+                          <div style={{ width: 44, height: 44, borderRadius: "50%", background: avatarBackground, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, fontWeight: 600, color: avatarColor }}>{m.name[0]}</div>
+                          <div style={{ flex: 1 }}>
+                            <div style={{ fontSize: 15, fontWeight: 600, color: "#f0ece4" }}>{m.name}</div>
+                            <div style={{ fontSize: 11, color: "#6b7394" }}>{m.role}</div>
+                          </div>
+                          <StatusDot status={m.status} />
+                        </div>
+                        <div style={{ fontSize: 11, color: "#4a5170", marginBottom: 10 }}>{memberTasks.length} active · {m.status === "warning" ? "At capacity" : "Available"}</div>
+                        {memberTasks.map((t: any, j: number) => (
+                          <div key={j} style={{ fontSize: 12, color: "#c8cde0", padding: "7px 0", borderTop: "1px solid #141825", display: "flex", alignItems: "center", gap: 6 }}>
+                            <StatusDot status={t.status === "In Progress" ? "warning" : "neutral"} size={6} />
+                            <span style={{ whiteSpace: "nowrap" as const, overflow: "hidden", textOverflow: "ellipsis" }}>{t.title.length > 40 ? t.title.slice(0, 40) + "…" : t.title}</span>
+                          </div>
+                        ))}
+                        {memberTasks.length === 0 && (
+                          <div style={{ fontSize: 12, color: "#3a3f52", fontStyle: "italic", paddingTop: 7 }}>No active tasks</div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             ))}
           </div>
