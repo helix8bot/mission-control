@@ -14,38 +14,38 @@
   {
     "id": "101",
     "title": "Email workflow strategy for Elixser (welcome, cart, post-purchase, win-back, VIP)",
-    "status": "Stalled",
+    "status": "Deferred - Q2",
     "assignee": "Luna",
     "dateAssigned": "2026-03-01",
     "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-07",
+    "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "⚠️ STALLED 9 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
+    "note": "\u26a0\ufe0f STALLED 9 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
   },
   {
     "id": "105",
     "title": "Draft 3 Parlay B2B outreach emails (med spas, gyms, doctors)",
-    "status": "Stalled",
+    "status": "Deferred - Q2",
     "assignee": "Sage",
     "dateAssigned": "2026-03-01",
     "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-07",
+    "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 9 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "\u26a0\ufe0f STALLED 9 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "106",
     "title": "Draft follow-up sequence for Parlay sample packs (3 emails)",
-    "status": "Stalled",
+    "status": "Deferred - Q2",
     "assignee": "Sage",
     "dateAssigned": "2026-03-01",
     "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-07",
+    "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 9 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "\u26a0\ufe0f STALLED 9 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "206",
@@ -57,31 +57,31 @@
     "dueDate": "2026-03-14",
     "priority": "medium",
     "week": "ONGOING",
-    "note": "30/300 complete (10%). SLOW PROGRESS — 9 days in. Deprioritized vs PeptideLaunch."
+    "note": "30/300 complete (10%). SLOW PROGRESS \u2014 9 days in. Deprioritized vs PeptideLaunch."
   },
   {
     "id": "402",
     "title": "Elixser DTC funnel audit - 90-day revenue acceleration plan",
-    "status": "Stalled",
+    "status": "Deferred - Q2",
     "assignee": "Drake",
     "dateAssigned": "2026-03-01",
     "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-07",
+    "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "⚠️ STALLED 9 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
+    "note": "\u26a0\ufe0f STALLED 9 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
   },
   {
     "id": "403",
     "title": "Design complete Parlay B2B sales pipeline",
-    "status": "Stalled",
+    "status": "Deferred - Q2",
     "assignee": "Blair",
     "dateAssigned": "2026-03-01",
     "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-07",
+    "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 9 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
+    "note": "\u26a0\ufe0f STALLED 9 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
   },
   {
     "id": "602",
@@ -117,7 +117,7 @@
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "ACTIVE: All copy + emails + ads complete. Hair VSL audio done (12:41). VSL video v2 on Drive. Full PaidCreators funnel (Free→$17→$67→$147→$297). WAITING: Lyn (design by 3/12-3/15) + Anmol (GHL build by 3/15-3/16) + Ivy (compliance by 3/18)."
+    "note": "ACTIVE: All copy + emails + ads complete. Hair VSL audio done (12:41). VSL video v2 on Drive. Full PaidCreators funnel (Free\u2192$17\u2192$67\u2192$147\u2192$297). WAITING: Lyn (design by 3/12-3/15) + Anmol (GHL build by 3/15-3/16) + Ivy (compliance by 3/18)."
   },
   {
     "id": "902",
@@ -129,7 +129,7 @@
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair VSL audio COMPLETE (12:41, 12MB on Drive). Pain Recovery VSL BLOCKED — ElevenLabs quota exceeded (40K chars/month). Need Creator plan upgrade ($22/mo) or wait for quota reset."
+    "note": "Hair VSL audio COMPLETE (12:41, 12MB on Drive). Pain Recovery VSL BLOCKED \u2014 ElevenLabs quota exceeded (40K chars/month). Need Creator plan upgrade ($22/mo) or wait for quota reset."
   },
   {
     "id": "904",
@@ -153,7 +153,7 @@
     "dueDate": "2026-03-27",
     "priority": "high",
     "week": "NEXT",
-    "note": "All 5 PaidCreators tiers complete (Free→$17→$67→$147→$297). Content on Drive. VSL audio blocked on ElevenLabs quota. Second funnel — launches after Hair."
+    "note": "All 5 PaidCreators tiers complete (Free\u2192$17\u2192$67\u2192$147\u2192$297). Content on Drive. VSL audio blocked on ElevenLabs quota. Second funnel \u2014 launches after Hair."
   },
   {
     "id": "906",
@@ -177,7 +177,7 @@
     "dueDate": "2026-03-12",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⏰ DUE IN 2 DAYS. Design 15-page $17 Quick Start PDF. Content ready (44KB). Specs in HANDOFF.md on Drive. Est: 4-6 hours."
+    "note": "\u23f0 DUE IN 2 DAYS. Design 15-page $17 Quick Start PDF. Content ready (44KB). Specs in HANDOFF.md on Drive. Est: 4-6 hours."
   },
   {
     "id": "1002",
@@ -201,7 +201,7 @@
     "dueDate": "2026-03-14",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "DUE IN 4 DAYS. 12 ad variations (1080×1080 + 1200×628). Triple Hook copy from Nova. Specs in HANDOFF.md. Est: 6-8 hours."
+    "note": "DUE IN 4 DAYS. 12 ad variations (1080\u00d71080 + 1200\u00d7628). Triple Hook copy from Nova. Specs in HANDOFF.md. Est: 6-8 hours."
   },
   {
     "id": "1004",
@@ -254,26 +254,26 @@
   {
     "id": "1008",
     "title": "GHL pipeline creation for Parlay B2B (manual UI)",
-    "status": "Stalled",
+    "status": "Deprioritized",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-03",
     "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-10",
+    "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ DUE TODAY — STALLED 7 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Consider pushing to post-launch."
+    "note": "\u26a0\ufe0f DUE TODAY \u2014 STALLED 7 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Consider pushing to post-launch."
   },
   {
     "id": "1009",
     "title": "GHL email templates and workflows (manual UI)",
-    "status": "Stalled",
+    "status": "Deprioritized",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-03",
     "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-10",
+    "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ DUE TODAY — STALLED 7 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Consider pushing to post-launch."
+    "note": "\u26a0\ufe0f DUE TODAY \u2014 STALLED 7 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Consider pushing to post-launch."
   },
   {
     "id": "1010",
