@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-03-09T21:48:00-07:00",
+  "cashPosition": "[PLACEHOLDER \u2014 needs current bank/cash source]",
+  "monthlyBurn": "[PLACEHOLDER \u2014 needs current OPEX source]",
+  "runway": "[PLACEHOLDER \u2014 needs current cash + burn]",
+  "notes": [
+    "Found historical $642 cash reference in financial/passive-strategies-financial-analysis.md, but it is not current enough to present as live cash position."
+  ],
+  "source": "No verified live cash ledger connected"
+}

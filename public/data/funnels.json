@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-03-09T21:48:00-07:00",
+  "funnels": [
+    {
+      "name": "Elixser DTC Store",
+      "brand": "Elixser",
+      "conversionRate": "[PLACEHOLDER \u2014 needs Shopify sessions + conversions]",
+      "aov": 301.47,
+      "cac": "[PLACEHOLDER \u2014 needs ad platform spend]",
+      "status": "mixed",
+      "source": "AOV computed from verified Feb revenue and order count; conversion/CAC not found"
+    },
+    {
+      "name": "Parlay B2B Sample Pack Funnel",
+      "brand": "Parlay",
+      "conversionRate": "[PLACEHOLDER \u2014 needs pipeline data]",
+      "aov": "[PLACEHOLDER \u2014 needs real data]",
+      "cac": "[PLACEHOLDER \u2014 needs real data]",
+      "status": "placeholder",
+      "source": "No live source connected"
+    },
+    {
+      "name": "Amino Mastery Core Funnel",
+      "brand": "Amino Mastery",
+      "conversionRate": "[PLACEHOLDER \u2014 needs real data]",
+      "aov": "[PLACEHOLDER \u2014 needs real data]",
+      "cac": "[PLACEHOLDER \u2014 needs real data]",
+      "status": "placeholder",
+      "source": "No live source connected"
+    }
+  ]
+}
