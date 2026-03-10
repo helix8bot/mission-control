@@ -1,0 +1,113 @@
+{
+  "lastUpdated": "2026-03-09T22:10:00-07:00",
+  "jobs": [
+    {
+      "name": "Cron Failure Monitor",
+      "schedule": "15 * * * *",
+      "lastStatus": "ok",
+      "health": "green",
+      "lastDuration": 2456671,
+      "enabled": true,
+      "lastError": null
+    },
+    {
+      "name": "Mission Control Maintenance",
+      "schedule": "0 23 * * *",
+      "lastStatus": "ok",
+      "health": "green",
+      "lastDuration": 82045,
+      "enabled": true,
+      "lastError": null
+    },
+    {
+      "name": "Daily GHL Order Sync",
+      "schedule": "0 2 * * *",
+      "lastStatus": "idle",
+      "health": "yellow",
+      "lastDuration": 0,
+      "enabled": true,
+      "lastError": null
+    },
+    {
+      "name": "Daily Research Briefing",
+      "schedule": "0 9 * * 1-5",
+      "lastStatus": "ok",
+      "health": "green",
+      "lastDuration": 478624,
+      "enabled": true,
+      "lastError": null
+    },
+    {
+      "name": "Midday Operations Check",
+      "schedule": "0 12 * * *",
+      "lastStatus": "ok",
+      "health": "green",
+      "lastDuration": 21731,
+      "enabled": true,
+      "lastError": null
+    },
+    {
+      "name": "Daily Team Learning - Batch 1 (Rex, Drake, Blair, Luna)",
+      "schedule": "0 19 * * *",
+      "lastStatus": "error",
+      "health": "red",
+      "lastDuration": 599988,
+      "enabled": true,
+      "lastError": "Error: cron: job execution timed out"
+    },
+    {
+      "name": "Daily Team Learning - Batch 2 (Sage, Nova, Kira, Echo)",
+      "schedule": "30 19 * * *",
+      "lastStatus": "error",
+      "health": "red",
+      "lastDuration": 599989,
+      "enabled": true,
+      "lastError": "Error: cron: job execution timed out"
+    },
+    {
+      "name": "Daily Team Learning - Batch 3 (Xena, Zara, Zoe)",
+      "schedule": "0 20 * * *",
+      "lastStatus": "error",
+      "health": "red",
+      "lastDuration": 599949,
+      "enabled": true,
+      "lastError": "Error: cron: job execution timed out"
+    },
+    {
+      "name": "Weekly Compliance Sweep",
+      "schedule": "0 15 * * 5",
+      "lastStatus": "ok",
+      "health": "green",
+      "lastDuration": 32890,
+      "enabled": true,
+      "lastError": null
+    },
+    {
+      "name": "Weekly Intelligence Brief",
+      "schedule": "0 16 * * 5",
+      "lastStatus": "ok",
+      "health": "green",
+      "lastDuration": 201353,
+      "enabled": true,
+      "lastError": null
+    },
+    {
+      "name": "Weekly Strategic Memory Review",
+      "schedule": "0 20 * * 0",
+      "lastStatus": "idle",
+      "health": "yellow",
+      "lastDuration": 0,
+      "enabled": true,
+      "lastError": null
+    },
+    {
+      "name": "Weekly Financial Briefing",
+      "schedule": "0 8 * * 1",
+      "lastStatus": "ok",
+      "health": "green",
+      "lastDuration": 129485,
+      "enabled": true,
+      "lastError": null
+    }
+  ]
+}

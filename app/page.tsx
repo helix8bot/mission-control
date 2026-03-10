@@ -67,6 +67,7 @@ export default function DashboardPage() {
   const [teamData, setTeam] = useState<TeamMember[]>([]);
   const [usage, setUsage] = useState({ today: 0, month: 0, tokensToday: 0 });
   const [inventory, setInventory] = useState<{ name: string; stock: number; daysSupply: number; status: string }[]>([]);
+  const [cronJobs, setCronJobs] = useState<{ name: string; schedule: string; lastStatus: string; health: string; lastDuration: number; enabled: boolean }[]>([]);
   const [financials, setFinancials] = useState({
     elixserRevenue: 14169, elixserTarget: 50000,
     parlayRevenue: 0, parlayTarget: 50000,
@@ -89,6 +90,8 @@ export default function DashboardPage() {
         ]);
         if (tasksRes?.ok) { const d = await tasksRes.json(); setTasks(d); }
         if (inventoryRes?.ok) { const d = await inventoryRes.json(); setInventory(d.items || []); }
+        const cronRes = await fetch('/data/cron-health.json').catch(() => null);
+        if (cronRes?.ok) { const d = await cronRes.json(); setCronJobs(d.jobs || []); }
         if (socialRes?.ok) { const d = await socialRes.json(); setSignals(d.topSignals || []); }
         if (memoryRes?.ok) {
           const d = await memoryRes.json();
@@ -136,6 +139,7 @@ export default function DashboardPage() {
     { id: "tasks", icon: "▣", label: "Tasks" },
     { id: "signals", icon: "⚡", label: "Signals" },
     { id: "team", icon: "◎", label: "Team" },
+    { id: "crons", icon: "⏱", label: "Crons" },
 
   ];
 
@@ -436,6 +440,42 @@ export default function DashboardPage() {
                 )}
               </div>
             ))}
+          </div>
+        )}
+
+        {activeTab === "crons" && (
+          <div style={cardStyle()}>
+            {sectionLabel("⏱", "Cron Job Health")}
+            <div style={{ fontSize: 11, color: "#6b7394", marginBottom: 16 }}>
+              {cronJobs.filter(j => j.health === "green").length} healthy · {cronJobs.filter(j => j.health === "red").length} failing · {cronJobs.filter(j => j.health === "yellow").length} idle
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              {cronJobs.map((job, i) => {
+                const healthColors: Record<string, string> = { green: "#34D399", red: "#EF4444", yellow: "#FBBF24" };
+                const healthLabels: Record<string, string> = { green: "OK", red: "FAIL", yellow: "IDLE" };
+                return (
+                  <div key={i} style={{
+                    display: "flex", alignItems: "center", justifyContent: "space-between",
+                    padding: isMobile ? "10px 12px" : "12px 16px",
+                    borderRadius: 8,
+                    backgroundColor: job.health === "red" ? "#EF444410" : "transparent",
+                    border: job.health === "red" ? "1px solid #EF444425" : "1px solid #1e233320",
+                  }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 10, flex: 1, minWidth: 0 }}>
+                      <StatusDot status={job.health === "green" ? "healthy" : job.health === "red" ? "critical" : "warning"} size={8} />
+                      <div style={{ minWidth: 0 }}>
+                        <div style={{ fontSize: isMobile ? 12 : 13, color: "#e0dcd4", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{job.name}</div>
+                        <div style={{ fontSize: 10, color: "#4a5170" }}>{job.schedule}</div>
+                      </div>
+                    </div>
+                    <div style={{ flexShrink: 0, display: "flex", alignItems: "center", gap: 8 }}>
+                      {job.lastDuration > 0 && <span style={{ fontSize: 10, color: "#4a5170" }}>{Math.round(job.lastDuration / 1000)}s</span>}
+                      <span style={{ fontSize: 10, fontWeight: 700, color: healthColors[job.health], letterSpacing: "0.06em", textTransform: "uppercase" as const }}>{healthLabels[job.health]}</span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         )}
       </main>
