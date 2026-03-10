@@ -1,23 +1,14 @@
 [
   {
-    "id": "bc5429b9-0a41-4280-81e2-7b727c43d5d6",
-    "name": "Mission Control Maintenance",
-    "type": "cron",
-    "schedule": "0 23 * * * (Daily 11:00 PM PST)",
-    "tz": "America/Los_Angeles",
-    "description": "Update all Mission Control dashboards with current data from workspace files. Updates social.json from daily signals, syncs tasks/products/calendar/memory data, commits to git, triggers Vercel deployment.",
-    "nextRun": "2026-03-06T23:00:00-08:00",
-    "status": "active"
-  },
-  {
     "id": "9e97a0ce-10ee-4df9-a3ec-ef580dcb25ab",
     "name": "Daily Research Briefing",
     "type": "cron",
     "schedule": "0 9 * * 1-5 (Weekdays 9:00 AM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Monitor Reddit communities (r/Peptides, r/Biohackers, r/Nootropics, r/tressless, r/longevity), check competitor websites, identify product opportunities, assess sprint progress, flag blocked tasks. Creates daily-signals.json for Mission Control dashboard.",
-    "nextRun": "2026-03-06T09:00:00-08:00",
-    "status": "active"
+    "description": "Monitor Reddit communities, check competitors, identify product opportunities, assess sprint progress, flag blocked tasks. Creates daily-signals.json for Mission Control.",
+    "nextRun": "2026-03-10T09:00:00-08:00",
+    "status": "active",
+    "lastStatus": "ok"
   },
   {
     "id": "da62c821-4d8e-467d-a7fc-c072e4d6ecc8",
@@ -25,49 +16,65 @@
     "type": "cron",
     "schedule": "0 12 * * * (Daily 12:00 PM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Critical issues check: cash position alerts, low inventory warnings, overdue payables, blocked tasks stuck 3+ days. Only reports if issues found. Pulls from Helix Financial Data spreadsheet and Business Data folder.",
-    "nextRun": "2026-03-06T12:00:00-08:00",
-    "status": "active"
-  },
-  {
-    "id": "97eb6bbb-1d68-4193-823a-b28967b80633",
-    "name": "Weekly Compliance Sweep",
-    "type": "cron",
-    "schedule": "0 15 * * 5 (Fridays 3:00 PM PST)",
-    "tz": "America/Los_Angeles",
-    "description": "Scan elixserpeptides.com for compliance violations. Check against COMPLIANCE.md rules: no human dosing instructions, no 'use this to heal' language, research-only framing.",
-    "nextRun": "2026-03-07T15:00:00-08:00",
-    "status": "active"
-  },
-  {
-    "id": "a3d57b0e-bcb2-4aff-bef0-8af63f0cbd7c",
-    "name": "Weekly Intelligence Brief",
-    "type": "cron",
-    "schedule": "0 16 * * 5 (Fridays 4:00 PM PST)",
-    "tz": "America/Los_Angeles",
-    "description": "Compile weekly learning from all team members, strategic insights, recommended actions, new opportunities identified, risks to monitor. Aggregates all learning logs into strategic intelligence brief.",
-    "nextRun": "2026-03-07T16:00:00-08:00",
-    "status": "active"
-  },
-  {
-    "id": "496fe130-1e8e-4b7b-98a2-ea7637aecc9e",
-    "name": "Weekly Financial Briefing",
-    "type": "cron",
-    "schedule": "0 8 * * 1 (Mondays 8:00 AM PST)",
-    "tz": "America/Los_Angeles",
-    "description": "Read financial data from Google Sheet, analyze cash position, runway, payables due, inventory alerts, revenue trends vs targets. Pulls from Helix Financial Data spreadsheet and validates against Business Data CSV files.",
-    "nextRun": "2026-03-10T08:00:00-08:00",
-    "status": "active"
+    "description": "Critical issues check: cash position alerts, low inventory warnings, overdue payables, blocked tasks stuck 3+ days. Updates task board and pushes to Vercel.",
+    "nextRun": "2026-03-10T12:00:00-08:00",
+    "status": "active",
+    "lastStatus": "ok"
   },
   {
     "id": "540a2ed4-0964-4471-a633-f30e5ceff8d3",
-    "name": "Daily Team Learning - All 12 Members",
+    "name": "Daily Team Learning - Batch 1 (Rex, Drake, Blair, Luna)",
+    "type": "cron",
+    "schedule": "0 19 * * * (Daily 7:00 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Rex, Drake, Blair, Luna complete daily learning from domain sources. Save logs and upload to Google Drive.",
+    "nextRun": "2026-03-10T19:00:00-08:00",
+    "status": "active",
+    "lastStatus": "error (timeout - 3 consecutive)"
+  },
+  {
+    "id": "b63f1afe-aa8a-44c5-b87f-b3db209b573e",
+    "name": "Daily Team Learning - Batch 2 (Sage, Nova, Kira, Echo)",
+    "type": "cron",
+    "schedule": "30 19 * * * (Daily 7:30 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Sage, Nova, Kira, Echo complete daily learning from domain sources. Save logs and upload to Google Drive.",
+    "nextRun": "2026-03-10T19:30:00-08:00",
+    "status": "active",
+    "lastStatus": "error (timeout - 3 consecutive)"
+  },
+  {
+    "id": "ff897103-ae42-4877-84dc-aa34fb650aa7",
+    "name": "Daily Team Learning - Batch 3 (Xena, Zara, Zoe)",
     "type": "cron",
     "schedule": "0 20 * * * (Daily 8:00 PM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Every team member completes daily learning (30-60 min), documents with specific application to our business, produces concrete deliverable, uploads to Google Drive. Mandatory skill building for all 12 AI agents (Rex, Drake, Blair, Luna, Sage, Nova, Kira, Echo, Xena, Zara, Zoe).",
-    "nextRun": "2026-03-06T20:00:00-08:00",
-    "status": "active"
+    "description": "Xena, Zara, Zoe complete daily learning from domain sources. Save logs and upload to Google Drive.",
+    "nextRun": "2026-03-10T20:00:00-08:00",
+    "status": "active",
+    "lastStatus": "error (timeout - 2 consecutive)"
+  },
+  {
+    "id": "bc5429b9-0a41-4280-81e2-7b727c43d5d6",
+    "name": "Mission Control Maintenance",
+    "type": "cron",
+    "schedule": "0 23 * * * (Daily 11:00 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Update all Mission Control dashboards with current data, sync social.json from daily signals, commit and deploy to Vercel.",
+    "nextRun": "2026-03-10T23:00:00-08:00",
+    "status": "active",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "d98c602b-0b9a-45da-bff0-bb073d10b20c",
+    "name": "Daily GHL Order Sync",
+    "type": "cron",
+    "schedule": "0 2 * * * (Daily 2:00 AM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Pull yesterday's orders from WooCommerce/Shopify into Go High Level. Alert on errors or high volume.",
+    "nextRun": "2026-03-10T02:00:00-08:00",
+    "status": "active",
+    "lastStatus": "new (not yet run)"
   },
   {
     "id": "8766e735-d4d3-4b3a-90d7-72b9a4b0fd60",
@@ -75,8 +82,53 @@
     "type": "cron",
     "schedule": "15 * * * * (Every hour at :15)",
     "tz": "America/Los_Angeles",
-    "description": "Alert only on status transitions. Monitors all cron jobs for failures and recoveries. Sends alert when job breaks (ok → error) or recovers (error → ok). Silent when stable.",
-    "nextRun": "2026-03-06T00:15:00-08:00",
-    "status": "active"
+    "description": "Monitor all cron jobs for failures. Alert on status transitions (ok→error or error→ok). Auto-retry Daily Team Learning batches on failure.",
+    "nextRun": "2026-03-10T00:15:00-08:00",
+    "status": "active",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "97eb6bbb-1d68-4193-823a-b28967b80633",
+    "name": "Weekly Compliance Sweep",
+    "type": "cron",
+    "schedule": "0 15 * * 5 (Fridays 3:00 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Scan elixserpeptides.com for compliance violations against COMPLIANCE.md rules. Research-only framing verification.",
+    "nextRun": "2026-03-13T15:00:00-08:00",
+    "status": "active",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "a3d57b0e-bcb2-4aff-bef0-8af63f0cbd7c",
+    "name": "Weekly Intelligence Brief",
+    "type": "cron",
+    "schedule": "0 16 * * 5 (Fridays 4:00 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Compile weekly learning from all team members into strategic intelligence brief. Aggregates all learning logs.",
+    "nextRun": "2026-03-13T16:00:00-08:00",
+    "status": "active",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "496fe130-1e8e-4b7b-98a2-ea7637aecc9e",
+    "name": "Weekly Financial Briefing",
+    "type": "cron",
+    "schedule": "0 8 * * 1 (Mondays 8:00 AM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Analyze cash position, runway, payables, inventory, revenue trends from Google Sheets and Business Data CSV files.",
+    "nextRun": "2026-03-10T08:00:00-08:00",
+    "status": "active",
+    "lastStatus": "ok"
+  },
+  {
+    "id": "ffe0d001-7ace-438c-8e3a-4a04d0c29b51",
+    "name": "Weekly Strategic Memory Review",
+    "type": "cron",
+    "schedule": "0 20 * * 0 (Sundays 8:00 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Extract top 5 strategic insights from daily memory files. Prune agent memory files to stay under 6KB. Archive old learnings.",
+    "nextRun": "2026-03-15T20:00:00-08:00",
+    "status": "active",
+    "lastStatus": "new (not yet run)"
   }
 ]

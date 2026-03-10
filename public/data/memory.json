@@ -27,6 +27,7 @@
         "GLOW [70mg] ($145)",
         "KLOW [80mg] ($175)",
         "Tesofensine Capsules ($110-$220)",
+        "BPC-157 Capsules ($80-$160)",
         "RECONSTITUTION SOLUTION [10ml] ($20)"
       ],
       "targetMarket": "Qualified researchers, scientists, laboratories",
@@ -47,12 +48,12 @@
     { "name": "Drake", "role": "VP of DTC Sales" },
     { "name": "Blair", "role": "VP of B2B Sales" },
     { "name": "Luna", "role": "Marketing Strategist" },
-    { "name": "Nova", "role": "Media Buyer / Paid Ads Specialist", "reportsTo": "Luna" },
+    { "name": "Nova", "role": "Media Buyer / Paid Ads Specialist" },
     { "name": "Sage", "role": "Content Specialist" },
     { "name": "Xena", "role": "Research Analyst" },
     { "name": "Zara", "role": "Product Evaluator" },
     { "name": "Kira", "role": "Data & Operations" },
-    { "name": "Echo", "role": "Customer Success / Retention Specialist", "reportsTo": "Kira" },
+    { "name": "Echo", "role": "Customer Success / Retention" },
     { "name": "Zoe", "role": "Financial Analyst" }
   ],
   "goals": {
@@ -61,22 +62,20 @@
     "operational": "Maintain lean operations, data-driven decisions, full compliance"
   },
   "keyInsights": [
-    "Team roster: 13 total (Perry + 12 AI agents) as of March 3, 2026",
+    "Team roster: 13 total (Perry + 12 AI agents) as of March 2026",
     "CRITICAL: Elixser Peptides is RESEARCH USE ONLY - never suggest human consumption",
     "Parlay Wellness is a dietary supplement - different compliance rules apply",
-    "March 2, 2026 DIRECTIVE: Revenue stabilization focus - NO new product development until $300K/month reached",
-    "Sell MORE of what we ALREADY HAVE - not build new things",
+    "Revenue stabilization focus - sell MORE of what we ALREADY HAVE",
     "Email campaigns & GHL automation are #1 priority for revenue growth",
-    "GHL implementation in progress - manual UI deployment required (API limitations)",
-    "Sales data quality lesson: NEVER accept partial data without SKU-level breakdown",
-    "December 2025: $27,514 | January 2026: $58,813 (+113.8% growth) | March projection: $70,576/month",
-    "Inventory investment needed: $50,086 for March supply based on January velocity",
+    "GHL API integration active - custom fields created, CRUD tested (March 9)",
+    "December 2025: $27,514 | January 2026: $58,813 (+113.8%) | March projection: $70,576/month",
+    "Payment processor crisis (Jan 2026) resolved - now have 5 processors",
     "FDA removed 14 peptides from Category 2 list (Feb 28) - compounding pharmacy entry imminent",
-    "5 digital products completed (Safe Peptide Starter Kit, BPC-157 Recovery Protocol, Peptide Stacking Playbook, PT-141 Research Guide, Hair Restoration Blueprint)",
-    "DTC competitor analysis complete - 7 major vendors benchmarked",
-    "Parlay B2B prospect research: 30/300 complete with full contact details",
-    "GHL deployment specs ready: 16 custom fields, 23 tags, 6 email templates, 2 pipelines",
-    "Mission Control deployed to Vercel for real-time operational visibility"
+    "5 digital products completed + Amino Mastery Hair funnel (21 files, 324KB) ready for launch",
+    "KLOW blend demand surge identified - $15-25K/month revenue opportunity",
+    "Amino Mastery launch blocked on: ElevenLabs API key, Lyn designs, Anmol GHL builds",
+    "Mission Control deployed to Vercel for real-time operational visibility",
+    "Daily Team Learning batches experiencing timeout errors (3 consecutive) - needs investigation"
   ],
   "pricing": {
     "targetMargin": "50-70% gross margin for health & wellness",
