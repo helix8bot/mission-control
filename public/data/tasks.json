@@ -5,7 +5,7 @@
     "status": "In Progress",
     "assignee": "Helix",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "ONGOING",
@@ -21,7 +21,7 @@
     "dueDate": "2026-03-07",
     "priority": "high",
     "week": "STALLED",
-    "note": "OVERDUE 2 days. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Est: 2-3 days to build once Anmol available."
+    "note": "⚠️ STALLED 9 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
   },
   {
     "id": "105",
@@ -33,7 +33,7 @@
     "dueDate": "2026-03-07",
     "priority": "medium",
     "week": "STALLED",
-    "note": "OVERDUE 2 days. BLOCKER: Waiting on Blair's strategy. No recent progress. Lower priority vs Amino Mastery."
+    "note": "⚠️ STALLED 9 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "106",
@@ -45,7 +45,7 @@
     "dueDate": "2026-03-07",
     "priority": "medium",
     "week": "STALLED",
-    "note": "OVERDUE 2 days. BLOCKER: Waiting on Blair's strategy. No recent progress. Lower priority vs Amino Mastery."
+    "note": "⚠️ STALLED 9 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "206",
@@ -57,7 +57,7 @@
     "dueDate": "2026-03-14",
     "priority": "medium",
     "week": "ONGOING",
-    "note": "30/300 complete (10%). SLOW PROGRESS. Need to accelerate or deprioritize vs Amino Mastery."
+    "note": "30/300 complete (10%). SLOW PROGRESS — 9 days in. Deprioritized vs PeptideLaunch."
   },
   {
     "id": "402",
@@ -69,7 +69,7 @@
     "dueDate": "2026-03-07",
     "priority": "high",
     "week": "STALLED",
-    "note": "OVERDUE 2 days. BLOCKER: Payment crisis resolved, but no updated plan. Amino Mastery supersedes this (new digital revenue stream)."
+    "note": "⚠️ STALLED 9 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
   },
   {
     "id": "403",
@@ -81,7 +81,7 @@
     "dueDate": "2026-03-07",
     "priority": "medium",
     "week": "STALLED",
-    "note": "OVERDUE 2 days. BLOCKER: No visible progress. B2B deprioritized vs DTC digital products (Amino Mastery)."
+    "note": "⚠️ STALLED 9 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
   },
   {
     "id": "602",
@@ -89,11 +89,11 @@
     "status": "In Progress",
     "assignee": "Nova",
     "dateAssigned": "2026-03-05",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-04-02",
     "priority": "high",
     "week": "ONGOING",
-    "note": "ACTIVE: Amino Mastery ad strategy complete (12 Triple Hook variations + 30-day plan). Ready for Anmol execution."
+    "note": "ACTIVE: PeptideLaunch Hair ad strategy complete (12 Triple Hook variations + 30-day plan). Waiting on Lyn creatives + Anmol to launch."
   },
   {
     "id": "603",
@@ -105,31 +105,31 @@
     "dueDate": "2026-04-02",
     "priority": "low",
     "week": "BACKLOG",
-    "note": "Not started. Lower priority vs Amino Mastery launch. Revisit Q2 2026."
+    "note": "Not started. Lower priority vs PeptideLaunch launch. Revisit Q2 2026."
   },
   {
     "id": "901",
-    "title": "Amino Mastery - Hair Restoration Funnel Launch",
+    "title": "PeptideLaunch - Hair Restoration Funnel Launch",
     "status": "In Progress",
     "assignee": "Team",
     "dateAssigned": "2026-03-08",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "ACTIVE: 21 files complete (324KB). TOF/Core/Speed/Access + ads + emails + pages. Awaiting: Lyn (design) + Anmol (GHL build). ElevenLabs TTS needed for VSL. Quality over speed - launch when ready."
+    "note": "ACTIVE: All copy + emails + ads complete. Hair VSL audio done (12:41). VSL video v2 on Drive. Full PaidCreators funnel (Free→$17→$67→$147→$297). WAITING: Lyn (design by 3/12-3/15) + Anmol (GHL build by 3/15-3/16) + Ivy (compliance by 3/18)."
   },
   {
     "id": "902",
-    "title": "Amino Mastery - VSL Audio Production (ElevenLabs)",
-    "status": "Blocked",
+    "title": "PeptideLaunch - VSL Audio Production (ElevenLabs)",
+    "status": "In Progress",
     "assignee": "Helix",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "BLOCKED: Need ElevenLabs API key from Perry. 13-min VSL script ready. Faceless voiceover required (Perry never on camera)."
+    "note": "Hair VSL audio COMPLETE (12:41, 12MB on Drive). Pain Recovery VSL BLOCKED — ElevenLabs quota exceeded (40K chars/month). Need Creator plan upgrade ($22/mo) or wait for quota reset."
   },
   {
     "id": "904",
@@ -145,19 +145,19 @@
   },
   {
     "id": "905",
-    "title": "Amino Mastery - Recovery Funnel (BPC-157 Protocol)",
-    "status": "To Do",
+    "title": "PeptideLaunch - Pain Recovery Funnel (BPC-157 Protocol)",
+    "status": "In Progress",
     "assignee": "Sage",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-27",
     "priority": "high",
     "week": "NEXT",
-    "note": "Second Amino Mastery funnel. Core product already complete (42KB BPC-157 Recovery Protocol). Need: TOF, Speed, Access, ads, emails, pages."
+    "note": "All 5 PaidCreators tiers complete (Free→$17→$67→$147→$297). Content on Drive. VSL audio blocked on ElevenLabs quota. Second funnel — launches after Hair."
   },
   {
     "id": "906",
-    "title": "Amino Mastery - Beginner Safety Funnel",
+    "title": "PeptideLaunch - Beginner Safety Funnel",
     "status": "To Do",
     "assignee": "Sage",
     "dateAssigned": "2026-03-09",
@@ -165,19 +165,19 @@
     "dueDate": "2026-03-27",
     "priority": "high",
     "week": "NEXT",
-    "note": "Third Amino Mastery funnel. Core products complete (Safe Starter Kit 22KB, Stacking Playbook 52KB). Need: TOF, Speed, Access, ads, emails, pages."
+    "note": "Third PeptideLaunch funnel. Core products complete (Safe Starter Kit 22KB, Stacking Playbook 52KB). Need: TOF, Speed, Access, ads, emails, pages."
   },
   {
     "id": "1001",
-    "title": "Design Amino Mastery Hair Quick Start PDF layout",
+    "title": "Design PeptideLaunch Hair Quick Start PDF layout",
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-12",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Design 15-page $17 Quick Start PDF. Content ready (44KB). Specs in HANDOFF.md. Est: 4-6 hours."
+    "note": "⏰ DUE IN 2 DAYS. Design 15-page $17 Quick Start PDF. Content ready (44KB). Specs in HANDOFF.md on Drive. Est: 4-6 hours."
   },
   {
     "id": "1002",
@@ -185,23 +185,23 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-13",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Sales page header, value stack visual, testimonial cards. Specs in HANDOFF.md. Est: 3-4 hours."
+    "note": "DUE IN 3 DAYS. Sales page header, value stack visual, testimonial cards. Specs in HANDOFF.md. Est: 3-4 hours."
   },
   {
     "id": "1003",
-    "title": "Design Amino Hair ad creatives (12 variations)",
+    "title": "Design PeptideLaunch Hair ad creatives (12 variations)",
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-14",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "12 ad variations (1080×1080 + 1200×628). Triple Hook copy provided by Nova. B-roll + motion graphics. Specs in HANDOFF.md. Est: 6-8 hours."
+    "note": "DUE IN 4 DAYS. 12 ad variations (1080×1080 + 1200×628). Triple Hook copy from Nova. Specs in HANDOFF.md. Est: 6-8 hours."
   },
   {
     "id": "1004",
@@ -209,47 +209,47 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "13-min VSL visuals (B-roll, motion graphics, kinetic text). Script ready (16.4KB). Faceless only (Perry never on camera). Specs in HANDOFF.md. Est: 8-10 hours."
+    "note": "DUE IN 5 DAYS. 13-min VSL visuals. Shotstack v2 video exists as baseline. Lyn to elevate with proper motion graphics. Specs in HANDOFF.md. Est: 8-10 hours."
   },
   {
     "id": "1005",
-    "title": "Build Amino Mastery Hair funnel in GHL",
+    "title": "Build PeptideLaunch Hair funnel in GHL",
     "status": "To Do",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Build 4 sales pages (opt-in, Blueprint, Protocol Builder, Dashboard) + checkout + upsell flows. Content ready (21 files, 324KB). Specs in HANDOFF.md. Est: 8-12 hours."
+    "note": "DUE IN 5 DAYS. Build 4 sales pages (opt-in, Blueprint, Protocol Builder, Dashboard) + checkout + upsell flows. Content ready (21 files). Specs in HANDOFF.md. Est: 8-12 hours."
   },
   {
     "id": "1006",
-    "title": "Connect Amino Hair email sequences in GHL",
+    "title": "Connect PeptideLaunch Hair email sequences in GHL",
     "status": "To Do",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-16",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "6 email sequences ready (welcome, nurture, upsell, cart, SMS, post-purchase). Total 27 emails + 5 SMS. Plain text only. Specs in HANDOFF.md. Est: 4-6 hours."
+    "note": "DUE IN 6 DAYS. 6 email sequences (27 emails + 5 SMS). Plain text only. Specs in HANDOFF.md. Est: 4-6 hours."
   },
   {
     "id": "1007",
-    "title": "Launch Facebook ads for Amino Hair funnel",
+    "title": "Launch Facebook ads for PeptideLaunch Hair funnel",
     "status": "Blocked",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-17",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "BLOCKED: Waiting on Lyn's ad creatives. Ad strategy ready (12 variations + 30-day plan from Nova). Budget: $100/day test. Launch when creatives ready."
+    "note": "BLOCKED: Waiting on Lyn's ad creatives (due 3/14). Ad strategy ready (12 variations + 30-day plan). Budget: $100/day test."
   },
   {
     "id": "1008",
@@ -261,7 +261,7 @@
     "dueDate": "2026-03-10",
     "priority": "medium",
     "week": "STALLED",
-    "note": "OVERDUE 6 days. Manual UI deployment from March 3 specs. Pipeline stages, custom fields, workflows. Est: 2-3 hours. Lower priority vs Amino Mastery."
+    "note": "⚠️ DUE TODAY — STALLED 7 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Consider pushing to post-launch."
   },
   {
     "id": "1009",
@@ -273,23 +273,23 @@
     "dueDate": "2026-03-10",
     "priority": "medium",
     "week": "STALLED",
-    "note": "OVERDUE 6 days. Manual UI deployment from March 3 specs. 6 email templates, 5 workflows. Est: 2-3 hours. Lower priority vs Amino Mastery."
+    "note": "⚠️ DUE TODAY — STALLED 7 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Consider pushing to post-launch."
   },
   {
     "id": "1010",
-    "title": "Amino Mastery compliance review before launch",
+    "title": "PeptideLaunch compliance review before launch",
     "status": "To Do",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-10",
     "dueDate": "2026-03-18",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Review all 21 Amino files for compliance (study citations, disclaimers, RUO sourcing language). Verify separation from Elixser RUO claims. Est: 2-3 hours."
+    "note": "Review all funnel files for compliance (study citations, disclaimers, RUO sourcing language). Verify separation from Elixser RUO claims. 8 days until due."
   },
   {
     "id": "1011",
-    "title": "Merchant processing setup for Amino Mastery (if needed)",
+    "title": "Merchant processing setup for PeptideLaunch (if needed)",
     "status": "To Do",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
@@ -297,6 +297,6 @@
     "dueDate": "2026-03-17",
     "priority": "high",
     "week": "CURRENT",
-    "note": "Confirm if new brand needs separate merchant account or can use existing Elixser processor. GHL checkout integration. Est: varies based on processor requirements."
+    "note": "Confirm if new brand needs separate merchant account or can use existing Elixser processor. GHL checkout integration."
   }
 ]
