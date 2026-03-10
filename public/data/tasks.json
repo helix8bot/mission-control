@@ -201,7 +201,7 @@
     "dueDate": "2026-03-14",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "12 ad variations (1080\u00d71080 + 1200\u00d7628). Triple Hook copy provided by Nova. B-roll + motion graphics. Specs in HANDOFF.md. Est: 6-8 hours."
+    "note": "12 ad variations (1080×1080 + 1200×628). Triple Hook copy provided by Nova. B-roll + motion graphics. Specs in HANDOFF.md. Est: 6-8 hours."
   },
   {
     "id": "1004",
@@ -298,65 +298,5 @@
     "priority": "high",
     "week": "CURRENT",
     "note": "Confirm if new brand needs separate merchant account or can use existing Elixser processor. GHL checkout integration. Est: varies based on processor requirements."
-  },
-  {
-    "id": "1101",
-    "title": "AI Team Course - Phase 1: Market Research (Xena)",
-    "status": "Complete",
-    "assignee": "Xena",
-    "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-10",
-    "priority": "critical",
-    "week": "CURRENT",
-    "note": "COMPLETE: 55.9KB research report. Competitive landscape (167K OpenClaw community, ZERO comprehensive courses), top 12 pain points ranked, 21-module content inventory mapped, $200K-$1M Year 1 revenue validated. Deliverable: ai-team-course-research.md."
-  },
-  {
-    "id": "1102",
-    "title": "AI Team Course - Phase 1: Market Sizing (Zoe)",
-    "status": "Complete",
-    "assignee": "Zoe",
-    "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-10",
-    "priority": "critical",
-    "week": "CURRENT",
-    "note": "COMPLETE: 34KB market analysis. TAM $2.8B, SAM $840M, SOM $487K-$2.4M Year 1. 5 personas defined (solopreneur priority #1), willingness to pay validated ($97-$497), 18-24 month growth window identified. Deliverable: ai-team-course-market-sizing.md."
-  },
-  {
-    "id": "1103",
-    "title": "AI Team Course - Phase 2: Product Architecture",
-    "status": "Complete",
-    "assignee": "Sage + Drake + Luna",
-    "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-11",
-    "priority": "critical",
-    "week": "CURRENT",
-    "note": "COMPLETE: 16 files delivered (Sage: 5 content outlines 160KB, Drake: 11 funnel/marketing files, Luna: positioning strategy 11.8K words). Full product suite ready for Lyn + Anmol."
-  },
-  {
-    "id": "1104",
-    "title": "AI Team Course - Phase 3: Brand Naming",
-    "status": "Complete",
-    "assignee": "Helix",
-    "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-11",
-    "priority": "high",
-    "week": "CURRENT",
-    "note": "COMPLETE: Brand name selected: SpawnOS (main product) + The SpawnLab (community). \"The Operating System for Spawning AI Teams\". Category-defining, authentic (actual OpenClaw spawn terminology)."
-  },
-  {
-    "id": "1105",
-    "title": "AI Team Course - Phase 4: Human Handoff",
-    "status": "Complete",
-    "assignee": "Helix",
-    "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
-    "dueDate": "2026-03-12",
-    "priority": "critical",
-    "week": "CURRENT",
-    "note": "COMPLETE: HANDOFF.md updated (18.6KB) + BRAND-IDENTITY.md created (9.2KB) with SpawnOS/SpawnLab branding. All files in Google Drive: SpawnOS - AI Team Course. Lyn design specs + Anmol build specs ready. 6-week launch timeline."
   }
 ]

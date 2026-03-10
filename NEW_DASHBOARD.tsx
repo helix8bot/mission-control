@@ -92,10 +92,8 @@ export default function DashboardPage() {
         if (usageRes?.ok) {
           const d = await usageRes.json();
           const today = new Date().toISOString().slice(0, 10);
-          const currentMonth = today.slice(0, 7); // "2026-03"
           const dailyData = d.dailyUsage?.[today];
-          const monthCost = d.monthlyUsage?.[currentMonth]?.estimatedCost || 0;
-          if (dailyData) setUsage({ today: dailyData.estimatedCost || 0, month: monthCost, tokensToday: (dailyData.totalInputTokens || 0) + (dailyData.totalOutputTokens || 0) });
+          if (dailyData) setUsage({ today: dailyData.estimatedCost || 0, month: Object.values(d.dailyUsage || {}).reduce((a: number, b: any) => a + (b.estimatedCost || 0), 0) as number, tokensToday: (dailyData.totalInputTokens || 0) + (dailyData.totalOutputTokens || 0) });
         }
       } catch (e) { console.error('Fetch error:', e); }
     };
@@ -130,7 +128,6 @@ export default function DashboardPage() {
     { id: "tasks", icon: "▣", label: "Tasks" },
     { id: "signals", icon: "⚡", label: "Signals" },
     { id: "team", icon: "◎", label: "Team" },
-    { id: "orgchart", icon: "◈", label: "Org Chart", href: "/accountability" },
   ];
 
   const cardStyle = (accent = false) => ({
@@ -191,15 +188,9 @@ export default function DashboardPage() {
       {!isMobile && (
         <nav style={{ display: "flex", gap: 4, padding: "12px 40px", borderBottom: "1px solid #0f1219" }}>
           {tabConfig.map(tab => (
-            tab.href ? (
-              <a key={tab.id} href={tab.href} style={{ fontFamily: "'DM Sans'", fontSize: 12, fontWeight: 400, color: "#6b7394", backgroundColor: "transparent", border: "none", padding: "8px 16px", borderRadius: 8, cursor: "pointer", letterSpacing: "0.02em", transition: "all 0.2s ease", textDecoration: "none", display: "block" }}>
-                {tab.icon} {tab.label}
-              </a>
-            ) : (
-              <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{ fontFamily: "'DM Sans'", fontSize: 12, fontWeight: activeTab === tab.id ? 600 : 400, color: activeTab === tab.id ? "#c9a962" : "#6b7394", backgroundColor: activeTab === tab.id ? "#c9a96210" : "transparent", border: "none", padding: "8px 16px", borderRadius: 8, cursor: "pointer", letterSpacing: "0.02em", transition: "all 0.2s ease" }}>
-                {tab.icon} {tab.label}
-              </button>
-            )
+            <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{ fontFamily: "'DM Sans'", fontSize: 12, fontWeight: activeTab === tab.id ? 600 : 400, color: activeTab === tab.id ? "#c9a962" : "#6b7394", backgroundColor: activeTab === tab.id ? "#c9a96210" : "transparent", border: "none", padding: "8px 16px", borderRadius: 8, cursor: "pointer", letterSpacing: "0.02em", transition: "all 0.2s ease" }}>
+              {tab.icon} {tab.label}
+            </button>
           ))}
         </nav>
       )}
