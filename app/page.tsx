@@ -67,11 +67,13 @@ export default function DashboardPage() {
   const [teamData, setTeam] = useState<TeamMember[]>([]);
   const [usage, setUsage] = useState({ today: 0, month: 0, tokensToday: 0 });
   const [financials, setFinancials] = useState({
-    elixserRevenue: 100000, elixserTarget: 1000000,
-    parlayRevenue: 0, parlayTarget: 3000000,
-    cashPosition: 45000, runway: "4.5 mo",
-    revenueHistory: [62000, 71000, 78000, 85000, 92000, 88000, 100000],
-    aov: 150, cac: 25, ltv: 450,
+    elixserRevenue: 14169, elixserTarget: 50000,
+    parlayRevenue: 0, parlayTarget: 50000,
+    cashPosition: 0, runway: "—",
+    revenueHistory: [4593, 35346, 65725, 14169],
+    revenueLabels: ["Nov", "Dec", "Jan", "Feb"],
+    aov: 302, cac: 0, ltv: 0,
+    note: "Real data from Helix Financial Sheet. Feb 2026: $14,169 (44 customers, 47 orders). AOV = $14,169/47.",
   });
 
   useEffect(() => {
@@ -219,10 +221,10 @@ export default function DashboardPage() {
 
             <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr 1fr" : "1fr 1fr 1fr 1fr", gap: isMobile ? 10 : 20, marginTop: isMobile ? 12 : 20 }}>
               {[
-                { label: "CAC", value: `$${financials.cac}`, color: "#f0ece4" },
-                { label: "AOV", value: `$${financials.aov}`, color: "#f0ece4" },
-                { label: "LTV:CAC", value: "18:1", color: "#34D399" },
-                { label: "Cash", value: formatCurrency(financials.cashPosition), color: "#c9a962" },
+                { label: "Feb AOV", value: `$${financials.aov}`, color: "#f0ece4" },
+                { label: "Total Rev", value: "$119.8K", color: "#c9a962" },
+                { label: "Feb Orders", value: "47", color: "#f0ece4" },
+                { label: "Feb Customers", value: "44", color: "#f0ece4" },
               ].map((m, i) => (
                 <div key={i} style={{ ...cardStyle(), padding: isMobile ? 14 : 20, textAlign: "center" as const }}>
                   <div style={{ fontSize: 10, color: "#6b7394", marginBottom: 4, letterSpacing: "0.08em", textTransform: "uppercase" as const }}>{m.label}</div>
@@ -236,8 +238,8 @@ export default function DashboardPage() {
                 {sectionLabel("◈", "Revenue Trend")}
                 <SparkLine data={financials.revenueHistory} height={50} width={200} />
                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, color: "#4a5170", marginTop: 8 }}>
-                  <span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span><span>Jan</span><span>Feb</span>
-                  <span style={{ color: "#c9a962", fontWeight: 600 }}>Now</span>
+                  <span>Nov</span><span>Dec</span><span>Jan</span>
+                  <span style={{ color: "#c9a962", fontWeight: 600 }}>Feb</span>
                 </div>
               </div>
               <div style={cardStyle()}>
