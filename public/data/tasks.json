@@ -21,7 +21,7 @@
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 9 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
+    "note": "⚠️ STALLED 12 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
   },
   {
     "id": "105",
@@ -33,7 +33,7 @@
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 9 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "⚠️ STALLED 12 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "106",
@@ -45,7 +45,7 @@
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 9 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "⚠️ STALLED 12 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "206",
@@ -57,7 +57,7 @@
     "dueDate": "2026-03-14",
     "priority": "medium",
     "week": "ONGOING",
-    "note": "30/300 complete (10%). SLOW PROGRESS \u2014 9 days in. Deprioritized vs PeptideLaunch."
+    "note": "30/300 complete (10%). SLOW PROGRESS — 12 days in. Deprioritized vs PeptideLaunch. Due in 2 days."
   },
   {
     "id": "402",
@@ -69,7 +69,7 @@
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 9 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
+    "note": "⚠️ STALLED 12 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
   },
   {
     "id": "403",
@@ -81,7 +81,7 @@
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 9 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
+    "note": "⚠️ STALLED 12 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
   },
   {
     "id": "602",
@@ -93,7 +93,7 @@
     "dueDate": "2026-04-02",
     "priority": "high",
     "week": "ONGOING",
-    "note": "ACTIVE: PeptideLaunch Hair ad strategy complete (12 Triple Hook variations + 30-day plan). Waiting on Lyn creatives + Anmol to launch."
+    "note": "ACTIVE: PeptideLaunch Hair ad strategy complete (12 Triple Hook variations + 30-day plan). Waiting on Lyn creatives + Anmol to launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
   },
   {
     "id": "603",
@@ -113,23 +113,23 @@
     "status": "In Progress",
     "assignee": "Team",
     "dateAssigned": "2026-03-08",
-    "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-20",
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-27",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "ACTIVE: All copy + emails + ads complete. Hair VSL audio done (12:41). VSL video v2 on Drive. Full PaidCreators funnel (Free\u2192$17\u2192$67\u2192$147\u2192$297). WAITING: Lyn (design by 3/12-3/15) + Anmol (GHL build by 3/15-3/16) + Ivy (compliance by 3/18)."
+    "note": "PUSHED 1 WEEK per Perry (3/12). Recovery funnel now priority #1. All copy + emails + ads complete. WAITING: Lyn (design), Anmol (GHL build), Ivy (compliance). New due date ~3/27."
   },
   {
     "id": "902",
     "title": "PeptideLaunch - VSL Audio Production (ElevenLabs)",
-    "status": "In Progress",
+    "status": "Deprioritized",
     "assignee": "Helix",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
+    "lastUpdated": "2026-03-12",
     "dueDate": "2026-03-15",
-    "priority": "critical",
-    "week": "CURRENT",
-    "note": "Hair VSL audio COMPLETE (12:41, 12MB on Drive). Pain Recovery VSL BLOCKED \u2014 ElevenLabs quota exceeded (40K chars/month). Need Creator plan upgrade ($22/mo) or wait for quota reset."
+    "priority": "low",
+    "week": "STALLED",
+    "note": "Perry directive (3/12): NO MORE VSL voiceover mentions. ElevenLabs not needed. Hair VSL audio exists but VSL approach deprioritized."
   },
   {
     "id": "904",
@@ -149,11 +149,11 @@
     "status": "In Progress",
     "assignee": "Sage",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-27",
-    "priority": "high",
-    "week": "NEXT",
-    "note": "All 5 PaidCreators tiers complete (Free\u2192$17\u2192$67\u2192$147\u2192$297). Content on Drive. VSL audio blocked on ElevenLabs quota. Second funnel \u2014 launches after Hair."
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-20",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "NOW PRIORITY #1 per Perry (3/12). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. Due date moved up."
   },
   {
     "id": "906",
@@ -173,11 +173,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-12",
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-19",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\u23f0 DUE IN 2 DAYS. Design 15-page $17 Quick Start PDF. Content ready (44KB). Specs in HANDOFF.md on Drive. Est: 4-6 hours."
+    "note": "⏰ WAS DUE 3/12. Hair funnel pushed 1 week. New due ~3/19. No status update from Lyn. Design 15-page $17 Quick Start PDF. Content ready (44KB). Specs in HANDOFF.md on Drive."
   },
   {
     "id": "1002",
@@ -185,11 +185,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-13",
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "DUE IN 3 DAYS. Sales page header, value stack visual, testimonial cards. Specs in HANDOFF.md. Est: 3-4 hours."
+    "note": "Hair funnel pushed 1 week. New due ~3/20. Sales page header, value stack visual, testimonial cards. Specs in HANDOFF.md."
   },
   {
     "id": "1003",
@@ -197,23 +197,23 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-14",
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-21",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "DUE IN 4 DAYS. 12 ad variations (1080\u00d71080 + 1200\u00d7628). Triple Hook copy from Nova. Specs in HANDOFF.md. Est: 6-8 hours."
+    "note": "Hair funnel pushed 1 week. New due ~3/21. 12 ad variations (1080×1080 + 1200×628). Triple Hook copy from Nova. Specs in HANDOFF.md."
   },
   {
     "id": "1004",
     "title": "Design faceless VSL visuals for Hair Blueprint",
-    "status": "To Do",
+    "status": "Deprioritized",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-15",
-    "priority": "critical",
-    "week": "CURRENT",
-    "note": "DUE IN 5 DAYS. 13-min VSL visuals. Shotstack v2 video exists as baseline. Lyn to elevate with proper motion graphics. Specs in HANDOFF.md. Est: 8-10 hours."
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-22",
+    "priority": "low",
+    "week": "STALLED",
+    "note": "Perry directive (3/12): No more VSL voiceover mentions. VSL approach deprioritized. May not be needed."
   },
   {
     "id": "1005",
@@ -221,11 +221,11 @@
     "status": "To Do",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-15",
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-22",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "DUE IN 5 DAYS. Build 4 sales pages (opt-in, Blueprint, Protocol Builder, Dashboard) + checkout + upsell flows. Content ready (21 files). Specs in HANDOFF.md. Est: 8-12 hours."
+    "note": "Hair funnel pushed 1 week. New due ~3/22. Build 4 sales pages + checkout + upsell flows. Content ready. Specs in HANDOFF.md."
   },
   {
     "id": "1006",
@@ -233,11 +233,11 @@
     "status": "To Do",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-16",
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-23",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "DUE IN 6 DAYS. 6 email sequences (27 emails + 5 SMS). Plain text only. Specs in HANDOFF.md. Est: 4-6 hours."
+    "note": "Hair funnel pushed 1 week. New due ~3/23. 6 email sequences (27 emails + 5 SMS). Plain text only. Specs in HANDOFF.md."
   },
   {
     "id": "1007",
@@ -245,11 +245,11 @@
     "status": "Blocked",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-17",
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-24",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "BLOCKED: Waiting on Lyn's ad creatives (due 3/14). Ad strategy ready (12 variations + 30-day plan). Budget: $100/day test."
+    "note": "BLOCKED: Waiting on Lyn's ad creatives. Hair funnel pushed 1 week. Ad strategy ready (12 variations + 30-day plan). Budget: $100/day test."
   },
   {
     "id": "1008",
@@ -261,7 +261,7 @@
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f DUE TODAY \u2014 STALLED 7 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Consider pushing to post-launch."
+    "note": "⚠️ STALLED 12 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1009",
@@ -273,7 +273,7 @@
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f DUE TODAY \u2014 STALLED 7 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Consider pushing to post-launch."
+    "note": "⚠️ STALLED 12 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1010",
@@ -282,10 +282,10 @@
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
     "lastUpdated": "2026-03-10",
-    "dueDate": "2026-03-18",
+    "dueDate": "2026-03-25",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Review all funnel files for compliance (study citations, disclaimers, RUO sourcing language). Verify separation from Elixser RUO claims. 8 days until due."
+    "note": "Hair funnel pushed 1 week. New due ~3/25. Review all funnel files for compliance. Verify separation from Elixser RUO claims."
   },
   {
     "id": "1011",
@@ -297,6 +297,30 @@
     "dueDate": "2026-03-17",
     "priority": "high",
     "week": "CURRENT",
-    "note": "Confirm if new brand needs separate merchant account or can use existing Elixser processor. GHL checkout integration."
+    "note": "Confirm if new brand needs separate merchant account or can use existing Elixser processor. GHL checkout integration. Recovery funnel also needs Stripe — same keys."
+  },
+  {
+    "id": "1012",
+    "title": "Recovery Funnel - Wire Stripe Checkout",
+    "status": "Blocked",
+    "assignee": "Helix",
+    "dateAssigned": "2026-03-12",
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-15",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "NEW: Recovery funnel is priority #1. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). Same keys needed for SpawnOS."
+  },
+  {
+    "id": "1013",
+    "title": "SpawnOS - Domain + Stripe Setup",
+    "status": "Blocked",
+    "assignee": "Perry (Human)",
+    "dateAssigned": "2026-03-12",
+    "lastUpdated": "2026-03-12",
+    "dueDate": "2026-03-15",
+    "priority": "high",
+    "week": "CURRENT",
+    "note": "NEW: Site deployed to Vercel. Needs: 1) GoDaddy A record (@ → 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs."
   }
 ]
