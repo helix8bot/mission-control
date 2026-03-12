@@ -39,6 +39,19 @@
       "products": ["Parlay Recover Gummies with 500mcg BPC-157 ($63.75-$85 retail, $35-42 wholesale)"],
       "targetMarket": "Med spas, gyms, doctors offices, active individuals, athletes",
       "channels": ["B2B Wholesale", "Shopify DTC"]
+    },
+    {
+      "name": "PeptideLaunch",
+      "category": "Digital Education Products",
+      "products": [
+        "The Safe Peptide Starter Kit (Lead Magnet)",
+        "The BPC-157 Recovery Protocol",
+        "The Peptide Stacking Playbook",
+        "The PT-141 Research Guide",
+        "Amino Mastery Hair Growth Funnel (21 files, 324KB)"
+      ],
+      "targetMarket": "Peptide-curious consumers seeking education",
+      "channels": ["Digital funnels", "Email sequences"]
     }
   ],
   "team": [
@@ -72,13 +85,15 @@
     "Payment processor crisis (Jan 2026) resolved - now have 5 processors",
     "FDA removed 14 peptides from Category 2 list (Feb 28) - compounding pharmacy entry imminent",
     "5 digital products completed + Amino Mastery Hair funnel (21 files, 324KB) ready for launch",
-    "KLOW blend demand surge identified - $15-25K/month revenue opportunity",
+    "KLOW blend selling at $175 - demand validated",
     "Amino Mastery launch blocked on: ElevenLabs API key, Lyn designs, Anmol GHL builds",
     "Mission Control deployed to Vercel for real-time operational visibility",
-    "Daily Team Learning batches experiencing timeout errors (3 consecutive) - needs investigation"
+    "Learning Dispatcher cron deployed — 11 agents complete daily domain research",
+    "Daily signals: Peptide stacking complexity growing, GHK-Cu injection side effects driving topical demand",
+    "V&S sector M&A multiples at 10.7x EV/EBITDA — subscription + clinical claims drive premium valuations"
   ],
   "pricing": {
-    "targetMargin": "50-70% gross margin for health & wellness",
-    "strategy": "Competitive research-grade peptide pricing vs major vendors"
+    "targetMargin": "50-70% gross margin for health & wellness (current ~58%, target 70%+)",
+    "strategy": "Competitive research-grade peptide pricing vs major vendors. Gummy format commands 3x price-per-gram premium vs powder."
   }
 }
