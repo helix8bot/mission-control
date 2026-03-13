@@ -9,7 +9,7 @@
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "ONGOING",
-    "note": "ACTIVE: Custom fields created (3/9), full CRUD cycle tested. Next: Build automation for contact creation from landing pages. No Anmol dependency for contact management."
+    "note": "⚠️ STALLED 3 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Due in 2 days — needs push."
   },
   {
     "id": "101",
@@ -57,7 +57,7 @@
     "dueDate": "2026-03-14",
     "priority": "medium",
     "week": "ONGOING",
-    "note": "30/300 complete (10%). SLOW PROGRESS — 12 days in. Deprioritized vs PeptideLaunch. Due in 2 days."
+    "note": "🚨 DUE TOMORROW. 30/300 complete (10%). STALLED 4 DAYS. Deprioritized vs PeptideLaunch but deadline is imminent. Recommend: defer to Q2 or close."
   },
   {
     "id": "402",
@@ -93,7 +93,7 @@
     "dueDate": "2026-04-02",
     "priority": "high",
     "week": "ONGOING",
-    "note": "ACTIVE: PeptideLaunch Hair ad strategy complete (12 Triple Hook variations + 30-day plan). Waiting on Lyn creatives + Anmol to launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
+    "note": "⚠️ STALLED 3 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
   },
   {
     "id": "603",
@@ -117,7 +117,7 @@
     "dueDate": "2026-03-27",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "PUSHED 1 WEEK per Perry (3/12). Recovery funnel now priority #1. All copy + emails + ads complete. WAITING: Lyn (design), Anmol (GHL build), Ivy (compliance). New due date ~3/27."
+    "note": "PUSHED 1 WEEK per Perry (3/12). Recovery funnel now priority #1. All copy + emails + ads complete. WAITING: Lyn (design), Anmol (GHL build), Ivy (compliance). Due ~3/27."
   },
   {
     "id": "902",
@@ -141,7 +141,7 @@
     "dueDate": "2026-03-21",
     "priority": "high",
     "week": "CURRENT",
-    "note": "BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). West Egg provided GLP-1s. Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing."
+    "note": "⚠️ STALLED 4 DAYS. BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing from West Egg."
   },
   {
     "id": "905",
@@ -153,7 +153,7 @@
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "NOW PRIORITY #1 per Perry (3/12). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. Due date moved up."
+    "note": "PRIORITY #1 per Perry (3/12). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. Due 3/20."
   },
   {
     "id": "906",
@@ -165,7 +165,7 @@
     "dueDate": "2026-03-27",
     "priority": "high",
     "week": "NEXT",
-    "note": "Third PeptideLaunch funnel. Core products complete (Safe Starter Kit 22KB, Stacking Playbook 52KB). Need: TOF, Speed, Access, ads, emails, pages."
+    "note": "Third PeptideLaunch funnel. Core products complete. Need: TOF, Speed, Access, ads, emails, pages."
   },
   {
     "id": "1001",
@@ -177,7 +177,7 @@
     "dueDate": "2026-03-19",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⏰ WAS DUE 3/12. Hair funnel pushed 1 week. New due ~3/19. No status update from Lyn. Design 15-page $17 Quick Start PDF. Content ready (44KB). Specs in HANDOFF.md on Drive."
+    "note": "Hair funnel pushed 1 week. Due ~3/19. No status update from Lyn. Design 15-page $17 Quick Start PDF. Content ready (44KB)."
   },
   {
     "id": "1002",
@@ -189,7 +189,7 @@
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. New due ~3/20. Sales page header, value stack visual, testimonial cards. Specs in HANDOFF.md."
+    "note": "Hair funnel pushed 1 week. Due ~3/20. Sales page header, value stack visual, testimonial cards."
   },
   {
     "id": "1003",
@@ -201,7 +201,7 @@
     "dueDate": "2026-03-21",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. New due ~3/21. 12 ad variations (1080×1080 + 1200×628). Triple Hook copy from Nova. Specs in HANDOFF.md."
+    "note": "Hair funnel pushed 1 week. Due ~3/21. 12 ad variations needed. Triple Hook copy from Nova ready."
   },
   {
     "id": "1004",
@@ -225,7 +225,7 @@
     "dueDate": "2026-03-22",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. New due ~3/22. Build 4 sales pages + checkout + upsell flows. Content ready. Specs in HANDOFF.md."
+    "note": "Hair funnel pushed 1 week. Due ~3/22. Build 4 sales pages + checkout + upsell flows. Content ready."
   },
   {
     "id": "1006",
@@ -237,7 +237,7 @@
     "dueDate": "2026-03-23",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. New due ~3/23. 6 email sequences (27 emails + 5 SMS). Plain text only. Specs in HANDOFF.md."
+    "note": "Hair funnel pushed 1 week. Due ~3/23. 6 email sequences (27 emails + 5 SMS). Plain text only."
   },
   {
     "id": "1007",
@@ -249,7 +249,7 @@
     "dueDate": "2026-03-24",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "BLOCKED: Waiting on Lyn's ad creatives. Hair funnel pushed 1 week. Ad strategy ready (12 variations + 30-day plan). Budget: $100/day test."
+    "note": "BLOCKED: Waiting on Lyn's ad creatives. Ad strategy ready (12 variations + 30-day plan). Budget: $100/day test."
   },
   {
     "id": "1008",
@@ -285,7 +285,7 @@
     "dueDate": "2026-03-25",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. New due ~3/25. Review all funnel files for compliance. Verify separation from Elixser RUO claims."
+    "note": "⚠️ STALLED 3 DAYS. Hair funnel pushed 1 week. Due ~3/25. No status update from Ivy. Review all funnel files for compliance."
   },
   {
     "id": "1011",
@@ -297,7 +297,7 @@
     "dueDate": "2026-03-17",
     "priority": "high",
     "week": "CURRENT",
-    "note": "Confirm if new brand needs separate merchant account or can use existing Elixser processor. GHL checkout integration. Recovery funnel also needs Stripe — same keys."
+    "note": "⚠️ STALLED 4 DAYS. Due 3/17 (Monday). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe — same keys. Needs Perry decision."
   },
   {
     "id": "1012",
@@ -309,7 +309,7 @@
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "NEW: Recovery funnel is priority #1. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). Same keys needed for SpawnOS."
+    "note": "PRIORITY #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). Due Sunday — keys needed ASAP."
   },
   {
     "id": "1013",
@@ -321,6 +321,6 @@
     "dueDate": "2026-03-15",
     "priority": "high",
     "week": "CURRENT",
-    "note": "NEW: Site deployed to Vercel. Needs: 1) GoDaddy A record (@ → 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs."
+    "note": "Site deployed to Vercel. Needs: 1) GoDaddy A record (@ → 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs. Due Sunday."
   }
 ]
