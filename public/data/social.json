@@ -1,63 +1,63 @@
 {
-  "lastUpdated": "2026-03-11T23:00:00-08:00",
+  "lastUpdated": "2026-03-12T23:09:00-08:00",
   "topSignals": [
     {
-      "signal": "Peptide stacking complexity growing - users running 3-5+ peptides simultaneously, driving demand for protocol guidance",
-      "impact": "Validates PeptideLaunch digital product strategy; stacking guides are highest-value content",
-      "source": "r/Peptides",
-      "date": "2026-03-11"
+      "signal": "Oral chewable fin/min combo driving massive engagement (432 upvotes) — validates PeptideLaunch Hair funnel timing",
+      "impact": "Hair loss treatment demand at peak; our Hair Blueprint launch is perfectly timed for this wave",
+      "source": "r/tressless",
+      "date": "2026-03-12"
     },
     {
-      "signal": "GHK-Cu injection causing skin irritation at 1mg/day - 48F reports breakouts and dryness after 1 week",
-      "impact": "Topical GHK-Cu serum avoids injection side effects; strong positioning angle for our hair serum",
-      "source": "r/Peptides",
-      "date": "2026-03-11"
-    },
-    {
-      "signal": "LEV Foundation Robust Mouse Rejuvenation program combining rapamycin + senolytics + telomerase + stem cells showing synergistic anti-aging results",
-      "impact": "Multi-peptide anti-aging stacks gaining scientific legitimacy; content opportunity for longevity positioning",
-      "source": "r/longevity",
-      "date": "2026-03-11"
-    },
-    {
-      "signal": "Peptide calculator tool (JoyApp) going viral on r/Biohackers (80 upvotes) - includes BPC-157, TB-500, GHK-Cu, KLOW blend",
-      "impact": "Free tools drive massive engagement in peptide space; consider building Elixser-branded dosing calculator",
+      "signal": "Collagen peptide supplementation validated by umbrella review for skin, bone, and muscle — hydrolyzed collagen peptides confirmed as bioactive signaling molecules",
+      "impact": "Opens collagen + peptide combo product opportunity; validates GHK-Cu skin positioning",
       "source": "r/Biohackers",
-      "date": "2026-03-11"
+      "date": "2026-03-12"
     },
     {
-      "signal": "Behemoth Labz expanding into nasal sprays and gummies while running sale on Semax, MOTS-C sprays - diversifying delivery methods",
-      "impact": "Competitor validation of alternative delivery formats; nasal sprays a gap in our catalog",
+      "signal": "Long COVID driving demand for connective tissue repair — BPC-157, taurine, peptide stacking for POTS/MCAS/EDS reversal",
+      "impact": "Direct demand signal for Parlay BPC-157 gummies and potential Long COVID recovery digital product",
+      "source": "r/Biohackers",
+      "date": "2026-03-12"
+    },
+    {
+      "signal": "Research Chemical selling BPC-157 oral tablets (500mcg x 60) at $154.99 — oral peptide delivery format expanding",
+      "impact": "Validates oral BPC-157 market; Parlay gummies positioned well but Elixser could add tablet SKU",
       "source": "Competitor Intel",
-      "date": "2026-03-11"
+      "date": "2026-03-12"
+    },
+    {
+      "signal": "PP-405 hair loss drug anticipation at fever pitch — end of March results expected, r/tressless calling it 'last shot'",
+      "impact": "If PP-405 disappoints, peptide-based hair protocols get massive demand surge; if it succeeds, positions peptides as complementary",
+      "source": "r/tressless",
+      "date": "2026-03-12"
     }
   ],
   "marketTrends": [
-    "Multi-peptide stacking becoming standard practice (3-5 peptides per user)",
-    "Nasal spray peptides gaining traction as needle-free alternative",
-    "Combination anti-aging therapies (rapamycin + senolytics + peptides) entering mainstream longevity discourse",
-    "Free peptide tools (calculators, trackers) as lead gen strategy",
-    "Hair restoration technology market expanding beyond fin/min into peptides and devices"
+    "Oral peptide delivery formats (chewables, tablets) overtaking injectable interest",
+    "Long COVID recovery creating sustained peptide demand (BPC-157, taurine, collagen)",
+    "Retatrutide body recomp data driving GLP-1 adjacent peptide interest",
+    "Sleep optimization peptides (DSIP, CJC/IPA) underserved market segment",
+    "Collagen peptides validated as bioactive signaling molecules, not just structural protein"
   ],
   "consumerInsights": [
-    "Users want recovery stacks for specific procedures (dental/facial surgery) - BPC + TB most recommended",
-    "GHK-Cu injection side effects (skin irritation) creating demand for topical alternatives",
-    "Finasteride plateau frustration driving search for peptide-based hair growth add-ons",
-    "Peptide scheduling complexity is a pain point - people want simple protocols",
-    "Enhanced Games (Peter Thiel-backed) normalizing performance enhancement in mainstream culture"
+    "Hair loss treatment users showing 5+ month commitment cycles with oral fin/min — long customer lifetime value",
+    "Peptide users confused about blood pressure interactions (PT-141) — safety education gap",
+    "Biohackers stacking 5-8 supplements for joint repair + sleep + libido — bundle opportunity",
+    "Long COVID sufferers desperate for connective tissue repair solutions beyond standard care",
+    "Retatrutide users reporting skin elasticity loss during weight loss — GHK-Cu cross-sell opportunity"
   ],
   "contentIdeas": [
-    "The Complete Peptide Stacking Guide: How to Run Multiple Peptides Safely",
-    "GHK-Cu: Injection vs Topical - Which Delivers Better Results?",
-    "Post-Surgery Recovery Stack: BPC-157 + TB-500 Protocol for Faster Healing",
-    "Peptide Dosing Calculator (free tool concept for lead gen)",
-    "The Science of Combination Anti-Aging: What Mouse Studies Mean for Human Longevity"
+    "Blog: Why Oral Peptide Delivery Is the Future of Research (tie to Parlay gummies)",
+    "Email: The Peptide Blood Pressure Guide — What Researchers Need to Know About PT-141",
+    "Social: Collagen + GHK-Cu: The Science Behind Peptide Skin Research",
+    "Blog: Long COVID and Peptide Research: What the Studies Show About BPC-157",
+    "Email: Sleep Peptide Research Roundup — DSIP, CJC-1295, and Ipamorelin Studies"
   ],
   "actionItems": [
-    "Upgrade ElevenLabs to Creator plan ($22/mo) to unblock Pain Recovery VSL audio production",
-    "Follow up with Lyn on Quick Start PDF design (due tomorrow 3/12)",
-    "Add GHK-Cu injection side effects FAQ to PeptideLaunch Hair funnel content to differentiate topical serum",
-    "Create Behemoth Labz competitor profile in knowledge-base/competitors/",
-    "Assign Luna: Draft post-surgery recovery content featuring BPC-157 + TB-500 stack"
+    "Assign Luna to draft The Peptide Sleep Rescue Protocol as next digital product",
+    "Run DSIP vials through Product Gatekeeper — high demand signal from r/Peptides and r/Biohackers",
+    "Run BPC-157 oral tablets through Product Gatekeeper — Research Chemical proving market demand at $155",
+    "Update competitor KB file for Research Chemical with March 2026 pricing",
+    "Monitor PP-405 results end of March — prepare contingency content for either outcome"
   ]
 }

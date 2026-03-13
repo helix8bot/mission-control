@@ -6,9 +6,7 @@
     "schedule": "0 * * * * (Hourly)",
     "tz": "America/Los_Angeles",
     "description": "Monitor API spend. Alert if Opus >$20/day or total >$25/day.",
-    "nextRun": "2026-03-12T00:00:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
+    "status": "active"
   },
   {
     "id": "eab2edb0-3997-4b25-9b3d-873a1d7b92a6",
@@ -17,20 +15,16 @@
     "schedule": "0 7 * * * (Daily 7:00 AM PST)",
     "tz": "America/Los_Angeles",
     "description": "Generate daily token/cost report. Model split, trend vs 7-day avg. Sends to Perry on Telegram.",
-    "nextRun": "2026-03-12T07:00:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
+    "status": "active"
   },
   {
-    "id": "496fe130-1e8e-4b7b-98a2-ea7637aecc9e",
-    "name": "Weekly Financial Briefing",
+    "id": "d98c602b-0b9a-45da-bff0-bb073d10b20c",
+    "name": "Daily GHL Order Sync",
     "type": "cron",
-    "schedule": "0 8 * * 1 (Mondays 8:00 AM PST)",
+    "schedule": "0 2 * * * (Daily 2:00 AM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Analyze cash position, runway, payables, inventory, revenue trends from Google Sheets.",
-    "nextRun": "2026-03-16T08:00:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
+    "description": "Pull yesterday's orders from WooCommerce/Shopify into Go High Level CRM.",
+    "status": "active"
   },
   {
     "id": "9e97a0ce-10ee-4df9-a3ec-ef580dcb25ab",
@@ -39,9 +33,7 @@
     "schedule": "0 9 * * 1-5 (Weekdays 9:00 AM PST)",
     "tz": "America/Los_Angeles",
     "description": "Monitor Reddit, competitors, identify opportunities, assess sprint progress. Creates daily-signals.json for Mission Control.",
-    "nextRun": "2026-03-12T09:00:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
+    "status": "active"
   },
   {
     "id": "da62c821-4d8e-467d-a7fc-c072e4d6ecc8",
@@ -50,9 +42,34 @@
     "schedule": "0 12 * * * (Daily 12:00 PM PST)",
     "tz": "America/Los_Angeles",
     "description": "Critical issues check: cash alerts, inventory warnings, overdue payables, blocked tasks. Updates task board and pushes to Vercel.",
-    "nextRun": "2026-03-12T12:00:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
+    "status": "active"
+  },
+  {
+    "id": "1655b44b-c8c2-4141-8a7f-e9acdbef3232",
+    "name": "Learning Dispatcher",
+    "type": "cron",
+    "schedule": "0 19 * * * (Daily 7:00 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Spawn 11 independent learning subagents for daily research across all team domains.",
+    "status": "active"
+  },
+  {
+    "id": "bc5429b9-0a41-4280-81e2-7b727c43d5d6",
+    "name": "Mission Control Maintenance",
+    "type": "cron",
+    "schedule": "0 23 * * * (Daily 11:00 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Update social.json from daily signals, process learning logs, upload to Drive, update agent memory, deploy to Vercel.",
+    "status": "active"
+  },
+  {
+    "id": "4dd9ab74-99bb-4613-b1b6-470640e6aad9",
+    "name": "QMD Nightly Re-index",
+    "type": "cron",
+    "schedule": "30 23 * * * (Daily 11:30 PM PST)",
+    "tz": "America/Los_Angeles",
+    "description": "Re-index and embed workspace documents for semantic search.",
+    "status": "active"
   },
   {
     "id": "8766e735-d4d3-4b3a-90d7-72b9a4b0fd60",
@@ -60,10 +77,8 @@
     "type": "cron",
     "schedule": "15 * * * * (Hourly at :15)",
     "tz": "America/Los_Angeles",
-    "description": "Monitor all cron jobs for failures. Alert on status transitions. Auto-retry Daily Team Learning batches on failure.",
-    "nextRun": "2026-03-12T00:15:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
+    "description": "Monitor all cron jobs for failures. Alert on status transitions. Auto-retry on failure.",
+    "status": "active"
   },
   {
     "id": "97eb6bbb-1d68-4193-823a-b28967b80633",
@@ -72,9 +87,7 @@
     "schedule": "0 15 * * 5 (Fridays 3:00 PM PST)",
     "tz": "America/Los_Angeles",
     "description": "Scan elixserpeptides.com for compliance violations. Research-only framing verification.",
-    "nextRun": "2026-03-13T15:00:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
+    "status": "active"
   },
   {
     "id": "a3d57b0e-bcb2-4aff-bef0-8af63f0cbd7c",
@@ -82,32 +95,17 @@
     "type": "cron",
     "schedule": "0 16 * * 5 (Fridays 4:00 PM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Compile weekly learning from all team members into strategic intelligence brief.",
-    "nextRun": "2026-03-13T16:00:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
+    "description": "Compile weekly learning summary across all agent domains. Strategic intelligence report.",
+    "status": "active"
   },
   {
-    "id": "1655b44b-c8c2-4141-8a7f-e9acdbef3232",
-    "name": "Learning Dispatcher",
+    "id": "496fe130-1e8e-4b7b-98a2-ea7637aecc9e",
+    "name": "Weekly Financial Briefing",
     "type": "cron",
-    "schedule": "0 19 * * * (Daily 7:00 PM PST)",
+    "schedule": "0 8 * * 1 (Mondays 8:00 AM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Spawn 11 independent learning subagents (Rex, Drake, Blair, Luna, Sage, Nova, Kira, Echo, Xena, Zara, Zoe) for daily domain research.",
-    "nextRun": "2026-03-12T19:00:00-08:00",
-    "status": "active",
-    "lastStatus": "new"
-  },
-  {
-    "id": "d98c602b-0b9a-45da-bff0-bb073d10b20c",
-    "name": "Daily GHL Order Sync",
-    "type": "cron",
-    "schedule": "0 2 * * * (Daily 2:00 AM PST)",
-    "tz": "America/Los_Angeles",
-    "description": "Pull yesterday's orders from WooCommerce/Shopify into Go High Level. Alert on errors or high volume.",
-    "nextRun": "2026-03-12T02:00:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
+    "description": "Analyze cash position, runway, payables, inventory, revenue trends from Google Sheets.",
+    "status": "active"
   },
   {
     "id": "81749c2a-edf2-400b-8865-17ee52e98bdc",
@@ -115,10 +113,8 @@
     "type": "cron",
     "schedule": "0 10 * * 0 (Sundays 10:00 AM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Audit workspace context files for bloat. Trim if over 4,500 tokens. Move task-specific content to skills.",
-    "nextRun": "2026-03-15T10:00:00-08:00",
-    "status": "active",
-    "lastStatus": "new"
+    "description": "Audit workspace context files for bloat. Prune outdated content, move verbose sections to skills.",
+    "status": "active"
   },
   {
     "id": "ffe0d001-7ace-438c-8e3a-4a04d0c29b51",
@@ -126,31 +122,7 @@
     "type": "cron",
     "schedule": "0 20 * * 0 (Sundays 8:00 PM PST)",
     "tz": "America/Los_Angeles",
-    "description": "Extract top 5 strategic insights from daily memory files. Prune agent memory files to stay under 6KB. Archive old learnings.",
-    "nextRun": "2026-03-15T20:00:00-08:00",
-    "status": "active",
-    "lastStatus": "new"
-  },
-  {
-    "id": "bc5429b9-0a41-4280-81e2-7b727c43d5d6",
-    "name": "Mission Control Maintenance",
-    "type": "cron",
-    "schedule": "0 23 * * * (Daily 11:00 PM PST)",
-    "tz": "America/Los_Angeles",
-    "description": "Update all Mission Control dashboards with current data, sync social.json from daily signals, process learning logs, commit and deploy to Vercel.",
-    "nextRun": "2026-03-12T23:00:00-08:00",
-    "status": "active",
-    "lastStatus": "ok"
-  },
-  {
-    "id": "4dd9ab74-99bb-4613-b1b6-470640e6aad9",
-    "name": "QMD Nightly Re-index",
-    "type": "cron",
-    "schedule": "30 23 * * * (Daily 11:30 PM PST)",
-    "tz": "America/Los_Angeles",
-    "description": "Re-index and embed workspace files for QMD semantic search.",
-    "nextRun": "2026-03-12T23:30:00-08:00",
-    "status": "active",
-    "lastStatus": "error"
+    "description": "Extract strategic insights from daily memory files. Prune agent memory files. Maintain learning loop.",
+    "status": "active"
   }
 ]
