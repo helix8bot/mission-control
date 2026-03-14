@@ -5,11 +5,11 @@
     "status": "In Progress",
     "assignee": "Helix",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "ONGOING",
-    "note": "⚠️ STALLED 3 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Due in 2 days — needs push."
+    "note": "⚠️ STALLED 5 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Due TOMORROW — critical push needed."
   },
   {
     "id": "101",
@@ -17,11 +17,11 @@
     "status": "Deferred - Q2",
     "assignee": "Luna",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "⚠️ STALLED 12 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
+    "note": "⚠️ STALLED 14 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
   },
   {
     "id": "105",
@@ -29,11 +29,11 @@
     "status": "Deferred - Q2",
     "assignee": "Sage",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 12 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "⚠️ STALLED 14 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "106",
@@ -41,23 +41,23 @@
     "status": "Deferred - Q2",
     "assignee": "Sage",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 12 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "⚠️ STALLED 14 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "206",
     "title": "Build prospect list - 100 med spas, 100 gyms, 100 doctors",
-    "status": "In Progress",
+    "status": "Overdue",
     "assignee": "Kira",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-14",
     "priority": "medium",
-    "week": "ONGOING",
-    "note": "🚨 DUE TOMORROW. 30/300 complete (10%). STALLED 4 DAYS. Deprioritized vs PeptideLaunch but deadline is imminent. Recommend: defer to Q2 or close."
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE TODAY. 30/300 complete (10%). STALLED 6 DAYS. Deprioritized vs PeptideLaunch but deadline passed. Recommend: defer to Q2 or close."
   },
   {
     "id": "402",
@@ -65,11 +65,11 @@
     "status": "Deferred - Q2",
     "assignee": "Drake",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "⚠️ STALLED 12 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
+    "note": "⚠️ STALLED 14 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
   },
   {
     "id": "403",
@@ -77,11 +77,11 @@
     "status": "Deferred - Q2",
     "assignee": "Blair",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 12 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
+    "note": "⚠️ STALLED 14 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
   },
   {
     "id": "602",
@@ -89,11 +89,11 @@
     "status": "In Progress",
     "assignee": "Nova",
     "dateAssigned": "2026-03-05",
-    "lastUpdated": "2026-03-10",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-04-02",
     "priority": "high",
     "week": "ONGOING",
-    "note": "⚠️ STALLED 3 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
+    "note": "⚠️ STALLED 5 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
   },
   {
     "id": "603",
@@ -101,7 +101,7 @@
     "status": "To Do",
     "assignee": "Echo",
     "dateAssigned": "2026-03-05",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-04-02",
     "priority": "low",
     "week": "BACKLOG",
@@ -113,7 +113,7 @@
     "status": "In Progress",
     "assignee": "Team",
     "dateAssigned": "2026-03-08",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-27",
     "priority": "critical",
     "week": "CURRENT",
@@ -125,7 +125,7 @@
     "status": "Deprioritized",
     "assignee": "Helix",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-15",
     "priority": "low",
     "week": "STALLED",
@@ -137,11 +137,11 @@
     "status": "Blocked",
     "assignee": "Zoe",
     "dateAssigned": "2026-03-07",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-21",
     "priority": "high",
     "week": "CURRENT",
-    "note": "⚠️ STALLED 4 DAYS. BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing from West Egg."
+    "note": "⚠️ STALLED 6 DAYS. BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing from West Egg."
   },
   {
     "id": "905",
@@ -149,7 +149,7 @@
     "status": "In Progress",
     "assignee": "Sage",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
@@ -161,7 +161,7 @@
     "status": "To Do",
     "assignee": "Sage",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-27",
     "priority": "high",
     "week": "NEXT",
@@ -173,7 +173,7 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-19",
     "priority": "critical",
     "week": "CURRENT",
@@ -185,7 +185,7 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
@@ -197,7 +197,7 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-21",
     "priority": "critical",
     "week": "CURRENT",
@@ -209,7 +209,7 @@
     "status": "Deprioritized",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-22",
     "priority": "low",
     "week": "STALLED",
@@ -221,7 +221,7 @@
     "status": "To Do",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-22",
     "priority": "critical",
     "week": "CURRENT",
@@ -233,7 +233,7 @@
     "status": "To Do",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-23",
     "priority": "critical",
     "week": "CURRENT",
@@ -245,7 +245,7 @@
     "status": "Blocked",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-24",
     "priority": "critical",
     "week": "CURRENT",
@@ -257,11 +257,11 @@
     "status": "Deprioritized",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-03",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 12 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
+    "note": "⚠️ STALLED 14 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1009",
@@ -269,11 +269,11 @@
     "status": "Deprioritized",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-03",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 12 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
+    "note": "⚠️ STALLED 14 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1010",
@@ -281,11 +281,11 @@
     "status": "To Do",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-10",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-25",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ STALLED 3 DAYS. Hair funnel pushed 1 week. Due ~3/25. No status update from Ivy. Review all funnel files for compliance."
+    "note": "⚠️ STALLED 5 DAYS. Hair funnel pushed 1 week. Due ~3/25. No status update from Ivy. Review all funnel files for compliance."
   },
   {
     "id": "1011",
@@ -293,11 +293,11 @@
     "status": "To Do",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-09",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-17",
     "priority": "high",
     "week": "CURRENT",
-    "note": "⚠️ STALLED 4 DAYS. Due 3/17 (Monday). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe — same keys. Needs Perry decision."
+    "note": "⚠️ STALLED 6 DAYS. Due MONDAY (3/17). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe — same keys. Needs Perry decision."
   },
   {
     "id": "1012",
@@ -305,11 +305,11 @@
     "status": "Blocked",
     "assignee": "Helix",
     "dateAssigned": "2026-03-12",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "PRIORITY #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). Due Sunday — keys needed ASAP."
+    "note": "🚨 PRIORITY #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). Due TOMORROW — keys needed URGENTLY."
   },
   {
     "id": "1013",
@@ -317,10 +317,10 @@
     "status": "Blocked",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-12",
-    "lastUpdated": "2026-03-12",
+    "lastUpdated": "2026-03-14",
     "dueDate": "2026-03-15",
     "priority": "high",
     "week": "CURRENT",
-    "note": "Site deployed to Vercel. Needs: 1) GoDaddy A record (@ → 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs. Due Sunday."
+    "note": "Site deployed to Vercel. Needs: 1) GoDaddy A record (@ → 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs. Due TOMORROW."
   }
 ]
