@@ -5,11 +5,11 @@
     "status": "In Progress",
     "assignee": "Helix",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "ONGOING",
-    "note": "⚠️ STALLED 5 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Due TOMORROW — critical push needed."
+    "note": "⚠️ STALLED 6 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Due TODAY — critical push needed."
   },
   {
     "id": "101",
@@ -53,11 +53,11 @@
     "status": "Overdue",
     "assignee": "Kira",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-14",
     "priority": "medium",
     "week": "OVERDUE",
-    "note": "🚨 OVERDUE TODAY. 30/300 complete (10%). STALLED 6 DAYS. Deprioritized vs PeptideLaunch but deadline passed. Recommend: defer to Q2 or close."
+    "note": "🚨 OVERDUE 1 DAY. 30/300 complete (10%). STALLED 7 DAYS. Deprioritized vs PeptideLaunch but deadline passed. Recommend: defer to Q2 or close."
   },
   {
     "id": "402",
@@ -89,11 +89,11 @@
     "status": "In Progress",
     "assignee": "Nova",
     "dateAssigned": "2026-03-05",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-04-02",
     "priority": "high",
     "week": "ONGOING",
-    "note": "⚠️ STALLED 5 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
+    "note": "⚠️ STALLED 6 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
   },
   {
     "id": "603",
@@ -113,7 +113,7 @@
     "status": "In Progress",
     "assignee": "Team",
     "dateAssigned": "2026-03-08",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-27",
     "priority": "critical",
     "week": "CURRENT",
@@ -137,11 +137,11 @@
     "status": "Blocked",
     "assignee": "Zoe",
     "dateAssigned": "2026-03-07",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-21",
     "priority": "high",
     "week": "CURRENT",
-    "note": "⚠️ STALLED 6 DAYS. BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing from West Egg."
+    "note": "⚠️ STALLED 7 DAYS. BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing from West Egg."
   },
   {
     "id": "905",
@@ -149,11 +149,11 @@
     "status": "In Progress",
     "assignee": "Sage",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "PRIORITY #1 per Perry (3/12). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. Due 3/20."
+    "note": "🚨 PRIORITY #1 per Perry (3/12). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. Due 3/20. URGENT ACTION NEEDED."
   },
   {
     "id": "906",
@@ -173,11 +173,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-19",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. Due ~3/19. No status update from Lyn. Design 15-page $17 Quick Start PDF. Content ready (44KB)."
+    "note": "Hair funnel pushed 1 week. Due Wednesday (3/19). No status update from Lyn. Design 15-page $17 Quick Start PDF. Content ready (44KB)."
   },
   {
     "id": "1002",
@@ -185,11 +185,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. Due ~3/20. Sales page header, value stack visual, testimonial cards."
+    "note": "Hair funnel pushed 1 week. Due Thursday (3/20). Sales page header, value stack visual, testimonial cards."
   },
   {
     "id": "1003",
@@ -197,11 +197,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-21",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. Due ~3/21. 12 ad variations needed. Triple Hook copy from Nova ready."
+    "note": "Hair funnel pushed 1 week. Due Friday (3/21). 12 ad variations needed. Triple Hook copy from Nova ready."
   },
   {
     "id": "1004",
@@ -221,11 +221,11 @@
     "status": "To Do",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-22",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. Due ~3/22. Build 4 sales pages + checkout + upsell flows. Content ready."
+    "note": "Hair funnel pushed 1 week. Due Saturday (3/22). Build 4 sales pages + checkout + upsell flows. Content ready."
   },
   {
     "id": "1006",
@@ -233,11 +233,11 @@
     "status": "To Do",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-23",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. Due ~3/23. 6 email sequences (27 emails + 5 SMS). Plain text only."
+    "note": "Hair funnel pushed 1 week. Due Sunday (3/23). 6 email sequences (27 emails + 5 SMS). Plain text only."
   },
   {
     "id": "1007",
@@ -245,7 +245,7 @@
     "status": "Blocked",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-24",
     "priority": "critical",
     "week": "CURRENT",
@@ -281,11 +281,11 @@
     "status": "To Do",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-25",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ STALLED 5 DAYS. Hair funnel pushed 1 week. Due ~3/25. No status update from Ivy. Review all funnel files for compliance."
+    "note": "⚠️ STALLED 6 DAYS. Hair funnel pushed 1 week. Due Tuesday (3/25). No status update from Ivy. Review all funnel files for compliance."
   },
   {
     "id": "1011",
@@ -293,11 +293,11 @@
     "status": "To Do",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-17",
     "priority": "high",
     "week": "CURRENT",
-    "note": "⚠️ STALLED 6 DAYS. Due MONDAY (3/17). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe — same keys. Needs Perry decision."
+    "note": "⚠️ STALLED 7 DAYS. Due TOMORROW (3/17 = Monday). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe — same keys. Needs Perry decision."
   },
   {
     "id": "1012",
@@ -305,11 +305,11 @@
     "status": "Blocked",
     "assignee": "Helix",
     "dateAssigned": "2026-03-12",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 PRIORITY #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). Due TOMORROW — keys needed URGENTLY."
+    "note": "🚨 DUE TODAY. Priority #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). URGENTLY NEEDS KEYS."
   },
   {
     "id": "1013",
@@ -317,10 +317,10 @@
     "status": "Blocked",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-12",
-    "lastUpdated": "2026-03-14",
+    "lastUpdated": "2026-03-15",
     "dueDate": "2026-03-15",
     "priority": "high",
     "week": "CURRENT",
-    "note": "Site deployed to Vercel. Needs: 1) GoDaddy A record (@ → 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs. Due TOMORROW."
+    "note": "🚨 DUE TODAY. Site deployed to Vercel. Needs: 1) GoDaddy A record (@ → 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs."
   }
 ]
