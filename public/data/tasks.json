@@ -313,15 +313,15 @@
   },
   {
     "id": "1013",
-    "title": "SpawnOS - Domain + Stripe Setup",
-    "status": "Blocked",
+    "title": "SpawnOS - Domain DNS Configuration",
+    "status": "Complete",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-12",
     "lastUpdated": "2026-03-16",
     "dueDate": "2026-03-15",
     "priority": "high",
-    "week": "OVERDUE",
-    "note": "\ud83d\udea8 OVERDUE 1 DAY. Site deployed to Vercel. Needs: 1) GoDaddy A record (@ \u2192 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs."
+    "week": "CURRENT",
+    "note": "\u2705 COMPLETE. Domain spawnos.io configured and live since last week. GoDaddy A record (@  \u2192 76.76.21.21) verified working. Separated from Stripe integration (see task 1015)."
   },
   {
     "id": "1014",
@@ -334,5 +334,17 @@
     "priority": "medium",
     "week": "CURRENT",
     "note": "\u2705 COMPLETE. Researched Tresl auto refi for Wynn's funding stack. Key findings: 4.65-10.99% APR, likely all 3 bureaus, $10K-$15K potential if equity exists. DRAFT STATUS - needs client vehicle/loan data for actionable recommendation. Saved: /research/funding/tresl-auto-refi-research.md"
+  },
+  {
+    "id": "1015",
+    "title": "SpawnOS - Stripe Integration",
+    "status": "Blocked",
+    "assignee": "Helix",
+    "dateAssigned": "2026-03-16",
+    "lastUpdated": "2026-03-16",
+    "dueDate": "2026-03-17",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "\ud83d\udea8 DUE TOMORROW. Split from task 1013. Site deployed to Vercel, domain live. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec) for checkout integration. Also needs: Review Starter + System PDFs."
   }
 ]
