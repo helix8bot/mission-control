@@ -9,7 +9,7 @@
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "OVERDUE",
-    "note": "🚨 OVERDUE 1 DAY. STALLED 7 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Critical push needed."
+    "note": "\ud83d\udea8 OVERDUE 1 DAY. STALLED 7 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Critical push needed."
   },
   {
     "id": "101",
@@ -21,7 +21,7 @@
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "⚠️ STALLED 15 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
+    "note": "\u26a0\ufe0f STALLED 15 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
   },
   {
     "id": "105",
@@ -33,7 +33,7 @@
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 15 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "\u26a0\ufe0f STALLED 15 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "106",
@@ -45,7 +45,7 @@
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 15 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "\u26a0\ufe0f STALLED 15 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "206",
@@ -57,7 +57,7 @@
     "dueDate": "2026-03-14",
     "priority": "medium",
     "week": "OVERDUE",
-    "note": "🚨 OVERDUE 2 DAYS. 30/300 complete (10%). STALLED 8 DAYS. Deprioritized vs PeptideLaunch but deadline passed. Recommend: defer to Q2 or close."
+    "note": "\ud83d\udea8 OVERDUE 2 DAYS. 30/300 complete (10%). STALLED 8 DAYS. Deprioritized vs PeptideLaunch but deadline passed. Recommend: defer to Q2 or close."
   },
   {
     "id": "402",
@@ -69,7 +69,7 @@
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "⚠️ STALLED 15 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
+    "note": "\u26a0\ufe0f STALLED 15 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
   },
   {
     "id": "403",
@@ -81,7 +81,7 @@
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 15 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
+    "note": "\u26a0\ufe0f STALLED 15 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
   },
   {
     "id": "602",
@@ -93,7 +93,7 @@
     "dueDate": "2026-04-02",
     "priority": "high",
     "week": "ONGOING",
-    "note": "⚠️ STALLED 7 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
+    "note": "\u26a0\ufe0f STALLED 7 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week \u2014 Recovery funnel now priority #1."
   },
   {
     "id": "603",
@@ -141,7 +141,7 @@
     "dueDate": "2026-03-21",
     "priority": "high",
     "week": "CURRENT",
-    "note": "⚠️ STALLED 8 DAYS. BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing from West Egg."
+    "note": "\u26a0\ufe0f STALLED 8 DAYS. BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing from West Egg."
   },
   {
     "id": "905",
@@ -153,7 +153,7 @@
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 PRIORITY #1 per Perry (3/12). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. Due 3/20 (THURSDAY). URGENT ACTION NEEDED."
+    "note": "\ud83d\udea8 PRIORITY #1 per Perry (3/12). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. Due 3/20 (THURSDAY). URGENT ACTION NEEDED."
   },
   {
     "id": "906",
@@ -261,7 +261,7 @@
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 15 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
+    "note": "\u26a0\ufe0f STALLED 15 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1009",
@@ -273,7 +273,7 @@
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 15 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
+    "note": "\u26a0\ufe0f STALLED 15 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1010",
@@ -285,7 +285,7 @@
     "dueDate": "2026-03-25",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ STALLED 7 DAYS. Hair funnel pushed 1 week. Due Tuesday (3/25). No status update from Ivy. Review all funnel files for compliance."
+    "note": "\u26a0\ufe0f STALLED 7 DAYS. Hair funnel pushed 1 week. Due Tuesday (3/25). No status update from Ivy. Review all funnel files for compliance."
   },
   {
     "id": "1011",
@@ -297,7 +297,7 @@
     "dueDate": "2026-03-17",
     "priority": "high",
     "week": "CURRENT",
-    "note": "🚨 DUE TOMORROW (3/17 = TUESDAY). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe — same keys. Needs Perry decision."
+    "note": "\ud83d\udea8 DUE TOMORROW (3/17 = TUESDAY). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe \u2014 same keys. Needs Perry decision."
   },
   {
     "id": "1012",
@@ -309,7 +309,7 @@
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "OVERDUE",
-    "note": "🚨 OVERDUE 1 DAY. Priority #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). URGENTLY NEEDS KEYS."
+    "note": "\ud83d\udea8 OVERDUE 1 DAY. Priority #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). URGENTLY NEEDS KEYS."
   },
   {
     "id": "1013",
@@ -321,6 +321,18 @@
     "dueDate": "2026-03-15",
     "priority": "high",
     "week": "OVERDUE",
-    "note": "🚨 OVERDUE 1 DAY. Site deployed to Vercel. Needs: 1) GoDaddy A record (@ → 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs."
+    "note": "\ud83d\udea8 OVERDUE 1 DAY. Site deployed to Vercel. Needs: 1) GoDaddy A record (@ \u2192 76.76.21.21) for spawnos.io 2) Stripe keys for checkout 3) Review Starter + System PDFs."
+  },
+  {
+    "id": "1014",
+    "title": "Tresl Auto Refinance Research - Wynn Nguyen Funding Stack",
+    "status": "Complete",
+    "assignee": "Helix",
+    "dateAssigned": "2026-03-16",
+    "lastUpdated": "2026-03-16",
+    "dueDate": "2026-03-16",
+    "priority": "medium",
+    "week": "CURRENT",
+    "note": "\u2705 COMPLETE. Researched Tresl auto refi for Wynn's funding stack. Key findings: 4.65-10.99% APR, likely all 3 bureaus, $10K-$15K potential if equity exists. DRAFT STATUS - needs client vehicle/loan data for actionable recommendation. Saved: /research/funding/tresl-auto-refi-research.md"
   }
 ]
