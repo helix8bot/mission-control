@@ -324,18 +324,6 @@
     "note": "\u2705 COMPLETE. Domain spawnos.io configured and live since last week. GoDaddy A record (@  \u2192 76.76.21.21) verified working. Separated from Stripe integration (see task 1015)."
   },
   {
-    "id": "1014",
-    "title": "Tresl Auto Refinance Research - Wynn Nguyen Funding Stack",
-    "status": "Complete",
-    "assignee": "Helix",
-    "dateAssigned": "2026-03-16",
-    "lastUpdated": "2026-03-16",
-    "dueDate": "2026-03-16",
-    "priority": "medium",
-    "week": "CURRENT",
-    "note": "\u2705 COMPLETE. Researched Tresl auto refi for Wynn's funding stack. Key findings: 4.65-10.99% APR, likely all 3 bureaus, $10K-$15K potential if equity exists. DRAFT STATUS - needs client vehicle/loan data for actionable recommendation. Saved: /research/funding/tresl-auto-refi-research.md"
-  },
-  {
     "id": "1015",
     "title": "SpawnOS - Stripe Integration",
     "status": "Blocked",
