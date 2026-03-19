@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SESSIONS_DIR = path.join(process.env.HOME, '.openclaw/agents/main/sessions');
+const AGENTS_DIR = path.join(process.env.HOME, '.openclaw/agents');
 const OUTPUT_FILE = path.join(process.env.HOME, '.openclaw/workspace/mission-control/public/data/usage.json');
 
 function parseSessionFile(filePath) {
@@ -32,14 +32,23 @@ function parseSessionFile(filePath) {
   return entries;
 }
 
-const files = fs.readdirSync(SESSIONS_DIR).filter(f => f.endsWith('.jsonl') && !f.includes('.deleted') && !f.includes('.bak') && !f.includes('.lock') && !f.includes('.reset'));
-console.log('Parsing ' + files.length + ' session files...');
-
+// Scan ALL agent directories for session files
 let allEntries = [];
-for (const file of files) {
-  allEntries.push(...parseSessionFile(path.join(SESSIONS_DIR, file)));
+let totalFiles = 0;
+const agentDirs = fs.readdirSync(AGENTS_DIR).filter(d => {
+  try { return fs.statSync(path.join(AGENTS_DIR, d, 'sessions')).isDirectory(); } catch { return false; }
+});
+
+for (const agent of agentDirs) {
+  const sessDir = path.join(AGENTS_DIR, agent, 'sessions');
+  const files = fs.readdirSync(sessDir).filter(f => f.endsWith('.jsonl') && !f.includes('.deleted') && !f.includes('.bak') && !f.includes('.lock') && !f.includes('.reset'));
+  console.log('Agent "' + agent + '": ' + files.length + ' session files');
+  totalFiles += files.length;
+  for (const file of files) {
+    allEntries.push(...parseSessionFile(path.join(sessDir, file)));
+  }
 }
-console.log('Found ' + allEntries.length + ' usage entries total.');
+console.log('Total: ' + totalFiles + ' files, ' + allEntries.length + ' usage entries.');
 
 const dailyUsage = {};
 for (const e of allEntries) {
