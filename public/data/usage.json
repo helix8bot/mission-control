@@ -1,7 +1,22 @@
 {
-  "lastUpdated": "2026-03-21T19:01:33.957Z",
+  "lastUpdated": "2026-03-22T18:59:04.048Z",
   "generatedBy": "update-usage.js (auto-parsed from OpenClaw sessions)",
   "dailyUsage": {
+    "2026-03-22": {
+      "date": "2026-03-22",
+      "totalInputTokens": 2587,
+      "totalOutputTokens": 72241,
+      "cacheReadTokens": 10069267,
+      "cacheWriteTokens": 2208003,
+      "totalTokens": 12352098,
+      "estimatedCost": 11.902524,
+      "messageCount": 243,
+      "models": {
+        "claude-sonnet-4-20250514": 205,
+        "claude-haiku-4-5-20251001": 23,
+        "claude-sonnet-4-5-20250929": 15
+      }
+    },
     "2026-02-23": {
       "date": "2026-02-23",
       "totalInputTokens": 137,
@@ -151,28 +166,28 @@
     },
     "2026-03-20": {
       "date": "2026-03-20",
-      "totalInputTokens": 1245,
-      "totalOutputTokens": 52779,
-      "cacheReadTokens": 3314716,
-      "cacheWriteTokens": 590858,
-      "totalTokens": 3959598,
-      "estimatedCost": 4.005552,
-      "messageCount": 116,
+      "totalInputTokens": 973,
+      "totalOutputTokens": 47382,
+      "cacheReadTokens": 2967307,
+      "cacheWriteTokens": 447914,
+      "totalTokens": 3463576,
+      "estimatedCost": 3.283519,
+      "messageCount": 90,
       "models": {
-        "claude-sonnet-4-20250514": 116
+        "claude-sonnet-4-20250514": 90
       }
     },
     "2026-03-21": {
       "date": "2026-03-21",
-      "totalInputTokens": 2221,
-      "totalOutputTokens": 80652,
-      "cacheReadTokens": 8750222,
-      "cacheWriteTokens": 2517136,
-      "totalTokens": 11350231,
-      "estimatedCost": 13.28077,
-      "messageCount": 211,
+      "totalInputTokens": 1424,
+      "totalOutputTokens": 71689,
+      "cacheReadTokens": 8844894,
+      "cacheWriteTokens": 2424571,
+      "totalTokens": 11342578,
+      "estimatedCost": 12.825216,
+      "messageCount": 136,
       "models": {
-        "claude-sonnet-4-20250514": 211
+        "claude-sonnet-4-20250514": 136
       }
     },
     "2026-03-09": {
@@ -401,6 +416,16 @@
     }
   },
   "monthlyUsage": {
+    "2026-03": {
+      "month": "2026-03",
+      "totalInputTokens": 19107,
+      "totalOutputTokens": 998528,
+      "totalTokens": 104530058,
+      "estimatedCost": 135.830038,
+      "dayCount": 19,
+      "messageCount": 1876,
+      "averageDailyCost": 7.15
+    },
     "2026-02": {
       "month": "2026-02",
       "totalInputTokens": 3363,
@@ -410,25 +435,15 @@
       "dayCount": 12,
       "messageCount": 966,
       "averageDailyCost": 0.78
-    },
-    "2026-03": {
-      "month": "2026-03",
-      "totalInputTokens": 17589,
-      "totalOutputTokens": 940647,
-      "totalTokens": 92681635,
-      "estimatedCost": 125.105101,
-      "dayCount": 18,
-      "messageCount": 1734,
-      "averageDailyCost": 6.95
     }
   },
   "summary": {
-    "totalCost": 134.51,
-    "totalMessages": 2700,
-    "totalTokens": 127106716,
+    "totalCost": 145.23,
+    "totalMessages": 2842,
+    "totalTokens": 138955139,
     "dateRange": {
       "from": "2026-02-17",
-      "to": "2026-03-21"
+      "to": "2026-03-22"
     }
   }
 }
