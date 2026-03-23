@@ -9,7 +9,7 @@
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "OVERDUE",
-    "note": "🚨 OVERDUE 7 DAYS. STALLED 13 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Critical push needed."
+    "note": "\ud83d\udea8 OVERDUE 7 DAYS. STALLED 13 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Critical push needed."
   },
   {
     "id": "101",
@@ -21,7 +21,7 @@
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "⚠️ STALLED 21 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
+    "note": "\u26a0\ufe0f STALLED 21 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
   },
   {
     "id": "105",
@@ -33,7 +33,7 @@
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 21 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "\u26a0\ufe0f STALLED 21 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "106",
@@ -45,7 +45,7 @@
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 21 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "\u26a0\ufe0f STALLED 21 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "206",
@@ -57,7 +57,7 @@
     "dueDate": "2026-03-14",
     "priority": "medium",
     "week": "OVERDUE",
-    "note": "🚨 OVERDUE 8 DAYS. 30/300 complete (10%). STALLED 14 DAYS. Deprioritized vs PeptideLaunch but deadline passed. Recommend: defer to Q2 or close."
+    "note": "\ud83d\udea8 OVERDUE 8 DAYS. 30/300 complete (10%). STALLED 14 DAYS. Deprioritized vs PeptideLaunch but deadline passed. Recommend: defer to Q2 or close."
   },
   {
     "id": "402",
@@ -69,7 +69,7 @@
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "⚠️ STALLED 21 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
+    "note": "\u26a0\ufe0f STALLED 21 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
   },
   {
     "id": "403",
@@ -81,7 +81,7 @@
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 21 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
+    "note": "\u26a0\ufe0f STALLED 21 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
   },
   {
     "id": "602",
@@ -93,7 +93,7 @@
     "dueDate": "2026-04-02",
     "priority": "high",
     "week": "ONGOING",
-    "note": "⚠️ STALLED 13 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
+    "note": "\u26a0\ufe0f STALLED 13 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week \u2014 Recovery funnel now priority #1."
   },
   {
     "id": "603",
@@ -141,7 +141,7 @@
     "dueDate": "2026-03-21",
     "priority": "high",
     "week": "CURRENT",
-    "note": "🚨 OVERDUE 1 DAY. STALLED 15 DAYS. BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing from West Egg."
+    "note": "\ud83d\udea8 OVERDUE 1 DAY. STALLED 15 DAYS. BLOCKED: Waiting on complete 503A peptide pricing (7 peptides missing COGS). Need BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu pricing from West Egg."
   },
   {
     "id": "905",
@@ -153,7 +153,7 @@
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 PRIORITY #1 per Perry (3/12). OVERDUE 2 DAYS (was due 3/20). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. URGENT ACTION NEEDED."
+    "note": "\ud83d\udea8 PRIORITY #1 per Perry (3/12). OVERDUE 2 DAYS (was due 3/20). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. URGENT ACTION NEEDED."
   },
   {
     "id": "906",
@@ -177,7 +177,7 @@
     "dueDate": "2026-03-19",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 OVERDUE 3 DAYS (was due 3/19). Hair funnel pushed 1 week but still overdue. No status update from Lyn. Design 15-page $17 Quick Start PDF. Content ready (44KB)."
+    "note": "\ud83d\udea8 OVERDUE 3 DAYS (was due 3/19). Hair funnel pushed 1 week but still overdue. No status update from Lyn. Design 15-page $17 Quick Start PDF. Content ready (44KB)."
   },
   {
     "id": "1002",
@@ -189,7 +189,7 @@
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 OVERDUE 2 DAYS (was due 3/20). Hair funnel pushed 1 week but still overdue. Sales page header, value stack visual, testimonial cards."
+    "note": "\ud83d\udea8 OVERDUE 2 DAYS (was due 3/20). Hair funnel pushed 1 week but still overdue. Sales page header, value stack visual, testimonial cards."
   },
   {
     "id": "1003",
@@ -201,7 +201,7 @@
     "dueDate": "2026-03-21",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 OVERDUE 1 DAY (was due 3/21). Hair funnel pushed 1 week. 12 ad variations needed. Triple Hook copy from Nova ready."
+    "note": "\ud83d\udea8 OVERDUE 1 DAY (was due 3/21). Hair funnel pushed 1 week. 12 ad variations needed. Triple Hook copy from Nova ready."
   },
   {
     "id": "1004",
@@ -225,7 +225,7 @@
     "dueDate": "2026-03-22",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 DUE TODAY (3/22). Hair funnel pushed 1 week. Build 4 sales pages + checkout + upsell flows. Content ready."
+    "note": "\ud83d\udea8 DUE TODAY (3/22). Hair funnel pushed 1 week. Build 4 sales pages + checkout + upsell flows. Content ready."
   },
   {
     "id": "1006",
@@ -261,7 +261,7 @@
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 19 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
+    "note": "\u26a0\ufe0f STALLED 19 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1009",
@@ -273,7 +273,7 @@
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "⚠️ STALLED 19 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
+    "note": "\u26a0\ufe0f STALLED 19 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1010",
@@ -285,7 +285,7 @@
     "dueDate": "2026-03-25",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ STALLED 13 DAYS. Hair funnel pushed 1 week. Due Tuesday (3/25 - 3 days). No status update from Ivy. Review all funnel files for compliance."
+    "note": "\u26a0\ufe0f STALLED 13 DAYS. Hair funnel pushed 1 week. Due Tuesday (3/25 - 3 days). No status update from Ivy. Review all funnel files for compliance."
   },
   {
     "id": "1011",
@@ -297,7 +297,7 @@
     "dueDate": "2026-03-17",
     "priority": "high",
     "week": "CURRENT",
-    "note": "🚨 OVERDUE 5 DAYS (was due 3/17). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe — same keys. Needs Perry decision."
+    "note": "\ud83d\udea8 OVERDUE 5 DAYS (was due 3/17). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe \u2014 same keys. Needs Perry decision."
   },
   {
     "id": "1012",
@@ -309,7 +309,7 @@
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "OVERDUE",
-    "note": "🚨 OVERDUE 7 DAYS. Priority #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). URGENTLY NEEDS KEYS."
+    "note": "\ud83d\udea8 OVERDUE 7 DAYS. Priority #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). URGENTLY NEEDS KEYS."
   },
   {
     "id": "1013",
@@ -321,7 +321,7 @@
     "dueDate": "2026-03-15",
     "priority": "high",
     "week": "CURRENT",
-    "note": "✅ COMPLETE. Domain spawnos.io configured and live since last week. GoDaddy A record (@  → 76.76.21.21) verified working. Separated from Stripe integration (see task 1015)."
+    "note": "\u2705 COMPLETE. Domain spawnos.io configured and live since last week. GoDaddy A record (@  \u2192 76.76.21.21) verified working. Separated from Stripe integration (see task 1015)."
   },
   {
     "id": "1015",
@@ -333,6 +333,198 @@
     "dueDate": "2026-03-17",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 OVERDUE 5 DAYS (was due 3/17). Site deployed to Vercel, domain live. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec) for checkout integration. Also needs: Review Starter + System PDFs."
+    "note": "\ud83d\udea8 OVERDUE 5 DAYS (was due 3/17). Site deployed to Vercel, domain live. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec) for checkout integration. Also needs: Review Starter + System PDFs."
+  },
+  {
+    "id": "2001",
+    "title": "[STAB] Release $12K personal AP",
+    "status": "To Do",
+    "assignee": "Perry (Human)",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-03-27",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 4. Capital lands 3/25. Release immediately after."
+  },
+  {
+    "id": "2002",
+    "title": "[STAB] Release $12K business AP / payroll catch-up",
+    "status": "To Do",
+    "assignee": "Perry (Human)",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-03-27",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 4. Capital lands 3/25. Release immediately after."
+  },
+  {
+    "id": "2003",
+    "title": "[STAB] Place $40K inventory order \u2014 prioritize all stockouts",
+    "status": "To Do",
+    "assignee": "Kira",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-03-28",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 9. Capital lands 3/25. Place order ASAP after funds clear. 8 stockouts including BPC-157 (5 units), TESAMORELIN (1 unit), Recon Solution (0)."
+  },
+  {
+    "id": "2004",
+    "title": "[STAB] Create capital bucket tracking (reserve/working/draw/flex)",
+    "status": "To Do",
+    "assignee": "Zoe",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-03-28",
+    "priority": "high",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 5. Track: $60K hard reserve, $50K working capital, $30K partner reserve, $16K flex. Liquid cushion must not fall below $100K."
+  },
+  {
+    "id": "2005",
+    "title": "[STAB] MCA reset 4/17 \u2014 begin refinance conversation NOW",
+    "status": "To Do",
+    "assignee": "Perry (Human)",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-04-10",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 12. $570/week starts 3/23 for 4 weeks. Resets to $2,300/week ($9,200/month) on 4/17. Must refinance, extend, or prepare to absorb BEFORE reset."
+  },
+  {
+    "id": "2006",
+    "title": "[STAB] Confirm winning ad creatives with Anmol",
+    "status": "To Do",
+    "assignee": "Luna",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-03-26",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 10 Phase 1. Identify current best-performing Elixser creatives before restart. Proven only \u2014 no new testing during stabilization."
+  },
+  {
+    "id": "2007",
+    "title": "[STAB] Restart Elixser ads at $200-300/day on credit",
+    "status": "To Do",
+    "assignee": "Luna",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-03-31",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 10 Phase 1. Capital lands 3/25, ads restart after inventory order placed. Use ad credit only. Target: $1.2K-$1.8K/day revenue."
+  },
+  {
+    "id": "2008",
+    "title": "[STAB] Monitor daily ROAS and CPP \u2014 report weekly",
+    "status": "To Do",
+    "assignee": "Rex",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-04-30",
+    "priority": "high",
+    "week": "ONGOING",
+    "note": "Stabilization Plan Section 10. Track ROAS vs targets (3x M1, 4x M2, 5x M3). Flag if ROAS drops below 2x."
+  },
+  {
+    "id": "2009",
+    "title": "[STAB] Prepare ad escalation plan: $400-600/day",
+    "status": "To Do",
+    "assignee": "Luna",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-04-10",
+    "priority": "high",
+    "week": "NEXT",
+    "note": "Stabilization Plan Section 10 Phase 2. Ready to execute Days 8-21 after ad restart IF ROAS holds. Goal: 35-50 units/day."
+  },
+  {
+    "id": "2010",
+    "title": "[STAB] Prepare ad escalation plan: $800-1,000/day (post-inventory)",
+    "status": "To Do",
+    "assignee": "Luna",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-04-18",
+    "priority": "medium",
+    "week": "NEXT",
+    "note": "Stabilization Plan Section 10 Phase 3. Only after inventory lands AND ROAS improves. Goal: return to ~70 units/day."
+  },
+  {
+    "id": "2011",
+    "title": "[STAB] Track ETA of initial $40K inventory order",
+    "status": "To Do",
+    "assignee": "Kira",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-04-05",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 9. Report ETA to team. Flag delays immediately."
+  },
+  {
+    "id": "2012",
+    "title": "[STAB] Forecast reorder point by Day 25-30",
+    "status": "To Do",
+    "assignee": "Kira",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-04-17",
+    "priority": "high",
+    "week": "NEXT",
+    "note": "Stabilization Plan Section 9. $10K-$15K top-up if M1 pace confirmed. Use inventory sheet 1nOm81pfR59AXLIiZWW3LCInCAQqq9-ZmbrJ1te28pVM."
+  },
+  {
+    "id": "2013",
+    "title": "[STAB] Build 2-week rolling stock dashboard",
+    "status": "To Do",
+    "assignee": "Kira",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-04-01",
+    "priority": "high",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 9. Show current stock, burn rate, days remaining per SKU. Flag stockout risk immediately."
+  },
+  {
+    "id": "2014",
+    "title": "[STAB] Approve phased partner draw policy",
+    "status": "To Do",
+    "assignee": "Perry (Human)",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-03-26",
+    "priority": "critical",
+    "week": "CURRENT",
+    "note": "Stabilization Plan Section 11. $10-15K M1, $20-25K M2, up to $40K M3 only if revenue >$120K/month. No full draws before M3."
+  },
+  {
+    "id": "2015",
+    "title": "[STAB] Weekly reserve + MCA + revenue review",
+    "status": "To Do",
+    "assignee": "Zoe",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-06-23",
+    "priority": "high",
+    "week": "ONGOING",
+    "note": "Stabilization Plan Sections 8, 12, 14. Weekly: cash reserve level, MCA status, revenue vs $120K threshold. Report to Perry every Monday."
+  },
+  {
+    "id": "2016",
+    "title": "[STAB] Maximize email retention revenue during ad ramp",
+    "status": "To Do",
+    "assignee": "Drake",
+    "dateAssigned": "2026-03-23",
+    "lastUpdated": "2026-03-23",
+    "dueDate": "2026-04-15",
+    "priority": "high",
+    "week": "CURRENT",
+    "note": "Stabilization Plan. Focus post-purchase + win-back sequences. Every repeat order = $102 gross profit at zero CAC. 25% repeat rate is key lever. No margin-compressing discounts."
   }
 ]
