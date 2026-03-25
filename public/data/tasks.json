@@ -149,11 +149,11 @@
     "status": "Blocked",
     "assignee": "Sage",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-25",
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 PRIORITY #1 per Perry (3/12). OVERDUE 2 DAYS (was due 3/20). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Stripe keys needed from Perry for checkout. URGENT ACTION NEEDED."
+    "note": "\ud83d\udea8 PRIORITY #1 per Perry (3/12). OVERDUE 5 DAYS (was due 3/20). All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Perry's Stripe keys (sk_live, pk_live, whsec) needed for checkout. CRITICAL BLOCKER."
   },
   {
     "id": "906",
@@ -173,11 +173,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-25",
     "dueDate": "2026-03-19",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 3 DAYS (was due 3/19). Hair funnel pushed 1 week but still overdue. No status update from Lyn. Design 15-page $17 Quick Start PDF. Content ready (44KB)."
+    "note": "\ud83d\udea8 OVERDUE 6 DAYS (was due 3/19). Hair funnel pushed 1 week but still overdue. No status update from Lyn. Design 15-page $17 Quick Start PDF. Content ready (44KB). URGENT: Follow up with Lyn immediately."
   },
   {
     "id": "1002",
@@ -185,11 +185,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-25",
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 2 DAYS (was due 3/20). Hair funnel pushed 1 week but still overdue. Sales page header, value stack visual, testimonial cards."
+    "note": "\ud83d\udea8 OVERDUE 5 DAYS (was due 3/20). Hair funnel pushed 1 week but still overdue. Sales page header, value stack visual, testimonial cards. URGENT: Follow up with Lyn immediately."
   },
   {
     "id": "1003",
@@ -197,11 +197,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-25",
     "dueDate": "2026-03-21",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 1 DAY (was due 3/21). Hair funnel pushed 1 week. 12 ad variations needed. Triple Hook copy from Nova ready."
+    "note": "\ud83d\udea8 OVERDUE 4 DAYS (was due 3/21). Hair funnel pushed 1 week. 12 ad variations needed. Triple Hook copy from Nova ready. URGENT: Follow up with Lyn immediately."
   },
   {
     "id": "1004",
@@ -218,14 +218,14 @@
   {
     "id": "1005",
     "title": "Build PeptideLaunch Hair funnel in GHL",
-    "status": "To Do",
+    "status": "In Progress",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-25",
     "dueDate": "2026-03-22",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 DUE TODAY (3/22). Hair funnel pushed 1 week. Build 4 sales pages + checkout + upsell flows. Content ready."
+    "note": "\ud83d\udea8 OVERDUE 3 DAYS (was due 3/22). Hair funnel pushed 1 week. Build 4 sales pages + checkout + upsell flows. Content ready. Awaiting confirmation from Anmol on completion status."
   },
   {
     "id": "1006",
@@ -278,14 +278,14 @@
   {
     "id": "1010",
     "title": "PeptideLaunch compliance review before launch",
-    "status": "To Do",
+    "status": "In Progress",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-25",
     "dueDate": "2026-03-25",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\u26a0\ufe0f STALLED 13 DAYS. Hair funnel pushed 1 week. Due Tuesday (3/25 - 3 days). No status update from Ivy. Review all funnel files for compliance."
+    "note": "🔴 DUE TODAY (3/25). Hair funnel pushed 1 week. No status update from Ivy. Review all funnel files for compliance. URGENT: Must complete today to enable launch window."
   },
   {
     "id": "1011",
@@ -305,11 +305,11 @@
     "status": "Blocked",
     "assignee": "Helix",
     "dateAssigned": "2026-03-12",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-25",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "OVERDUE",
-    "note": "\ud83d\udea8 OVERDUE 7 DAYS. Priority #1 funnel. Landing page live. All PDFs complete. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec). URGENTLY NEEDS KEYS."
+    "note": "\ud83d\udea8 OVERDUE 10 DAYS. Priority #1 funnel. Landing page live. All PDFs complete. BLOCKER: Perry's Stripe keys (sk_live, pk_live, whsec) REQUIRED. Without keys, funnel cannot go live. CRITICAL BLOCKER."
   },
   {
     "id": "1013",
@@ -329,11 +329,11 @@
     "status": "Blocked",
     "assignee": "Helix",
     "dateAssigned": "2026-03-16",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-25",
     "dueDate": "2026-03-17",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 5 DAYS (was due 3/17). Site deployed to Vercel, domain live. BLOCKER: Waiting on Perry's Stripe keys (sk_live, pk_live, whsec) for checkout integration. Also needs: Review Starter + System PDFs."
+    "note": "\ud83d\udea8 OVERDUE 8 DAYS (was due 3/17). Site deployed to Vercel, domain live. BLOCKER: Perry's Stripe keys (sk_live, pk_live, whsec) for checkout integration. Also needs: Review Starter + System PDFs. CRITICAL BLOCKER."
   },
   {
     "id": "2001",
