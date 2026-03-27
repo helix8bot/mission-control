@@ -5,11 +5,11 @@
     "status": "In Progress",
     "assignee": "Helix",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "OVERDUE",
-    "note": "\ud83d\udea8 OVERDUE 7 DAYS. STALLED 13 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Critical push needed."
+    "note": "🚨 OVERDUE 12 DAYS. STALLED 13 DAYS. Custom fields created (3/9), full CRUD tested. Next: automation for contact creation from landing pages. Critical push needed after Hair launch."
   },
   {
     "id": "101",
@@ -17,11 +17,11 @@
     "status": "Deferred - Q2",
     "assignee": "Luna",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 21 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
+    "note": "⚠️ STALLED 26 DAYS. BLOCKER: Needs GHL workflow build (Anmol). Strategy exists but not implemented. Anmol focused on PeptideLaunch Hair funnel first."
   },
   {
     "id": "105",
@@ -29,11 +29,11 @@
     "status": "Deferred - Q2",
     "assignee": "Sage",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 21 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "⚠️ STALLED 26 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "106",
@@ -41,11 +41,11 @@
     "status": "Deferred - Q2",
     "assignee": "Sage",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 21 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
+    "note": "⚠️ STALLED 26 DAYS. BLOCKER: Waiting on Blair's B2B strategy. Deprioritized vs PeptideLaunch launch."
   },
   {
     "id": "206",
@@ -53,11 +53,11 @@
     "status": "Overdue",
     "assignee": "Kira",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-14",
     "priority": "medium",
     "week": "OVERDUE",
-    "note": "\ud83d\udea8 OVERDUE 8 DAYS. 30/300 complete (10%). STALLED 14 DAYS. Deprioritized vs PeptideLaunch but deadline passed. Recommend: defer to Q2 or close."
+    "note": "🚨 OVERDUE 13 DAYS. 30/300 complete (10%). STALLED 19 DAYS. Deprioritized vs PeptideLaunch but deadline passed. Recommend: defer to Q2 or close."
   },
   {
     "id": "402",
@@ -65,11 +65,11 @@
     "status": "Deferred - Q2",
     "assignee": "Drake",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-06-30",
     "priority": "high",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 21 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
+    "note": "⚠️ STALLED 26 DAYS. Superseded by PeptideLaunch digital funnels as primary revenue path. Consider closing or converting to Q2 initiative."
   },
   {
     "id": "403",
@@ -77,11 +77,11 @@
     "status": "Deferred - Q2",
     "assignee": "Blair",
     "dateAssigned": "2026-03-01",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-06-30",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 21 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
+    "note": "⚠️ STALLED 26 DAYS. B2B deprioritized vs DTC digital products. Consider closing or deferring to Q2."
   },
   {
     "id": "602",
@@ -89,11 +89,11 @@
     "status": "In Progress",
     "assignee": "Nova",
     "dateAssigned": "2026-03-05",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-02",
     "priority": "high",
     "week": "ONGOING",
-    "note": "\u26a0\ufe0f STALLED 13 DAYS. Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week \u2014 Recovery funnel now priority #1."
+    "note": "⚠️ STALLED 18 DAYS since last update (3/9). Ad strategy complete (12 Triple Hook variations + 30-day plan). BLOCKED on Lyn creatives + Anmol launch. Hair funnel pushed 1 week — Recovery funnel now priority #1."
   },
   {
     "id": "603",
@@ -101,7 +101,7 @@
     "status": "To Do",
     "assignee": "Echo",
     "dateAssigned": "2026-03-05",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-02",
     "priority": "low",
     "week": "BACKLOG",
@@ -113,11 +113,11 @@
     "status": "In Progress",
     "assignee": "Team",
     "dateAssigned": "2026-03-08",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-27",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "PUSHED 1 WEEK per Perry (3/12). Recovery funnel now priority #1. All copy + emails + ads complete. WAITING: Lyn (Quick Start PDF was due 3/19 - 3 days overdue, sales page graphics 3/20 - 2 days overdue, ads 3/21 - 1 day overdue), Anmol (GHL build 3/22-23), Ivy (compliance 3/25). Launch target ~3/27."
+    "note": "PUSHED 1 WEEK per Perry (3/12). Recovery funnel now priority #1. All copy + emails + ads copy complete. CRITICAL BLOCKERS: Lyn (Quick Start PDF 7d late, sales page graphics 6d late, ads 5d late - no status in 48h), Anmol (GHL build 4d late, email sequences due tomorrow), Ivy (compliance 1d late - no status in 24h). Launch target 3/27 AT RISK."
   },
   {
     "id": "902",
@@ -125,7 +125,7 @@
     "status": "Deprioritized",
     "assignee": "Helix",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-15",
     "priority": "low",
     "week": "STALLED",
@@ -137,11 +137,11 @@
     "status": "Blocked",
     "assignee": "Zoe",
     "dateAssigned": "2026-03-07",
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-21",
     "priority": "high",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 5 DAYS. BLOCKED: West Egg 503A COGS data missing for 7 peptides (BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu). Cannot complete model without pricing."
+    "note": "🚨 OVERDUE 6 DAYS. BLOCKED: West Egg 503A COGS data missing for 7 peptides (BPC-157, TB-500, CJC-1295, Ipamorelin, Tesamorelin, MOTS-C, GHK-Cu). Cannot complete model without pricing. Escalate to Perry for West Egg contact."
   },
   {
     "id": "905",
@@ -149,11 +149,11 @@
     "status": "Blocked",
     "assignee": "Sage",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 PRIORITY #1 per Perry (3/12). OVERDUE 6 DAYS. All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Perry's Stripe keys needed. Waiting for Perry to release credentials."
+    "note": "🚨 PRIORITY #1 per Perry (3/12). OVERDUE 7 DAYS. All 5 PaidCreators tiers complete. Landing page live. BLOCKER: Perry's Stripe keys (sk_live, pk_live, whsec) required for checkout. Waiting for Perry to release credentials."
   },
   {
     "id": "906",
@@ -161,11 +161,11 @@
     "status": "To Do",
     "assignee": "Sage",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-27",
     "priority": "high",
     "week": "NEXT",
-    "note": "Third PeptideLaunch funnel. Core products complete. Need: TOF, Speed, Access, ads, emails, pages."
+    "note": "Third PeptideLaunch funnel. Core products complete. Need: TOF, Speed, Access, ads, emails, pages. Defer until after Hair launch."
   },
   {
     "id": "1001",
@@ -173,11 +173,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-19",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 7 DAYS (was due 3/19). Hair launch deadline TOMORROW (3/27). CRITICAL BLOCKER. No status update from Lyn in 48h. Content ready. Needs immediate follow-up."
+    "note": "🚨 OVERDUE 8 DAYS (was due 3/19). Hair launch deadline TODAY (3/27). CRITICAL BLOCKER. No status update from Lyn in 48h. Content ready. **IMMEDIATE ESCALATION REQUIRED.**"
   },
   {
     "id": "1002",
@@ -185,11 +185,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-20",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 6 DAYS (was due 3/20). Hair launch deadline TOMORROW (3/27). CRITICAL BLOCKER. Sales page header, value stack, testimonial cards. Immediate follow-up required."
+    "note": "🚨 OVERDUE 7 DAYS (was due 3/20). Hair launch deadline TODAY (3/27). CRITICAL BLOCKER. Sales page header, value stack, testimonial cards. **IMMEDIATE ESCALATION REQUIRED.**"
   },
   {
     "id": "1003",
@@ -197,11 +197,11 @@
     "status": "To Do",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-21",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 5 DAYS (was due 3/21). Hair launch deadline TOMORROW (3/27). CRITICAL BLOCKER. 12 Triple Hook variations. Copy ready. Task 1007 (ad launch) blocked. Immediate action."
+    "note": "🚨 OVERDUE 6 DAYS (was due 3/21). Hair launch deadline TODAY (3/27). CRITICAL BLOCKER. 12 Triple Hook variations. Copy ready. Task 1007 (ad launch) blocked. **IMMEDIATE ESCALATION REQUIRED.**"
   },
   {
     "id": "1004",
@@ -209,7 +209,7 @@
     "status": "Deprioritized",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-22",
     "priority": "low",
     "week": "STALLED",
@@ -221,11 +221,11 @@
     "status": "In Progress",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-22",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 4 DAYS (was due 3/22). Hair launch deadline TOMORROW (3/27). Build 4 sales pages + checkout + upsell. No recent status from Anmol. Need confirmation: complete or blocked?"
+    "note": "🚨 OVERDUE 5 DAYS (was due 3/22). Hair launch deadline TODAY (3/27). Build 4 sales pages + checkout + upsell. No recent status from Anmol. **URGENT: Confirm status - complete or blocked?**"
   },
   {
     "id": "1006",
@@ -233,11 +233,11 @@
     "status": "To Do",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-23",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. Due tomorrow (3/23 - 1 day). 6 email sequences (27 emails + 5 SMS). Plain text only."
+    "note": "Hair funnel pushed 1 week. Due TODAY (3/27). 6 email sequences (27 emails + 5 SMS). Plain text only. Blocked on GHL build status."
   },
   {
     "id": "1007",
@@ -245,11 +245,11 @@
     "status": "Blocked",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-24",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "BLOCKED: Waiting on Lyn's ad creatives (1 day overdue - due 3/21). Ad strategy ready (12 variations + 30-day plan). Budget: $100/day test."
+    "note": "BLOCKED: Waiting on Lyn's ad creatives (6 days overdue - due 3/21). Ad strategy ready (12 variations + 30-day plan). Budget: $100/day test. Cannot launch without creatives."
   },
   {
     "id": "1008",
@@ -257,11 +257,11 @@
     "status": "Deprioritized",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-03",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 19 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
+    "note": "⚠️ STALLED 24 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1009",
@@ -269,11 +269,11 @@
     "status": "Deprioritized",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-03",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-15",
     "priority": "medium",
     "week": "STALLED",
-    "note": "\u26a0\ufe0f STALLED 19 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
+    "note": "⚠️ STALLED 24 DAYS. Manual UI deployment from March 3 specs. Deprioritized by PeptideLaunch Hair funnel work. Post-launch."
   },
   {
     "id": "1010",
@@ -281,11 +281,11 @@
     "status": "In Progress",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-25",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🔴 OVERDUE 1 DAY (due 3/25). Hair launch deadline TOMORROW (3/27). No status from Ivy in 24h. CRITICAL GATE. Review all funnel files, sales pages, ads for compliance violations. URGENT: complete TODAY."
+    "note": "🔴 OVERDUE 2 DAYS (due 3/25). Hair launch deadline TODAY (3/27). No status from Ivy in 24h. CRITICAL GATE. Review all funnel files, sales pages, ads for compliance violations. **URGENT: MUST complete TODAY.**"
   },
   {
     "id": "1011",
@@ -293,11 +293,11 @@
     "status": "To Do",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-17",
     "priority": "high",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 5 DAYS (was due 3/17). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe \u2014 same keys. Needs Perry decision."
+    "note": "🚨 OVERDUE 10 DAYS (was due 3/17). Confirm if new brand needs separate merchant account. Recovery funnel also needs Stripe — same keys. Needs Perry decision."
   },
   {
     "id": "1012",
@@ -305,11 +305,11 @@
     "status": "Blocked",
     "assignee": "Helix",
     "dateAssigned": "2026-03-12",
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-15",
     "priority": "critical",
     "week": "OVERDUE",
-    "note": "\ud83d\udea8 OVERDUE 11 DAYS. Priority #1 funnel per Perry (3/12). Landing page live. All PDFs complete. BLOCKER: Perry's Stripe keys (sk_live, pk_live, whsec) REQUIRED. Waiting for Perry input."
+    "note": "🚨 OVERDUE 12 DAYS. Priority #1 funnel per Perry (3/12). Landing page live. All PDFs complete. BLOCKER: Perry's Stripe keys (sk_live, pk_live, whsec) REQUIRED. Waiting for Perry input."
   },
   {
     "id": "1013",
@@ -317,11 +317,11 @@
     "status": "Complete",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-12",
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-15",
     "priority": "high",
     "week": "CURRENT",
-    "note": "\u2705 COMPLETE. Domain spawnos.io configured and live since last week. GoDaddy A record (@  \u2192 76.76.21.21) verified working. Separated from Stripe integration (see task 1015)."
+    "note": "✅ COMPLETE. Domain spawnos.io configured and live since last week. GoDaddy A record (@ → 76.76.21.21) verified working. Separated from Stripe integration (see task 1015)."
   },
   {
     "id": "1015",
@@ -329,11 +329,11 @@
     "status": "Blocked",
     "assignee": "Helix",
     "dateAssigned": "2026-03-16",
-    "lastUpdated": "2026-03-26",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-17",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "\ud83d\udea8 OVERDUE 9 DAYS (was due 3/17). Site deployed, domain live. BLOCKER: Perry's Stripe keys needed for checkout. Review Starter + System PDFs ready. Waiting on Perry."
+    "note": "🚨 OVERDUE 10 DAYS (was due 3/17). Site deployed, domain live. BLOCKER: Perry's Stripe keys needed for checkout. Review Starter + System PDFs ready. Waiting on Perry."
   },
   {
     "id": "2001",
@@ -341,11 +341,11 @@
     "status": "To Do",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-27",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Stabilization Plan Section 4. Capital lands 3/25. Release immediately after."
+    "note": "Stabilization Plan Section 4. Capital expected 3/25. Release immediately after funds clear."
   },
   {
     "id": "2002",
@@ -353,19 +353,19 @@
     "status": "To Do",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-27",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Stabilization Plan Section 4. Capital lands 3/25. Release immediately after."
+    "note": "Stabilization Plan Section 4. Capital expected 3/25. Release immediately after funds clear."
   },
   {
     "id": "2003",
-    "title": "[STAB] Place $40K inventory order \u2014 prioritize all stockouts",
+    "title": "[STAB] Place $40K inventory order — prioritize all stockouts",
     "status": "To Do",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-28",
     "priority": "critical",
     "week": "CURRENT",
@@ -377,7 +377,7 @@
     "status": "To Do",
     "assignee": "Zoe",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-28",
     "priority": "high",
     "week": "CURRENT",
@@ -385,11 +385,11 @@
   },
   {
     "id": "2005",
-    "title": "[STAB] MCA reset 4/17 \u2014 begin refinance conversation NOW",
+    "title": "[STAB] MCA reset 4/17 — begin refinance conversation NOW",
     "status": "To Do",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-10",
     "priority": "critical",
     "week": "CURRENT",
@@ -401,11 +401,11 @@
     "status": "To Do",
     "assignee": "Luna",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-26",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Stabilization Plan Section 10 Phase 1. Identify current best-performing Elixser creatives before restart. Proven only \u2014 no new testing during stabilization."
+    "note": "Stabilization Plan Section 10 Phase 1. OVERDUE 1 DAY. Identify current best-performing Elixser creatives before restart. Proven only — no new testing during stabilization."
   },
   {
     "id": "2007",
@@ -413,7 +413,7 @@
     "status": "To Do",
     "assignee": "Luna",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-31",
     "priority": "critical",
     "week": "CURRENT",
@@ -421,11 +421,11 @@
   },
   {
     "id": "2008",
-    "title": "[STAB] Monitor daily ROAS and CPP \u2014 report weekly",
+    "title": "[STAB] Monitor daily ROAS and CPP — report weekly",
     "status": "To Do",
     "assignee": "Rex",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-30",
     "priority": "high",
     "week": "ONGOING",
@@ -437,7 +437,7 @@
     "status": "To Do",
     "assignee": "Luna",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-10",
     "priority": "high",
     "week": "NEXT",
@@ -449,7 +449,7 @@
     "status": "To Do",
     "assignee": "Luna",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-18",
     "priority": "medium",
     "week": "NEXT",
@@ -461,7 +461,7 @@
     "status": "To Do",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-05",
     "priority": "critical",
     "week": "CURRENT",
@@ -473,7 +473,7 @@
     "status": "To Do",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-17",
     "priority": "high",
     "week": "NEXT",
@@ -485,7 +485,7 @@
     "status": "To Do",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-01",
     "priority": "high",
     "week": "CURRENT",
@@ -497,11 +497,11 @@
     "status": "To Do",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-03-26",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Stabilization Plan Section 11. $10-15K M1, $20-25K M2, up to $40K M3 only if revenue >$120K/month. No full draws before M3."
+    "note": "Stabilization Plan Section 11. OVERDUE 1 DAY. $10-15K M1, $20-25K M2, up to $40K M3 only if revenue >$120K/month. No full draws before M3."
   },
   {
     "id": "2015",
@@ -509,7 +509,7 @@
     "status": "To Do",
     "assignee": "Zoe",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-06-23",
     "priority": "high",
     "week": "ONGOING",
@@ -521,7 +521,7 @@
     "status": "To Do",
     "assignee": "Drake",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-27",
     "dueDate": "2026-04-15",
     "priority": "high",
     "week": "CURRENT",
