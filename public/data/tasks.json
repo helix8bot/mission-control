@@ -110,14 +110,14 @@
   {
     "id": "901",
     "title": "PeptideLaunch - Hair Restoration Funnel Launch",
-    "status": "In Progress",
+    "status": "Blocked",
     "assignee": "Team",
     "dateAssigned": "2026-03-08",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-27",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "PUSHED 1 WEEK per Perry (3/12). Recovery funnel now priority #1. All copy + emails + ads copy complete. CRITICAL BLOCKERS: Lyn (Quick Start PDF 7d late, sales page graphics 6d late, ads 5d late - no status in 48h), Anmol (GHL build 4d late, email sequences due tomorrow), Ivy (compliance 1d late - no status in 24h). Launch target 3/27 AT RISK."
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 3 DAYS (was due 3/27). Hair launch stalled. CRITICAL BLOCKERS PERSIST: Lyn (PDF 10d late, sales page 9d late, ads 8d late — NO STATUS IN 72H), Anmol (GHL build 7d late, email sequences incomplete — NO STATUS IN 72H), Ivy (compliance 5d late — NO STATUS IN 72H). Zero team updates for 3 days. REQUIRES IMMEDIATE PERRY ESCALATION. Status unknown - may be cancelled or significantly delayed."
   },
   {
     "id": "902",
@@ -170,38 +170,38 @@
   {
     "id": "1001",
     "title": "Design PeptideLaunch Hair Quick Start PDF layout",
-    "status": "To Do",
+    "status": "Blocked",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-19",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "🚨 OVERDUE 8 DAYS (was due 3/19). Hair launch deadline TODAY (3/27). CRITICAL BLOCKER. No status update from Lyn in 48h. Content ready. **IMMEDIATE ESCALATION REQUIRED.**"
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 11 DAYS (was due 3/19). Hair launch now 3+ DAYS LATE (due 3/27, today 3/30). NO STATUS UPDATE FROM LYN IN 72 HOURS. Content ready; design only. Task status unknown. Pending Perry escalation for Lyn status and launch decision."
   },
   {
     "id": "1002",
     "title": "Design Hair Blueprint sales page graphics",
-    "status": "To Do",
+    "status": "Blocked",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-20",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "🚨 OVERDUE 7 DAYS (was due 3/20). Hair launch deadline TODAY (3/27). CRITICAL BLOCKER. Sales page header, value stack, testimonial cards. **IMMEDIATE ESCALATION REQUIRED.**"
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 10 DAYS (was due 3/20). Hair launch now 3+ DAYS LATE (due 3/27). NO STATUS UPDATE FROM LYN IN 72 HOURS. Sales page graphics (header, value stack, testimonial cards) not delivered. Task status unknown. Pending Perry escalation."
   },
   {
     "id": "1003",
     "title": "Design PeptideLaunch Hair ad creatives (12 variations)",
-    "status": "To Do",
+    "status": "Blocked",
     "assignee": "Lyn (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-21",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "🚨 OVERDUE 6 DAYS (was due 3/21). Hair launch deadline TODAY (3/27). CRITICAL BLOCKER. 12 Triple Hook variations. Copy ready. Task 1007 (ad launch) blocked. **IMMEDIATE ESCALATION REQUIRED.**"
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 9 DAYS (was due 3/21). Hair launch now 3+ DAYS LATE (due 3/27). NO STATUS UPDATE FROM LYN IN 72 HOURS. 12 Triple Hook ad variations not delivered. Blocks task 1007 (ad launch). Task status unknown. Pending Perry escalation."
   },
   {
     "id": "1004",
@@ -218,26 +218,26 @@
   {
     "id": "1005",
     "title": "Build PeptideLaunch Hair funnel in GHL",
-    "status": "In Progress",
+    "status": "Blocked",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-22",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "🚨 OVERDUE 5 DAYS (was due 3/22). Hair launch deadline TODAY (3/27). Build 4 sales pages + checkout + upsell. No recent status from Anmol. **URGENT: Confirm status - complete or blocked?**"
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 8 DAYS (was due 3/22). Hair launch now 3+ DAYS LATE (due 3/27). NO STATUS UPDATE FROM ANMOL IN 72 HOURS. GHL build (4 sales pages + checkout + upsell) status completely unknown. Pending Perry escalation for Anmol status and launch decision."
   },
   {
     "id": "1006",
     "title": "Connect PeptideLaunch Hair email sequences in GHL",
-    "status": "To Do",
+    "status": "Blocked",
     "assignee": "Anmol (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-23",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "Hair funnel pushed 1 week. Due TODAY (3/27). 6 email sequences (27 emails + 5 SMS). Plain text only. Blocked on GHL build status."
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 7 DAYS (was due 3/23). Hair launch now 3+ DAYS LATE (due 3/27). NO STATUS UPDATE FROM ANMOL IN 72 HOURS. 6 email sequences (27 emails + 5 SMS) not connected. Blocked on GHL build status. Pending Perry escalation."
   },
   {
     "id": "1007",
@@ -278,14 +278,14 @@
   {
     "id": "1010",
     "title": "PeptideLaunch compliance review before launch",
-    "status": "In Progress",
+    "status": "Blocked",
     "assignee": "Ivy (Human)",
     "dateAssigned": "2026-03-09",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-25",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "🔴 OVERDUE 2 DAYS (due 3/25). Hair launch deadline TODAY (3/27). No status from Ivy in 24h. CRITICAL GATE. Review all funnel files, sales pages, ads for compliance violations. **URGENT: MUST complete TODAY.**"
+    "week": "OVERDUE",
+    "note": "🔴 OVERDUE 5 DAYS (was due 3/25). Hair launch now 3+ DAYS LATE (due 3/27). NO STATUS UPDATE FROM IVY IN 72 HOURS. Compliance gate never completed. Task status unknown. Pending Perry escalation."
   },
   {
     "id": "1011",
@@ -341,11 +341,11 @@
     "status": "To Do",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-27",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "Stabilization Plan Section 4. Capital expected 3/25. Release immediately after funds clear."
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 3 DAYS (was due 3/27). Capital was expected 3/25 (5 days ago). Verify if funds cleared. If cleared, release immediately. If not, check with lender on ETA."
   },
   {
     "id": "2002",
@@ -353,11 +353,11 @@
     "status": "To Do",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-27",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "Stabilization Plan Section 4. Capital expected 3/25. Release immediately after funds clear."
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 3 DAYS (was due 3/27). Capital was expected 3/25 (5 days ago). Verify if funds cleared. If cleared, release immediately. If not, check with lender on ETA."
   },
   {
     "id": "2003",
@@ -365,11 +365,11 @@
     "status": "To Do",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-28",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "Stabilization Plan Section 9. Capital lands 3/25. Place order ASAP after funds clear. 8 stockouts including BPC-157 (5 units), TESAMORELIN (1 unit), Recon Solution (0)."
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 2 DAYS (was due 3/28). Capital expected 3/25. If funds cleared, place order IMMEDIATELY. 8 stockouts (BPC-157 5 units, TESAMORELIN 1 unit, Recon Solution 0) are costing daily revenue."
   },
   {
     "id": "2004",
@@ -401,11 +401,11 @@
     "status": "To Do",
     "assignee": "Luna",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-26",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "Stabilization Plan Section 10 Phase 1. OVERDUE 1 DAY. Identify current best-performing Elixser creatives before restart. Proven only — no new testing during stabilization."
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 4 DAYS (was due 3/26). Identify best-performing Elixser creatives ASAP. No new testing during stabilization — proven creatives only. Blocks ad restart (task 2007)."
   },
   {
     "id": "2007",
@@ -497,11 +497,11 @@
     "status": "To Do",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-30",
     "dueDate": "2026-03-26",
     "priority": "critical",
-    "week": "CURRENT",
-    "note": "Stabilization Plan Section 11. OVERDUE 1 DAY. $10-15K M1, $20-25K M2, up to $40K M3 only if revenue >$120K/month. No full draws before M3."
+    "week": "OVERDUE",
+    "note": "🚨 OVERDUE 4 DAYS (was due 3/26). Need Perry approval for draw tiers: $10-15K M1, $20-25K M2, up to $40K M3 (if revenue >$120K/month). No full draws before M3."
   },
   {
     "id": "2015",
