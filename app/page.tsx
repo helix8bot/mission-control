@@ -301,7 +301,7 @@ export default function DashboardPage() {
                 { label: `${monthLabel} AOV`, value: `$${elixserAov.toFixed(0)}`, color: "#f0ece4" },
                 { label: `${monthLabel} Orders`, value: `${elixserOrders}`, color: "#f0ece4" },
                 { label: `${monthLabel} Customers`, value: `${elixserCustomers}`, color: "#f0ece4" },
-                { label: "Repeat Buyers", value: `${repeatPct}%`, color: repeatPct >= 40 ? "#34D399" : repeatPct >= 20 ? "#FBBF24" : "#EF4444" },
+                { label: "Repeat Buyers", value: `${repeatPct}%`, color: repeatPct >= 15 ? "#34D399" : repeatPct >= 10 ? "#FBBF24" : "#EF4444" },
                 { label: "Today Revenue", value: formatCurrency(todayRevenue), color: "#34D399" },
                 { label: "Today Orders", value: `${todayOrders}`, color: "#34D399" },
               ].map((m, i) => (
@@ -382,8 +382,8 @@ export default function DashboardPage() {
               <div style={cardStyle()}>
                 {sectionLabel("\u25CE", "Customer Health", wcSales?.customerMetrics?.periodLabel)}
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 16 }}>
-                  <div style={{ textAlign: "center" as const, padding: "12px 8px", backgroundColor: repeatPct >= 20 ? "#34D39910" : "#EF444415", borderRadius: 8 }}>
-                    <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, fontWeight: 600, color: repeatPct >= 40 ? "#34D399" : repeatPct >= 20 ? "#FBBF24" : "#EF4444" }}>{repeatPct}%</div>
+                  <div style={{ textAlign: "center" as const, padding: "12px 8px", backgroundColor: repeatPct >= 10 ? "#34D39910" : "#EF444415", borderRadius: 8 }}>
+                    <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, fontWeight: 600, color: repeatPct >= 15 ? "#34D399" : repeatPct >= 10 ? "#FBBF24" : "#EF4444" }}>{repeatPct}%</div>
                     <div style={{ fontSize: 10, color: "#6b7394", fontWeight: 600, letterSpacing: "0.06em" }}>REPEAT RATE</div>
                   </div>
                   <div style={{ textAlign: "center" as const, padding: "12px 8px", backgroundColor: "#0e1119", borderRadius: 8 }}>
@@ -395,8 +395,8 @@ export default function DashboardPage() {
                   {repeatCustomers} of {totalCustomers6mo} customers reordered{avgDaysBetween > 0 ? ` · avg ${avgDaysBetween} days` : ""}
                 </div>
                 <div style={{ marginTop: 12 }}>
-                  <div style={{ fontSize: 10, color: "#6b7394", marginBottom: 4 }}>Repeat rate vs 40% target</div>
-                  <ProgressBar value={repeatPct} max={40} color={repeatPct >= 40 ? "#34D399" : repeatPct >= 20 ? "#FBBF24" : "#EF4444"} height={4} />
+                  <div style={{ fontSize: 10, color: "#6b7394", marginBottom: 4 }}>Repeat rate vs 15% target</div>
+                  <ProgressBar value={repeatPct} max={15} color={repeatPct >= 15 ? "#34D399" : repeatPct >= 10 ? "#FBBF24" : "#EF4444"} height={4} />
                 </div>
               </div>
             </div>
