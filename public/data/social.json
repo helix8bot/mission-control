@@ -1,68 +1,72 @@
 {
-  "lastUpdated": "2026-03-31T17:00:00-07:00",
+  "date": "2026-03-30",
   "topSignals": [
     {
-      "signal": "6 SKUs at zero stock (GLP1-T, NAD+, KLOW, GHK-Cu, SS-31) — $40K inventory order pending capital clearance",
-      "impact": "Every day without stock is lost revenue. GLP1-R 20mg is the #1 seller ($1,890 in March) and still has stock but burning fast at 15 units",
-      "source": "WooCommerce Live",
-      "priority": "high",
-      "date": "2026-03-31"
+      "signal": "PP405 (Everychem 3HP) emerging hair growth breakthrough - dormant follicle reactivation with 30-35% responder rate in 2 weeks",
+      "impact": "CRITICAL THREAT to GHK-Cu serum positioning. Requires immediate Product Gatekeeper evaluation.",
+      "source": "r/tressless (79 votes, 42 comments)",
+      "date": "2026-03-30",
+      "priority": "high"
     },
     {
-      "signal": "March DTC revenue $4,378 from 13 orders — AOV $337 is strong but volume is down with ads paused",
-      "impact": "AOV up 140% vs Feb ($141) proving higher-value buyers converting organically. Volume recovers when ads restart at $200-300/day",
-      "source": "WooCommerce Live",
-      "priority": "high",
-      "date": "2026-03-31"
+      "signal": "Pfizer BAC water global stock shortage creating supply gap and user demand for alternatives",
+      "impact": "HIGH. B2B opportunity for pharmaceutical-grade BAC water. 60-70% margin potential. 30-60 day first-mover advantage.",
+      "source": "r/Peptides (17 votes, 87 comments on shortage)",
+      "date": "2026-03-30",
+      "priority": "high"
     },
     {
-      "signal": "GLP1-R 20mg driving 43% of March revenue ($1,890) — clear top performer across all SKUs",
-      "impact": "Prioritize GLP1-R restock in $40K order. At $350/unit this is highest-margin product in catalog",
-      "source": "WooCommerce Live",
-      "priority": "high",
-      "date": "2026-03-31"
+      "signal": "BPC-157 + TB-500 cycling protocol uncertainty across market - 8+ posts asking duration/sustainability",
+      "impact": "MEDIUM-HIGH. Educational product opportunity. Clear knowledge gap on sustainable use vs diminishing returns.",
+      "source": "r/Peptides (multiple posts, 3/30 top)",
+      "date": "2026-03-30",
+      "priority": "high"
     },
     {
-      "signal": "ARCADS UGC pipeline launching this week — AI-generated video ads for paid acquisition restart",
-      "impact": "First batch of AI UGC videos needed by end of week. $460 Week 1 budget coordinated with Anmol",
-      "source": "Internal Ops",
-      "priority": "high",
-      "date": "2026-03-31"
+      "signal": "Tesamorelin (Reta) weight loss plateau at 6+ weeks - users hitting biological ceiling, seeking optimization",
+      "impact": "MEDIUM. Digital product opportunity: Tera plateau troubleshooter (26 comments on single post)",
+      "source": "r/Peptides",
+      "date": "2026-03-30",
+      "priority": "medium"
     },
     {
-      "signal": "MCA resets to $2,300/week ($9,200/month) on April 17 — refinance conversation not started",
-      "impact": "17 days to refinance, extend, or prepare to absorb. Must begin conversations immediately",
-      "source": "Financial",
-      "priority": "high",
-      "date": "2026-03-31"
+      "signal": "Post-chemo recovery peptides emerging niche - healthcare market seeking sleep + tissue healing protocols",
+      "impact": "EMERGING. Underserved therapeutic (not performance) market. 6+ posts from caregivers seeking peptide solutions.",
+      "source": "r/Peptides (3/30 posts)",
+      "date": "2026-03-30",
+      "priority": "medium"
     }
   ],
   "marketTrends": [
-    "GLP-1 peptides (Retatrutide, Semaglutide alternatives) commanding premium pricing and highest demand",
-    "Oral peptide delivery formats (chewables, tablets) overtaking injectable interest",
-    "Long COVID recovery creating sustained peptide demand (BPC-157, taurine, collagen)",
-    "Sleep optimization peptides (DSIP, CJC/IPA) underserved market segment",
-    "Collagen peptides validated as bioactive signaling molecules, not just structural protein"
+    "Finasteride + minoxidil still dominant hair loss treatment but peptide alternatives (PP405) now showing comparable/superior results",
+    "BAC water supply chain vulnerability creating B2B opportunity for pharmaceutical-grade sourcing",
+    "Peptide cycling/duration protocols standardizing (6w/6w vs 4w vs continuous) - market seeking educational clarity",
+    "Therapeutic peptide applications expanding beyond performance (post-chemo, injury recovery, sleep optimization)",
+    "GLP-1 quality concerns from research suppliers - sourcing/authenticity becoming brand differentiator"
   ],
   "consumerInsights": [
-    "High-value buyers converting organically at $337 AOV even without ads — strong brand signal",
-    "GLP1-R buyers purchasing in volume — repeat purchase potential for GLP-1 adjacent products",
-    "Hair loss treatment users showing 5+ month commitment cycles — long customer lifetime value",
-    "Biohackers stacking 5-8 supplements for joint repair + sleep + libido — bundle opportunity",
-    "Retatrutide users reporting skin elasticity loss during weight loss — GHK-Cu cross-sell opportunity"
+    "Users seeking long-term sustainable peptide use, not just 4-week cycles - 'does effectiveness diminish?' concern",
+    "Protocol confusion on optimal cycling - 6 posts asking different frameworks without standardized guidance",
+    "Performance plateau hitting users at 6+ weeks on Tesamorelin - seeking optimization/dosage adjustment framework",
+    "Healthcare applications attracting new market segment - post-chemo patients + family caregivers seeking therapeutic peptides",
+    "Supply chain reliability concerns - Pfizer shortage driving interest in alternative/trusted sourcing"
   ],
   "contentIdeas": [
-    "ARCADS UGC: Triple Hook ad variations for BPC-157, Tesamorelin, GLP1-R",
-    "Email: Win-back sequence targeting Feb customers who haven't reordered",
-    "Blog: GLP-1 Peptide Research Landscape — What Researchers Need to Know",
-    "Social: Before/After Research Protocol Results (compliance-safe framing)",
-    "Email: The Peptide Sleep Rescue Protocol — DSIP and CJC-1295 Studies"
+    "The GHK-Cu Hair Growth Optimization Protocol - 16-week structured plan addressing cycling confusion",
+    "The Peptide Cycling Masterclass - when to cycle, stack, or extend (BPC-157, TB-500, GHK-Cu, CJC-1295, Reta)",
+    "The Tesamorelin Weight Loss Troubleshooter - break through 6+ week plateau",
+    "The Recovery Stack Confidence Builder - BPC-157 + TB-500 + optional ARA-290 protocol clarity",
+    "The Post-Chemo Recovery Peptide Protocol - therapeutic positioning for healthcare market"
   ],
   "actionItems": [
-    "ARCADS account live — produce first batch of AI UGC videos this week",
-    "Restart ads at $200-300/day on credit once inventory order placed",
-    "Prioritize GLP1-R 20mg and Tesamorelin in $40K restock order",
-    "Begin MCA refinance conversation before April 17 reset",
-    "Monitor daily ROAS once ads restart — flag if below 2x"
-  ]
+    "EMERGENCY: Escalate hair launch blockers to Perry (Lyn 8d late, Anmol 5d late, Ivy 2d late)",
+    "Recovery funnel unlock: Ping Perry for Stripe API keys - Priority #1, overdue 7 days, ready to launch",
+    "PP405 threat assessment: Run Everychem 3HP through Product Gatekeeper",
+    "Draft 5 digital products (Luna) with single-transformation focus - GHK-Cu first priority",
+    "Investigate pharmaceutical-grade BAC water B2B opportunity - evaluate sourcing + wholesale pricing",
+    "Validate Stabilization Plan timeline: Capital 3/25 \u2192 Inventory 3/28 \u2192 Ads restart 3/31",
+    "Update knowledge base with PP405 threat intel, cycling confusion, BAC water shortage, post-chemo niche",
+    "Collect team daily learning logs (Xena, Luna, Zara, Kira, Zoe) by EOD"
+  ],
+  "lastUpdated": "2026-03-30T09:00:00-07:00"
 }
