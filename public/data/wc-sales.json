@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T17:56:50.944495",
+  "lastUpdated": "2026-03-31T19:30:41.512575",
   "source": "WooCommerce REST API (live)",
   "currentMonth": {
     "label": "Mar",
@@ -108,5 +108,13 @@
       "revenue": 52.5
     }
   ],
-  "note": "WooCommerce DTC orders only. Does not include B2B or non-WC processor orders."
+  "note": "WooCommerce DTC orders only. Does not include B2B or non-WC processor orders.",
+  "customerMetrics": {
+    "totalCustomers6mo": 54,
+    "repeatCustomers": 6,
+    "repeatPct": 11.1,
+    "avgOrdersRepeat": 2.0,
+    "avgDaysBetweenOrders": 18,
+    "periodLabel": "Last 6 months"
+  }
 }

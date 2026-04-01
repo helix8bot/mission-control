@@ -214,8 +214,55 @@ sales_data = {
 with open('$DATA_DIR/wc-sales.json', 'w') as f:
     json.dump(sales_data, f, indent=2)
 
+###############################################################################
+# REPEAT CUSTOMER ANALYSIS
+# Pull all completed orders (last 6 months) to calculate repeat buyer rate
+###############################################################################
+six_months_ago = (now - timedelta(days=180)).strftime('%Y-%m-%dT00:00:00')
+all_orders = fetch_orders(six_months_ago, month_end)
+
+# Group by billing email
+customer_orders = defaultdict(list)
+for o in all_orders:
+    email = o.get('billing', {}).get('email', '').strip().lower()
+    if email:
+        customer_orders[email].append(o)
+
+total_customers = len(customer_orders)
+repeat_customers = len([e for e, ords in customer_orders.items() if len(ords) >= 2])
+repeat_pct = round((repeat_customers / total_customers * 100), 1) if total_customers > 0 else 0
+
+# Average orders per repeat customer
+repeat_order_counts = [len(ords) for e, ords in customer_orders.items() if len(ords) >= 2]
+avg_orders_repeat = round(sum(repeat_order_counts) / len(repeat_order_counts), 1) if repeat_order_counts else 0
+
+# Days between first and last order for repeat customers
+repeat_gaps = []
+for email, ords in customer_orders.items():
+    if len(ords) >= 2:
+        dates = sorted([o['date_created'][:10] for o in ords])
+        first = datetime.strptime(dates[0], '%Y-%m-%d')
+        last = datetime.strptime(dates[-1], '%Y-%m-%d')
+        gap = (last - first).days
+        if gap > 0:
+            repeat_gaps.append(gap)
+avg_days_between = round(sum(repeat_gaps) / len(repeat_gaps), 0) if repeat_gaps else 0
+
+sales_data['customerMetrics'] = {
+    'totalCustomers6mo': total_customers,
+    'repeatCustomers': repeat_customers,
+    'repeatPct': repeat_pct,
+    'avgOrdersRepeat': avg_orders_repeat,
+    'avgDaysBetweenOrders': int(avg_days_between),
+    'periodLabel': 'Last 6 months',
+}
+
+with open('$DATA_DIR/wc-sales.json', 'w') as f:
+    json.dump(sales_data, f, indent=2)
+
 print(f"  Sales: {current_month_label} — {len(orders)} orders, \${revenue:,.2f} revenue, {customers} customers, AOV \${aov:.2f}")
 print(f"  Today: {len(today_orders)} orders, \${today_revenue:,.2f}")
+print(f"  Customers (6mo): {total_customers} total, {repeat_customers} repeat ({repeat_pct}%), avg {avg_days_between:.0f} days between orders")
 PYEOF
 
 echo "Done. Data refreshed at $(date)"

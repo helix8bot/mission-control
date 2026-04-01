@@ -55,6 +55,7 @@ interface WcSales {
   today: { date: string; orders: number; revenue: number; };
   topProducts: { name: string; qty: number; revenue: number; }[];
   dailyBreakdown: Record<string, { orders: number; revenue: number; }>;
+  customerMetrics?: { totalCustomers6mo: number; repeatCustomers: number; repeatPct: number; avgOrdersRepeat: number; avgDaysBetweenOrders: number; periodLabel: string; };
 }
 interface InventoryItem { name: string; stock: number; daysSupply: number; status: string; price?: string; totalSales?: number; }
 interface InventoryData { lastUpdated: string; source: string; items: InventoryItem[]; summary?: { total: number; critical: number; warning: number; ok: number; healthy: number; totalUnits: number; }; }
@@ -136,6 +137,10 @@ export default function DashboardPage() {
   const elixserAov = wcSales?.currentMonth?.aov || 0;
   const todayRevenue = wcSales?.today?.revenue || 0;
   const todayOrders = wcSales?.today?.orders || 0;
+  const repeatPct = wcSales?.customerMetrics?.repeatPct || 0;
+  const repeatCustomers = wcSales?.customerMetrics?.repeatCustomers || 0;
+  const totalCustomers6mo = wcSales?.customerMetrics?.totalCustomers6mo || 0;
+  const avgDaysBetween = wcSales?.customerMetrics?.avgDaysBetweenOrders || 0;
 
   // Revenue history: keep historical + add current from WC
   const revenueHistory = [4593, 35346, 65725, 14169, elixserRevenue];
@@ -291,11 +296,12 @@ export default function DashboardPage() {
             </div>
 
             {/* Key Metrics - Live */}
-            <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr 1fr" : "1fr 1fr 1fr 1fr 1fr", gap: isMobile ? 10 : 20, marginTop: isMobile ? 12 : 20 }}>
+            <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr 1fr" : "1fr 1fr 1fr 1fr 1fr 1fr", gap: isMobile ? 10 : 20, marginTop: isMobile ? 12 : 20 }}>
               {[
                 { label: `${monthLabel} AOV`, value: `$${elixserAov.toFixed(0)}`, color: "#f0ece4" },
                 { label: `${monthLabel} Orders`, value: `${elixserOrders}`, color: "#f0ece4" },
                 { label: `${monthLabel} Customers`, value: `${elixserCustomers}`, color: "#f0ece4" },
+                { label: "Repeat Buyers", value: `${repeatPct}%`, color: repeatPct >= 40 ? "#34D399" : repeatPct >= 20 ? "#FBBF24" : "#EF4444" },
                 { label: "Today Revenue", value: formatCurrency(todayRevenue), color: "#34D399" },
                 { label: "Today Orders", value: `${todayOrders}`, color: "#34D399" },
               ].map((m, i) => (
@@ -374,21 +380,23 @@ export default function DashboardPage() {
                 )}
               </div>
               <div style={cardStyle()}>
-                {sectionLabel("\u25A3", "Sprint Progress")}
-                <div style={{ display: "flex", alignItems: "center", gap: isMobile ? 16 : 24, marginBottom: 12 }}>
-                  <div>
-                    <span style={{ fontFamily: "'Playfair Display', serif", fontSize: isMobile ? 36 : 44, fontWeight: 600, color: "#f0ece4", lineHeight: 1 }}>{completedTasks}</span>
-                    <span style={{ fontSize: 18, color: "#4a5170" }}>/{tasks.length || 0}</span>
+                {sectionLabel("\u25CE", "Customer Health", wcSales?.customerMetrics?.periodLabel)}
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 16 }}>
+                  <div style={{ textAlign: "center" as const, padding: "12px 8px", backgroundColor: repeatPct >= 20 ? "#34D39910" : "#EF444415", borderRadius: 8 }}>
+                    <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, fontWeight: 600, color: repeatPct >= 40 ? "#34D399" : repeatPct >= 20 ? "#FBBF24" : "#EF4444" }}>{repeatPct}%</div>
+                    <div style={{ fontSize: 10, color: "#6b7394", fontWeight: 600, letterSpacing: "0.06em" }}>REPEAT RATE</div>
                   </div>
-                  <div style={{ flex: 1 }}>
-                    <ProgressBar value={completedTasks} max={tasks.length || 1} color="#34D399" height={6} />
-                    <div style={{ display: "flex", justifyContent: "space-between", marginTop: 8 }}>
-                      <span style={{ fontSize: 11, color: "#34D399" }}>{completedTasks} done</span>
-                      <span style={{ fontSize: 11, color: "#FBBF24" }}>{inProgress} active</span>
-                      <span style={{ fontSize: 11, color: "#6b7394" }}>{toDo} queued</span>
-                      {pausedTasks > 0 && <span style={{ fontSize: 11, color: "#EF4444" }}>{pausedTasks} paused</span>}
-                    </div>
+                  <div style={{ textAlign: "center" as const, padding: "12px 8px", backgroundColor: "#0e1119", borderRadius: 8 }}>
+                    <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, fontWeight: 600, color: "#f0ece4" }}>{avgDaysBetween || "—"}</div>
+                    <div style={{ fontSize: 10, color: "#6b7394", fontWeight: 600, letterSpacing: "0.06em" }}>AVG DAYS BETWEEN</div>
                   </div>
+                </div>
+                <div style={{ fontSize: 11, color: "#4a5170" }}>
+                  {repeatCustomers} of {totalCustomers6mo} customers reordered{avgDaysBetween > 0 ? ` · avg ${avgDaysBetween} days` : ""}
+                </div>
+                <div style={{ marginTop: 12 }}>
+                  <div style={{ fontSize: 10, color: "#6b7394", marginBottom: 4 }}>Repeat rate vs 40% target</div>
+                  <ProgressBar value={repeatPct} max={40} color={repeatPct >= 40 ? "#34D399" : repeatPct >= 20 ? "#FBBF24" : "#EF4444"} height={4} />
                 </div>
               </div>
             </div>
