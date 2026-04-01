@@ -1,0 +1,112 @@
+{
+  "lastUpdated": "2026-03-31T17:56:50.944495",
+  "source": "WooCommerce REST API (live)",
+  "currentMonth": {
+    "label": "Mar",
+    "period": "2026-03",
+    "orders": 13,
+    "revenue": 4377.7,
+    "customers": 8,
+    "aov": 336.75,
+    "daysElapsed": 31
+  },
+  "today": {
+    "date": "2026-03-31",
+    "orders": 1,
+    "revenue": 172.0
+  },
+  "dailyBreakdown": {
+    "2026-03-02": {
+      "orders": 1,
+      "revenue": 160.0
+    },
+    "2026-03-06": {
+      "orders": 2,
+      "revenue": 1975.0
+    },
+    "2026-03-13": {
+      "orders": 1,
+      "revenue": 280.0
+    },
+    "2026-03-16": {
+      "orders": 1,
+      "revenue": 120.18
+    },
+    "2026-03-17": {
+      "orders": 1,
+      "revenue": 113.14
+    },
+    "2026-03-19": {
+      "orders": 1,
+      "revenue": 280.0
+    },
+    "2026-03-20": {
+      "orders": 1,
+      "revenue": 375.38
+    },
+    "2026-03-22": {
+      "orders": 1,
+      "revenue": 183.18
+    },
+    "2026-03-24": {
+      "orders": 1,
+      "revenue": 232.0
+    },
+    "2026-03-30": {
+      "orders": 2,
+      "revenue": 486.82
+    },
+    "2026-03-31": {
+      "orders": 1,
+      "revenue": 172.0
+    }
+  },
+  "topProducts": [
+    {
+      "name": "GLP1-R [20mg]",
+      "qty": 7,
+      "revenue": 1890.0
+    },
+    {
+      "name": "TESAMORELIN [10mg]",
+      "qty": 6,
+      "revenue": 624.0
+    },
+    {
+      "name": "CJC1295 (NO DAC) + IPAMORELIN [10mg]",
+      "qty": 5,
+      "revenue": 440.0
+    },
+    {
+      "name": "GLOW [70mg]",
+      "qty": 3,
+      "revenue": 333.5
+    },
+    {
+      "name": "TESAMORELIN + IPAMORELIN [10mg]",
+      "qty": 3,
+      "revenue": 275.0
+    },
+    {
+      "name": "MOTS-C [10mg]",
+      "qty": 3,
+      "revenue": 264.0
+    },
+    {
+      "name": "BPC157+TB500 [10mg]",
+      "qty": 3,
+      "revenue": 241.5
+    },
+    {
+      "name": "HCG 5000IU",
+      "qty": 2,
+      "revenue": 170.0
+    },
+    {
+      "name": "BPC157 [10mg]",
+      "qty": 1,
+      "revenue": 52.5
+    }
+  ],
+  "note": "WooCommerce DTC orders only. Does not include B2B or non-WC processor orders."
+}
