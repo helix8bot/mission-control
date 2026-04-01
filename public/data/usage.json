@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T18:57:45.700Z",
+  "lastUpdated": "2026-04-01T01:13:38.705Z",
   "generatedBy": "update-usage.js (auto-parsed from OpenClaw sessions)",
   "dailyUsage": {
     "2026-03-22": {
@@ -95,20 +95,6 @@
         "claude-sonnet-4-5-20250929": 122
       }
     },
-    "2026-03-30": {
-      "date": "2026-03-30",
-      "totalInputTokens": 578,
-      "totalOutputTokens": 25959,
-      "cacheReadTokens": 1746173,
-      "cacheWriteTokens": 275768,
-      "totalTokens": 2048478,
-      "estimatedCost": 1.401937,
-      "messageCount": 53,
-      "models": {
-        "claude-haiku-4-5-20251001": 19,
-        "claude-sonnet-4-20250514": 34
-      }
-    },
     "2026-02-27": {
       "date": "2026-02-27",
       "totalInputTokens": 86,
@@ -165,16 +151,16 @@
     },
     "2026-03-31": {
       "date": "2026-03-31",
-      "totalInputTokens": 1980,
-      "totalOutputTokens": 78759,
-      "cacheReadTokens": 7468794,
-      "cacheWriteTokens": 2076736,
-      "totalTokens": 9626269,
-      "estimatedCost": 9.834027,
-      "messageCount": 191,
+      "totalInputTokens": 2208,
+      "totalOutputTokens": 95874,
+      "cacheReadTokens": 7508009,
+      "cacheWriteTokens": 2182685,
+      "totalTokens": 9788776,
+      "estimatedCost": 10.048561,
+      "messageCount": 201,
       "models": {
-        "claude-haiku-4-5-20251001": 68,
-        "claude-sonnet-4-20250514": 123
+        "claude-haiku-4-5-20251001": 86,
+        "claude-sonnet-4-20250514": 115
       }
     },
     "2026-02-28": {
@@ -242,6 +228,20 @@
       "models": {
         "claude-haiku-4-5-20251001": 5,
         "claude-sonnet-4-5-20250929": 16
+      }
+    },
+    "2026-03-30": {
+      "date": "2026-03-30",
+      "totalInputTokens": 367,
+      "totalOutputTokens": 13853,
+      "cacheReadTokens": 1359957,
+      "cacheWriteTokens": 158664,
+      "totalTokens": 1532841,
+      "estimatedCost": 1.156195,
+      "messageCount": 36,
+      "models": {
+        "claude-sonnet-4-20250514": 34,
+        "claude-haiku-4-5-20251001": 2
       }
     },
     "2026-02-25": {
@@ -443,6 +443,20 @@
         "claude-sonnet-4-5-20250929": 19
       }
     },
+    "2026-04-01": {
+      "date": "2026-04-01",
+      "totalInputTokens": 210,
+      "totalOutputTokens": 3666,
+      "cacheReadTokens": 1333046,
+      "cacheWriteTokens": 109730,
+      "totalTokens": 1446652,
+      "estimatedCost": 0.799601,
+      "messageCount": 19,
+      "models": {
+        "claude-sonnet-4-20250514": 17,
+        "claude-haiku-4-5-20251001": 2
+      }
+    },
     "2026-03-16": {
       "date": "2026-03-16",
       "totalInputTokens": 994,
@@ -473,12 +487,12 @@
   "monthlyUsage": {
     "2026-03": {
       "month": "2026-03",
-      "totalInputTokens": 19321,
-      "totalOutputTokens": 999839,
-      "totalTokens": 96875811,
-      "estimatedCost": 124.683925,
+      "totalInputTokens": 19338,
+      "totalOutputTokens": 1004848,
+      "totalTokens": 96522681,
+      "estimatedCost": 124.652717,
       "dayCount": 23,
-      "messageCount": 1894,
+      "messageCount": 1887,
       "averageDailyCost": 5.42
     },
     "2026-02": {
@@ -490,15 +504,25 @@
       "dayCount": 12,
       "messageCount": 966,
       "averageDailyCost": 0.78
+    },
+    "2026-04": {
+      "month": "2026-04",
+      "totalInputTokens": 210,
+      "totalOutputTokens": 3666,
+      "totalTokens": 1446652,
+      "estimatedCost": 0.799601,
+      "dayCount": 1,
+      "messageCount": 19,
+      "averageDailyCost": 0.8
     }
   },
   "summary": {
-    "totalCost": 134.09,
-    "totalMessages": 2860,
-    "totalTokens": 131300892,
+    "totalCost": 134.85,
+    "totalMessages": 2872,
+    "totalTokens": 132394414,
     "dateRange": {
       "from": "2026-02-17",
-      "to": "2026-03-31"
+      "to": "2026-04-01"
     }
   }
 }

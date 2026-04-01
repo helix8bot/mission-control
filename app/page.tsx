@@ -103,11 +103,22 @@ export default function DashboardPage() {
         }
         if (usageRes?.ok) {
           const d = await usageRes.json();
-          const today = new Date().toISOString().slice(0, 10);
+          const now = new Date();
+          const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
           const currentMonth = today.slice(0, 7);
-          const dailyData = d.dailyUsage?.[today];
+          let dailyData = d.dailyUsage?.[today];
+          // Fall back to most recent day if today has no data yet
+          if (!dailyData && d.dailyUsage) {
+            const dates = Object.keys(d.dailyUsage).sort();
+            const latest = dates[dates.length - 1];
+            if (latest) dailyData = d.dailyUsage[latest];
+          }
           const monthCost = d.monthlyUsage?.[currentMonth]?.estimatedCost || 0;
-          if (dailyData) setUsage({ today: dailyData.estimatedCost || 0, month: monthCost, tokensToday: (dailyData.totalInputTokens || 0) + (dailyData.totalOutputTokens || 0) });
+          setUsage({
+            today: dailyData?.estimatedCost || 0,
+            month: monthCost,
+            tokensToday: (dailyData?.totalInputTokens || 0) + (dailyData?.totalOutputTokens || 0),
+          });
         }
       } catch (e) { console.error('Fetch error:', e); }
     };

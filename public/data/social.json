@@ -1,63 +1,68 @@
 {
-  "lastUpdated": "2026-03-12T23:09:00-08:00",
+  "lastUpdated": "2026-03-31T17:00:00-07:00",
   "topSignals": [
     {
-      "signal": "Oral chewable fin/min combo driving massive engagement (432 upvotes) — validates PeptideLaunch Hair funnel timing",
-      "impact": "Hair loss treatment demand at peak; our Hair Blueprint launch is perfectly timed for this wave",
-      "source": "r/tressless",
-      "date": "2026-03-12"
+      "signal": "6 SKUs at zero stock (GLP1-T, NAD+, KLOW, GHK-Cu, SS-31) — $40K inventory order pending capital clearance",
+      "impact": "Every day without stock is lost revenue. GLP1-R 20mg is the #1 seller ($1,890 in March) and still has stock but burning fast at 15 units",
+      "source": "WooCommerce Live",
+      "priority": "high",
+      "date": "2026-03-31"
     },
     {
-      "signal": "Collagen peptide supplementation validated by umbrella review for skin, bone, and muscle — hydrolyzed collagen peptides confirmed as bioactive signaling molecules",
-      "impact": "Opens collagen + peptide combo product opportunity; validates GHK-Cu skin positioning",
-      "source": "r/Biohackers",
-      "date": "2026-03-12"
+      "signal": "March DTC revenue $4,378 from 13 orders — AOV $337 is strong but volume is down with ads paused",
+      "impact": "AOV up 140% vs Feb ($141) proving higher-value buyers converting organically. Volume recovers when ads restart at $200-300/day",
+      "source": "WooCommerce Live",
+      "priority": "high",
+      "date": "2026-03-31"
     },
     {
-      "signal": "Long COVID driving demand for connective tissue repair — BPC-157, taurine, peptide stacking for POTS/MCAS/EDS reversal",
-      "impact": "Direct demand signal for Parlay BPC-157 gummies and potential Long COVID recovery digital product",
-      "source": "r/Biohackers",
-      "date": "2026-03-12"
+      "signal": "GLP1-R 20mg driving 43% of March revenue ($1,890) — clear top performer across all SKUs",
+      "impact": "Prioritize GLP1-R restock in $40K order. At $350/unit this is highest-margin product in catalog",
+      "source": "WooCommerce Live",
+      "priority": "high",
+      "date": "2026-03-31"
     },
     {
-      "signal": "Research Chemical selling BPC-157 oral tablets (500mcg x 60) at $154.99 — oral peptide delivery format expanding",
-      "impact": "Validates oral BPC-157 market; Parlay gummies positioned well but Elixser could add tablet SKU",
-      "source": "Competitor Intel",
-      "date": "2026-03-12"
+      "signal": "ARCADS UGC pipeline launching this week — AI-generated video ads for paid acquisition restart",
+      "impact": "First batch of AI UGC videos needed by end of week. $460 Week 1 budget coordinated with Anmol",
+      "source": "Internal Ops",
+      "priority": "high",
+      "date": "2026-03-31"
     },
     {
-      "signal": "PP-405 hair loss drug anticipation at fever pitch — end of March results expected, r/tressless calling it 'last shot'",
-      "impact": "If PP-405 disappoints, peptide-based hair protocols get massive demand surge; if it succeeds, positions peptides as complementary",
-      "source": "r/tressless",
-      "date": "2026-03-12"
+      "signal": "MCA resets to $2,300/week ($9,200/month) on April 17 — refinance conversation not started",
+      "impact": "17 days to refinance, extend, or prepare to absorb. Must begin conversations immediately",
+      "source": "Financial",
+      "priority": "high",
+      "date": "2026-03-31"
     }
   ],
   "marketTrends": [
+    "GLP-1 peptides (Retatrutide, Semaglutide alternatives) commanding premium pricing and highest demand",
     "Oral peptide delivery formats (chewables, tablets) overtaking injectable interest",
     "Long COVID recovery creating sustained peptide demand (BPC-157, taurine, collagen)",
-    "Retatrutide body recomp data driving GLP-1 adjacent peptide interest",
     "Sleep optimization peptides (DSIP, CJC/IPA) underserved market segment",
     "Collagen peptides validated as bioactive signaling molecules, not just structural protein"
   ],
   "consumerInsights": [
-    "Hair loss treatment users showing 5+ month commitment cycles with oral fin/min — long customer lifetime value",
-    "Peptide users confused about blood pressure interactions (PT-141) — safety education gap",
+    "High-value buyers converting organically at $337 AOV even without ads — strong brand signal",
+    "GLP1-R buyers purchasing in volume — repeat purchase potential for GLP-1 adjacent products",
+    "Hair loss treatment users showing 5+ month commitment cycles — long customer lifetime value",
     "Biohackers stacking 5-8 supplements for joint repair + sleep + libido — bundle opportunity",
-    "Long COVID sufferers desperate for connective tissue repair solutions beyond standard care",
     "Retatrutide users reporting skin elasticity loss during weight loss — GHK-Cu cross-sell opportunity"
   ],
   "contentIdeas": [
-    "Blog: Why Oral Peptide Delivery Is the Future of Research (tie to Parlay gummies)",
-    "Email: The Peptide Blood Pressure Guide — What Researchers Need to Know About PT-141",
-    "Social: Collagen + GHK-Cu: The Science Behind Peptide Skin Research",
-    "Blog: Long COVID and Peptide Research: What the Studies Show About BPC-157",
-    "Email: Sleep Peptide Research Roundup — DSIP, CJC-1295, and Ipamorelin Studies"
+    "ARCADS UGC: Triple Hook ad variations for BPC-157, Tesamorelin, GLP1-R",
+    "Email: Win-back sequence targeting Feb customers who haven't reordered",
+    "Blog: GLP-1 Peptide Research Landscape — What Researchers Need to Know",
+    "Social: Before/After Research Protocol Results (compliance-safe framing)",
+    "Email: The Peptide Sleep Rescue Protocol — DSIP and CJC-1295 Studies"
   ],
   "actionItems": [
-    "Assign Luna to draft The Peptide Sleep Rescue Protocol as next digital product",
-    "Run DSIP vials through Product Gatekeeper — high demand signal from r/Peptides and r/Biohackers",
-    "Run BPC-157 oral tablets through Product Gatekeeper — Research Chemical proving market demand at $155",
-    "Update competitor KB file for Research Chemical with March 2026 pricing",
-    "Monitor PP-405 results end of March — prepare contingency content for either outcome"
+    "ARCADS account live — produce first batch of AI UGC videos this week",
+    "Restart ads at $200-300/day on credit once inventory order placed",
+    "Prioritize GLP1-R 20mg and Tesamorelin in $40K restock order",
+    "Begin MCA refinance conversation before April 17 reset",
+    "Monitor daily ROAS once ads restart — flag if below 2x"
   ]
 }
