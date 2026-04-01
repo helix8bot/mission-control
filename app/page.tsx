@@ -241,7 +241,7 @@ export default function DashboardPage() {
           <div style={{ width: isMobile ? 28 : 32, height: isMobile ? 28 : 32, borderRadius: 8, background: "linear-gradient(135deg, #c9a962 0%, #8b7340 100%)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: isMobile ? 12 : 14, fontWeight: 700, color: "#0a0d14" }}>MC</div>
           <div>
             <div style={{ fontFamily: "'Playfair Display', serif", fontSize: isMobile ? 15 : 18, fontWeight: 600, color: "#f0ece4" }}>Mission Control</div>
-            {!isMobile && <div style={{ fontSize: 11, color: "#4a5170", marginTop: 1 }}>Elixser Peptides · Parlay Wellness</div>}
+            {!isMobile && <div style={{ fontSize: 11, color: "#4a5170", marginTop: 1 }}>Elixser Peptides</div>}
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: isMobile ? 8 : 16 }}>
@@ -272,17 +272,10 @@ export default function DashboardPage() {
             {/* Revenue Card - Live from WooCommerce */}
             <div style={cardStyle(true)}>
               {sectionLabel("\u25C6", "Revenue", wcSales?.lastUpdated ? `Updated ${formatLastUpdated(wcSales.lastUpdated)}` : undefined)}
-              <div style={{ display: "flex", flexDirection: isMobile ? "column" : "row", gap: isMobile ? 20 : 40 }}>
-                <div style={{ flex: 1 }}>
-                  {metricBlock(`Elixser DTC \u2014 ${monthLabel}`, formatCurrency(elixserRevenue), `Target: ${formatCurrency(elixserTarget)} \u00B7 ${elixserOrders} orders \u00B7 ${elixserCustomers} customers`)}
-                  <ProgressBar value={elixserRevenue} max={elixserTarget} />
-                  <div style={{ fontSize: 11, color: "#4a5170", marginTop: 6 }}>{((elixserRevenue / elixserTarget) * 100).toFixed(1)}% to target</div>
-                </div>
-                <div style={{ flex: 1 }}>
-                  {metricBlock("Parlay B2B Monthly", "$0", `Target: ${formatCurrency(50000)}`)}
-                  <ProgressBar value={1} max={50000} color="#6b7394" />
-                  <div style={{ fontSize: 11, color: "#4a5170", marginTop: 6 }}>Pre-launch</div>
-                </div>
+              <div>
+                {metricBlock(`Elixser DTC \u2014 ${monthLabel}`, formatCurrency(elixserRevenue), `Target: ${formatCurrency(elixserTarget)} \u00B7 ${elixserOrders} orders \u00B7 ${elixserCustomers} customers`)}
+                <ProgressBar value={elixserRevenue} max={elixserTarget} />
+                <div style={{ fontSize: 11, color: "#4a5170", marginTop: 6 }}>{((elixserRevenue / elixserTarget) * 100).toFixed(1)}% to target</div>
               </div>
             </div>
 
