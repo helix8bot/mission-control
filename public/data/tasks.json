@@ -148,15 +148,15 @@
   {
     "id": "2007",
     "title": "[STAB] Restart Elixser ads at $200-300/day on credit",
-    "status": "To Do",
+    "status": "Completed",
     "assignee": "Luna",
     "dateAssigned": "2026-03-23",
     "lastUpdated": "2026-04-02",
     "dueDate": "2026-04-03",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "UNBLOCKED — inventory order placed (Task 2003 completed 4/2, delivery ETA 4/3). Use ad credit only. Target: $1.2K-$1.8K/day revenue. Ready to launch.",
-    "blockedBy": null
+    "note": "✅ COMPLETED. Ads launched 3/26, running since. Sales coming in. Perry confirmed.",
+    "completedDate": "2026-03-26"
   },
   {
     "id": "2008",
