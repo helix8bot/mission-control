@@ -110,14 +110,15 @@
   {
     "id": "2003",
     "title": "[STAB] Place $40K inventory order — prioritize all stockouts",
-    "status": "In Progress",
+    "status": "Completed",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-04-01",
+    "lastUpdated": "2026-04-02",
     "dueDate": "2026-04-02",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Capital cleared — unblocked. Place order now."
+    "note": "✅ COMPLETED. $40K order placed. ETA delivery: 2026-04-03. Perry confirmed twice.",
+    "completedDate": "2026-04-02"
   },
   {
     "id": "2004",
@@ -133,15 +134,16 @@
   },
   {
     "id": "2005",
-    "title": "[STAB] MCA reset 4/17 — begin refinance conversation NOW",
-    "status": "To Do",
+    "title": "[STAB] MCA refinance",
+    "status": "Completed",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-02",
     "dueDate": "2026-04-10",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ BLOCKER: CONVERSATION NOT STARTED. Resets to $2,300/week ($9,200/month) on 4/17. Must refinance, extend, or prepare to absorb BEFORE reset. 16 days left. 8 days stalled."
+    "note": "✅ COMPLETED. MCA refinanced. New terms: $2,300/week ($9,200/month) starting 4/17. Perry confirmed.",
+    "completedDate": "2026-04-02"
   },
   {
     "id": "2007",
@@ -149,11 +151,12 @@
     "status": "To Do",
     "assignee": "Luna",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-02",
     "dueDate": "2026-04-03",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ BLOCKED BY 2003 (inventory order). Use ad credit only. Target: $1.2K-$1.8K/day revenue. Restart after inventory order placed."
+    "note": "UNBLOCKED — inventory order placed (Task 2003 completed 4/2, delivery ETA 4/3). Use ad credit only. Target: $1.2K-$1.8K/day revenue. Ready to launch.",
+    "blockedBy": null
   },
   {
     "id": "2008",
@@ -194,14 +197,14 @@
   {
     "id": "2011",
     "title": "[STAB] Track ETA of initial $40K inventory order",
-    "status": "To Do",
+    "status": "In Progress",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-02",
     "dueDate": "2026-04-05",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Report ETA to team. Flag delays immediately."
+    "note": "Order placed. ETA delivery: 2026-04-03. Tracking active."
   },
   {
     "id": "2012",
