@@ -204,7 +204,7 @@
     "dueDate": "2026-04-05",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "Order placed. ETA delivery: 2026-04-03. Tracking active."
+    "note": "🚀 ORDER ARRIVING TODAY (2026-04-03). ETA mid-to-late afternoon. Priority: receive, unbox, inventory count in system ASAP. Unlock ad escalation plan Phase 2. Contact Kira for tracking details."
   },
   {
     "id": "2012",
@@ -224,11 +224,11 @@
     "status": "To Do",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-02",
     "dueDate": "2026-04-01",
     "priority": "high",
     "week": "CURRENT",
-    "note": "Show current stock, burn rate, days remaining per SKU. Flag stockout risk immediately."
+    "note": "⚠️ OVERDUE (due 2026-04-01). Show current stock, burn rate, days remaining per SKU. Flag stockout risk immediately. URGENT: $40K inventory delivery ETA TODAY (2026-04-03) — need real-time stock tracking live before arrival."
   },
   {
     "id": "2014",
