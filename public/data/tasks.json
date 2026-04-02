@@ -86,38 +86,38 @@
   {
     "id": "2001",
     "title": "[STAB] Release $12K personal AP",
-    "status": "To Do",
+    "status": "Completed",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-01",
     "dueDate": "2026-04-02",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ BLOCKER: CAPITAL CLEARANCE. Due TODAY (4/2). Capital was expected 3/25. Verify if funds cleared. If cleared, release immediately. 8 days stalled."
+    "note": "✅ COMPLETED. Capital cleared. Perry confirmed complete 2026-04-01."
   },
   {
     "id": "2002",
     "title": "[STAB] Release $12K business AP / payroll catch-up",
-    "status": "To Do",
+    "status": "Completed",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-01",
     "dueDate": "2026-04-02",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ BLOCKER: CAPITAL CLEARANCE. Due TODAY (4/2). Capital was expected 3/25. Verify if funds cleared. If cleared, release immediately. 8 days stalled."
+    "note": "✅ COMPLETED. Capital cleared. Perry confirmed complete 2026-04-01."
   },
   {
     "id": "2003",
     "title": "[STAB] Place $40K inventory order — prioritize all stockouts",
-    "status": "To Do",
+    "status": "In Progress",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-01",
     "dueDate": "2026-04-02",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ BLOCKER: CAPITAL CLEARANCE. Due TODAY (4/2). 8 stockouts costing daily revenue. Place order as soon as capital clears."
+    "note": "Capital cleared — unblocked. Place order now."
   },
   {
     "id": "2004",

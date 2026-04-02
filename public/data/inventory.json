@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T19:30:39.796137",
+  "lastUpdated": "2026-04-01T23:00:05.988789",
   "source": "WooCommerce REST API (live)",
   "items": [
     {
@@ -7,7 +7,7 @@
       "stock": 0,
       "daysSupply": 0,
       "status": "critical",
-      "price": "300",
+      "price": "150",
       "totalSales": 0,
       "wcId": 1328
     },
@@ -16,7 +16,7 @@
       "stock": 0,
       "daysSupply": 0,
       "status": "critical",
-      "price": "190",
+      "price": "95",
       "totalSales": 3,
       "wcId": 1135
     },
@@ -25,7 +25,7 @@
       "stock": 0,
       "daysSupply": 0,
       "status": "critical",
-      "price": "175",
+      "price": "105",
       "totalSales": 1,
       "wcId": 1120
     },
@@ -34,7 +34,7 @@
       "stock": 0,
       "daysSupply": 0,
       "status": "critical",
-      "price": "175",
+      "price": "100",
       "totalSales": 0,
       "wcId": 1101
     },
@@ -43,7 +43,7 @@
       "stock": 0,
       "daysSupply": 0,
       "status": "critical",
-      "price": "180",
+      "price": "100",
       "totalSales": 1,
       "wcId": 1059
     },
@@ -52,7 +52,7 @@
       "stock": 0,
       "daysSupply": 0,
       "status": "critical",
-      "price": "70",
+      "price": "35",
       "totalSales": 8,
       "wcId": 1048
     },
@@ -61,7 +61,7 @@
       "stock": 10,
       "daysSupply": 14.9,
       "status": "ok",
-      "price": "137.50",
+      "price": "70",
       "totalSales": 0,
       "wcId": 1181
     },
@@ -70,7 +70,7 @@
       "stock": 5,
       "daysSupply": 225.0,
       "status": "healthy",
-      "price": "135",
+      "price": "70",
       "totalSales": 2,
       "wcId": 1115
     },
@@ -79,7 +79,7 @@
       "stock": 9,
       "daysSupply": 115.7,
       "status": "healthy",
-      "price": "85",
+      "price": "45",
       "totalSales": 7,
       "wcId": 1177
     },
@@ -88,7 +88,7 @@
       "stock": 9,
       "daysSupply": 405.0,
       "status": "healthy",
-      "price": "125",
+      "price": "65",
       "totalSales": 2,
       "wcId": 1090
     },
@@ -97,7 +97,7 @@
       "stock": 10,
       "daysSupply": 300.0,
       "status": "healthy",
-      "price": "90",
+      "price": "45",
       "totalSales": 3,
       "wcId": 1139
     },
@@ -106,34 +106,34 @@
       "stock": 12,
       "daysSupply": 216.0,
       "status": "healthy",
-      "price": "70",
+      "price": "40",
       "totalSales": 5,
       "wcId": 1019
+    },
+    {
+      "name": "CJC1295 (NO DAC) + IPAMORELIN [10mg]",
+      "stock": 13,
+      "daysSupply": 68.8,
+      "status": "healthy",
+      "price": "80",
+      "totalSales": 17,
+      "wcId": 324
     },
     {
       "name": "GLP1-R [20mg]",
       "stock": 15,
       "daysSupply": 168.8,
       "status": "healthy",
-      "price": "350",
+      "price": "175",
       "totalSales": 8,
       "wcId": 1066
-    },
-    {
-      "name": "CJC1295 (NO DAC) + IPAMORELIN [10mg]",
-      "stock": 15,
-      "daysSupply": 79.4,
-      "status": "healthy",
-      "price": "110",
-      "totalSales": 17,
-      "wcId": 324
     },
     {
       "name": "Tesofensine Capsules",
       "stock": 16,
       "daysSupply": 1440.0,
       "status": "healthy",
-      "price": "110",
+      "price": "75",
       "totalSales": 1,
       "wcId": 1416
     },
@@ -142,134 +142,134 @@
       "stock": 19,
       "daysSupply": 427.5,
       "status": "healthy",
-      "price": "90",
+      "price": "45",
       "totalSales": 4,
       "wcId": 1175
+    },
+    {
+      "name": "TB-500 [10mg]",
+      "stock": 22,
+      "daysSupply": 495.0,
+      "status": "healthy",
+      "price": "45",
+      "totalSales": 4,
+      "wcId": 1184
     },
     {
       "name": "AOD9604 [5mg]",
       "stock": 22,
       "daysSupply": 247.5,
       "status": "healthy",
-      "price": "105",
+      "price": "55",
       "totalSales": 8,
       "wcId": 988
     },
     {
-      "name": "TB-500 [10mg]",
-      "stock": 23,
-      "daysSupply": 690.0,
+      "name": "MOTS-C [10mg]",
+      "stock": 24,
+      "daysSupply": 135.0,
       "status": "healthy",
-      "price": "85",
-      "totalSales": 3,
-      "wcId": 1184
+      "price": "55",
+      "totalSales": 16,
+      "wcId": 1131
     },
     {
       "name": "PT-141 [10mg]",
-      "stock": 30,
-      "daysSupply": 2700.0,
+      "stock": 29,
+      "daysSupply": 1305.0,
       "status": "healthy",
-      "price": "80",
-      "totalSales": 1,
+      "price": "40",
+      "totalSales": 2,
       "wcId": 1144
     },
     {
-      "name": "MOTS-C [10mg]",
-      "stock": 31,
-      "daysSupply": 214.6,
+      "name": "BPC157+TB500 [10mg]",
+      "stock": 38,
+      "daysSupply": 117.9,
       "status": "healthy",
-      "price": "110",
-      "totalSales": 13,
-      "wcId": 1131
+      "price": "80",
+      "totalSales": 29,
+      "wcId": 1001
     },
     {
       "name": "LL37 [5mg]",
       "stock": 41,
       "daysSupply": 61.2,
       "status": "healthy",
-      "price": "175",
+      "price": "45",
       "totalSales": 0,
       "wcId": 1127
     },
     {
       "name": "TESAMORELIN [10mg]",
-      "stock": 46,
-      "daysSupply": 258.8,
+      "stock": 42,
+      "daysSupply": 236.2,
       "status": "healthy",
-      "price": "130",
+      "price": "75",
       "totalSales": 16,
       "wcId": 1192
-    },
-    {
-      "name": "BPC157+TB500 [10mg]",
-      "stock": 46,
-      "daysSupply": 165.6,
-      "status": "healthy",
-      "price": "105",
-      "totalSales": 25,
-      "wcId": 1001
     },
     {
       "name": "IPAMORELIN [10mg]",
       "stock": 47,
       "daysSupply": 846.0,
       "status": "healthy",
-      "price": "115",
+      "price": "60",
       "totalSales": 5,
       "wcId": 1112
+    },
+    {
+      "name": "TESAMORELIN + IPAMORELIN [10mg]",
+      "stock": 65,
+      "daysSupply": 127.2,
+      "status": "healthy",
+      "price": "90",
+      "totalSales": 46,
+      "wcId": 1187
     },
     {
       "name": "HCG 5000IU",
       "stock": 65,
       "daysSupply": 450.0,
       "status": "healthy",
-      "price": "85",
+      "price": "45",
       "totalSales": 13,
       "wcId": 1106
-    },
-    {
-      "name": "TESAMORELIN + IPAMORELIN [10mg]",
-      "stock": 67,
-      "daysSupply": 137.0,
-      "status": "healthy",
-      "price": "110",
-      "totalSales": 44,
-      "wcId": 1187
     },
     {
       "name": "CJC-1295 No DAC [10mg]",
       "stock": 67,
       "daysSupply": 2010.0,
       "status": "healthy",
-      "price": "105",
+      "price": "55",
       "totalSales": 3,
       "wcId": 1010
     },
     {
       "name": "BPC157 [10mg]",
-      "stock": 78,
-      "daysSupply": 390.0,
+      "stock": 77,
+      "daysSupply": 364.7,
       "status": "healthy",
-      "price": "105",
-      "totalSales": 18,
+      "price": "55",
+      "totalSales": 19,
       "wcId": 996
     },
     {
       "name": "GLOW [70mg]",
-      "stock": 101,
-      "daysSupply": 826.4,
+      "stock": 99,
+      "daysSupply": 810.0,
       "status": "healthy",
-      "price": "145",
+      "price": "95",
       "totalSales": 11,
       "wcId": 1052
     },
     {
       "name": "RECONSTITUTION SOLUTION [10ml]",
-      "stock": 1500,
-      "daysSupply": 135000.0,
+      "stock": 1497,
+      "daysSupply": 33682.5,
       "status": "healthy",
-      "price": "20",
-      "totalSales": 1,
+      "price": "9",
+      "totalSales": 4,
       "wcId": 1160
     },
     {
@@ -277,7 +277,7 @@
       "stock": 1530,
       "daysSupply": 2283.6,
       "status": "healthy",
-      "price": "80",
+      "price": "50",
       "totalSales": 0,
       "wcId": 1412
     }
@@ -288,6 +288,6 @@
     "warning": 0,
     "ok": 1,
     "healthy": 24,
-    "totalUnits": 3814
+    "totalUnits": 3783
   }
 }

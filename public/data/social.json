@@ -1,72 +1,43 @@
 {
-  "date": "2026-03-30",
+  "date": "2026-04-01",
   "topSignals": [
     {
-      "signal": "PP405 (Everychem 3HP) emerging hair growth breakthrough - dormant follicle reactivation with 30-35% responder rate in 2 weeks",
-      "impact": "CRITICAL THREAT to GHK-Cu serum positioning. Requires immediate Product Gatekeeper evaluation.",
-      "source": "r/tressless (79 votes, 42 comments)",
-      "date": "2026-03-30",
-      "priority": "high"
-    },
-    {
-      "signal": "Pfizer BAC water global stock shortage creating supply gap and user demand for alternatives",
-      "impact": "HIGH. B2B opportunity for pharmaceutical-grade BAC water. 60-70% margin potential. 30-60 day first-mover advantage.",
-      "source": "r/Peptides (17 votes, 87 comments on shortage)",
-      "date": "2026-03-30",
-      "priority": "high"
-    },
-    {
-      "signal": "BPC-157 + TB-500 cycling protocol uncertainty across market - 8+ posts asking duration/sustainability",
-      "impact": "MEDIUM-HIGH. Educational product opportunity. Clear knowledge gap on sustainable use vs diminishing returns.",
-      "source": "r/Peptides (multiple posts, 3/30 top)",
-      "date": "2026-03-30",
-      "priority": "high"
-    },
-    {
-      "signal": "Tesamorelin (Reta) weight loss plateau at 6+ weeks - users hitting biological ceiling, seeking optimization",
-      "impact": "MEDIUM. Digital product opportunity: Tera plateau troubleshooter (26 comments on single post)",
+      "signal": "GHK-Cu injection site adverse reaction reported with high engagement (26 upvotes, 65 comments)",
+      "impact": "Customer safety education gap; product page should include injection protocol guidance",
       "source": "r/Peptides",
-      "date": "2026-03-30",
+      "date": "2026-04-01",
       "priority": "medium"
     },
     {
-      "signal": "Post-chemo recovery peptides emerging niche - healthcare market seeking sleep + tissue healing protocols",
-      "impact": "EMERGING. Underserved therapeutic (not performance) market. 6+ posts from caregivers seeking peptide solutions.",
-      "source": "r/Peptides (3/30 posts)",
-      "date": "2026-03-30",
+      "signal": "Peptide market credibility crisis in hair loss community — 'wild west' of unverified claims",
+      "impact": "Reputational threat to all peptide sellers; buyers skeptical of efficacy claims",
+      "source": "r/tressless",
+      "date": "2026-04-01",
       "priority": "medium"
+    },
+    {
+      "signal": "6 SKUs at critical (0 stock): GLP1-T variants, NAD+, KLOW, GHK-Cu; estimated 8-12 lost orders daily",
+      "impact": "Revenue bleeding; $40K inventory reorder blocked by capital clearance (due TODAY 4/2)",
+      "source": "WooCommerce inventory",
+      "date": "2026-04-01",
+      "priority": "high"
     }
   ],
   "marketTrends": [
-    "Finasteride + minoxidil still dominant hair loss treatment but peptide alternatives (PP405) now showing comparable/superior results",
-    "BAC water supply chain vulnerability creating B2B opportunity for pharmaceutical-grade sourcing",
-    "Peptide cycling/duration protocols standardizing (6w/6w vs 4w vs continuous) - market seeking educational clarity",
-    "Therapeutic peptide applications expanding beyond performance (post-chemo, injury recovery, sleep optimization)",
-    "GLP-1 quality concerns from research suppliers - sourcing/authenticity becoming brand differentiator"
+    "Peptide efficacy skepticism rising in hair loss forums",
+    "GHK-Cu topical adoption increasing (injection site safety questions emerging)"
   ],
   "consumerInsights": [
-    "Users seeking long-term sustainable peptide use, not just 4-week cycles - 'does effectiveness diminish?' concern",
-    "Protocol confusion on optimal cycling - 6 posts asking different frameworks without standardized guidance",
-    "Performance plateau hitting users at 6+ weeks on Tesamorelin - seeking optimization/dosage adjustment framework",
-    "Healthcare applications attracting new market segment - post-chemo patients + family caregivers seeking therapeutic peptides",
-    "Supply chain reliability concerns - Pfizer shortage driving interest in alternative/trusted sourcing"
+    "11.1% repeat customer rate with 18-day average reorder cycle — strong retention for DTC",
+    "GLP1-R [20mg] leading SKU (7 units, $1,890 MTD) — demand confirmed"
   ],
   "contentIdeas": [
-    "The GHK-Cu Hair Growth Optimization Protocol - 16-week structured plan addressing cycling confusion",
-    "The Peptide Cycling Masterclass - when to cycle, stack, or extend (BPC-157, TB-500, GHK-Cu, CJC-1295, Reta)",
-    "The Tesamorelin Weight Loss Troubleshooter - break through 6+ week plateau",
-    "The Recovery Stack Confidence Builder - BPC-157 + TB-500 + optional ARA-290 protocol clarity",
-    "The Post-Chemo Recovery Peptide Protocol - therapeutic positioning for healthcare market"
+    "GHK-Cu Injection Protocol Guide (addressing site reaction concerns)",
+    "Elixser RUO Compliance & Scientific Sourcing explainer (counter wild-west narrative)"
   ],
   "actionItems": [
-    "EMERGENCY: Escalate hair launch blockers to Perry (Lyn 8d late, Anmol 5d late, Ivy 2d late)",
-    "Recovery funnel unlock: Ping Perry for Stripe API keys - Priority #1, overdue 7 days, ready to launch",
-    "PP405 threat assessment: Run Everychem 3HP through Product Gatekeeper",
-    "Draft 5 digital products (Luna) with single-transformation focus - GHK-Cu first priority",
-    "Investigate pharmaceutical-grade BAC water B2B opportunity - evaluate sourcing + wholesale pricing",
-    "Validate Stabilization Plan timeline: Capital 3/25 \u2192 Inventory 3/28 \u2192 Ads restart 3/31",
-    "Update knowledge base with PP405 threat intel, cycling confusion, BAC water shortage, post-chemo niche",
-    "Collect team daily learning logs (Xena, Luna, Zara, Kira, Zoe) by EOD"
-  ],
-  "lastUpdated": "2026-03-30T09:00:00-07:00"
+    "Capital clearance verification (due TODAY 4/2) — blocks inventory reorder & AP releases",
+    "MCA refinance conversation kickoff (16 days before 4/17 reset)",
+    "Review GHK-Cu product page for injection guidance + safety disclaimers"
+  ]
 }
