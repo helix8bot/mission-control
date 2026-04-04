@@ -1,36 +1,45 @@
 {
-  "lastUpdated": "2026-04-01T23:00:07.331833",
+  "lastUpdated": "2026-04-03T23:00:11.687082",
   "source": "WooCommerce REST API (live)",
   "currentMonth": {
     "label": "Apr",
     "period": "2026-04",
-    "orders": 2,
-    "revenue": 425.0,
-    "customers": 2,
-    "aov": 212.5,
-    "daysElapsed": 1
+    "orders": 4,
+    "revenue": 717.8,
+    "customers": 4,
+    "aov": 179.45,
+    "daysElapsed": 3
   },
   "today": {
-    "date": "2026-04-01",
-    "orders": 2,
-    "revenue": 425.0
+    "date": "2026-04-03",
+    "orders": 0,
+    "revenue": 0
   },
   "dailyBreakdown": {
     "2026-04-01": {
       "orders": 2,
       "revenue": 425.0
+    },
+    "2026-04-02": {
+      "orders": 2,
+      "revenue": 292.8
     }
   },
   "topProducts": [
     {
       "name": "BPC157+TB500 [10mg]",
-      "qty": 2,
-      "revenue": 120.0
+      "qty": 4,
+      "revenue": 280.0
     },
     {
       "name": "TESAMORELIN + IPAMORELIN [10mg]",
       "qty": 2,
       "revenue": 110.0
+    },
+    {
+      "name": "PT-141 [10mg]",
+      "qty": 2,
+      "revenue": 80.0
     },
     {
       "name": "BPC157 [10mg]",
@@ -43,21 +52,26 @@
       "revenue": 55.0
     },
     {
+      "name": "HCG 5000IU",
+      "qty": 1,
+      "revenue": 45.0
+    },
+    {
       "name": "TB-500 [10mg]",
       "qty": 1,
       "revenue": 45.0
     },
     {
-      "name": "PT-141 [10mg]",
-      "qty": 1,
-      "revenue": 40.0
+      "name": "RECONSTITUTION SOLUTION [10ml]",
+      "qty": 3,
+      "revenue": 27.0
     }
   ],
   "note": "WooCommerce DTC orders only. Does not include B2B or non-WC processor orders.",
   "customerMetrics": {
-    "totalCustomers6mo": 56,
+    "totalCustomers6mo": 59,
     "repeatCustomers": 6,
-    "repeatPct": 10.7,
+    "repeatPct": 10.2,
     "avgOrdersRepeat": 2.0,
     "avgDaysBetweenOrders": 18,
     "periodLabel": "Last 6 months"

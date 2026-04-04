@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T18:58:51.206Z",
+  "lastUpdated": "2026-04-04T18:56:26.322Z",
   "generatedBy": "update-usage.js (OpenClaw agents + Claude Code interactive sessions)",
   "dailyUsage": {
     "2026-03-22": {
@@ -285,23 +285,21 @@
         "claude-code": 22
       }
     },
-    "2026-04-02": {
-      "date": "2026-04-02",
-      "totalInputTokens": 1278,
-      "totalOutputTokens": 99840,
-      "cacheReadTokens": 14187217,
-      "cacheWriteTokens": 1738074,
-      "totalTokens": 16026409,
-      "estimatedCost": 40.335511,
-      "messageCount": 244,
+    "2026-04-04": {
+      "date": "2026-04-04",
+      "totalInputTokens": 613,
+      "totalOutputTokens": 25507,
+      "cacheReadTokens": 3287828,
+      "cacheWriteTokens": 377584,
+      "totalTokens": 3691532,
+      "estimatedCost": 1.131975,
+      "messageCount": 95,
       "models": {
-        "claude-haiku-4-5-20251001": 107,
-        "claude-sonnet-4-20250514": 19,
-        "claude-opus-4-6": 118
+        "claude-sonnet-4-20250514": 7,
+        "claude-haiku-4-5-20251001": 88
       },
       "sources": {
-        "openclaw": 126,
-        "claude-code": 118
+        "openclaw": 95
       }
     },
     "2026-02-25": {
@@ -390,22 +388,21 @@
         "claude-code": 288
       }
     },
-    "2026-04-01": {
-      "date": "2026-04-01",
-      "totalInputTokens": 12309,
-      "totalOutputTokens": 133374,
-      "cacheReadTokens": 38600994,
-      "cacheWriteTokens": 1433284,
-      "totalTokens": 40179961,
-      "estimatedCost": 92.929547,
-      "messageCount": 416,
+    "2026-04-03": {
+      "date": "2026-04-03",
+      "totalInputTokens": 651,
+      "totalOutputTokens": 24413,
+      "cacheReadTokens": 2629171,
+      "cacheWriteTokens": 481288,
+      "totalTokens": 3135523,
+      "estimatedCost": 2.413227,
+      "messageCount": 56,
       "models": {
-        "claude-haiku-4-5-20251001": 11,
-        "claude-opus-4-6": 405
+        "claude-sonnet-4-20250514": 39,
+        "claude-haiku-4-5-20251001": 17
       },
       "sources": {
-        "openclaw": 11,
-        "claude-code": 405
+        "openclaw": 56
       }
     },
     "2026-02-17": {
@@ -722,6 +719,38 @@
       "sources": {
         "claude-code": 367
       }
+    },
+    "2026-04-01": {
+      "date": "2026-04-01",
+      "totalInputTokens": 12180,
+      "totalOutputTokens": 128834,
+      "cacheReadTokens": 38466188,
+      "cacheWriteTokens": 1346120,
+      "totalTokens": 39953322,
+      "estimatedCost": 92.784282,
+      "messageCount": 405,
+      "models": {
+        "claude-opus-4-6": 405
+      },
+      "sources": {
+        "claude-code": 405
+      }
+    },
+    "2026-04-02": {
+      "date": "2026-04-02",
+      "totalInputTokens": 170,
+      "totalOutputTokens": 30434,
+      "cacheReadTokens": 10166949,
+      "cacheWriteTokens": 1098571,
+      "totalTokens": 11296124,
+      "estimatedCost": 38.13373,
+      "messageCount": 118,
+      "models": {
+        "claude-opus-4-6": 118
+      },
+      "sources": {
+        "claude-code": 118
+      }
     }
   },
   "monthlyUsage": {
@@ -747,22 +776,22 @@
     },
     "2026-04": {
       "month": "2026-04",
-      "totalInputTokens": 13587,
-      "totalOutputTokens": 233214,
-      "totalTokens": 56206370,
-      "estimatedCost": 133.265058,
-      "dayCount": 2,
-      "messageCount": 660,
-      "averageDailyCost": 66.63
+      "totalInputTokens": 13614,
+      "totalOutputTokens": 209188,
+      "totalTokens": 58076501,
+      "estimatedCost": 134.463214,
+      "dayCount": 4,
+      "messageCount": 674,
+      "averageDailyCost": 33.62
     }
   },
   "summary": {
-    "totalCost": 888.15,
-    "totalMessages": 5986,
-    "totalTokens": 441118737,
+    "totalCost": 889.35,
+    "totalMessages": 6000,
+    "totalTokens": 442988868,
     "dateRange": {
       "from": "2026-02-17",
-      "to": "2026-04-02"
+      "to": "2026-04-04"
     }
   }
 }

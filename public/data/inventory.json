@@ -1,16 +1,7 @@
 {
-  "lastUpdated": "2026-04-01T23:00:05.988789",
+  "lastUpdated": "2026-04-03T23:00:09.742763",
   "source": "WooCommerce REST API (live)",
   "items": [
-    {
-      "name": "GLP1-T [30mg]",
-      "stock": 0,
-      "daysSupply": 0,
-      "status": "critical",
-      "price": "150",
-      "totalSales": 0,
-      "wcId": 1328
-    },
     {
       "name": "NAD+ [500mg]",
       "stock": 0,
@@ -19,15 +10,6 @@
       "price": "95",
       "totalSales": 3,
       "wcId": 1135
-    },
-    {
-      "name": "KLOW [80mg]",
-      "stock": 0,
-      "daysSupply": 0,
-      "status": "critical",
-      "price": "105",
-      "totalSales": 1,
-      "wcId": 1120
     },
     {
       "name": "GLP1-T [10mg]",
@@ -39,40 +21,40 @@
       "wcId": 1101
     },
     {
-      "name": "GLP1-R [10mg]",
-      "stock": 0,
-      "daysSupply": 0,
-      "status": "critical",
-      "price": "100",
-      "totalSales": 1,
-      "wcId": 1059
-    },
-    {
-      "name": "GHK-Cu [50mg]",
-      "stock": 0,
-      "daysSupply": 0,
-      "status": "critical",
-      "price": "35",
-      "totalSales": 8,
-      "wcId": 1048
-    },
-    {
       "name": "SS-31 [30mg]",
       "stock": 10,
       "daysSupply": 14.9,
       "status": "ok",
-      "price": "70",
+      "price": "75",
       "totalSales": 0,
       "wcId": 1181
+    },
+    {
+      "name": "GLP1-T [30mg]",
+      "stock": 16,
+      "daysSupply": 23.9,
+      "status": "ok",
+      "price": "150",
+      "totalSales": 0,
+      "wcId": 1328
     },
     {
       "name": "KISSPEPTIN-10 [10mg]",
       "stock": 5,
       "daysSupply": 225.0,
       "status": "healthy",
-      "price": "70",
+      "price": "65",
       "totalSales": 2,
       "wcId": 1115
+    },
+    {
+      "name": "GLP1-R [20mg]",
+      "stock": 5,
+      "daysSupply": 45.0,
+      "status": "healthy",
+      "price": "175",
+      "totalSales": 10,
+      "wcId": 1066
     },
     {
       "name": "SEMAX [10mg]",
@@ -97,36 +79,36 @@
       "stock": 10,
       "daysSupply": 300.0,
       "status": "healthy",
-      "price": "45",
+      "price": "40",
       "totalSales": 3,
       "wcId": 1139
+    },
+    {
+      "name": "GHK-Cu [50mg]",
+      "stock": 10,
+      "daysSupply": 112.5,
+      "status": "healthy",
+      "price": "40",
+      "totalSales": 8,
+      "wcId": 1048
     },
     {
       "name": "EPITALON [10MG]",
       "stock": 12,
       "daysSupply": 216.0,
       "status": "healthy",
-      "price": "40",
+      "price": "35",
       "totalSales": 5,
       "wcId": 1019
     },
     {
       "name": "CJC1295 (NO DAC) + IPAMORELIN [10mg]",
-      "stock": 13,
-      "daysSupply": 68.8,
+      "stock": 12,
+      "daysSupply": 60.0,
       "status": "healthy",
       "price": "80",
-      "totalSales": 17,
+      "totalSales": 18,
       "wcId": 324
-    },
-    {
-      "name": "GLP1-R [20mg]",
-      "stock": 15,
-      "daysSupply": 168.8,
-      "status": "healthy",
-      "price": "175",
-      "totalSales": 8,
-      "wcId": 1066
     },
     {
       "name": "Tesofensine Capsules",
@@ -147,6 +129,15 @@
       "wcId": 1175
     },
     {
+      "name": "AOD9604 [5mg]",
+      "stock": 20,
+      "daysSupply": 180.0,
+      "status": "healthy",
+      "price": "40",
+      "totalSales": 10,
+      "wcId": 988
+    },
+    {
       "name": "TB-500 [10mg]",
       "stock": 22,
       "daysSupply": 495.0,
@@ -156,31 +147,40 @@
       "wcId": 1184
     },
     {
-      "name": "AOD9604 [5mg]",
-      "stock": 22,
-      "daysSupply": 247.5,
-      "status": "healthy",
-      "price": "55",
-      "totalSales": 8,
-      "wcId": 988
-    },
-    {
       "name": "MOTS-C [10mg]",
-      "stock": 24,
-      "daysSupply": 135.0,
+      "stock": 22,
+      "daysSupply": 110.0,
       "status": "healthy",
-      "price": "55",
-      "totalSales": 16,
+      "price": "60",
+      "totalSales": 18,
       "wcId": 1131
     },
     {
+      "name": "GLP1-R [10mg]",
+      "stock": 25,
+      "daysSupply": 1125.0,
+      "status": "healthy",
+      "price": "100",
+      "totalSales": 2,
+      "wcId": 1059
+    },
+    {
       "name": "PT-141 [10mg]",
+      "stock": 28,
+      "daysSupply": 840.0,
+      "status": "healthy",
+      "price": "40",
+      "totalSales": 3,
+      "wcId": 1144
+    },
+    {
+      "name": "KLOW [80mg]",
       "stock": 29,
       "daysSupply": 1305.0,
       "status": "healthy",
-      "price": "40",
+      "price": "125",
       "totalSales": 2,
-      "wcId": 1144
+      "wcId": 1120
     },
     {
       "name": "BPC157+TB500 [10mg]",
@@ -196,17 +196,17 @@
       "stock": 41,
       "daysSupply": 61.2,
       "status": "healthy",
-      "price": "45",
+      "price": "65",
       "totalSales": 0,
       "wcId": 1127
     },
     {
       "name": "TESAMORELIN [10mg]",
-      "stock": 42,
-      "daysSupply": 236.2,
+      "stock": 44,
+      "daysSupply": 282.9,
       "status": "healthy",
       "price": "75",
-      "totalSales": 16,
+      "totalSales": 14,
       "wcId": 1192
     },
     {
@@ -220,56 +220,56 @@
     },
     {
       "name": "TESAMORELIN + IPAMORELIN [10mg]",
-      "stock": 65,
-      "daysSupply": 127.2,
+      "stock": 61,
+      "daysSupply": 109.8,
       "status": "healthy",
       "price": "90",
-      "totalSales": 46,
+      "totalSales": 50,
       "wcId": 1187
     },
     {
       "name": "HCG 5000IU",
-      "stock": 65,
-      "daysSupply": 450.0,
+      "stock": 64,
+      "daysSupply": 411.4,
       "status": "healthy",
       "price": "45",
-      "totalSales": 13,
+      "totalSales": 14,
       "wcId": 1106
     },
     {
       "name": "CJC-1295 No DAC [10mg]",
-      "stock": 67,
-      "daysSupply": 2010.0,
+      "stock": 65,
+      "daysSupply": 1170.0,
       "status": "healthy",
-      "price": "55",
-      "totalSales": 3,
+      "price": "65",
+      "totalSales": 5,
       "wcId": 1010
     },
     {
       "name": "BPC157 [10mg]",
-      "stock": 77,
-      "daysSupply": 364.7,
+      "stock": 75,
+      "daysSupply": 321.4,
       "status": "healthy",
       "price": "55",
-      "totalSales": 19,
+      "totalSales": 21,
       "wcId": 996
     },
     {
       "name": "GLOW [70mg]",
-      "stock": 99,
-      "daysSupply": 810.0,
+      "stock": 98,
+      "daysSupply": 735.0,
       "status": "healthy",
-      "price": "95",
-      "totalSales": 11,
+      "price": "105",
+      "totalSales": 12,
       "wcId": 1052
     },
     {
       "name": "RECONSTITUTION SOLUTION [10ml]",
-      "stock": 1497,
-      "daysSupply": 33682.5,
+      "stock": 1495,
+      "daysSupply": 22425.0,
       "status": "healthy",
       "price": "9",
-      "totalSales": 4,
+      "totalSales": 6,
       "wcId": 1160
     },
     {
@@ -284,10 +284,10 @@
   ],
   "summary": {
     "total": 31,
-    "critical": 6,
+    "critical": 2,
     "warning": 0,
-    "ok": 1,
-    "healthy": 24,
-    "totalUnits": 3783
+    "ok": 2,
+    "healthy": 27,
+    "totalUnits": 3837
   }
 }

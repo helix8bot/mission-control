@@ -5,11 +5,11 @@
     "status": "In Progress",
     "assignee": "Helix",
     "dateAssigned": "2026-03-31",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-04",
     "dueDate": "2026-04-07",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "WEEK PRIORITY #1. Implementation plan in Google Doc. Get ARCADS account live ($110/month), select scripts, produce first batch of AI UGC videos. Coordinate with Anmol on budget ($460 Week 1). Target: first videos by end of week."
+    "note": "WEEK PRIORITY #1. Implementation plan in Google Doc. Get ARCADS account live ($110/month), select scripts, produce first batch of AI UGC videos. Coordinate with Anmol on budget ($460 Week 1). Target: first videos by end of week. ⏰ 3 days to deliver."
   },
   {
     "id": "3002",
@@ -17,11 +17,11 @@
     "status": "In Progress",
     "assignee": "Helix",
     "dateAssigned": "2026-03-31",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-04",
     "dueDate": "2026-04-07",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "WEEK PRIORITY #2. Manage B2B portal (partner applications, order processing, COA library). Monitor wholesale orders. All COAs rebranded to Elixser Peptides — use coa-editing skill for new batches."
+    "note": "WEEK PRIORITY #2. Manage B2B portal (partner applications, order processing, COA library). Monitor wholesale orders. All COAs rebranded to Elixser Peptides — use coa-editing skill for new batches. ⏰ 3 days to deliver."
   },
   {
     "id": "3003",
@@ -29,11 +29,11 @@
     "status": "In Progress",
     "assignee": "Helix",
     "dateAssigned": "2026-03-31",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-04",
     "dueDate": "2026-04-07",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "WEEK PRIORITY #3. P&L tracking, invoice follow-ups, cash flow management. Coordinate with STAB tasks for stabilization plan execution."
+    "note": "WEEK PRIORITY #3. P&L tracking, invoice follow-ups, cash flow management. Coordinate with STAB tasks for stabilization plan execution. ⏰ 3 days to deliver."
   },
   {
     "id": "905",
@@ -200,11 +200,11 @@
     "status": "In Progress",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-04-02",
+    "lastUpdated": "2026-04-04",
     "dueDate": "2026-04-05",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚀 ORDER ARRIVING TODAY (2026-04-03). ETA mid-to-late afternoon. Priority: receive, unbox, inventory count in system ASAP. Unlock ad escalation plan Phase 2. Contact Kira for tracking details."
+    "note": "✅ ORDER ARRIVED (2026-04-03 mid-to-late afternoon). PRIORITY NOW: Receipt confirmation, unbox, inventory count in system. 🚨 This is BLOCKED on Task 2013 (Dashboard). Cannot escalate ads Phase 2 until stock is counted and tracked."
   },
   {
     "id": "2012",
@@ -216,7 +216,7 @@
     "dueDate": "2026-04-17",
     "priority": "high",
     "week": "NEXT",
-    "note": "$10K-$15K top-up if M1 pace confirmed."
+    "note": "$10K-$15K top-up if M1 pace confirmed. Depends on Task 2011 inventory receipt + Task 2013 dashboard."
   },
   {
     "id": "2013",
@@ -224,11 +224,11 @@
     "status": "To Do",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-04-02",
+    "lastUpdated": "2026-04-04",
     "dueDate": "2026-04-01",
-    "priority": "high",
+    "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ OVERDUE (due 2026-04-01). Show current stock, burn rate, days remaining per SKU. Flag stockout risk immediately. URGENT: $40K inventory delivery ETA TODAY (2026-04-03) — need real-time stock tracking live before arrival."
+    "note": "🚨 CRITICAL BLOCKER — OVERDUE 3 DAYS (due 2026-04-01). Inventory arrived YESTERDAY. Need: current stock per SKU, burn rate, days remaining, stockout flags. BLOCKS ad escalation Phase 2. This dashboard was supposed to be live BEFORE inventory arrived. URGENT: Build today."
   },
   {
     "id": "2014",
@@ -236,11 +236,11 @@
     "status": "To Do",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-04",
     "dueDate": "2026-04-04",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⚠️ WAITING ON PERRY APPROVAL. Need Perry approval for draw tiers: $10-15K M1, $20-25K M2, up to $40K M3 (if revenue >$120K/month)."
+    "note": "⏰ DUE TODAY (2026-04-04). Awaiting Perry approval for draw tiers: $10-15K M1, $20-25K M2, up to $40K M3 (if revenue >$120K/month). Affects payroll and capital flexibility."
   },
   {
     "id": "2015",

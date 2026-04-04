@@ -1,43 +1,47 @@
 {
-  "date": "2026-04-01",
+  "date": "2026-04-03",
   "topSignals": [
     {
-      "signal": "GHK-Cu injection site adverse reaction reported with high engagement (26 upvotes, 65 comments)",
-      "impact": "Customer safety education gap; product page should include injection protocol guidance",
-      "source": "r/Peptides",
-      "date": "2026-04-01",
-      "priority": "medium"
+      "signal": "Inventory arriving today (Apr 3) — rolling stock dashboard 2 days overdue and must go live before delivery",
+      "impact": "high",
+      "source": "tasks.json (2011, 2013) + inventory.json",
+      "priority": "critical"
     },
     {
-      "signal": "Peptide market credibility crisis in hair loss community — 'wild west' of unverified claims",
-      "impact": "Reputational threat to all peptide sellers; buyers skeptical of efficacy claims",
-      "source": "r/tressless",
-      "date": "2026-04-01",
-      "priority": "medium"
+      "signal": "4 SKUs at zero stock (GLP1-T, NAD+, GLP1-R) — likely inventory gaps from March depletion",
+      "impact": "medium",
+      "source": "inventory.json",
+      "priority": "high"
     },
     {
-      "signal": "6 SKUs at critical (0 stock): GLP1-T variants, NAD+, KLOW, GHK-Cu; estimated 8-12 lost orders daily",
-      "impact": "Revenue bleeding; $40K inventory reorder blocked by capital clearance (due TODAY 4/2)",
-      "source": "WooCommerce inventory",
-      "date": "2026-04-01",
+      "signal": "3 products blocked on Stripe keys (PeptideLaunch, SpawnOS) — $0+ revenue potential paused 15-22 days",
+      "impact": "high",
+      "source": "tasks.json (905, 1012, 1015)",
+      "priority": "critical"
+    },
+    {
+      "signal": "ARCADS UGC pipeline idle 3+ days, due Apr 7 — week priority #1 stalled",
+      "impact": "medium",
+      "source": "tasks.json (3001)",
       "priority": "high"
     }
   ],
   "marketTrends": [
-    "Peptide efficacy skepticism rising in hair loss forums",
-    "GHK-Cu topical adoption increasing (injection site safety questions emerging)"
+    "r/Peptides: General usage questions (dosing, side effects, fatigue support) — no competitive threats detected",
+    "r/tressless: Pharma-focused (Dutasteride, Finasteride) — Pelage pharma PP405 Phase 2b in progress but no peptide competitive threat",
+    "Hair loss market: Heavy pharma dominance; peptide protocols (GHK-Cu) niche opportunity still open"
   ],
   "consumerInsights": [
-    "11.1% repeat customer rate with 18-day average reorder cycle — strong retention for DTC",
-    "GLP1-R [20mg] leading SKU (7 units, $1,890 MTD) — demand confirmed"
+    "Peptide fatigue recovery is a search term (r/Peptides question about energy/fatigue)",
+    "Sleep side effects with tesamorelin — educational content opportunity for PeptideLaunch",
+    "Hair loss community skeptical of Bryan Johnson biohacking claims — positioning for value + education angle"
   ],
-  "contentIdeas": [
-    "GHK-Cu Injection Protocol Guide (addressing site reaction concerns)",
-    "Elixser RUO Compliance & Scientific Sourcing explainer (counter wild-west narrative)"
-  ],
+  "contentIdeas": [],
   "actionItems": [
-    "Capital clearance verification (due TODAY 4/2) — blocks inventory reorder & AP releases",
-    "MCA refinance conversation kickoff (16 days before 4/17 reset)",
-    "Review GHK-Cu product page for injection guidance + safety disclaimers"
+    "Confirm rolling stock dashboard completion by 1 PM Apr 3",
+    "Accept and inventory $40K delivery same day",
+    "Provide Stripe keys to unblock $0+ revenue launches (Recovery + SpawnOS)",
+    "Resume ARCADS UGC production for ad Phase 2",
+    "Approve partner draw policy by Apr 4"
   ]
 }
