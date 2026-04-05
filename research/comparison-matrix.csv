@@ -1,0 +1,11 @@
+Solution,Category,Setup Cost,Monthly Cost,Year 1 Total,Year 2+ Monthly,Complexity (1-10),WooCommerce Integration,GHL Integration,Compliance Rating,Complex Q&A Capability,Implementation Timeline,Scalability Rating,Best For
+Zendesk Answer Bot,Off-shelf,$2000-5000,$600-1200,$12700,$600,8,Zapier/Webhooks,Zapier/Webhooks,8/10,6/10,2-4 weeks,8/10,Large teams with existing Zendesk
+Intercom Resolution Bot,Off-shelf,$2000-4000,$99-800,$9800,$400,7,App Integration,API,8/10,6/10,2-3 weeks,8/10,SaaS companies
+Freshdesk Freddy,Off-shelf,$1500-3000,$100-200,$3700,$100,4,Direct Integration,Zapier,8/10,3/10,1-2 weeks,5/10,Quick deployment priority
+Gorgias,Off-shelf,$1000-2000,$300-400,$5588,$299,3,✅ Native,Zapier/Webhooks,8/10,5/10,1-2 weeks,8/10,WooCommerce-first priority
+HubSpot Service Hub,Off-shelf,$2000-4000,$200-400,$6900,$200,8,App,API,9/10,6/10,2-3 weeks,8/10,Want unified CRM
+OpenAI + RAG,Custom,$5000-15000,$1000-2000,$16400,$500-700,9,✅ Direct API,✅ Direct API,9/10,9/10,4-8 weeks,9/10,Maximum flexibility & capability
+Claude + RAG,Custom,$5000-15000,$1000-2000,$15800,$450-650,9,✅ Direct API,✅ Direct API,10/10,9/10,4-8 weeks,9/10,Compliance-first approach ⭐
+Cohere + RAG,Custom,$4000-10000,$800-1500,$13200,$400-500,9,✅ Direct API,✅ Direct API,8/10,7/10,4-8 weeks,9/10,Cost-optimized custom solution
+Custom + Zendesk Hybrid,Hybrid,$5000-8000,$2000-2500,$24800,$1000-1200,9.5,✅ Direct API,✅ Direct API,9/10,8/10,6-10 weeks,9/10,Need professional helpdesk + AI
+Gorgias + Custom Guardrails,Hybrid,$2000-3000,$2000-3500,$10700,$550,8,✅ Direct API,API,8/10,8/10,3-5 weeks,8/10,Balanced cost-capability tradeoff

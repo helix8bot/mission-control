@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T23:00:09.742763",
+  "lastUpdated": "2026-04-04T23:00:09.366301",
   "source": "WooCommerce REST API (live)",
   "items": [
     {
@@ -256,11 +256,11 @@
     },
     {
       "name": "GLOW [70mg]",
-      "stock": 98,
-      "daysSupply": 735.0,
+      "stock": 97,
+      "daysSupply": 671.5,
       "status": "healthy",
       "price": "105",
-      "totalSales": 12,
+      "totalSales": 13,
       "wcId": 1052
     },
     {
@@ -288,6 +288,6 @@
     "warning": 0,
     "ok": 2,
     "healthy": 27,
-    "totalUnits": 3837
+    "totalUnits": 3836
   }
 }

@@ -224,11 +224,11 @@
     "status": "To Do",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-04-04",
+    "lastUpdated": "2026-04-05",
     "dueDate": "2026-04-01",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 CRITICAL BLOCKER — OVERDUE 3 DAYS (due 2026-04-01). Inventory arrived YESTERDAY. Need: current stock per SKU, burn rate, days remaining, stockout flags. BLOCKS ad escalation Phase 2. This dashboard was supposed to be live BEFORE inventory arrived. URGENT: Build today."
+    "note": "🚨 CRITICAL BLOCKER — OVERDUE 4 DAYS (due 2026-04-01, today 2026-04-05). Inventory arrived 2026-04-03. Need: current stock per SKU (2 items now at 0: NAD+ 500mg, GLP1-T 10mg), burn rate, days remaining, stockout flags. BLOCKS ad escalation Phase 2. Dashboard must be live IMMEDIATELY to proceed with revenue scaling phase."
   },
   {
     "id": "2014",
