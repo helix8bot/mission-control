@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T23:00:10.543423",
+  "lastUpdated": "2026-04-05T23:00:06.823031",
   "source": "WooCommerce REST API (live)",
   "currentMonth": {
     "label": "Apr",
@@ -8,10 +8,10 @@
     "revenue": 717.8,
     "customers": 4,
     "aov": 179.45,
-    "daysElapsed": 4
+    "daysElapsed": 5
   },
   "today": {
-    "date": "2026-04-04",
+    "date": "2026-04-05",
     "orders": 0,
     "revenue": 0
   },

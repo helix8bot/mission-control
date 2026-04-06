@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T23:00:09.366301",
+  "lastUpdated": "2026-04-05T23:00:05.623664",
   "source": "WooCommerce REST API (live)",
   "items": [
     {
@@ -57,6 +57,15 @@
       "wcId": 1066
     },
     {
+      "name": "GLP1-S [10mg]",
+      "stock": 8,
+      "daysSupply": 240.0,
+      "status": "healthy",
+      "price": "65",
+      "totalSales": 3,
+      "wcId": 1090
+    },
+    {
       "name": "SEMAX [10mg]",
       "stock": 9,
       "daysSupply": 115.7,
@@ -66,13 +75,13 @@
       "wcId": 1177
     },
     {
-      "name": "GLP1-S [10mg]",
+      "name": "GHK-Cu [50mg]",
       "stock": 9,
-      "daysSupply": 405.0,
+      "daysSupply": 90.0,
       "status": "healthy",
-      "price": "65",
-      "totalSales": 2,
-      "wcId": 1090
+      "price": "40",
+      "totalSales": 9,
+      "wcId": 1048
     },
     {
       "name": "OXYTOCIN [10mg]",
@@ -82,15 +91,6 @@
       "price": "40",
       "totalSales": 3,
       "wcId": 1139
-    },
-    {
-      "name": "GHK-Cu [50mg]",
-      "stock": 10,
-      "daysSupply": 112.5,
-      "status": "healthy",
-      "price": "40",
-      "totalSales": 8,
-      "wcId": 1048
     },
     {
       "name": "EPITALON [10MG]",
@@ -130,11 +130,11 @@
     },
     {
       "name": "AOD9604 [5mg]",
-      "stock": 20,
-      "daysSupply": 180.0,
+      "stock": 19,
+      "daysSupply": 155.5,
       "status": "healthy",
       "price": "40",
-      "totalSales": 10,
+      "totalSales": 11,
       "wcId": 988
     },
     {
@@ -220,20 +220,20 @@
     },
     {
       "name": "TESAMORELIN + IPAMORELIN [10mg]",
-      "stock": 61,
-      "daysSupply": 109.8,
+      "stock": 58,
+      "daysSupply": 98.5,
       "status": "healthy",
       "price": "90",
-      "totalSales": 50,
+      "totalSales": 53,
       "wcId": 1187
     },
     {
       "name": "HCG 5000IU",
-      "stock": 64,
-      "daysSupply": 411.4,
+      "stock": 63,
+      "daysSupply": 378.0,
       "status": "healthy",
       "price": "45",
-      "totalSales": 14,
+      "totalSales": 15,
       "wcId": 1106
     },
     {
@@ -288,6 +288,6 @@
     "warning": 0,
     "ok": 2,
     "healthy": 27,
-    "totalUnits": 3836
+    "totalUnits": 3829
   }
 }

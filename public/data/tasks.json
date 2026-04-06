@@ -5,11 +5,11 @@
     "status": "In Progress",
     "assignee": "Helix",
     "dateAssigned": "2026-03-31",
-    "lastUpdated": "2026-04-04",
+    "lastUpdated": "2026-04-06",
     "dueDate": "2026-04-07",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "WEEK PRIORITY #1. Implementation plan in Google Doc. Get ARCADS account live ($110/month), select scripts, produce first batch of AI UGC videos. Coordinate with Anmol on budget ($460 Week 1). Target: first videos by end of week. ⏰ 3 days to deliver."
+    "note": "WEEK PRIORITY #1. Implementation plan in Google Doc. Get ARCADS account live ($110/month), select scripts, produce first batch of AI UGC videos. Coordinate with Anmol on budget ($460 Week 1). Target: first videos by end of week. ⏰ 1 DAY TO DELIVER. Status check required."
   },
   {
     "id": "3002",
@@ -126,11 +126,11 @@
     "status": "To Do",
     "assignee": "Zoe",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-06",
     "dueDate": "2026-04-04",
     "priority": "high",
     "week": "CURRENT",
-    "note": "Track: $60K hard reserve, $50K working capital, $30K partner reserve, $16K flex. Liquid cushion must not fall below $100K."
+    "note": "⏰ OVERDUE 2 DAYS (due 2026-04-04). Track: $60K hard reserve, $50K working capital, $30K partner reserve, $16K flex. Liquid cushion must not fall below $100K. Needed for Task 2014 (draw policy) approval."
   },
   {
     "id": "2005",
@@ -197,26 +197,26 @@
   {
     "id": "2011",
     "title": "[STAB] Track ETA of initial $40K inventory order",
-    "status": "In Progress",
+    "status": "Completed",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-04-04",
+    "lastUpdated": "2026-04-06",
     "dueDate": "2026-04-05",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "✅ ORDER ARRIVED (2026-04-03 mid-to-late afternoon). PRIORITY NOW: Receipt confirmation, unbox, inventory count in system. 🚨 This is BLOCKED on Task 2013 (Dashboard). Cannot escalate ads Phase 2 until stock is counted and tracked."
+    "note": "✅ COMPLETED - ORDER ARRIVED (2026-04-03). Inventory received and in warehouse. UNBLOCKS Task 2013 (Dashboard build). NOTE: Task 2013 (stock dashboard) is CRITICAL and OVERDUE — must be completed immediately to proceed with ad escalation Phase 2."
   },
   {
     "id": "2012",
     "title": "[STAB] Forecast reorder point by Day 25-30",
-    "status": "To Do",
+    "status": "In Progress",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-03-31",
+    "lastUpdated": "2026-04-06",
     "dueDate": "2026-04-17",
     "priority": "high",
-    "week": "NEXT",
-    "note": "$10K-$15K top-up if M1 pace confirmed. Depends on Task 2011 inventory receipt + Task 2013 dashboard."
+    "week": "CURRENT",
+    "note": "✅ UNBLOCKED - Task 2011 (inventory receipt) complete. $10K-$15K top-up if M1 pace confirmed. Waiting on Task 2013 (dashboard) to calculate accurate burn rate. Once dashboard live, can finalize reorder forecast."
   },
   {
     "id": "2013",
@@ -224,11 +224,11 @@
     "status": "To Do",
     "assignee": "Kira",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-04-05",
+    "lastUpdated": "2026-04-06",
     "dueDate": "2026-04-01",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "🚨 CRITICAL BLOCKER — OVERDUE 4 DAYS (due 2026-04-01, today 2026-04-05). Inventory arrived 2026-04-03. Need: current stock per SKU (2 items now at 0: NAD+ 500mg, GLP1-T 10mg), burn rate, days remaining, stockout flags. BLOCKS ad escalation Phase 2. Dashboard must be live IMMEDIATELY to proceed with revenue scaling phase."
+    "note": "🚨 CRITICAL BLOCKER — OVERDUE 5 DAYS (due 2026-04-01, today 2026-04-06). Inventory arrived 2026-04-03. Need: current stock per SKU (2 items at 0: NAD+ 500mg, GLP1-T 10mg), burn rate, days remaining, stockout flags. BLOCKS ad escalation Phase 2 and revenue scaling. Dashboard must be live TODAY to unblock $500K+ revenue potential. This is the #1 priority — hold everything until complete."
   },
   {
     "id": "2014",
@@ -236,11 +236,11 @@
     "status": "To Do",
     "assignee": "Perry (Human)",
     "dateAssigned": "2026-03-23",
-    "lastUpdated": "2026-04-04",
+    "lastUpdated": "2026-04-06",
     "dueDate": "2026-04-04",
     "priority": "critical",
     "week": "CURRENT",
-    "note": "⏰ DUE TODAY (2026-04-04). Awaiting Perry approval for draw tiers: $10-15K M1, $20-25K M2, up to $40K M3 (if revenue >$120K/month). Affects payroll and capital flexibility."
+    "note": "⏰ OVERDUE 2 DAYS (due 2026-04-04, today 2026-04-06). Awaiting Perry approval for draw tiers: $10-15K M1, $20-25K M2, up to $40K M3 (if revenue >$120K/month). Depends on Task 2004 (capital tracking). Affects payroll and capital flexibility."
   },
   {
     "id": "2015",
